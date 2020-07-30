@@ -119,11 +119,11 @@ def mount_image(image_file, mnt_path, partition=3):
     sys.exit(3)
 
   # confirm no loop devices currently exist
-  lodevices = str(subprocess.run(['sudo', 'losetup', '--all'], stdout=subprocess.PIPE).stdout)
-  if len(lodevices) > 3:
-    print(f'ERROR: some loopback devices still exist and couldn\'t be removed:')
-    print(lodevices)
-    sys.exit(4)
+  #lodevices = str(subprocess.run(['sudo', 'losetup', '--all'], stdout=subprocess.PIPE).stdout)
+  #if len(lodevices) > 3:
+  #  print(f'ERROR: some loopback devices still exist and couldn\'t be removed:')
+  #  print(lodevices)
+  #  sys.exit(4)
 
   # Use fdisk to find start and end of the partition
   fdisk_cmd = ['bash', '-c', f'/sbin/fdisk -l {image_file} 2> /dev/null']
