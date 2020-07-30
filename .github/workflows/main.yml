@@ -27,6 +27,14 @@ jobs:
       - name: Analyze recovery images
         run: python3 scripts/analyze_image_details.py
 
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add --all-files
+          git add data/*
+          git commit -m "Add changes" -a
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
