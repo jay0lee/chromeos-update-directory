@@ -40,7 +40,7 @@ for data_file in data_files:
     continue
   else:
     data['analysis_version'] = analysis_version
-  print(f'analyzing image for {",".join(data["boards"])}...')
+  print(f'analyzing image for {data_file["image_name"]}...')
   dl_results = common.download_image_file(data, path)
   delete_download = dl_results.get('needed_to_download', False)
   image_file_path = dl_results.get('full_file_path')
