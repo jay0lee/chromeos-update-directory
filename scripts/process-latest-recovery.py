@@ -10,14 +10,6 @@ import sys
 
 import common
 
-def force_symlink(file1, file2):
-  try:
-    os.symlink(file1, file2)
-  except OSError as e:
-  #  if e.errno == errno.EEXIST:
-      os.remove(file2)
-      os.symlink(file1, file2)
-
 FILENAME_SAFE_CHARS = string.ascii_letters + string.digits + '-_.() '
 
 script_path, data_path = common.get_paths()
@@ -94,21 +86,16 @@ for image, data in seen_images.items():
   cr_ver = data.get('cr_version', 0)
   rel_ver_path = f'{rel_image_path}{cr_ver}'
   os.makedirs(image_path, exist_ok=True)
-  force_symlink(rel_ver_path, f'{rel_image_path}latest')
+  os.system(f'bash -c "(cd {image_path} && ln -s -f {cr_ver} latest) "')
   data_file = f'{image_path}/data.json'
   if not os.path.isfile(data_file):
     with open(data_file, 'w') as f:
       json.dump(data, f, indent=4, sort_keys=True)
   for board in data.get('boards', []):
-    board_path = f'{data_path}boards/{board}'
-    try:
-      os.symlink(rel_image_path, board_path)
-    except FileExistsError:
-      pass
+    cmd = f'bash -c "(cd {data_path}boards && ln -s -f \"../images/{image}\" \"{board}\") "'
+    os.system(cmd)
   for model in data.get('models', []):
     model = ''.join(c for c in model if c in FILENAME_SAFE_CHARS)
-    model_path = f'{data_path}models/{model}'
-    try:
-      os.symlink(rel_image_path, model_path)
-    except FileExistsError:
-      pass
+    model = model.replace('(', '\\(').replace(')', '\\)')
+    cmd = f'bash -c "(cd {data_path}models && ln -s -f \\"../images/{image}\\" \\"{model}\\") "'
+    os.system(cmd)
