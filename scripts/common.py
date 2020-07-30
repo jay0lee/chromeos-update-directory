@@ -74,11 +74,11 @@ def download_image_file(data, path):
     # Download, check compressed md5sum, unzip and create uncompressed md5sum all in one go
     # the main slowdown with each of these operations is reading/writing GBs worth of data
     # off the SD card so doing everything in parallel should save a lot of time.
-    cmd = f'curl -s {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum -c {zip_md5_file}'
+    cmd = f'curl -s {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum --quiet -c {zip_md5_file}'
     while True:
       with open(zip_md5_file, 'w') as f:
         f.write(f'{zip_md5} -')
-      print(f'Downloading image {rel_file}...')
+      print(f'Downloading image {rel_file}...\n\n')
       return_code = os.system(f'bash -c "{cmd}"')
       if return_code == 0 and os.path.getsize(partial_file) == expected_size:
         os.rename(partial_file, recovery_file)
