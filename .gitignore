@@ -1,3 +1,7 @@
+# Keep actual recovery files out
+*.zip
+*.bin
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
