@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import argparse
+import common
+import sys
+
+parser = argparse.ArgumentParser(description='Unmount an image.')
+parser.add_argument('-m', '--mount-path', dest='mnt_path', required=True, help='Directory where image to be unmounted is mounted')
+args = parser.parse_args()
+
+common.unmount_image(args.mnt_path)

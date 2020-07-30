@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import argparse
+import common
+import sys
+
+parser = argparse.ArgumentParser(description='Mount an image.')
+parser.add_argument('-i', '--image-file', dest='image_file', required=True, help='Image file to be used')
+parser.add_argument('-m', '--mount-path', dest='mnt_path', required=True, help='Empty directory where image should be mounted')
+parser.add_argument('-p', '--partition', dest='partition', default=3, type=int, help='Partition to mount, default is 3 (rootfs)')
+args = parser.parse_args()
+
+common.mount_image(args.image_file, args.mnt_path, args.partition)
