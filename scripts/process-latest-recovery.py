@@ -86,16 +86,8 @@ for image, data in seen_images.items():
   cr_ver = data.get('cr_version', 0)
   rel_ver_path = f'{rel_image_path}{cr_ver}'
   os.makedirs(image_path, exist_ok=True)
-  os.system(f'bash -c "(cd {image_path} && ln -s -f {cr_ver} latest) "')
+  os.system(f'bash -c "cd {ipath} && ln -s -f {cr_ver} latest"')
   data_file = f'{image_path}/data.json'
   if not os.path.isfile(data_file):
     with open(data_file, 'w') as f:
       json.dump(data, f, indent=4, sort_keys=True)
-  for board in data.get('boards', []):
-    cmd = f'bash -c "(cd {data_path}boards && ln -s -f \"../images/{image}\" \"{board}\") "'
-    os.system(cmd)
-  for model in data.get('models', []):
-    model = ''.join(c for c in model if c in FILENAME_SAFE_CHARS)
-    model = model.replace('(', '\\(').replace(')', '\\)')
-    cmd = f'bash -c "(cd {data_path}models && ln -s -f \\"../images/{image}\\" \\"{model}\\") "'
-    os.system(cmd)
