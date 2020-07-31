@@ -1,0 +1,53 @@
+{
+    "analysis_version": 5,
+    "android_app_support": false,
+    "aue_date": "2021-06-02 00:00:00",
+    "boards": [
+        "tidus"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}",
+    "chromeos_release_board": "tidus-signed-mp-v2keys",
+    "chromeos_release_branch_number": "87",
+    "chromeos_release_build_number": "13020",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "tidus-release/R83-13020.87.0",
+    "chromeos_release_chrome_milestone": "83",
+    "chromeos_release_description": "13020.87.0 (Official Build) stable-channel tidus ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13020.87.0",
+    "cr_version": 83,
+    "cros_version": 13020,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_13020.87.0_tidus_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2321571840,
+    "google_release": "13020.87.0",
+    "hwidmatches": [
+        "^TIDUS .*"
+    ],
+    "image_name": "tidus",
+    "linux_kernel_versions": [
+        "4.14.174-15091-g2b24b1250270"
+    ],
+    "manufacturers": [
+        "Lenovo"
+    ],
+    "md5": "1ff2d4c04a5c010cc2710d41cd91f6e0",
+    "models": [
+        "Lenovo ThinkCentre Chromebox"
+    ],
+    "names": [
+        "Lenovo ThinkCentre Chromebox"
+    ],
+    "sha1": "3aeb77687ee79ae4d9cc52e6ce9c243f22abbc3e",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_tidus_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13020.87.0",
+    "zipfilesize": 679235360
+}

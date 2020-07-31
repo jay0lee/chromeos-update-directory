@@ -1,0 +1,71 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-08-02 00:00:00",
+    "boards": [
+        "druwl",
+        "dumo",
+        "scarlet"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6612792",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "chromeos_release_board": "scarlet-signed-mp-v7keys",
+    "chromeos_release_branch_number": "87",
+    "chromeos_release_build_number": "13020",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "scarlet-release/R83-13020.87.0",
+    "chromeos_release_chrome_milestone": "83",
+    "chromeos_release_description": "13020.87.0 (Official Build) stable-channel scarlet ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13020.87.0",
+    "cr_version": 83,
+    "cros_version": 13020,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13020.87.0_scarlet_recovery_stable-channel_mp-v7.bin",
+    "filesize": 2321571840,
+    "google_release": "13020.87.0",
+    "hwidmatches": [
+        "^DRUWL [A-Z0-9][A-Z0-9]B.*",
+        "^DUMO .*",
+        "^SCARLET .*",
+        "^DRUWL [A-Z0-9][A-Z0-9]A.*"
+    ],
+    "image_name": "scarlet",
+    "linux_kernel_versions": [
+        "4.4.217-17435-gfa2b7567ea63"
+    ],
+    "manufacturers": [
+        "AOpen",
+        "Asus",
+        "Acer",
+        "CTL"
+    ],
+    "md5": "e5915df8f468bdc26b89d14970fbc844",
+    "models": [
+        "AOpen Chromebook Commercial Tab",
+        "ASUS Chromebook Tablet CT100",
+        "Acer Chromebook Tab 10",
+        "CTL Chromebook Tablet Tx1 for Education"
+    ],
+    "names": [
+        "AOpen Chromebook Commercial Tab",
+        "ASUS Chromebook Tablet CT100",
+        "Acer Chromebook Tab 10",
+        "CTL Chromebook Tablet Tx1 for Education"
+    ],
+    "sha1": "6cbe7686b003c855d90abcf20661b8c91568bcd5",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
+    "version": "13020.87.0",
+    "zipfilesize": 1035104543
+}

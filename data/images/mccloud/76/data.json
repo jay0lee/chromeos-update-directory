@@ -1,0 +1,53 @@
+{
+    "analysis_version": 5,
+    "android_app_support": false,
+    "aue_date": "None",
+    "boards": [
+        "mccloud"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{63F299BF-A062-45D5-9050-F7B893BE820B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{63F299BF-A062-45D5-9050-F7B893BE820B}",
+    "chromeos_release_board": "mccloud-signed-mp-v2keys",
+    "chromeos_release_branch_number": "92",
+    "chromeos_release_build_number": "12239",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "mccloud-release/R76-12239.92.0",
+    "chromeos_release_chrome_milestone": "76",
+    "chromeos_release_description": "12239.92.0 (Official Build) stable-channel mccloud ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12239.92.0",
+    "cr_version": 76,
+    "cros_version": 12239,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_12239.92.0_mccloud_recovery_stable-channel_mp-v2.bin",
+    "filesize": 1526751232,
+    "google_release": "12239.92.0",
+    "hwidmatches": [
+        "^MCCLOUD .*"
+    ],
+    "image_name": "mccloud",
+    "linux_kernel_versions": [
+        "3.8.11"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "3131fbf85047f84f4ce20f708b1d1782",
+    "models": [
+        "Acer Chromebox"
+    ],
+    "names": [
+        "Acer Chromebox"
+    ],
+    "sha1": "de8016dd78d7609fccf5756278983fb313a6eab4",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_mccloud_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "12239.92.0",
+    "zipfilesize": 645479520
+}
