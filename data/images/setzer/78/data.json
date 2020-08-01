@@ -1,0 +1,52 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Nougat 7.1",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "setzer"
+    ],
+    "chromeos_arc_android_sdk_version": "25",
+    "chromeos_arc_version": "6005699",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}",
+    "chromeos_release_board": "setzer-signed-mpkeys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "12499",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "setzer-release/R78-12499.66.0",
+    "chromeos_release_chrome_milestone": "78",
+    "chromeos_release_description": "12499.66.0 (Official Build) stable-channel setzer ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12499.66.0",
+    "cr_version": 78,
+    "cros_version": 12499,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12499.66.0_setzer_recovery_stable-channel_mp.bin",
+    "google_release": "12499.66.0",
+    "hwidmatches": [
+        "^SETZER .*"
+    ],
+    "image_name": "setzer",
+    "linux_kernel_versions": [
+        "3.18.0-19748-gc785fae00b84"
+    ],
+    "manufacturers": [
+        "HP"
+    ],
+    "models": [
+        "HP Chromebook 11 G5"
+    ],
+    "names": [
+        "HP Chromebook 11 G5"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_setzer_recovery_stable-channel_mp.bin.zip",
+    "version": 12499
+}

@@ -1,0 +1,64 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Nougat 7.1",
+    "aue_date": "None",
+    "boards": [
+        "reks"
+    ],
+    "chromeos_arc_android_sdk_version": "25",
+    "chromeos_arc_version": "5217886",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_release_board": "reks-signed-mp-v4keys",
+    "chromeos_release_branch_number": "113",
+    "chromeos_release_build_number": "11151",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reks-release/R71-11151.113.0",
+    "chromeos_release_chrome_milestone": "71",
+    "chromeos_release_description": "11151.113.0 (Official Build) stable-channel reks ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "11151.113.0",
+    "cr_version": 71,
+    "cros_version": 11151,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_11151.113.0_reks_recovery_stable-channel_mp-v4.bin",
+    "google_release": "11151.113.0",
+    "hwidmatches": [
+        "^REKS \\w{3}-\\w{3}-\\w{3}-[^BCD]\\w{2}(-\\w{3})*$",
+        "^REKS \\w{3}-\\w{3}-\\w{3}-D\\w{2}(-\\w{3})*$",
+        "^REKS \\w{3}-\\w{3}-\\w{3}-C\\w{2}(-\\w{3})*$",
+        "^REKS \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
+    ],
+    "image_name": "reks",
+    "linux_kernel_versions": [
+        "3.18.0-18721-ga0ff0d06b120"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo",
+        "Lenovo",
+        "Lenovo"
+    ],
+    "models": [
+        "Lenovo N22 Chromebook",
+        "Lenovo N23 Chromebook",
+        "Lenovo N23 Chromebook (Touch)",
+        "Lenovo N42 Chromebook"
+    ],
+    "names": [
+        "Lenovo N22 Chromebook",
+        "Lenovo N23 Chromebook",
+        "Lenovo N23 Chromebook (Touch)",
+        "Lenovo N42 Chromebook"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11151.113.0_reks_recovery_stable-channel_mp-v4.bin.zip",
+    "version": 11151
+}

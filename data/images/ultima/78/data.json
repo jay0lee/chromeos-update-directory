@@ -1,0 +1,52 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Nougat 7.1",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "ultima"
+    ],
+    "chromeos_arc_android_sdk_version": "25",
+    "chromeos_arc_version": "6005699",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F9EDD237-F274-4467-A4DE-04061F6D319A}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F9EDD237-F274-4467-A4DE-04061F6D319A}",
+    "chromeos_release_board": "ultima-signed-mp-v2keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "12499",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "ultima-release/R78-12499.66.0",
+    "chromeos_release_chrome_milestone": "78",
+    "chromeos_release_description": "12499.66.0 (Official Build) stable-channel ultima ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12499.66.0",
+    "cr_version": 78,
+    "cros_version": 12499,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12499.66.0_ultima_recovery_stable-channel_mp-v2.bin",
+    "google_release": "12499.66.0",
+    "hwidmatches": [
+        "^ULTIMA .*"
+    ],
+    "image_name": "ultima",
+    "linux_kernel_versions": [
+        "3.18.0-19748-gc785fae00b84"
+    ],
+    "manufacturers": [
+        "Lenovo"
+    ],
+    "models": [
+        "Lenovo ThinkPad 11e 3rd Gen Chromebook"
+    ],
+    "names": [
+        "Lenovo ThinkPad 11e 3rd Gen Chromebook"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_ultima_recovery_stable-channel_mp-v2.bin.zip",
+    "version": 12499
+}

@@ -1,0 +1,52 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Nougat 7.1",
+    "aue_date": "2024-06-02 00:00:00",
+    "boards": [
+        "sand"
+    ],
+    "chromeos_arc_android_sdk_version": "25",
+    "chromeos_arc_version": "5563251",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{533B7092-5828-48E6-9F77-C7ADCBF8F7E9}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{533B7092-5828-48E6-9F77-C7ADCBF8F7E9}",
+    "chromeos_release_board": "sand-signed-mpkeys",
+    "chromeos_release_branch_number": "118",
+    "chromeos_release_build_number": "11895",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "sand-release/R74-11895.118.0",
+    "chromeos_release_chrome_milestone": "74",
+    "chromeos_release_description": "11895.118.0 (Official Build) stable-channel sand ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "11895.118.0",
+    "cr_version": 74,
+    "cros_version": 11895,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_11895.118.0_sand_recovery_stable-channel_mp.bin",
+    "google_release": "11895.118.0",
+    "hwidmatches": [
+        "^SAND .*"
+    ],
+    "image_name": "sand",
+    "linux_kernel_versions": [
+        "4.4.176-16038-g1367a8f4b427"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "models": [
+        "Acer Chromebook 15 (CB515-1H, CB515-1HT)"
+    ],
+    "names": [
+        "Acer Chromebook 15 (CB515-1H, CB515-1HT)"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_sand_recovery_stable-channel_mp.bin.zip",
+    "version": 11895
+}

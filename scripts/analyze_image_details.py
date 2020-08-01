@@ -26,7 +26,7 @@ crostini_path = f'{mnt_path}usr/bin/crostini_client'
 with open(f'{data_path}android_versions.json', 'r') as f:
   android_versions = json.load(f)
 
-pattern = f'{data_path}/images/*/*/*.json'
+pattern = f'{data_path}images/*/[0-9]*/*.json'
 data_files = glob.glob(pattern)
 i = 0
 count = len(data_files)
@@ -37,6 +37,7 @@ for data_file in data_files:
   with open(data_file, 'r') as f:
     data = json.load(f)
   if data.get('analysis_version', 0) >= analysis_version:
+    print(f'Analysis for {data_file} is up to date')
     continue
   else:
     data['analysis_version'] = analysis_version

@@ -1,0 +1,76 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Nougat 7.1",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "wizpig"
+    ],
+    "chromeos_arc_android_sdk_version": "25",
+    "chromeos_arc_version": "5898594",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{74A5A9DD-1B51-4602-A7FA-751B804627A0}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{74A5A9DD-1B51-4602-A7FA-751B804627A0}",
+    "chromeos_release_board": "wizpig-signed-mp-v10keys",
+    "chromeos_release_branch_number": "75",
+    "chromeos_release_build_number": "12371",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "wizpig-release/R77-12371.75.0",
+    "chromeos_release_chrome_milestone": "77",
+    "chromeos_release_description": "12371.75.0 (Official Build) stable-channel wizpig ",
+    "chromeos_release_keyset": "mp-v10",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12371.75.0",
+    "cr_version": 77,
+    "cros_version": 12371,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12371.75.0_wizpig_recovery_stable-channel_mp-v10.bin",
+    "google_release": "12371.75.0",
+    "hwidmatches": [
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*",
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}B(-\\w{3})*",
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}C(-\\w{3})*",
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}I(-\\w{3})*",
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}H(-\\w{3})*",
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}G(-\\w{3})*",
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}D(-\\w{3})*"
+    ],
+    "image_name": "wizpig",
+    "linux_kernel_versions": [
+        "3.18.0-19733-g972ff9adcd38"
+    ],
+    "manufacturers": [
+        "CTL",
+        "CDI",
+        "Haier WL",
+        "Multilaser",
+        "PCMerge",
+        "Prowise",
+        "XMA Viglen"
+    ],
+    "models": [
+        "CTL J5 Chromebook",
+        "CDI Edugear CMT Chromebook",
+        "Haier WL Haier Chromebook 11 C",
+        "Multilaser Chromebook M11C",
+        "PCMerge Chromebook PCM-116T-432B",
+        "Prowise Chromebook Proline",
+        "XMA Viglen Viglen Chromebook 360"
+    ],
+    "names": [
+        "CTL J5 Chromebook",
+        "Edugear CMT Chromebook",
+        "Haier Chromebook 11 C",
+        "Multilaser Chromebook M11C",
+        "PCMerge Chromebook PCM-116T-432B",
+        "Prowise Chromebook Proline",
+        "Viglen Chromebook 360"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
+    "version": 12371
+}

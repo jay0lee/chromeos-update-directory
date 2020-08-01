@@ -1,0 +1,62 @@
+{
+    "analysis_version": 5,
+    "android_app_support": false,
+    "aue_date": "None",
+    "boards": [
+        "expresso",
+        "rambi"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{87772BEF-2C77-A279-5B2C-921E49629934}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{87772BEF-2C77-A279-5B2C-921E49629934}",
+    "chromeos_release_board": "expresso-signed-mp-v15keys",
+    "chromeos_release_branch_number": "113",
+    "chromeos_release_build_number": "11151",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "expresso-release/R71-11151.113.0",
+    "chromeos_release_chrome_milestone": "71",
+    "chromeos_release_description": "11151.113.0 (Official Build) stable-channel expresso ",
+    "chromeos_release_keyset": "mp-v15",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "11151.113.0",
+    "cr_version": 71,
+    "cros_version": 11151,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_11151.113.0_expresso_recovery_stable-channel_mp-v15.bin",
+    "google_release": "11151.113.0",
+    "hwidmatches": [
+        "^EXPRESSO \\w{3}-\\w{3}-\\w{2}B(-\\w{3})*$",
+        "^RAMBI .*",
+        "^EXPRESSO \\w{3}-\\w{3}-\\w{2}C(-\\w{3})*$",
+        "^EXPRESSO \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$|^EXPRESSO \\w{3}-\\w{3}-\\w{3}-A\\w{2}(-\\w{3})*$"
+    ],
+    "image_name": "expresso",
+    "linux_kernel_versions": [
+        "4.4.159-15346-gc5e629939ae0"
+    ],
+    "manufacturers": [
+        "Bobicus",
+        "Quanta WL",
+        "Edxis",
+        "HEXA"
+    ],
+    "models": [
+        "Bobicus Chromebook 11",
+        "Quanta WL Consumer Chromebook",
+        "Edxis Chromebook",
+        "HEXA Chromebook Pi"
+    ],
+    "names": [
+        "Bobicus Chromebook 11",
+        "Consumer Chromebook",
+        "Edxis Chromebook",
+        "HEXA Chromebook Pi"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11151.113.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
+    "version": 11151
+}

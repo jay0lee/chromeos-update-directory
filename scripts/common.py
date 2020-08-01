@@ -74,15 +74,21 @@ def download_image_file(data, path):
     # Download, check compressed md5sum, unzip and create uncompressed md5sum all in one go
     # the main slowdown with each of these operations is reading/writing GBs worth of data
     # off the SD card so doing everything in parallel should save a lot of time.
-    cmd = f'curl -s {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum --quiet -c {zip_md5_file}'
+    if zip_md5:
+      cmd = f'curl -s {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum --quiet -c {zip_md5_file}'
+    else:
+      # no md5 value known for zip file so we can't check but we still calc md5 for uncompressed file
+      cmd = f'curl -s {url} | funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}'
     while True:
-      with open(zip_md5_file, 'w') as f:
-        f.write(f'{zip_md5} -')
+      if zip_md5:
+        with open(zip_md5_file, 'w') as f:
+          f.write(f'{zip_md5} -')
       print(f'Downloading image {rel_file}...\n\n')
       return_code = os.system(f'bash -c "{cmd}"')
-      if return_code == 0 and os.path.getsize(partial_file) == expected_size:
+      if return_code == 0 and (expected_size == 0 or os.path.getsize(partial_file) == expected_size):
         os.rename(partial_file, recovery_file)
-        os.remove(zip_md5_file)
+        if zip_md5:
+          os.remove(zip_md5_file)
         with open(partial_file_md5, 'r') as f:
           uncompressed_md5 = f.readline().split(' ')[0]
         os.remove(partial_file_md5)
@@ -95,7 +101,8 @@ def download_image_file(data, path):
         except FileNotFoundError:
           pass
         try:
-          os.remove(zip_md5_file)
+          if zip_md5:
+            os.remove(zip_md5_file)
         except FileNotFoundError:
           pass
         print('FAILURE! Trying again...')

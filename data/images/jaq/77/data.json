@@ -1,0 +1,61 @@
+{
+    "analysis_version": 5,
+    "android_app_support": false,
+    "aue_date": "2020-07-01 00:00:00",
+    "boards": [
+        "jaq"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{6D2E4D56-A22C-2F8F-7127-DA90A65F85E1}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{6D2E4D56-A22C-2F8F-7127-DA90A65F85E1}",
+    "chromeos_release_board": "veyron_jaq-signed-mp-v5keys",
+    "chromeos_release_branch_number": "75",
+    "chromeos_release_build_number": "12371",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "veyron_jaq-release/R77-12371.75.0",
+    "chromeos_release_chrome_milestone": "77",
+    "chromeos_release_description": "12371.75.0 (Official Build) stable-channel veyron_jaq ",
+    "chromeos_release_keyset": "mp-v5",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12371.75.0",
+    "cr_version": 77,
+    "cros_version": 12371,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12371.75.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin",
+    "google_release": "12371.75.0",
+    "hwidmatches": [
+        "^JAQ \\w{3}-\\w{3}-\\w{3}-A\\w{2}(-\\w{3})*$",
+        "^JAQ \\w{3}-\\w{3}-\\w{3}-C\\w{2}(-\\w{3})*$",
+        "^JAQ \\w{3}-\\w{3}-\\w{3}-D\\w{2}(-\\w{3})*$",
+        "^JAQ \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
+    ],
+    "image_name": "jaq",
+    "linux_kernel_versions": [
+        "3.14.0"
+    ],
+    "manufacturers": [
+        "Haier WL",
+        "Lava XOLO",
+        "Medion",
+        "True IDC"
+    ],
+    "models": [
+        "Haier WL Haier Chromebook 11",
+        "Lava Xolo Chromebook",
+        "Medion Chromebook Akoya S2013",
+        "True IDC Chromebook 11"
+    ],
+    "names": [
+        "Haier Chromebook 11",
+        "Lava Xolo Chromebook",
+        "Medion Chromebook Akoya S2013",
+        "True IDC Chromebook 11"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
+    "version": 12371
+}

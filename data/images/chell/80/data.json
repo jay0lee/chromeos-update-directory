@@ -1,0 +1,52 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-06-02 00:00:00",
+    "boards": [
+        "chell"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6259926",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{114DBB0F-4507-F7FC-99B6-4BCAB6A39725}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{114DBB0F-4507-F7FC-99B6-4BCAB6A39725}",
+    "chromeos_release_board": "chell-signed-mpkeys",
+    "chromeos_release_branch_number": "94",
+    "chromeos_release_build_number": "12739",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "chell-release/R80-12739.94.0",
+    "chromeos_release_chrome_milestone": "80",
+    "chromeos_release_description": "12739.94.0 (Official Build) stable-channel chell ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12739.94.0",
+    "cr_version": 80,
+    "cros_version": 12739,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12739.94.0_chell_recovery_stable-channel_mp.bin",
+    "google_release": "12739.94.0",
+    "hwidmatches": [
+        "^CHELL .*"
+    ],
+    "image_name": "chell",
+    "linux_kernel_versions": [
+        "3.18.0-19937-g5da699e3897c"
+    ],
+    "manufacturers": [
+        "HP"
+    ],
+    "models": [
+        "HP Chromebook 13 G1"
+    ],
+    "names": [
+        "HP Chromebook 13 G1"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.94.0_chell_recovery_stable-channel_mp.bin.zip",
+    "version": 12739
+}

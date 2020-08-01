@@ -1,0 +1,52 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Nougat 7.1",
+    "aue_date": "2023-06-02 00:00:00",
+    "boards": [
+        "asuka"
+    ],
+    "chromeos_arc_android_sdk_version": "25",
+    "chromeos_arc_version": "5563251",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{7B2FC5AC-894A-5702-D00E-62E999F0AE22}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{7B2FC5AC-894A-5702-D00E-62E999F0AE22}",
+    "chromeos_release_board": "asuka-signed-mpkeys",
+    "chromeos_release_branch_number": "118",
+    "chromeos_release_build_number": "11895",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "asuka-release/R74-11895.118.0",
+    "chromeos_release_chrome_milestone": "74",
+    "chromeos_release_description": "11895.118.0 (Official Build) stable-channel asuka ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "11895.118.0",
+    "cr_version": 74,
+    "cros_version": 11895,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_11895.118.0_asuka_recovery_stable-channel_mp.bin",
+    "google_release": "11895.118.0",
+    "hwidmatches": [
+        "^ASUKA .*"
+    ],
+    "image_name": "asuka",
+    "linux_kernel_versions": [
+        "3.18.0-19095-g86596f58eadf"
+    ],
+    "manufacturers": [
+        "Dell"
+    ],
+    "models": [
+        "Dell Chromebook 13 (3380)"
+    ],
+    "names": [
+        "Dell Chromebook 13 (3380)"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_asuka_recovery_stable-channel_mp.bin.zip",
+    "version": 11895
+}

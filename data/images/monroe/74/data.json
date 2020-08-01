@@ -1,0 +1,53 @@
+{
+    "analysis_version": 5,
+    "android_app_support": false,
+    "aue_date": "2020-06-02 00:00:00",
+    "boards": [
+        "monroe"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}",
+    "chromeos_release_board": "monroe-signed-mp-v2keys",
+    "chromeos_release_branch_number": "118",
+    "chromeos_release_build_number": "11895",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "monroe-release/R74-11895.118.0",
+    "chromeos_release_chrome_milestone": "74",
+    "chromeos_release_description": "11895.118.0 (Official Build) stable-channel monroe ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "11895.118.0",
+    "cr_version": 74,
+    "cros_version": 11895,
+    "crostini_support": false,
+    "devicetype": "CHROMEBASE",
+    "file": "chromeos_11895.118.0_monroe_recovery_stable-channel_mp-v2.bin",
+    "google_release": "11895.118.0",
+    "hwidmatches": [
+        "^MONROE .4.*",
+        "^MONROE .[23].*"
+    ],
+    "image_name": "monroe",
+    "linux_kernel_versions": [
+        "3.8.11"
+    ],
+    "manufacturers": [
+        "LGE",
+        "LGE"
+    ],
+    "models": [
+        "LGE LG Chromebase (22CB25S)",
+        "LGE LG Chromebase (22CV241)"
+    ],
+    "names": [
+        "LG Chromebase (22CB25S)",
+        "LG Chromebase (22CV241)"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_monroe_recovery_stable-channel_mp-v2.bin.zip",
+    "version": 11895
+}

@@ -1,0 +1,53 @@
+{
+    "analysis_version": 5,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "gnawty"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_release_board": "gnawty-signed-mp-v3keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "12499",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "gnawty-release/R78-12499.66.0",
+    "chromeos_release_chrome_milestone": "78",
+    "chromeos_release_description": "12499.66.0 (Official Build) stable-channel gnawty ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12499.66.0",
+    "cr_version": 78,
+    "cros_version": 12499,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12499.66.0_gnawty_recovery_stable-channel_mp-v3.bin",
+    "google_release": "12499.66.0",
+    "hwidmatches": [
+        "^GNAWTY \\w{3}-\\w{3}-\\w{3}$|^GNAWTY \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$",
+        "^GNAWTY \\w{3}-\\w{3}-\\w{2}B(-\\w{3})+$"
+    ],
+    "image_name": "gnawty",
+    "linux_kernel_versions": [
+        "4.4.190-16770-gb3c36ab5af98"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer"
+    ],
+    "models": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "names": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
+    "version": 12499
+}

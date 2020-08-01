@@ -1,0 +1,73 @@
+{
+    "analysis_version": 5,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "helios",
+        "kindred",
+        "akemi",
+        "dragonair",
+        "kohaku"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6259926",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{95EE134E-B47F-43FB-9835-32C276865F9A}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{95EE134E-B47F-43FB-9835-32C276865F9A}",
+    "chromeos_release_board": "hatch-signed-mp-v4keys",
+    "chromeos_release_branch_number": "94",
+    "chromeos_release_build_number": "12739",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "hatch-release/R80-12739.94.0",
+    "chromeos_release_chrome_milestone": "80",
+    "chromeos_release_description": "12739.94.0 (Official Build) stable-channel hatch ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "12739.94.0",
+    "cr_version": 80,
+    "cros_version": 12739,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_12739.94.0_hatch_recovery_stable-channel_mp-v4.bin",
+    "google_release": "12739.94.0",
+    "hwidmatches": [
+        "^HELIOS-.*",
+        "^KINDRED .*",
+        "^AKEMI .*",
+        "^DRAGONAIR .*",
+        "^KOHAKU.*"
+    ],
+    "image_name": "hatch",
+    "linux_kernel_versions": [
+        "4.19.87-07829-gdc5d63590b7a"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Acer",
+        "Lenovo",
+        "HP",
+        "Samsung"
+    ],
+    "models": [
+        "ASUS Chromebook Flip C436FA",
+        "Acer Chromebook 712 [C871]",
+        "Lenovo Flex 5 Chromebook",
+        "HP Chromebook x360 14c",
+        "Samsung Galaxy Chromebook"
+    ],
+    "names": [
+        "ASUS Chromebook Flip C436FA",
+        "Acer Chromebook 712 [C871]",
+        "Flex 5 Chromebook",
+        "HP Chromebook x360 14c",
+        "Samsung Galaxy Chromebook"
+    ],
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.94.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
+    "version": 12739
+}
