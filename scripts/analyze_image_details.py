@@ -15,7 +15,7 @@ import rstr
 import common 
 
 
-analysis_version = 5
+analysis_version = 6
 
 script_path, data_path = common.get_paths()
 mnt_path = f'{data_path}mnt/'
@@ -41,9 +41,16 @@ for data_file in data_files:
     continue
   else:
     data['analysis_version'] = analysis_version
+  if data.get('md5'):
+    backfill_verify = False
+    verify = True
+  else:
+    backfill_verify = True
+    verify = False
   print(f'analyzing image for {data["image_name"]}...')
-  print()
-  dl_results = common.download_image_file(data, path)
+  dl_results = common.download_image_file(data, path, backfill_verify=backfill_verify, verify=verify)
+  if backfill_verify:
+    data = dl_results['data']
   delete_download = dl_results.get('needed_to_download', False)
   image_file_path = dl_results.get('full_file_path')
 

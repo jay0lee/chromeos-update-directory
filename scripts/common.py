@@ -55,11 +55,10 @@ def check_updates(appid, version, board, track, hardware_class, targetversionpre
     return_data['eol_date'] = (epoch + add_days)
   return return_data
 
-def download_image_file(data, path):
+def download_image_file(data, path, verify=True, backfill_verify=False):
   rel_file = data.get('file')
   recovery_file = f'{path}/{rel_file}'
   return_data = {'full_file_path': recovery_file}
-  recovery_file_md5 = f'{recovery_file}.md5'
   if os.path.isfile(recovery_file):
     return_data['needed_to_download'] = False
     return return_data
@@ -67,46 +66,68 @@ def download_image_file(data, path):
     url = data.get('url')
     url = f'http{url[5:]}' # http, not https for performance
     zip_md5 = data.get('md5')
+    recovery_file_md5 = f'{recovery_file}.md5'
+    recovery_file_sha1 = f'{recovery_file}.sha1'
+    recovery_file_zip = f'{recovery_file}.zip'
     zip_md5_file = f'{recovery_file}.zip.md5'
+    zip_sha1_file = f'{recovery_file}.zip.sha1'
     partial_file = f'{recovery_file}.part'
     partial_file_md5 = f'{partial_file}.md5'
+    partial_file_sha1 = f'{partial_file}.sha1'
+    temp_files = [recovery_file_zip, zip_md5_file, zip_sha1_file, partial_file_md5, partial_file_sha1, partial_file]
+    perm_files = [recovery_file_md5, recovery_file_sha1, partial_file, recovery_file]
     expected_size = int(data.get('filesize', 0))
     # Download, check compressed md5sum, unzip and create uncompressed md5sum all in one go
     # the main slowdown with each of these operations is reading/writing GBs worth of data
     # off the SD card so doing everything in parallel should save a lot of time.
-    if zip_md5:
+    if verify:
       cmd = f'curl -s {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum --quiet -c {zip_md5_file}'
+      with open(zip_md5_file, 'w') as f:
+        print(f'writing {zip_md5_file}...')
+        f.write(f'{zip_md5} -')
+    elif backfill_verify:
+      # get size of file from web server
+      expected_size = int(requests.get(url, stream=True).headers['Content-length'])
+      cmd = f'curl -s {url} | tee >(md5sum > {zip_md5_file}) >(sha1sum > {zip_sha1_file}) {recovery_file_zip} | funzip | tee >(md5sum > {partial_file_md5}) >(sha1sum > {partial_file_sha1}) > {partial_file}'
     else:
-      # no md5 value known for zip file so we can't check but we still calc md5 for uncompressed file
-      cmd = f'curl -s {url} | funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}'
+      # just write it. Failures possible
+      cmd = f'curl -s {url} | funzip > {partial_file}'
     while True:
-      if zip_md5:
-        with open(zip_md5_file, 'w') as f:
-          f.write(f'{zip_md5} -')
       print(f'Downloading image {rel_file}...\n\n')
       return_code = os.system(f'bash -c "{cmd}"')
-      if return_code == 0 and (expected_size == 0 or os.path.getsize(partial_file) == expected_size):
+      if backfill_verify:
+        downloaded_size = os.path.getsize(recovery_file_zip)
+        print(f'downloaded_size: {downloaded_size}  expected_size: {expected_size}')
+      else:
+        downloaded_size = expected_size
+      if return_code == 0 and ((not verify and not backfill_verify) or downloaded_size == expected_size):
         os.rename(partial_file, recovery_file)
-        if zip_md5:
-          os.remove(zip_md5_file)
+        if backfill_verify:
+          with open(zip_md5_file, 'r') as f:
+            zip_md5 = f.read().strip().split(' ')[0]
+          data['md5'] = zip_md5
+          with open(zip_sha1_file, 'r') as f:
+            zip_sha1 = f.read().strip().split(' ')[0]
+          data['sha1'] = zip_sha1
         with open(partial_file_md5, 'r') as f:
           uncompressed_md5 = f.readline().split(' ')[0]
-        os.remove(partial_file_md5)
         with open(recovery_file_md5, 'w') as f:
           f.write(f'{uncompressed_md5} {rel_file}')
+        for f in temp_files:
+          try:
+            os.remove(f)
+          except FileNotFoundError:
+            pass
         break
       else:
-        try:
-          os.remove(partial_file)
-        except FileNotFoundError:
-          pass
-        try:
-          if zip_md5:
-            os.remove(zip_md5_file)
-        except FileNotFoundError:
-          pass
+        for f in temp_files + perm_files:
+          try:
+            os.remove(f)
+          except FileNotFoundError:
+            pass
         print('FAILURE! Trying again...')
     return_data['needed_to_download'] = True
+    return_data['data'] = data
     return return_data
 
 def get_paths():
