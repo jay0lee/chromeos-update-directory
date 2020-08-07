@@ -55,7 +55,7 @@ def check_updates(appid, version, board, track, hardware_class, targetversionpre
     return_data['eol_date'] = (epoch + add_days)
   return return_data
 
-def download_image_file(data, path, verify=True, backfill_verify=False):
+def download_image_file(data, path, verify=True, backfill_verify=False, curl_verbosity='--progress-bar'):
   rel_file = data.get('file')
   recovery_file = f'{path}/{rel_file}'
   return_data = {'full_file_path': recovery_file}
@@ -81,14 +81,14 @@ def download_image_file(data, path, verify=True, backfill_verify=False):
     # the main slowdown with each of these operations is reading/writing GBs worth of data
     # off the SD card so doing everything in parallel should save a lot of time.
     if verify:
-      cmd = f'curl -s {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum --quiet -c {zip_md5_file}'
+      cmd = f'curl {curl_verbosity} {url} | tee >(funzip | tee >(md5sum > {partial_file_md5}) > {partial_file}) | md5sum --quiet -c {zip_md5_file}'
       with open(zip_md5_file, 'w') as f:
         print(f'writing {zip_md5_file}...')
         f.write(f'{zip_md5} -')
     elif backfill_verify:
       # get size of file from web server
       expected_size = int(requests.get(url, stream=True).headers['Content-length'])
-      cmd = f'curl -s {url} | tee >(md5sum > {zip_md5_file}) >(sha1sum > {zip_sha1_file}) {recovery_file_zip} | funzip | tee >(md5sum > {partial_file_md5}) >(sha1sum > {partial_file_sha1}) > {partial_file}'
+      cmd = f'curl {curl_verbosity} {url} | tee >(md5sum > {zip_md5_file}) >(sha1sum > {zip_sha1_file}) {recovery_file_zip} | funzip | tee >(md5sum > {partial_file_md5}) >(sha1sum > {partial_file_sha1}) > {partial_file}'
     else:
       # just write it. Failures possible
       cmd = f'curl -s {url} | funzip > {partial_file}'

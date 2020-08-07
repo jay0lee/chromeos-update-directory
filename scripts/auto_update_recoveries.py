@@ -35,5 +35,5 @@ def main():
           data = json.load(f)
           common.download_image_file(data, path)
 
-if __name__ == 'main':
+if __name__ == '__main__':
   main()
