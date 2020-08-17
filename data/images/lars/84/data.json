@@ -1,0 +1,60 @@
+{
+    "analysis_version": 6,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-06-02 00:00:00",
+    "boards": [
+        "lars"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6741172",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "chromeos_release_board": "lars-signed-mpkeys",
+    "chromeos_release_branch_number": "102",
+    "chromeos_release_build_number": "13099",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "lars-release/R84-13099.102.0",
+    "chromeos_release_chrome_milestone": "84",
+    "chromeos_release_description": "13099.102.0 (Official Build) stable-channel lars ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13099.102.0",
+    "cr_version": 84,
+    "cros_version": 13099,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13099.102.0_lars_recovery_stable-channel_mp.bin",
+    "filesize": 2321571840,
+    "google_release": "13099.102.0",
+    "hwidmatches": [
+        "^LARS \\w{3}-\\w{3}-\\w{3}-.3.*",
+        "^LARS \\w{3}-\\w{3}-\\w{3}-.[^3].*"
+    ],
+    "image_name": "lars",
+    "linux_kernel_versions": [
+        "3.18.0-20483-gf72611307039"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer"
+    ],
+    "md5": "f0b3fd88c97e8f8baa581721d59c8d06",
+    "models": [
+        "Acer Chromebook 11 (C771, C771T)",
+        "Acer Chromebook 14 for Work (CP5-471)"
+    ],
+    "names": [
+        "Acer Chromebook 11 (C771, C771T)",
+        "Acer Chromebook 14 for Work (CP5-471)"
+    ],
+    "sha1": "061bf57bab4d9d9c3f82289f37a88cc6a8ed6535",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_lars_recovery_stable-channel_mp.bin.zip",
+    "version": "13099.102.0",
+    "zipfilesize": 1153329006
+}
