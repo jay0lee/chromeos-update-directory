@@ -1,0 +1,62 @@
+{
+    "analysis_version": 6,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "kodama",
+        "krane"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6772344",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{50F3C95B-CA5B-4AF8-87A2-8CD19588BD12}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{50F3C95B-CA5B-4AF8-87A2-8CD19588BD12}",
+    "chromeos_release_board": "kukui-signed-mp-v2keys",
+    "chromeos_release_branch_number": "110",
+    "chromeos_release_build_number": "13099",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kukui-release/R84-13099.110.0",
+    "chromeos_release_chrome_milestone": "84",
+    "chromeos_release_description": "13099.110.0 (Official Build) stable-channel kukui ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13099.110.0",
+    "cr_version": 84,
+    "cros_version": 13099,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13099.110.0_kukui_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2682281984,
+    "google_release": "13099.110.0",
+    "hwidmatches": [
+        "^KODAMA.*",
+        "^KRANE-ZDKS .*"
+    ],
+    "image_name": "kukui",
+    "linux_kernel_versions": [
+        "4.19.122-09121-gd58e3f311e19"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "bab593f7352ceab5b71f519d951d271e",
+    "models": [
+        "Lenovo 10e Chromebook Tablet",
+        "Lenovo Chromebook Duet / Lenovo Ideapad Duet Chromebook"
+    ],
+    "names": [
+        "Lenovo 10e Chromebook Tablet",
+        "Lenovo Chromebook Duet / Lenovo Ideapad Duet Chromebook"
+    ],
+    "sha1": "e5b231924d69cae98d12e42ac1fc034ed607242f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13099.110.0",
+    "zipfilesize": 1272908643
+}

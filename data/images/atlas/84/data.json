@@ -1,0 +1,56 @@
+{
+    "analysis_version": 6,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2026-06-02 00:00:00",
+    "boards": [
+        "atlas"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6772344",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "chromeos_release_board": "atlas-signed-mpkeys",
+    "chromeos_release_branch_number": "110",
+    "chromeos_release_build_number": "13099",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "atlas-release/R84-13099.110.0",
+    "chromeos_release_chrome_milestone": "84",
+    "chromeos_release_description": "13099.110.0 (Official Build) stable-channel atlas ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13099.110.0",
+    "cr_version": 84,
+    "cros_version": 13099,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13099.110.0_atlas_recovery_stable-channel_mp.bin",
+    "filesize": 2690670592,
+    "google_release": "13099.110.0",
+    "hwidmatches": [
+        "^ATLAS .*"
+    ],
+    "image_name": "atlas",
+    "linux_kernel_versions": [
+        "4.4.223-17591-g3f222006e533"
+    ],
+    "manufacturers": [
+        "Google"
+    ],
+    "md5": "6d1cb6c20bc6f47870fc44fd364ab00e",
+    "models": [
+        "Google Pixelbook Go"
+    ],
+    "names": [
+        "Google Pixelbook Go"
+    ],
+    "sha1": "0e249df5e01247f30cad2598fbf5681389b3edcf",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_atlas_recovery_stable-channel_mp.bin.zip",
+    "version": "13099.110.0",
+    "zipfilesize": 1305048833
+}
