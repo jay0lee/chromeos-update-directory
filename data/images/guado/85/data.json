@@ -1,0 +1,53 @@
+{
+    "analysis_version": 6,
+    "android_app_support": false,
+    "aue_date": "2021-06-02 00:00:00",
+    "boards": [
+        "guado"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}",
+    "chromeos_release_board": "guado-signed-mp-v2keys",
+    "chromeos_release_branch_number": "59",
+    "chromeos_release_build_number": "13310",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "guado-release/R85-13310.59.0",
+    "chromeos_release_chrome_milestone": "85",
+    "chromeos_release_description": "13310.59.0 (Official Build) stable-channel guado ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13310.59.0",
+    "cr_version": 85,
+    "cros_version": 13310,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_13310.59.0_guado_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2321571840,
+    "google_release": "13310.59.0",
+    "hwidmatches": [
+        "^GUADO .*"
+    ],
+    "image_name": "guado",
+    "linux_kernel_versions": [
+        "4.14.185-15955-gadad491c59bc"
+    ],
+    "manufacturers": [
+        "Asus"
+    ],
+    "md5": "c47b6375f94a83d59092b4703c62dd3a",
+    "models": [
+        "ASUS Chromebox 2 (CN62)"
+    ],
+    "names": [
+        "ASUS Chromebox 2 (CN62)"
+    ],
+    "sha1": "b4d1ed6f2bc0d854fc64c4a1cb3961e2b5eac064",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.59.0_guado_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13310.59.0",
+    "zipfilesize": 765092311
+}

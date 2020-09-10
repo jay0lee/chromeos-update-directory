@@ -1,0 +1,53 @@
+{
+    "analysis_version": 6,
+    "android_app_support": false,
+    "aue_date": "2021-06-02 00:00:00",
+    "boards": [
+        "buddy"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
+    "chromeos_release_board": "buddy-signed-mp-v2keys",
+    "chromeos_release_branch_number": "59",
+    "chromeos_release_build_number": "13310",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "buddy-release/R85-13310.59.0",
+    "chromeos_release_chrome_milestone": "85",
+    "chromeos_release_description": "13310.59.0 (Official Build) stable-channel buddy ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13310.59.0",
+    "cr_version": 85,
+    "cros_version": 13310,
+    "crostini_support": true,
+    "devicetype": "CHROMEBASE",
+    "file": "chromeos_13310.59.0_buddy_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2321571840,
+    "google_release": "13310.59.0",
+    "hwidmatches": [
+        "^BUDDY .*"
+    ],
+    "image_name": "buddy",
+    "linux_kernel_versions": [
+        "4.14.185-15955-gadad491c59bc"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "c81ac9ec90f3b08c8b4ac46e27a9526d",
+    "models": [
+        "Acer Chromebase 24"
+    ],
+    "names": [
+        "Acer Chromebase 24"
+    ],
+    "sha1": "00e10996717761b957b4e23e919d9430137a5335",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.59.0_buddy_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13310.59.0",
+    "zipfilesize": 768662240
+}
