@@ -1,0 +1,57 @@
+{
+    "analysis_version": 6,
+    "android_app_support": false,
+    "aue_date": "2020-06-02 00:00:00",
+    "boards": [
+        "monroe"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}",
+    "chromeos_release_board": "monroe-signed-mp-v2keys",
+    "chromeos_release_branch_number": "110",
+    "chromeos_release_build_number": "13099",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "monroe-release/R84-13099.110.2",
+    "chromeos_release_chrome_milestone": "84",
+    "chromeos_release_description": "13099.110.2 (Official Build) stable-channel monroe ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "2",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13099.110.2",
+    "cr_version": 84,
+    "cros_version": 13099,
+    "crostini_support": false,
+    "devicetype": "CHROMEBASE",
+    "file": "chromeos_13099.110.2_monroe_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2321571840,
+    "google_release": "13099.110.2",
+    "hwidmatches": [
+        "^MONROE .4.*",
+        "^MONROE .[23].*"
+    ],
+    "image_name": "monroe",
+    "linux_kernel_versions": [
+        "3.8.11"
+    ],
+    "manufacturers": [
+        "LGE",
+        "LGE"
+    ],
+    "md5": "f7f0eba7b43a6a90ec83ff4cd3903a2f",
+    "models": [
+        "LGE LG Chromebase (22CB25S)",
+        "LGE LG Chromebase (22CV241)"
+    ],
+    "names": [
+        "LG Chromebase (22CB25S)",
+        "LG Chromebase (22CV241)"
+    ],
+    "sha1": "4ed36dd0b1248c17e180d2ecbe0d2fb396d0063b",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.2_monroe_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13099.110.2",
+    "zipfilesize": 654663112
+}
