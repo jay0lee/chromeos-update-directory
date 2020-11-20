@@ -1,0 +1,19 @@
+{
+    "app_board": "lars-signed-mpkeys",
+    "board_id": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "check_time": "2020-11-20 17:53:49.888129",
+    "chrome_version": "85.0.4183.133",
+    "chromeos_version": "13310.93.0",
+    "eol": true,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E7507B05-EC5C-437C-9878-E870E20111BC}\" version=\"13310.0.0\" board=\"lars-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"LARS cV2-4Wq-lQA-n3NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35629\"/><app appid=\"{E7507B05-EC5C-437C-9878-E870E20111BC}\" cohort=\"1:4:\" cohortname=\"lars_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/lars/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/lars/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_lars_stable-channel_full_mp.bin-gvtdmzbzmuygnrbl5eodrph5mmdwf4h2.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"dxlL8VFImZwFq85E3vBdCOMhALF7UCZVNTdSyei8ja6xSWp23BWX1QOIs9lwNMrQrq6ezVOr5Fv88SnLVQlOh0KqunrVWM8Nh4w6z7PRbJX1SxzDHxgesGqtjEZX6DMOTAeJ4dPeSy0tsAdwkoaZ7RP3nDUEmAGH5SelbCI0YF2hiw/Q65VmiFlgH/gBLGxEBDycpsqcyXjvD+z+0Cce4gUv6qQor/WayqXngSaCb1QrR8McWz3lJZLJaA4Nnrerv5m7tEkLegrpmft7bG2p2Po8r2InS1hkVmZ9tjnsFXbJn9j5acmiyqJsigJMPKTJT51tujvbiE8wzBvBSb1XNA==\" MetadataSize=\"57052\" event=\"postinstall\" sha256=\"ebBBlCAdnvbF4TtQE4LS3zDxKRn3b0M9QLdLa42eQxI=\"/></actions><packages><package fp=\"3.79b04194201d9ef6c5e13b501382d2df30f12919f76f433d40b74b6b8d9e4312\" hash_sha256=\"79b04194201d9ef6c5e13b501382d2df30f12919f76f433d40b74b6b8d9e4312\" name=\"chromeos_13310.93.0_lars_stable-channel_full_mp.bin-gvtdmzbzmuygnrbl5eodrph5mmdwf4h2.signed\" required=\"true\" size=\"1009566298\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "LARS cV2-4Wq-lQA-n3NNN",
+    "sha256": "79b04194201d9ef6c5e13b501382d2df30f12919f76f433d40b74b6b8d9e4312",
+    "size": 1009566298,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/lars/13310.93.0/stable-channel/chromeos_13310.93.0_lars_stable-channel_full_mp.bin-gvtdmzbzmuygnrbl5eodrph5mmdwf4h2.signed",
+        "https://dl.google.com/chromeos/lars/13310.93.0/stable-channel/chromeos_13310.93.0_lars_stable-channel_full_mp.bin-gvtdmzbzmuygnrbl5eodrph5mmdwf4h2.signed"
+    ],
+    "very_eol": true
+}

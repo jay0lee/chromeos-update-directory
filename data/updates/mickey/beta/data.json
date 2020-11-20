@@ -1,0 +1,20 @@
+{
+    "app_board": "veyron_mickey-signed-mp-v2keys",
+    "board_id": "{181B8BE1-07A0-4D54-87B7-0157A4322FF1}",
+    "check_time": "2020-11-20 17:52:57.099251",
+    "chrome_version": "86.0.4240.77",
+    "chromeos_version": "13421.53.0",
+    "eol": true,
+    "eol_date": "2020-11-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{181B8BE1-07A0-4D54-87B7-0157A4322FF1}\" version=\"13421.0.0\" board=\"veyron_mickey-signed-mp-v2keys\" track=\"beta-channel\" hardware_class=\"MICKEY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35577\"/><app appid=\"{181B8BE1-07A0-4D54-87B7-0157A4322FF1}\" cohort=\"1:3:\" cohortname=\"veyron-mickey_beta\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18568\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/veyron-mickey/13421.53.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/veyron-mickey/13421.53.0/beta-channel/\"/></urls><manifest version=\"13421.53.0\"><actions><action event=\"update\" run=\"chromeos_13421.53.0_veyron-mickey_beta-channel_full_mickey-mp-v2.bin-gvtdoyzrgjsdcid64nk3gil3ndcncjvk.signed\"/><action ChromeOSVersion=\"13421.53.0\" ChromeVersion=\"86.0.4240.77\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"BCfVYf49dj4Ayv2GD1iHFdz0bQL0i4zEstNvLKuWKx0g7csf0GUXNBzTDYNwaeAox3r0n4S9zzePXMn5yCdQGEwPU6f/5KSASbzwTiSkNnW8h1EzcIdySRWBFp3J8Ej3Q+jcf7SNq/Gov9+yV8ILYsuS7uQsg2eR2X0mLLLyJU5L7h61E/MsXaOoGVBb6hKheUAep4jurRnT759/4QIJXLu9+NpV7AyWeQFQzv/5RuF7dkGaZK1KHoSKkfVL7R1wD0qqX2bbzNukzLSK/2rl2trrr+6fwx5gxCcihshvbKhdbryHvsKoqDKfLh7fI1iZnizvL+cgHVUcPoadZQG3UA==\" MetadataSize=\"56079\" event=\"postinstall\" sha256=\"WxwvRo/pYV/L0m8hb+9KeKrvemoCh9HYEO2MmBIOZDQ=\"/></actions><packages><package fp=\"3.5b1c2f468fe9615fcbd26f216fef4a78aaef7a6a0287d1d810ed8c98120e6434\" hash_sha256=\"5b1c2f468fe9615fcbd26f216fef4a78aaef7a6a0287d1d810ed8c98120e6434\" name=\"chromeos_13421.53.0_veyron-mickey_beta-channel_full_mickey-mp-v2.bin-gvtdoyzrgjsdcid64nk3gil3ndcncjvk.signed\" required=\"true\" size=\"507411047\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "MICKEY NNN",
+    "sha256": "5b1c2f468fe9615fcbd26f216fef4a78aaef7a6a0287d1d810ed8c98120e6434",
+    "size": 507411047,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/veyron-mickey/13421.53.0/beta-channel/chromeos_13421.53.0_veyron-mickey_beta-channel_full_mickey-mp-v2.bin-gvtdoyzrgjsdcid64nk3gil3ndcncjvk.signed",
+        "https://dl.google.com/chromeos/veyron-mickey/13421.53.0/beta-channel/chromeos_13421.53.0_veyron-mickey_beta-channel_full_mickey-mp-v2.bin-gvtdoyzrgjsdcid64nk3gil3ndcncjvk.signed"
+    ],
+    "very_eol": false
+}

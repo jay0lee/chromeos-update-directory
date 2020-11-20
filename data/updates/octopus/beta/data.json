@@ -1,0 +1,20 @@
+{
+    "app_board": "octopus-signed-mp-v17keys",
+    "board_id": "{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}",
+    "check_time": "2020-11-20 17:53:03.047855",
+    "chrome_version": "87.0.4280.66",
+    "chromeos_version": "13505.48.0",
+    "eol": false,
+    "eol_date": "2026-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}\" version=\"13421.0.0\" board=\"octopus-signed-mp-v17keys\" track=\"beta-channel\" hardware_class=\"APEL NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35583\"/><app appid=\"{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}\" cohort=\"1:1k:\" cohortname=\"octopus_apel_beta\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/octopus/13505.48.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/octopus/13505.48.0/beta-channel/\"/></urls><manifest version=\"13505.48.0\"><actions><action event=\"update\" run=\"chromeos_13505.48.0_octopus_beta-channel_full_mp-v22.bin-gvtgemzzmy3wf6cuofa7fa6oh33gvioi.signed\"/><action ChromeOSVersion=\"13505.48.0\" ChromeVersion=\"87.0.4280.66\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ZTXvIgu1nI5+gMvhsxGN6TytaGTqSFBkDCZFt/fhSLoCxqjnP+4vXiz+XbAoMFuKXjcEee6nAR9U3tY4xl4dz1dQsjueky5QgSgov7h3btjRBVhEBAoEIr/4EUaCALmMAzhu+G41/SFqAdDM8eU+pn1Tx6YFe9fQjPFKAaCT/ChjGSdWWYBls/hw/UogFav5lpQifLK7bzBtPCYgmSZ8/CYuN1zNWpaJVgiNpTlbZjr8QrFH2n/wBCOCjEIolykFoU5X+4CkurrRcUyF23Ko/IKQh8ydut63Etzwy19B0Dd6OxXV/hj2pv4K3TLXbN87QKHjEtvIpNvmTgBihdb34Q==\" MetadataSize=\"66312\" event=\"postinstall\" sha256=\"2yO2NxUSUHHhjz+73V7Sw3PRwZcdWAgobrVZHXnaCdI=\"/></actions><packages><package fp=\"3.db23b63715125071e18f3fbbdd5ed2c373d1c1971d5808286eb5591d79da09d2\" hash_sha256=\"db23b63715125071e18f3fbbdd5ed2c373d1c1971d5808286eb5591d79da09d2\" name=\"chromeos_13505.48.0_octopus_beta-channel_full_mp-v22.bin-gvtgemzzmy3wf6cuofa7fa6oh33gvioi.signed\" required=\"true\" size=\"1303647264\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "APEL NNN",
+    "sha256": "db23b63715125071e18f3fbbdd5ed2c373d1c1971d5808286eb5591d79da09d2",
+    "size": 1303647264,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/octopus/13505.48.0/beta-channel/chromeos_13505.48.0_octopus_beta-channel_full_mp-v22.bin-gvtgemzzmy3wf6cuofa7fa6oh33gvioi.signed",
+        "https://dl.google.com/chromeos/octopus/13505.48.0/beta-channel/chromeos_13505.48.0_octopus_beta-channel_full_mp-v22.bin-gvtgemzzmy3wf6cuofa7fa6oh33gvioi.signed"
+    ],
+    "very_eol": false
+}

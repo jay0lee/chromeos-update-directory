@@ -1,0 +1,20 @@
+{
+    "app_board": "veyron_speedy-signed-mp-v3keys",
+    "board_id": "{81C04B02-A863-BFBB-F77C-7707347DC958}",
+    "check_time": "2020-11-20 17:53:18.193182",
+    "chrome_version": "84.0.4147.136",
+    "chromeos_version": "13099.110.0",
+    "eol": true,
+    "eol_date": "2020-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{81C04B02-A863-BFBB-F77C-7707347DC958}\" version=\"0.0.0.0\" board=\"veyron_speedy-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"SPEEDY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35598\"/><app appid=\"{81C04B02-A863-BFBB-F77C-7707347DC958}\" cohort=\"1:5:\" cohortname=\"veyron-speedy_stable\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18415\" _firmware_version=\"2.3\" _firmware_version_0=\"2.3\" _firmware_version_1=\"2.3\" _firmware_version_2=\"2.3\" _firmware_version_3=\"2.3\" _firmware_version_4=\"2.3\" _kernel_version=\"3.2\" _kernel_version_0=\"3.2\" _kernel_version_1=\"3.2\" _kernel_version_2=\"3.2\" _kernel_version_3=\"3.2\" _kernel_version_4=\"3.2\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/veyron-speedy/13099.110.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/veyron-speedy/13099.110.0/stable-channel/\"/></urls><manifest version=\"13099.110.0\"><actions><action event=\"install\" run=\"chromeos_13099.110.0_veyron-speedy_stable-channel_full_speedy-mp-v3.bin-gvtdgzbqhfrdebvqlqpdaqmju623mjvo.signed\"/><action ChromeOSVersion=\"13099.110.0\" ChromeVersion=\"84.0.4147.136\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"u+7GYyGlBIsU9ddLEmb6r7YdLdr4jgJdelv3fbGaqw80fZxrtMUO23Pajk0CvZKT8QEUIVHolpBf/swie3SZ3cpbsW69vGrxfPrqImddC7ZoJGY4QiVlEHqkKxDQpTsNZO6MaAKbimEh+1+2GRnfmZVor4/Kp67mY5JEx4FHXfUTPU6w2DsTqdSjE0+zdgnGI9qkYeKTlaUSd4SZ+cCf8IGrGCyQPqmpXzO0tyFCv3Dbd8zvjO0xnZMqwaiHJ3KVMY8ntJgpm2rbZk8nNCR387ncu67kMCxvDoTV1Sw3agQ4PprUt/bRPMPuLakecvTVbs1oZ0iZz1b7/PozaPRaSQ==\" MetadataSize=\"56054\" event=\"postinstall\" sha256=\"pOM6EqddLHHfoUNSHx+n5lqqlT2OqTMhmH5BEHzhVeE=\"/></actions><packages><package fp=\"1.a4e33a12a75d2c71dfa143521f1fa7e65aaa953d8ea93321987e41107ce155e1\" hash_sha256=\"a4e33a12a75d2c71dfa143521f1fa7e65aaa953d8ea93321987e41107ce155e1\" name=\"chromeos_13099.110.0_veyron-speedy_stable-channel_full_speedy-mp-v3.bin-gvtdgzbqhfrdebvqlqpdaqmju623mjvo.signed\" required=\"true\" size=\"496610491\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SPEEDY NNN",
+    "sha256": "a4e33a12a75d2c71dfa143521f1fa7e65aaa953d8ea93321987e41107ce155e1",
+    "size": 496610491,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/veyron-speedy/13099.110.0/stable-channel/chromeos_13099.110.0_veyron-speedy_stable-channel_full_speedy-mp-v3.bin-gvtdgzbqhfrdebvqlqpdaqmju623mjvo.signed",
+        "https://dl.google.com/chromeos/veyron-speedy/13099.110.0/stable-channel/chromeos_13099.110.0_veyron-speedy_stable-channel_full_speedy-mp-v3.bin-gvtdgzbqhfrdebvqlqpdaqmju623mjvo.signed"
+    ],
+    "very_eol": false
+}

@@ -1,0 +1,20 @@
+{
+    "app_board": "setzer-signed-mpkeys",
+    "board_id": "{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}",
+    "check_time": "2020-11-20 17:53:15.723427",
+    "chrome_version": "88.0.4324.9",
+    "chromeos_version": "13597.5.0",
+    "eol": false,
+    "eol_date": "2022-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}\" version=\"13421.0.0\" board=\"setzer-signed-mpkeys\" track=\"dev-channel\" hardware_class=\"SETZER NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35595\"/><app appid=\"{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}\" cohort=\"1:3:\" cohortname=\"setzer_dev\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"5.1\" _firmware_version_0=\"5.1\" _firmware_version_1=\"5.1\" _firmware_version_2=\"5.1\" _firmware_version_3=\"5.1\" _firmware_version_4=\"5.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/setzer/13597.5.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/setzer/13597.5.0/dev-channel/\"/></urls><manifest version=\"13597.5.0\"><actions><action event=\"update\" run=\"chromeos_13597.5.0_setzer_dev-channel_full_mp.bin-gvtgendfhbrtn26b22dbmytgd236np2z.signed\"/><action ChromeOSVersion=\"13597.5.0\" ChromeVersion=\"88.0.4324.9\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"XEB5IISNZaW0aN9oKAwCEymzVese5MuS0937AX5/Zln3FLHGtIH3w3XtdbP9STILgny22rT0ncoQr83oW8LboRwV+PTJ/7f+Y53fnYIiEfiN1cN8J/fK0nOSeop7bf1IvYWTwm+Zju3HzCECir9KWqWx+jHZh06N+5qe70QBTeiU3bQXv2yWauOHKJepYMOv/0X5vQHV77l0MxMEb2QeTmTXBsaityvHGQayQYXUJIrus63gTe2CGeCiX/ighedqAJP/5yLaKx8xCoTsJ54hEWR6fcDuLLmmk8b/nOc8UzbrYgyqeB92vdzau2exfp4jEn2fg7Cjsvy4u++9wzbt9Q==\" MetadataSize=\"57014\" event=\"postinstall\" sha256=\"B5cA0CvMPp8YoVFz0KvUetK3HUa9ccRrWj7hNUavgW8=\"/></actions><packages><package fp=\"3.079700d02bcc3e9f18a15173d0abd47ad2b71d46bd71c46b5a3ee13546af816f\" hash_sha256=\"079700d02bcc3e9f18a15173d0abd47ad2b71d46bd71c46b5a3ee13546af816f\" name=\"chromeos_13597.5.0_setzer_dev-channel_full_mp.bin-gvtgendfhbrtn26b22dbmytgd236np2z.signed\" required=\"true\" size=\"1008094793\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SETZER NNN",
+    "sha256": "079700d02bcc3e9f18a15173d0abd47ad2b71d46bd71c46b5a3ee13546af816f",
+    "size": 1008094793,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/setzer/13597.5.0/dev-channel/chromeos_13597.5.0_setzer_dev-channel_full_mp.bin-gvtgendfhbrtn26b22dbmytgd236np2z.signed",
+        "https://dl.google.com/chromeos/setzer/13597.5.0/dev-channel/chromeos_13597.5.0_setzer_dev-channel_full_mp.bin-gvtgendfhbrtn26b22dbmytgd236np2z.signed"
+    ],
+    "very_eol": false
+}

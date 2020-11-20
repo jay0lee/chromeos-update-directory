@@ -1,0 +1,19 @@
+{
+    "app_board": "candy-signed-mp-v2keys",
+    "board_id": "{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}",
+    "check_time": "2020-11-20 17:53:32.240124",
+    "chrome_version": "85.0.4183.133",
+    "chromeos_version": "13310.93.0",
+    "eol": true,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}\" version=\"13310.0.0\" board=\"candy-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"CANDY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35612\"/><app appid=\"{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}\" cohort=\"1:4:\" cohortname=\"candy_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/candy/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/candy/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_candy_stable-channel_full_mp-v2.bin-gvtdmzbzgztdf3tuqnm4zoozsnze27a2.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"jgJoC+R2Z/27VgVyayjdrHfIMEu+7KRLeuu7wTH90rvo6HTclgbY65XrvRRQ719kBVh66tVPCWOzRmBjYuXz3SOXea7AP9AQCTh8ZhC9qjw0o6K8qNBWESep6Ut4rrVn7mbqoD5ExWW0ex3afIjUKlSsCN3PHt4E6SGtMJ8iW+gGjcDTYVPvm7/FTUAx49JMgGOH74JIzMWLO6BCOladt0L+C56p2ZEBKjdrG2shwSRwIo1fQT0pLSQl7wnhk3FU5oIHkSWs4by0sMaZaEgA54SGP7mLv7HAvMc8OpdWU6a7mS3kktMbR72qtBW4to43fomoj7CkYfA9ldodjXmP8A==\" MetadataSize=\"56303\" event=\"postinstall\" sha256=\"fonsIbNObyfrAhkvklYdjl1m3iV3lGx8aqM4Y8minxo=\"/></actions><packages><package fp=\"3.7e89ec21b34e6f27eb02192f92561d8e5d66de2577946c7c6aa33863c9a29f1a\" hash_sha256=\"7e89ec21b34e6f27eb02192f92561d8e5d66de2577946c7c6aa33863c9a29f1a\" name=\"chromeos_13310.93.0_candy_stable-channel_full_mp-v2.bin-gvtdmzbzgztdf3tuqnm4zoozsnze27a2.signed\" required=\"true\" size=\"529735051\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "CANDY NNN",
+    "sha256": "7e89ec21b34e6f27eb02192f92561d8e5d66de2577946c7c6aa33863c9a29f1a",
+    "size": 529735051,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/candy/13310.93.0/stable-channel/chromeos_13310.93.0_candy_stable-channel_full_mp-v2.bin-gvtdmzbzgztdf3tuqnm4zoozsnze27a2.signed",
+        "https://dl.google.com/chromeos/candy/13310.93.0/stable-channel/chromeos_13310.93.0_candy_stable-channel_full_mp-v2.bin-gvtdmzbzgztdf3tuqnm4zoozsnze27a2.signed"
+    ],
+    "very_eol": true
+}

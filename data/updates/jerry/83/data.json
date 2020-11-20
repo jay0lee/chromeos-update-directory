@@ -1,0 +1,20 @@
+{
+    "app_board": "veyron_jerry-signed-mp-v12keys",
+    "board_id": "{87C6D674-9385-6143-BE67-8B5E3064E89D}",
+    "check_time": "2020-11-20 17:53:45.704775",
+    "chrome_version": "83.0.4103.119",
+    "chromeos_version": "13020.87.0",
+    "eol": true,
+    "eol_date": "2020-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{87C6D674-9385-6143-BE67-8B5E3064E89D}\" version=\"13020.0.0\" board=\"veyron_jerry-signed-mp-v12keys\" track=\"stable-channel\" hardware_class=\"JERRY kxu-pud-MAQ-BdMNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13020\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35625\"/><app appid=\"{87C6D674-9385-6143-BE67-8B5E3064E89D}\" cohort=\"1:5:\" cohortname=\"veyron-jerry_stable\" status=\"ok\"><updatecheck _eol_date=\"18415\" _firmware_version=\"2.3\" _firmware_version_0=\"2.3\" _firmware_version_1=\"2.3\" _firmware_version_2=\"2.3\" _firmware_version_3=\"2.3\" _firmware_version_4=\"2.3\" _kernel_version=\"3.2\" _kernel_version_0=\"3.2\" _kernel_version_1=\"3.2\" _kernel_version_2=\"3.2\" _kernel_version_3=\"3.2\" _kernel_version_4=\"3.2\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/veyron-jerry/13020.87.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/veyron-jerry/13020.87.0/stable-channel/\"/></urls><manifest version=\"13020.87.0\"><actions><action event=\"update\" run=\"chromeos_13020.87.0_veyron-jerry_stable-channel_full_jerry-mp-v12.bin-gvswmmdbhbtdkmqii377vo24lvu7cwun.signed\"/><action ChromeOSVersion=\"13020.87.0\" ChromeVersion=\"83.0.4103.119\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"KBabjzqvtxBqZQxti1rY5JYX4psN01LpdDPgrc1b9kZ619cLHbQwiaCIEwOECYzEuy3c4YYbpDZpBZgAn0OJTo5WupsyPCAAoWPUbe0VdIDgtJ1CvmwXeSi/L3lL5aY3NFGUDN66wIpANrdp4lxmLGXpzU0T2vInFq+Ff+qhFJS8TvsZK9IffaJ9U1FiCsrvhUjzhRnX6cZC4a9zSM9f5eMhJNgZKlV8dESIa4d/UiZLcbpLWsJd4CprBayYi8GShIOo37dpYyaSD6hlSH6b/ZMoFLRGRohlsC2cLvaDqJrBbQqW8MN73FKomxgWPvyCqZY7S0WmifyjuxFg9sdz2A==\" MetadataSize=\"56827\" event=\"postinstall\" sha256=\"6Jk7w3seZ2lS0UnCvlp0USgUVd4TeYboOQf6+iK3jIM=\"/></actions><packages><package fp=\"1.e8993bc37b1e676952d149c2be5a7451281455de137986e83907fafa22b78c83\" hash_sha256=\"e8993bc37b1e676952d149c2be5a7451281455de137986e83907fafa22b78c83\" name=\"chromeos_13020.87.0_veyron-jerry_stable-channel_full_jerry-mp-v12.bin-gvswmmdbhbtdkmqii377vo24lvu7cwun.signed\" required=\"true\" size=\"889607104\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "JERRY kxu-pud-MAQ-BdMNNN",
+    "sha256": "e8993bc37b1e676952d149c2be5a7451281455de137986e83907fafa22b78c83",
+    "size": 889607104,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/veyron-jerry/13020.87.0/stable-channel/chromeos_13020.87.0_veyron-jerry_stable-channel_full_jerry-mp-v12.bin-gvswmmdbhbtdkmqii377vo24lvu7cwun.signed",
+        "https://dl.google.com/chromeos/veyron-jerry/13020.87.0/stable-channel/chromeos_13020.87.0_veyron-jerry_stable-channel_full_jerry-mp-v12.bin-gvswmmdbhbtdkmqii377vo24lvu7cwun.signed"
+    ],
+    "very_eol": false
+}

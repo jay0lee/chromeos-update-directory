@@ -1,0 +1,20 @@
+{
+    "app_board": "terra-signed-mp-v2keys",
+    "board_id": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "check_time": "2020-11-20 17:53:21.929073",
+    "chrome_version": "88.0.4324.9",
+    "chromeos_version": "13597.5.0",
+    "eol": false,
+    "eol_date": "2022-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" version=\"13421.0.0\" board=\"terra-signed-mp-v2keys\" track=\"dev-channel\" hardware_class=\"TERRA WoJ-ikR-g3I-ANNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35601\"/><app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" cohort=\"1:2:\" cohortname=\"terra_dev\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/terra/13597.5.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/terra/13597.5.0/dev-channel/\"/></urls><manifest version=\"13597.5.0\"><actions><action event=\"update\" run=\"chromeos_13597.5.0_terra_dev-channel_full_mp-v2.bin-gvtgendfgq3tpmqt5trjfcoelj2m44ju.signed\"/><action ChromeOSVersion=\"13597.5.0\" ChromeVersion=\"88.0.4324.9\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Puc58b5COXByTZyFxHgvJgTj0JIoh4ct0j9fgiZ+FPDYyNnaoJneX24fUVfkvb44LdvmLcfQzTBMwMa/wlSY61XxtbFDIqYwfi6WoZZB8Tuv/0IljV7a1HyearepWLvHsyR7DfxH2r9YTl4gZ9nidZs329qqAODuEONCR+Fnr2fTm9LqX5IyuWJsAV6yCty1kvzT5mU6xQ9UHLXeIXD1d0Hfa7pLWB2AdTV4xw9m70f49KRcVeH6+ULz2Q2KpsahlfIS9iMLPO3SIlOLOAo/XAfcfrSB5LCFY4dWiq5VKeRc/zkG528+mGGO64drHFBX0GpbB9NOpUDSz1Sv0su3Ew==\" MetadataSize=\"57008\" event=\"postinstall\" sha256=\"udTOE/fOocYDM3V9JX0Bkli5B/jfvtWYeVnWfronmRY=\"/></actions><packages><package fp=\"3.b9d4ce13f7cea1c60333757d257d019258b907f8dfbed5987959d67eba279916\" hash_sha256=\"b9d4ce13f7cea1c60333757d257d019258b907f8dfbed5987959d67eba279916\" name=\"chromeos_13597.5.0_terra_dev-channel_full_mp-v2.bin-gvtgendfgq3tpmqt5trjfcoelj2m44ju.signed\" required=\"true\" size=\"1005629513\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TERRA WoJ-ikR-g3I-ANNN",
+    "sha256": "b9d4ce13f7cea1c60333757d257d019258b907f8dfbed5987959d67eba279916",
+    "size": 1005629513,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/terra/13597.5.0/dev-channel/chromeos_13597.5.0_terra_dev-channel_full_mp-v2.bin-gvtgendfgq3tpmqt5trjfcoelj2m44ju.signed",
+        "https://dl.google.com/chromeos/terra/13597.5.0/dev-channel/chromeos_13597.5.0_terra_dev-channel_full_mp-v2.bin-gvtgendfgq3tpmqt5trjfcoelj2m44ju.signed"
+    ],
+    "very_eol": false
+}

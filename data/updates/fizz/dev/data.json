@@ -1,0 +1,20 @@
+{
+    "app_board": "fizz-signed-mp-v13keys",
+    "board_id": "{0C1E39B7-DAE6-4972-8004-E96F60D9342C}",
+    "check_time": "2020-11-20 17:52:38.749241",
+    "chrome_version": "88.0.4324.9",
+    "chromeos_version": "13597.5.0",
+    "eol": false,
+    "eol_date": "2025-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" version=\"13421.0.0\" board=\"fizz-signed-mp-v13keys\" track=\"dev-channel\" hardware_class=\"JAX NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35558\"/><app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" cohort=\"1:1m:\" cohortname=\"fizz_jax_dev\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/fizz/13597.5.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/fizz/13597.5.0/dev-channel/\"/></urls><manifest version=\"13597.5.0\"><actions><action event=\"update\" run=\"chromeos_13597.5.0_fizz_dev-channel_full_mp-v13.bin-gvtgendfhe3ggkobqcgtfiongjzgzryb.signed\"/><action ChromeOSVersion=\"13597.5.0\" ChromeVersion=\"88.0.4324.9\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"wNIWnarjA9aJBzxhhlqhKdmTKuxW7Ae8vXvLy3HBYi1Z0zafRdgJCzUw9a92TqBmG7iAD8ql419907DdS5koD4Sp7krSDHI8WCWMCuvuvBug/UpU/WzdpGa/kFhUQXAKLyKdUJv9rii3Gmt14E3XtcJHIWWpbA1C50BylKGAHhYRxWwOhWDnjcyQBcH2IrX8y5nC8jtmHenSBM88h14nyVlTs31XINHjRb9XGV/riE1Hzs28G4WvsrZ5XvvrkANTXVLXLMlv/gnq8Woshtaw5lYsPGWBhWi23cwLD1TUlf50fcq4BpdWsbKW39b4bbJ8nkJOLa+bSP8dYE/bFNH/NA==\" MetadataSize=\"65778\" event=\"postinstall\" sha256=\"+Z0p1RbYdoEqYSDJsVMVYO35BDIIaj5aIk2rcypwjRU=\"/></actions><packages><package fp=\"3.f99d29d516d876812a6120c9b1531560edf90432086a3e5a224dab732a708d15\" hash_sha256=\"f99d29d516d876812a6120c9b1531560edf90432086a3e5a224dab732a708d15\" name=\"chromeos_13597.5.0_fizz_dev-channel_full_mp-v13.bin-gvtgendfhe3ggkobqcgtfiongjzgzryb.signed\" required=\"true\" size=\"1237352033\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "JAX NNN",
+    "sha256": "f99d29d516d876812a6120c9b1531560edf90432086a3e5a224dab732a708d15",
+    "size": 1237352033,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/fizz/13597.5.0/dev-channel/chromeos_13597.5.0_fizz_dev-channel_full_mp-v13.bin-gvtgendfhe3ggkobqcgtfiongjzgzryb.signed",
+        "https://dl.google.com/chromeos/fizz/13597.5.0/dev-channel/chromeos_13597.5.0_fizz_dev-channel_full_mp-v13.bin-gvtgendfhe3ggkobqcgtfiongjzgzryb.signed"
+    ],
+    "very_eol": false
+}

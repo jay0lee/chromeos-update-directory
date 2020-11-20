@@ -1,0 +1,19 @@
+{
+    "app_board": "drallion-signed-mp-v2keys",
+    "board_id": "{ED3A4869-C380-4F79-A190-027C3E879357}",
+    "check_time": "2020-11-20 17:53:35.993163",
+    "chrome_version": "85.0.4183.131",
+    "chromeos_version": "13310.91.0",
+    "eol": true,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" version=\"13310.0.0\" board=\"drallion-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"DRALLION-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5072\" elapsed_seconds=\"35615\"/><app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" cohort=\"1:m:\" cohortname=\"drallion_drallion_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/drallion/13310.91.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/drallion/13310.91.0/stable-channel/\"/></urls><manifest version=\"13310.91.0\"><actions><action event=\"update\" run=\"chromeos_13310.91.0_drallion_stable-channel_full_mp-v2.bin-gvtdmyrqgi4taz7ag7cfxjpc66jv4oip.signed\"/><action ChromeOSVersion=\"13310.91.0\" ChromeVersion=\"85.0.4183.131\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"X6WUyvf8Ht1c4oG0oGWv+b0LLij9GMkcLEJym4k3vOGAFrrwpKZC9PqpDGO2VwHC2Huh/CefRfKmjedxvRmIc1xzy6E0/hm4HRDlpyyMqd8giYOgNJQa8iA+ahIvbbuYuf1YmO5gxqRZg834zQu20EW2Z0YMEsJCgXGDa7txLpILCxEE20PE3V2onIubM8hg0/klUW+u8wkQQ2mphQQj2HkIhKiQnuPX3s8Jw+vPNZmoLtLqb+UYJaJGtAyn/IcYYXviyGJv00iBoleqa/M0ytyjjkRquOh6bciIKCAtEGKOBC+ngRy6nmTWtufdF+sIocCHeNTRK7TbShfHUMycwg==\" MetadataSize=\"65953\" event=\"postinstall\" sha256=\"dqqpgNNnHYnOUebJXjmFXzve+LkHQXkP4ofU3f4v01c=\"/></actions><packages><package fp=\"3.76aaa980d3671d89ce51e6c95e39855f3bdef8b90741790fe287d4ddfe2fd357\" hash_sha256=\"76aaa980d3671d89ce51e6c95e39855f3bdef8b90741790fe287d4ddfe2fd357\" name=\"chromeos_13310.91.0_drallion_stable-channel_full_mp-v2.bin-gvtdmyrqgi4taz7ag7cfxjpc66jv4oip.signed\" required=\"true\" size=\"1230878773\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DRALLION-NNN",
+    "sha256": "76aaa980d3671d89ce51e6c95e39855f3bdef8b90741790fe287d4ddfe2fd357",
+    "size": 1230878773,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/drallion/13310.91.0/stable-channel/chromeos_13310.91.0_drallion_stable-channel_full_mp-v2.bin-gvtdmyrqgi4taz7ag7cfxjpc66jv4oip.signed",
+        "https://dl.google.com/chromeos/drallion/13310.91.0/stable-channel/chromeos_13310.91.0_drallion_stable-channel_full_mp-v2.bin-gvtdmyrqgi4taz7ag7cfxjpc66jv4oip.signed"
+    ],
+    "very_eol": true
+}
