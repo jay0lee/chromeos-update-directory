@@ -75,8 +75,8 @@ for data_file in data_files:
   data['crostini_support'] = os.path.isfile(crostini_path)
 
   # Get EOL / AUE date of image
-  hwclass_regex = data['hwidmatches'][0]
-  hwclass_regex = hwclass_regex.replace('.*', 'NNN')
+  wclass_regex = data['hwidmatches'][0]
+  wclass_regex = hwclass_regex.replace('.*', 'NNN')
   hardware_class = rstr.xeger(hwclass_regex)
   print(f'hwid: {hardware_class}')
   update_data = common.check_updates(
