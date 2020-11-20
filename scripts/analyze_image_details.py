@@ -15,7 +15,7 @@ import rstr
 import common 
 
 
-analysis_version = 6
+analysis_version = 7
 
 script_path, data_path = common.get_paths()
 mnt_path = f'{data_path}mnt/'
@@ -85,6 +85,7 @@ for data_file in data_files:
       data['chromeos_release_board'],
       'stable-channel',
       hardware_class)
+  data['sample_hwid'] = hardware_class
   data['aue_date'] = str(update_data.get('eol_date'))
   print(f'AUE date is {data["aue_date"]}')
   with open(data_file, 'w') as f:
