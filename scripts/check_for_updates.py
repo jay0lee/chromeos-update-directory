@@ -35,7 +35,6 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
     <updatecheck targetversionprefix="{pinned_release}"></updatecheck>
   </app>
 </request>'''
-        print(request)
         retries = 3 
         for n in range(1, retries+1): # loop in case of network error
             try:
@@ -43,7 +42,6 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
             except Exception as e:
                 continue
             xml_response_string = response.text
-            print(xml_response_string)
             json_response = dict(xmltodict.parse(xml_response_string))
             if (not 'response' in json_response) or ('@info' in json_response['response']['app']['updatecheck'] and json_response['response']['app']['updatecheck']['@info'] == 'rate limit'):
                 wait_on_fail = min(2 ** n, 60) + float(random.randint(1, 1000)) / 1000
@@ -107,9 +105,23 @@ def write_update_file(data_path, image, channel, update_data):
    update_path = f'{data_path}/updates/{image}/{channel}'
    os.makedirs(update_path, exist_ok=True)
    update_file = f'{update_path}/data.json'
-   with open(update_file, 'w') as f:
-       json.dump(update_data, f, indent=4, sort_keys=True)
-
+   write_update = False
+   try:
+      with open(update_file, 'r') as f:
+         old_data = json.load(f)
+         for item in ['chrome_version', 'chromeos_version', 'sha256']:
+             if old_data.get(item) != update_data.get(item):
+                 write_update = True
+                 print(f'Writing update since {item} changed')
+                 break
+   except:
+       print('writing update because exception occurred.')
+       write_update = True
+   if write_update:
+       with open(update_file, 'w') as f:
+           json.dump(update_data, f, indent=4, sort_keys=True)
+   else:
+       print('skipped writing update since no change')
 
 def main():
     script_path, data_path = common.get_paths()
