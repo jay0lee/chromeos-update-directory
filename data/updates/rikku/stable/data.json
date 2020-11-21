@@ -1,0 +1,20 @@
+{
+    "app_board": "rikku-signed-mp-v2keys",
+    "board_id": "{8F55A657-819A-4F70-B178-C7E2D54D7C0C}",
+    "check_time": "2020-11-21 19:35:48.783900",
+    "chrome_version": "86.0.4240.198",
+    "chromeos_version": "13421.99.0",
+    "eol": false,
+    "eol_date": "2021-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{8F55A657-819A-4F70-B178-C7E2D54D7C0C}\" version=\"0.0.0.0\" board=\"rikku-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"RIKKU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41748\"/><app appid=\"{8F55A657-819A-4F70-B178-C7E2D54D7C0C}\" cohort=\"1:4:\" cohortname=\"rikku_stable\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"35.2\" _firmware_version_0=\"35.2\" _firmware_version_1=\"35.2\" _firmware_version_2=\"35.2\" _firmware_version_3=\"35.2\" _firmware_version_4=\"35.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/rikku/13421.99.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/rikku/13421.99.0/stable-channel/\"/></urls><manifest version=\"13421.99.0\"><actions><action event=\"install\" run=\"chromeos_13421.99.0_rikku_stable-channel_full_mp-v2.bin-gvtgcytgmfrdgau7stqbhsxdrkk5hb62.signed\"/><action ChromeOSVersion=\"13421.99.0\" ChromeVersion=\"86.0.4240.198\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"BNcGI2QCXF49gK8Ak8QSHSw0qqiH7DBWalcIPbE0d0zXz7uhcXfbqJijRwM6JpOnUSUr04lkbyngztmv44789u+1Hfn8LyijiP2yR794QSzX9K4XzwafgzKPNb1BjPcnf7ca1nurCZFygaanvJB5dW1X8tbNyXiqJ74RM0E0fKJIMlk4YnPVOFRfVhMUbqjfqRPsMeWkQTn/Un4Sl1+zcLfg94Abmoild3QX1nFLIjNIdm5IJDkc/qZK9332UpIErXnkdv3cyLQNpwTVQ88yVrvHdmyuXP3e/sUkkTUylYQiBCu8PHFMcWT8VsAAG9tBG6Zugu+GSP/81xknwHmALA==\" MetadataSize=\"56498\" event=\"postinstall\" sha256=\"4X7NsS4uZCqDy5qvYcizEwVlBhqzddUnxaYHM0bHvz8=\"/></actions><packages><package fp=\"3.e17ecdb12e2e642a83cb9aaf61c8b3130565061ab375d527c5a6073346c7bf3f\" hash_sha256=\"e17ecdb12e2e642a83cb9aaf61c8b3130565061ab375d527c5a6073346c7bf3f\" name=\"chromeos_13421.99.0_rikku_stable-channel_full_mp-v2.bin-gvtgcytgmfrdgau7stqbhsxdrkk5hb62.signed\" required=\"true\" size=\"622510779\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "RIKKU NNN",
+    "sha256": "e17ecdb12e2e642a83cb9aaf61c8b3130565061ab375d527c5a6073346c7bf3f",
+    "size": 622510779,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/rikku/13421.99.0/stable-channel/chromeos_13421.99.0_rikku_stable-channel_full_mp-v2.bin-gvtgcytgmfrdgau7stqbhsxdrkk5hb62.signed",
+        "https://dl.google.com/chromeos/rikku/13421.99.0/stable-channel/chromeos_13421.99.0_rikku_stable-channel_full_mp-v2.bin-gvtgcytgmfrdgau7stqbhsxdrkk5hb62.signed"
+    ],
+    "very_eol": false
+}

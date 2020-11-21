@@ -1,0 +1,17 @@
+{
+    "app_board": "banjo-signed-mp-v2keys",
+    "board_id": "{3A837630-D749-4B7A-86C1-DB0ECC07A08B}",
+    "check_time": "2020-11-21 19:36:06.753503",
+    "chrome_version": "85.0.4183.133",
+    "chromeos_version": "13310.93.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{3A837630-D749-4B7A-86C1-DB0ECC07A08B}\" version=\"13310.0.0\" board=\"banjo-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"BANJO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41766\"/><app appid=\"{3A837630-D749-4B7A-86C1-DB0ECC07A08B}\" cohort=\"1:4:\" cohortname=\"banjo_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/banjo/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/banjo/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_banjo_stable-channel_full_mp-v2.bin-gvtdmzbzgvsgntvoeoewg5vylbdnfeke.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"gyrhuuOZf96YZLANTT8AMmVSVkOOT9/eVeT1ng2l2Oz0KtK1Ehw5+yWtB2lnkYCNYladVrKPzv2M0JACLXs3gM9wpdDn3m+rhO0xMPUeYZ65vLWnANVLhAPtHC4VInb/jNy58VgVBP+Ltuhk+bGlXzBQG7S9cyf6zwwe5fut/IdHmn6QkX1sANgU/BLNV5sJBu/r+JOsHFvJyEi1ok3i/bEp9Im5BAWl0OPkqGZVwMWnNImiOm/G39kYwO1/0pvu4+yX/IML4FN25KymeFXKdS+oEmnrQbYROouz7vsure3cyKhAal4b0D7jZ50VJXO1LACCMLRp9baWzkrg8TMYtg==\" MetadataSize=\"56348\" event=\"postinstall\" sha256=\"XTJqJlHofNbc+o0qkbz7OlkjaAO4KmcjVQxjEI01AkY=\"/></actions><packages><package fp=\"3.5d326a2651e87cd6dcfa8d2a91bcfb3a59236803b82a6723550c63108d350246\" hash_sha256=\"5d326a2651e87cd6dcfa8d2a91bcfb3a59236803b82a6723550c63108d350246\" name=\"chromeos_13310.93.0_banjo_stable-channel_full_mp-v2.bin-gvtdmzbzgvsgntvoeoewg5vylbdnfeke.signed\" required=\"true\" size=\"530356004\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "BANJO NNN",
+    "sha256": "5d326a2651e87cd6dcfa8d2a91bcfb3a59236803b82a6723550c63108d350246",
+    "size": 530356004,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/banjo/13310.93.0/stable-channel/chromeos_13310.93.0_banjo_stable-channel_full_mp-v2.bin-gvtdmzbzgvsgntvoeoewg5vylbdnfeke.signed",
+        "https://dl.google.com/chromeos/banjo/13310.93.0/stable-channel/chromeos_13310.93.0_banjo_stable-channel_full_mp-v2.bin-gvtdmzbzgvsgntvoeoewg5vylbdnfeke.signed"
+    ]
+}

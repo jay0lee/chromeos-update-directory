@@ -1,0 +1,17 @@
+{
+    "app_board": "veyron_tiger-signed-mpkeys",
+    "board_id": "{549D848C-2674-F41D-AE75-E163F8612099}",
+    "check_time": "2020-11-21 19:36:48.422307",
+    "chrome_version": "81.0.4044.141",
+    "chromeos_version": "12871.102.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{549D848C-2674-F41D-AE75-E163F8612099}\" version=\"12871.0.0\" board=\"veyron_tiger-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"TIGER NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"12871\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41808\"/><app appid=\"{549D848C-2674-F41D-AE75-E163F8612099}\" cohort=\"1:4:\" cohortname=\"veyron-tiger_stable\" status=\"ok\"><updatecheck _eol_date=\"19025\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/veyron-tiger/12871.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/veyron-tiger/12871.102.0/stable-channel/\"/></urls><manifest version=\"12871.102.0\"><actions><action event=\"update\" run=\"chromeos_12871.102.0_veyron-tiger_stable-channel_full_tiger-mp.bin-gvswemjumizwf3dbetr3qfc6k4to3tcu.signed\"/><action ChromeOSVersion=\"12871.102.0\" ChromeVersion=\"81.0.4044.141\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"mjiyPD1pFcrqR0ZS6HsWuOqakGLToxFCQuiKslKce+/J6XnZR8ESQ0HEuDBwCKgwPYa8KTqkL05bKKkwHF68j+g6zbpK1ideexNYngANFe7Z7swLHQRQxADKQS5QyDDa+ryG3BSC6FcH1R8PLLRVOTn7mb1D2T2nMbT6mzqg8cV0jXl++6lNBA9NXKfRJZFsil/LY5Me/Nd9TozZBXwf+GA5BfKDm/tCwJquOPn86b7TJ7nQ/CzxKtnsY9H8/XRaVD/QmSJfc4XXHllSlyVIeuf6JhslVPX09r4bh/LACp4FY65otHbaLqEJyjsG+x8tuIhqMl/kmY71B3+aMgEuFA==\" MetadataSize=\"56805\" event=\"postinstall\" sha256=\"L/RbTmuHPn+H2SgSo/TZWNlkpONTzd9XDfcVM0kUd8w=\"/></actions><packages><package fp=\"3.2ff45b4e6b873e7f87d92812a3f4d958d964a4e353cddf570df71533491477cc\" hash_sha256=\"2ff45b4e6b873e7f87d92812a3f4d958d964a4e353cddf570df71533491477cc\" name=\"chromeos_12871.102.0_veyron-tiger_stable-channel_full_tiger-mp.bin-gvswemjumizwf3dbetr3qfc6k4to3tcu.signed\" required=\"true\" size=\"893125359\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TIGER NNN",
+    "sha256": "2ff45b4e6b873e7f87d92812a3f4d958d964a4e353cddf570df71533491477cc",
+    "size": 893125359,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/veyron-tiger/12871.102.0/stable-channel/chromeos_12871.102.0_veyron-tiger_stable-channel_full_tiger-mp.bin-gvswemjumizwf3dbetr3qfc6k4to3tcu.signed",
+        "https://dl.google.com/chromeos/veyron-tiger/12871.102.0/stable-channel/chromeos_12871.102.0_veyron-tiger_stable-channel_full_tiger-mp.bin-gvswemjumizwf3dbetr3qfc6k4to3tcu.signed"
+    ]
+}

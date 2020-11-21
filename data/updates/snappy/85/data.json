@@ -1,0 +1,17 @@
+{
+    "app_board": "snappy-signed-mpkeys",
+    "board_id": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "check_time": "2020-11-21 19:36:44.055000",
+    "chrome_version": "85.0.4183.133",
+    "chromeos_version": "13310.93.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}\" version=\"13310.0.0\" board=\"snappy-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SNAPPY Q6BYDTFKOS0ELVQL-BJD-JCQRW9F7N6DJNXI8SPXR70QOOW-7GVCKN-OJZHMCMVWD95FP55\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41804\"/><app appid=\"{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}\" cohort=\"1:30:\" cohortname=\"snappy_alan_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/snappy/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/snappy/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_snappy_stable-channel_full_mp.bin-gvtdmzdbmnrdsnv7mn7xrhajykqacovw.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"T6O7KSVwNNgPGrym1NLgmCH9BysN9iof45A3H46H+6bvTtuWwHpZ30Jc+ktoUPVsPry5kA+ZyVdT8ak0+Qbxh/di5GKEDUEmrHtnO5evlaLZgEDxwgAVvrLcwDkHsYMBjHp5QmrQLUVwpvUr2Q6T+a+ONr4Bjv1AJ3rMbJh3NdyGi8pW3XMvHXbutJFxjyIg/LTW+IGPAQLYxK0a2U6k+z/xlDbFaplyjnOI0lJfNbwhdgXWy5/uDiLy2FU/gVHu+sXrCre8bXhwwTuF080ZfYhyy202pM1jOzKkcmjHn0k4Vm5lyrfNWSUq65eDATr8owCK1Yn0ohGdl3CeTNvOzA==\" MetadataSize=\"57097\" event=\"postinstall\" sha256=\"aTyGYLPldh9pffZJUgiDFZYbcoGRXnidtjdMWgUr/Zc=\"/></actions><packages><package fp=\"3.693c8660b3e5761f697df64952088315961b7281915e789db6374c5a052bfd97\" hash_sha256=\"693c8660b3e5761f697df64952088315961b7281915e789db6374c5a052bfd97\" name=\"chromeos_13310.93.0_snappy_stable-channel_full_mp.bin-gvtdmzdbmnrdsnv7mn7xrhajykqacovw.signed\" required=\"true\" size=\"1016708437\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SNAPPY Q6BYDTFKOS0ELVQL-BJD-JCQRW9F7N6DJNXI8SPXR70QOOW-7GVCKN-OJZHMCMVWD95FP55",
+    "sha256": "693c8660b3e5761f697df64952088315961b7281915e789db6374c5a052bfd97",
+    "size": 1016708437,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/snappy/13310.93.0/stable-channel/chromeos_13310.93.0_snappy_stable-channel_full_mp.bin-gvtdmzdbmnrdsnv7mn7xrhajykqacovw.signed",
+        "https://dl.google.com/chromeos/snappy/13310.93.0/stable-channel/chromeos_13310.93.0_snappy_stable-channel_full_mp.bin-gvtdmzdbmnrdsnv7mn7xrhajykqacovw.signed"
+    ]
+}

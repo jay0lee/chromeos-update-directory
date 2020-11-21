@@ -1,0 +1,17 @@
+{
+    "app_board": "grunt-signed-mp-v5keys",
+    "board_id": "{9496CDE8-85E6-4118-960F-E26DC0C69FD6}",
+    "check_time": "2020-11-21 19:36:20.289912",
+    "chrome_version": "85.0.4183.133",
+    "chromeos_version": "13310.93.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{9496CDE8-85E6-4118-960F-E26DC0C69FD6}\" version=\"13310.0.0\" board=\"grunt-signed-mp-v5keys\" track=\"stable-channel\" hardware_class=\"TREEYA-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41780\"/><app appid=\"{9496CDE8-85E6-4118-960F-E26DC0C69FD6}\" cohort=\"1:5u:\" cohortname=\"grunt_treeya_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/grunt/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/grunt/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_grunt_stable-channel_full_mp-v5.bin-gvtdmzdbgbrgfwenp5nf7sh7aeqtc6k5.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"gP8msnyRedg3Y7BoswfAHiTHBBQqDG4G977s+1OyZ/avMXXnjQmOpAQkeM7wXCka3VjMVOeFNmqav1lkCIc7PudylLpnjdxVD3c7OW6zwv/bov6fEBY/iq1iSVoleN5kPyxlFW91XLKeaJrZq0/j0LhM+BwQNx8T8pQ0pL2yZcZjKYMoBegbu4S/mtMX0nmqA4Vx6IbEOA1Kh44hY08ebvFUOPzP8Z/WrvwssAd3Z48C8Hh8eZraA4U7f+y39XvaIDF+b3Wk3nWrj3sy8OXOHiP9XdqR1bM9xJ+1Obz1ek2XY7ULSrosShrziJHo5vBIJpmu2qnYBw44RDNQwYgUuA==\" MetadataSize=\"65693\" event=\"postinstall\" sha256=\"IcPlyop24orLhsCbT+WqkkAGZLlBX6bBMmt+72nPfX0=\"/></actions><packages><package fp=\"3.21c3e5ca8a76e28acb86c09b4fe5aa92400664b9415fa6c1326b7eef69cf7d7d\" hash_sha256=\"21c3e5ca8a76e28acb86c09b4fe5aa92400664b9415fa6c1326b7eef69cf7d7d\" name=\"chromeos_13310.93.0_grunt_stable-channel_full_mp-v5.bin-gvtdmzdbgbrgfwenp5nf7sh7aeqtc6k5.signed\" required=\"true\" size=\"1040455580\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TREEYA-NNN",
+    "sha256": "21c3e5ca8a76e28acb86c09b4fe5aa92400664b9415fa6c1326b7eef69cf7d7d",
+    "size": 1040455580,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/grunt/13310.93.0/stable-channel/chromeos_13310.93.0_grunt_stable-channel_full_mp-v5.bin-gvtdmzdbgbrgfwenp5nf7sh7aeqtc6k5.signed",
+        "https://dl.google.com/chromeos/grunt/13310.93.0/stable-channel/chromeos_13310.93.0_grunt_stable-channel_full_mp-v5.bin-gvtdmzdbgbrgfwenp5nf7sh7aeqtc6k5.signed"
+    ]
+}

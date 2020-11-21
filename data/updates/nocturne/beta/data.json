@@ -1,0 +1,17 @@
+{
+    "app_board": "nocturne-signed-mpkeys",
+    "board_id": "{BD7F7139-CC18-49C1-A847-33F155CCBCA8}",
+    "check_time": "2020-11-21 19:35:41.225338",
+    "chrome_version": "87.0.4280.66",
+    "chromeos_version": "13505.48.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BD7F7139-CC18-49C1-A847-33F155CCBCA8}\" version=\"13421.0.0\" board=\"nocturne-signed-mpkeys\" track=\"beta-channel\" hardware_class=\"NOCTURNE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41741\"/><app appid=\"{BD7F7139-CC18-49C1-A847-33F155CCBCA8}\" cohort=\"1:1y:\" cohortname=\"nocturne_nocturne_beta\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/nocturne/13505.48.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nocturne/13505.48.0/beta-channel/\"/></urls><manifest version=\"13505.48.0\"><actions><action event=\"update\" run=\"chromeos_13505.48.0_nocturne_beta-channel_full_mp.bin-gvtgemzzgq3gckv4gljkty4brjbk6v7k.signed\"/><action ChromeOSVersion=\"13505.48.0\" ChromeVersion=\"87.0.4280.66\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"bfMfIn1+LYee0zjMF74i3+uUUwpXQzhznxAwNkJ625w8DgnPUFiiY2dd7kvdaWTYRV2+OZyGl5mRpwoLLX7BCynTEQc7RBOy6FS4pspkbHhrTihblxJjdPZN60lBMjIyHQyIQpY4j0ZVq+9RCeu5B8obyZ3RSBWEZV7KM6Iq6i0Ydub3hEubph+/ymAHIHw2s6zC6gzn3n9N2dytS8TJ87i7O6zxz2NKK3JujMHWmzuzQLvYPC7tDoj0GCsG/7qMUrAHCQvrf6r5n52+5rexfmwJ1mDI3k3PmanNMyBxaFKmR0upT9nGpLy+lFAD087SucxKH0h/yuVIZSJJHKgZHA==\" MetadataSize=\"65774\" event=\"postinstall\" sha256=\"3A+Eu7jzcdHGarinp62gJb9YYXC60TbPyVdTJA2JQzE=\"/></actions><packages><package fp=\"3.dc0f84bbb8f371d1c66ab8a7a7ada025bf586170bad136cfc95753240d894331\" hash_sha256=\"dc0f84bbb8f371d1c66ab8a7a7ada025bf586170bad136cfc95753240d894331\" name=\"chromeos_13505.48.0_nocturne_beta-channel_full_mp.bin-gvtgemzzgq3gckv4gljkty4brjbk6v7k.signed\" required=\"true\" size=\"1203881114\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "NOCTURNE NNN",
+    "sha256": "dc0f84bbb8f371d1c66ab8a7a7ada025bf586170bad136cfc95753240d894331",
+    "size": 1203881114,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/nocturne/13505.48.0/beta-channel/chromeos_13505.48.0_nocturne_beta-channel_full_mp.bin-gvtgemzzgq3gckv4gljkty4brjbk6v7k.signed",
+        "https://dl.google.com/chromeos/nocturne/13505.48.0/beta-channel/chromeos_13505.48.0_nocturne_beta-channel_full_mp.bin-gvtgemzzgq3gckv4gljkty4brjbk6v7k.signed"
+    ]
+}

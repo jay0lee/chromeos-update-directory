@@ -1,0 +1,17 @@
+{
+    "app_board": "buddy-signed-mp-v2keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2020-11-21 19:35:10.707016",
+    "chrome_version": "88.0.4324.0",
+    "chromeos_version": "13603.0.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"13421.0.0\" board=\"buddy-signed-mp-v2keys\" track=\"canary-channel\" hardware_class=\"BUDDY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41710\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:2a:\" cohortname=\"buddy_canary\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"50.2\" _kernel_version=\"2.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13603.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13603.0.0/\"/></urls><manifest version=\"13603.0.0\"><actions><action event=\"update\" run=\"chromeos_13603.0.0_buddy_canary-channel_full_mp-v2.bin-gvtgemzqgeydp57s3v6fe6mlobaug7oh.signed\"/><action ChromeOSVersion=\"13603.0.0\" ChromeVersion=\"88.0.4324.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"mvelDil2FHyErRR5KWksAQ8r7aCCezMx0pgJtuVUgKzoBHcrkdP0BLb4IzMfUmxSaLWFrZwQjuQR0bYbtPBCcVbwPljcc3goxrTvS+87iXbAKZkYuvPgLT0XKTbATeClbQkghtfIrPN/xtYEllEDi/aOY/PXMhhXX+02f+q7vyxCrcCkfQ79bG3VjgB1KECdPpJE5Mkp3B3cp/EcxvRYEVTQ6gAMF4c9+INHvHQfKHwaL559tfSCwB2UyaZVlGIdpNd6cQETHDdUFcIPJvE+AQucQNNmfMJskpReAtRsEMgixhtULi5a/aCn/m59Js1roEJvSeKCCzfZH5Zl2kEpfQ==\" MetadataSize=\"56421\" event=\"postinstall\" sha256=\"XsFiRxeth460ZAFj2w1ADXmHJbDrL4/hjt+PCOz3Q/A=\"/></actions><packages><package fp=\"3.5ec1624717ad878eb4640163db0d400d798725b0eb2f8fe18edf8f08ecf743f0\" hash_sha256=\"5ec1624717ad878eb4640163db0d400d798725b0eb2f8fe18edf8f08ecf743f0\" name=\"chromeos_13603.0.0_buddy_canary-channel_full_mp-v2.bin-gvtgemzqgeydp57s3v6fe6mlobaug7oh.signed\" required=\"true\" size=\"620350164\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "BUDDY NNN",
+    "sha256": "5ec1624717ad878eb4640163db0d400d798725b0eb2f8fe18edf8f08ecf743f0",
+    "size": 620350164,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13603.0.0/chromeos_13603.0.0_buddy_canary-channel_full_mp-v2.bin-gvtgemzqgeydp57s3v6fe6mlobaug7oh.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13603.0.0/chromeos_13603.0.0_buddy_canary-channel_full_mp-v2.bin-gvtgemzqgeydp57s3v6fe6mlobaug7oh.signed"
+    ]
+}

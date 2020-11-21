@@ -1,0 +1,17 @@
+{
+    "app_board": "grunt-signed-mp-v5keys",
+    "board_id": "{9496CDE8-85E6-4118-960F-E26DC0C69FD6}",
+    "check_time": "2020-11-21 19:35:24.948725",
+    "chrome_version": "87.0.4280.66",
+    "chromeos_version": "13505.48.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{9496CDE8-85E6-4118-960F-E26DC0C69FD6}\" version=\"13421.0.0\" board=\"grunt-signed-mp-v5keys\" track=\"beta-channel\" hardware_class=\"TREEYA-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41724\"/><app appid=\"{9496CDE8-85E6-4118-960F-E26DC0C69FD6}\" cohort=\"1:5c:\" cohortname=\"grunt_treeya_beta\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/grunt/13505.48.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/grunt/13505.48.0/beta-channel/\"/></urls><manifest version=\"13505.48.0\"><actions><action event=\"update\" run=\"chromeos_13505.48.0_grunt_beta-channel_full_mp-v6.bin-gvtgemzymjstdlaiwuxvehcu2wcvao6d.signed\"/><action ChromeOSVersion=\"13505.48.0\" ChromeVersion=\"87.0.4280.66\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"wZMzfGQ+eVq1S/yh8hLoAqSi19D+ypaIzKXj6cpwjeEwwlqi1iJaL3gUJfvc8hEUvEXe93wOe/qt0sfwxhBudXlioR473X1m72gUmIekxzsBVx2zLP5yBLlbtZK4rbLUoZLpOJ61VVY6zCSZl9202aYgpW0w+BzNwPq7Zjiu7sJBdl6cq9YyNaD39DsfOTlL+uY3X59fCYnQfH4N9TTBqSR9wUXQ9CRlsK3pYr9dEudn0y1MnLJY+KM5Z+LKRdmDBghG1NEGYR2xZDljd0us9FrZBGWYLOnmQ/GRZNOvDROmO/1URMZEjWT8wQ7BFxGoSMXlxP6r0zi4Hoo/0xh5yw==\" MetadataSize=\"65617\" event=\"postinstall\" sha256=\"Eavwq8o7JNZX9zh9MMqYT4sQAdbhyxJ7sALvDJhpzJ0=\"/></actions><packages><package fp=\"3.11abf0abca3b24d657f7387d30ca984f8b1001d6e1cb127bb002ef0c9869cc9d\" hash_sha256=\"11abf0abca3b24d657f7387d30ca984f8b1001d6e1cb127bb002ef0c9869cc9d\" name=\"chromeos_13505.48.0_grunt_beta-channel_full_mp-v6.bin-gvtgemzymjstdlaiwuxvehcu2wcvao6d.signed\" required=\"true\" size=\"1038322770\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TREEYA-NNN",
+    "sha256": "11abf0abca3b24d657f7387d30ca984f8b1001d6e1cb127bb002ef0c9869cc9d",
+    "size": 1038322770,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/grunt/13505.48.0/beta-channel/chromeos_13505.48.0_grunt_beta-channel_full_mp-v6.bin-gvtgemzymjstdlaiwuxvehcu2wcvao6d.signed",
+        "https://dl.google.com/chromeos/grunt/13505.48.0/beta-channel/chromeos_13505.48.0_grunt_beta-channel_full_mp-v6.bin-gvtgemzymjstdlaiwuxvehcu2wcvao6d.signed"
+    ]
+}

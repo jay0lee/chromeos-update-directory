@@ -1,0 +1,20 @@
+{
+    "app_board": "auron_paine-signed-mp-v2keys",
+    "board_id": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+    "check_time": "2020-11-21 19:35:43.122034",
+    "chrome_version": "86.0.4240.198",
+    "chromeos_version": "13421.99.0",
+    "eol": false,
+    "eol_date": "2021-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" version=\"0.0.0.0\" board=\"auron_paine-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"PAINE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41743\"/><app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" cohort=\"1:4:\" cohortname=\"auron-paine_stable\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/auron-paine/13421.99.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/auron-paine/13421.99.0/stable-channel/\"/></urls><manifest version=\"13421.99.0\"><actions><action event=\"install\" run=\"chromeos_13421.99.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gvtgcytgmy2tsach7citbcssgopehjlk.signed\"/><action ChromeOSVersion=\"13421.99.0\" ChromeVersion=\"86.0.4240.198\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"AabYeHhyu13DPDDXR8vWqKrwYq2qCswJmR7an1eXlVNbeonKyBwPWVtRWYgnp2CSj0iaod3spIMsK/SLjrdHVklW7jAHyLKDjxJ+/Pjq7a1AXbvn6KTf3b8/BoDTe0856hzqVCl3lNI6BmrE7+BILiKIPuCAIT2n0G+yZ+4ueExQEdl+ErltNVwNqyTbeHmZOFZ9Vg/U/Ruqh08Xzeqxsl50uOMPWM0qInHH2gr6k4oXtqOF6rMpzL2bynj10hTivEEwmc9WEgJespOXQGKWJ/tVJvgDnh7kw1Pmzpn98KHP4CddpYB9Qtbn+x+wh1+srP+5ZJmqc9efJBqNyHS5aQ==\" MetadataSize=\"57041\" event=\"postinstall\" sha256=\"vxyLwbcJPOlc3UQKfLJUoFd5PRFy4B6FYTprY2IcBO0=\"/></actions><packages><package fp=\"3.bf1c8bc1b7093ce95cdd440a7cb254a057793d1172e01e85613a6b63621c04ed\" hash_sha256=\"bf1c8bc1b7093ce95cdd440a7cb254a057793d1172e01e85613a6b63621c04ed\" name=\"chromeos_13421.99.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gvtgcytgmy2tsach7citbcssgopehjlk.signed\" required=\"true\" size=\"1001287705\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "PAINE NNN",
+    "sha256": "bf1c8bc1b7093ce95cdd440a7cb254a057793d1172e01e85613a6b63621c04ed",
+    "size": 1001287705,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/auron-paine/13421.99.0/stable-channel/chromeos_13421.99.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gvtgcytgmy2tsach7citbcssgopehjlk.signed",
+        "https://dl.google.com/chromeos/auron-paine/13421.99.0/stable-channel/chromeos_13421.99.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gvtgcytgmy2tsach7citbcssgopehjlk.signed"
+    ],
+    "very_eol": false
+}

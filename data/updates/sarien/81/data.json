@@ -1,0 +1,17 @@
+{
+    "app_board": "sarien-signed-mp-v3keys",
+    "board_id": "{E3B85B97-1771-4440-9691-D1983FEF60EB}",
+    "check_time": "2020-11-21 19:36:41.054753",
+    "chrome_version": "81.0.4044.141",
+    "chromeos_version": "12871.102.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E3B85B97-1771-4440-9691-D1983FEF60EB}\" version=\"12871.0.0\" board=\"sarien-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"ARCADA-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"12871\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41801\"/><app appid=\"{E3B85B97-1771-4440-9691-D1983FEF60EB}\" cohort=\"1:h:\" cohortname=\"sarien_arcada_stable\" status=\"ok\"><updatecheck _eol_date=\"20691\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sarien/12871.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sarien/12871.102.0/stable-channel/\"/></urls><manifest version=\"12871.102.0\"><actions><action event=\"update\" run=\"chromeos_12871.102.0_sarien_stable-channel_full_mp-v3.bin-gvswemjvgnrtg4f5z3n6wdgzdihpv6iv.signed\"/><action ChromeOSVersion=\"12871.102.0\" ChromeVersion=\"81.0.4044.141\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"YC+e2GCHDvsyTADa+ySHYc7kgDTWo/WIhXcmDk5lx5yOGP3w0jBXLd+Vp0f5eUcDFjqaCmv5TlJxGP0ietapVbxWbaHEx/EC6eSeG8oyKvXLjT0JKUo2cSlnhvBYHkOptkgFKRD3fA8SNp5ICYtWuyBA6Q22jaaXstO7lGObdoWseRmT22cm0L72O9G9yHqGjJxf+Ve1I+wBSfKmLcfsQ9Y4358ybBXnYunC54EY8xBPt319taSeeU7A1KM04I3jzlcDhxnYbuOUMo+q6fRiQXP7RxSPpFnhHYumhykJakUuDVTmiEVeGOpyIlDOdEKBnOnqy3AUwFNkQQbOKtH/zw==\" MetadataSize=\"66355\" event=\"postinstall\" sha256=\"RlFjF9+AJhRaR83YfL5zA7Tg0ppkaXQHeJ7ohQGaUP4=\"/></actions><packages><package fp=\"3.46516317df8026145a47cdd87cbe7303b4e0d29a64697407789ee885019a50fe\" hash_sha256=\"46516317df8026145a47cdd87cbe7303b4e0d29a64697407789ee885019a50fe\" name=\"chromeos_12871.102.0_sarien_stable-channel_full_mp-v3.bin-gvswemjvgnrtg4f5z3n6wdgzdihpv6iv.signed\" required=\"true\" size=\"1109499276\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "ARCADA-NNN",
+    "sha256": "46516317df8026145a47cdd87cbe7303b4e0d29a64697407789ee885019a50fe",
+    "size": 1109499276,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/sarien/12871.102.0/stable-channel/chromeos_12871.102.0_sarien_stable-channel_full_mp-v3.bin-gvswemjvgnrtg4f5z3n6wdgzdihpv6iv.signed",
+        "https://dl.google.com/chromeos/sarien/12871.102.0/stable-channel/chromeos_12871.102.0_sarien_stable-channel_full_mp-v3.bin-gvswemjvgnrtg4f5z3n6wdgzdihpv6iv.signed"
+    ]
+}

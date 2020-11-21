@@ -1,0 +1,17 @@
+{
+    "app_board": "kip-signed-mp-v3keys",
+    "board_id": "{BBE772C3-5541-6976-C676-54FD72D41B2B}",
+    "check_time": "2020-11-21 19:36:27.175098",
+    "chrome_version": "85.0.4183.133",
+    "chromeos_version": "13310.93.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BBE772C3-5541-6976-C676-54FD72D41B2B}\" version=\"13310.0.0\" board=\"kip-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"NO MATCH JUST FOR ENTRY\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41787\"/><app appid=\"{BBE772C3-5541-6976-C676-54FD72D41B2B}\" cohort=\"1:4:\" cohortname=\"kip_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kip/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kip/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_kip_stable-channel_full_mp-v3.bin-gvtdmzbzhbrtid3qxku5kpjdczqijzbg.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"oXrrjFVcH9E1OiUSSJ3KlPBm1M7Y4D9tt8lLXQ2uZmQgvYVPSOLWfcqHZKb8NpTYs5nrzgnqtASJbjwV7JbA2PAxWjH7LWuFOzfVFyKjgeGIp4q/VDtl9npGhaHA804mTs1RSn/epHxYyCU3inu9d/z2UE1y1YnpAfqwCqU74QCd7eDfW2+jP6p2xus/wLhwUwkVU/Fa4okQWUH5DG3ED11zvI8VRtjDmuiLri5QSv5brdB3Uo6IXccDLnyBWqc+AP0ZGwNF+S+n3Jp0dAverj7wc3Fjcfxm9yVrdFLN3poDF8f2nOYAf92rX2OchKGkgTLGhyGJfPD0IjvUMjnMWw==\" MetadataSize=\"56290\" event=\"postinstall\" sha256=\"Pky1gi6WQoKzx2xwDhorKBXILxtcIjIpe6CzgYUQYio=\"/></actions><packages><package fp=\"3.3e4cb5822e964282b3c76c700e1a2b2815c82f1b5c2232297ba0b3818510622a\" hash_sha256=\"3e4cb5822e964282b3c76c700e1a2b2815c82f1b5c2232297ba0b3818510622a\" name=\"chromeos_13310.93.0_kip_stable-channel_full_mp-v3.bin-gvtdmzbzhbrtid3qxku5kpjdczqijzbg.signed\" required=\"true\" size=\"530616132\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "NO MATCH JUST FOR ENTRY",
+    "sha256": "3e4cb5822e964282b3c76c700e1a2b2815c82f1b5c2232297ba0b3818510622a",
+    "size": 530616132,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/kip/13310.93.0/stable-channel/chromeos_13310.93.0_kip_stable-channel_full_mp-v3.bin-gvtdmzbzhbrtid3qxku5kpjdczqijzbg.signed",
+        "https://dl.google.com/chromeos/kip/13310.93.0/stable-channel/chromeos_13310.93.0_kip_stable-channel_full_mp-v3.bin-gvtdmzbzhbrtid3qxku5kpjdczqijzbg.signed"
+    ]
+}
