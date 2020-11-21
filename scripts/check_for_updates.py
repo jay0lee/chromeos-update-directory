@@ -11,13 +11,17 @@ from time import sleep, strftime
 
 import common
 
+from distutils.version import LooseVersion
 import requests
 import xmltodict
 
 
 update_url = 'https://tools.google.com/service/update2'
+global something_changed
+something_changed = False
 
 def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0.0.0', pinned_release='', channel='stable'):
+    global something_changed
     if pinned_release:
         old_release = pinned_release
     # append .0.0 to old release if needed
@@ -96,9 +100,10 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
     # Ensure we are always setting eol and very_eol.
     # if we didn't get them, safe to assume device is
     # both
-    for key in ['eol', 'very_eol']:
-        if key not in latest_update_info:
-            latest_update_info[key] = True
+    if channel == 'stable' and pinned_release == '':
+        for key in ['eol', 'very_eol']:
+            if key not in latest_update_info:
+                latest_update_info[key] = True
     return latest_update_info
 
 def write_update_file(data_path, image, channel, update_data):
@@ -120,10 +125,12 @@ def write_update_file(data_path, image, channel, update_data):
    if write_update:
        with open(update_file, 'w') as f:
            json.dump(update_data, f, indent=4, sort_keys=True)
+       something_changed = True
    else:
        print('skipped writing update since no change')
 
 def main():
+    global something_changed
     script_path, data_path = common.get_paths()
 
     with open(f'{data_path}chrome_versions.json') as f:
@@ -179,10 +186,11 @@ def main():
             images[image] = updates
     oldest_pin = newest_stable - 5
     for image in images:
+        print(image)
         board_id = images[image]['stable']['board_id']
         hwid = images[image]['stable']['sample_hwid']
         app_board = images[image]['stable']['app_board']
-        for chrome_milestone in range(oldest_pin, stable_chrome_milestone):
+        for chrome_milestone in range(oldest_pin, stable_chrome_milestone+1):
             chromeos_milestone = str(chrome_versions.get(str(chrome_milestone)))
             images[image][chrome_milestone] = getBoardUpdate(image,
                                                         board_id,
@@ -192,6 +200,31 @@ def main():
                                                         channel='stable',
                                                         pinned_release=chromeos_milestone)
             write_update_file(data_path, image, chrome_milestone, images[image][chrome_milestone])
+
+    if something_changed or True:
+        # find most common versions
+        versions = {}
+        newest_versions = {}
+        for image in images:
+            for m in images[image]:
+                chromeos_version = images[image][m].get('chromeos_version')
+                if not chromeos_version:
+                    continue
+                versions[m] = versions.get(m, {})
+                versions[m][chromeos_version] = versions[m].get(chromeos_version, 0) + 1
+                current_newest = newest_versions.get(m)
+                print(f'{image} {m} is {chromeos_version} greater than {current_newest} ?')
+                if not current_newest or LooseVersion(chromeos_version) > LooseVersion(current_newest):
+                    newest_versions[str(m)] = chromeos_version
+        most_common_versions = {}
+        for m in versions:
+            for v in versions[m]:
+                if m not in most_common_versions or versions[m].get(v, 0) > versions[m].get(most_common_versions[m], 0):
+                    most_common_versions[str(m)] = v
+        collected_versions = {'most_common': most_common_versions, 'newest': newest_versions}
+        print(collected_versions)
+        with open(f'{data_path}update_versions.json', 'w') as f:
+            json.dump(collected_versions, f, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__':
