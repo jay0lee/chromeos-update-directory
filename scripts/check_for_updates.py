@@ -80,17 +80,18 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
             for codebase in json_response['response']['app']['updatecheck']['urls']['url']:
                 update_info['urls'].append(codebase['@codebase'] + json_response['response']['app']['updatecheck']['manifest']['packages']['package']['@name'])
             update_info['sha256'] = json_response['response']['app']['updatecheck']['manifest']['packages']['package']['@hash_sha256']
-            eol_date = json_response['response']['app']['updatecheck'].get('@_eol_date')
-            if eol_date:
-                add_days = datetime.timedelta(days=int(eol_date))
-                epoch = datetime.datetime(1970,1,1)
-                eol_date = epoch + add_days
-                update_info['eol_date'] = str(eol_date)
-            else:
-                # devices w/o eol_date in response are very_eol
-                eol_date = six_months_ago
-            update_info['eol'] = today >= eol_date
-            update_info['very_eol'] = six_months_ago >= eol_date 
+            if channel == 'stable' and pinned_release == '':
+                eol_date = json_response['response']['app']['updatecheck'].get('@_eol_date')
+                if eol_date:
+                    add_days = datetime.timedelta(days=int(eol_date))
+                    epoch = datetime.datetime(1970,1,1)
+                    eol_date = epoch + add_days
+                    update_info['eol_date'] = str(eol_date)
+                else:
+                    # devices w/o eol_date in response are very_eol
+                    eol_date = six_months_ago
+                update_info['eol'] = today >= eol_date
+                update_info['very_eol'] = six_months_ago >= eol_date
         except (KeyError, IndexError) as e:
             pass
         latest_update_info = dict(update_info)
@@ -201,7 +202,7 @@ def main():
                                                         pinned_release=chromeos_milestone)
             write_update_file(data_path, image, chrome_milestone, images[image][chrome_milestone])
 
-    if something_changed or True:
+    if something_changed:
         # find most common versions
         versions = {}
         newest_versions = {}
