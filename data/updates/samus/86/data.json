@@ -1,0 +1,20 @@
+{
+    "app_board": "samus-signed-mp-v3keys",
+    "board_id": "{F67500C1-C6D8-5287-E4EC-F9BBB4AEE5C5}",
+    "check_time": "2020-11-21 19:08:45.404473",
+    "chrome_version": "86.0.4240.198",
+    "chromeos_version": "13421.99.0",
+    "eol": false,
+    "eol_date": "2021-06-02 00:00:00",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F67500C1-C6D8-5287-E4EC-F9BBB4AEE5C5}\" version=\"13421.0.0\" board=\"samus-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"SAMUS NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"40125\"/><app appid=\"{F67500C1-C6D8-5287-E4EC-F9BBB4AEE5C5}\" cohort=\"1:5:\" cohortname=\"samus_stable\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"1.3\" _firmware_version_0=\"1.3\" _firmware_version_1=\"1.3\" _firmware_version_2=\"1.3\" _firmware_version_3=\"1.3\" _firmware_version_4=\"1.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/samus/13421.99.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/samus/13421.99.0/stable-channel/\"/></urls><manifest version=\"13421.99.0\"><actions><action event=\"update\" run=\"chromeos_13421.99.0_samus_stable-channel_full_mp-v3.bin-gvtgcytgmq4tfjn7l3hsy6p3zfhrdkrz.signed\"/><action ChromeOSVersion=\"13421.99.0\" ChromeVersion=\"86.0.4240.198\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"hWlnsHmr4gWrce58kFpjBkBjVSZlVKbM9tvud08rcCm6/GUW8GLrBA1XEJ/eKlan5rUrKws5J7+EbQqYm1G2/zcNpbisAKOiXhBx3f+Yu529Z1m95xFCG1SZ7KUfWOWBFMm6F3/OiFsIDKandGyUI6vC9pXcEM8RSAV7JvAfTDjPRWGFlbCc8/IUKzmmfGO9tUgByrTQm8VVpYojHgThvVU8XcZD5/h6leXgRqa5vDFwsFf2Saseq1N27oUFPxrNozYcTj5ujTIuvyvJDNavSIp9AOpsYfaVhRF5hnULjkBtcTZk5J6lSi3qLvNlz88eOUi2gZRLy4tP5z2tIrPSwA==\" MetadataSize=\"57042\" event=\"postinstall\" sha256=\"qhAQzTNbnOi0JI7NXmlquADPMeVDag+Om35EqAR6Rx4=\"/></actions><packages><package fp=\"3.aa1010cd335b9ce8b4248ecd5e696ab800cf31e5436a0f8e9b7e44a8047a471e\" hash_sha256=\"aa1010cd335b9ce8b4248ecd5e696ab800cf31e5436a0f8e9b7e44a8047a471e\" name=\"chromeos_13421.99.0_samus_stable-channel_full_mp-v3.bin-gvtgcytgmq4tfjn7l3hsy6p3zfhrdkrz.signed\" required=\"true\" size=\"1001372564\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SAMUS NNN",
+    "sha256": "aa1010cd335b9ce8b4248ecd5e696ab800cf31e5436a0f8e9b7e44a8047a471e",
+    "size": 1001372564,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/samus/13421.99.0/stable-channel/chromeos_13421.99.0_samus_stable-channel_full_mp-v3.bin-gvtgcytgmq4tfjn7l3hsy6p3zfhrdkrz.signed",
+        "https://dl.google.com/chromeos/samus/13421.99.0/stable-channel/chromeos_13421.99.0_samus_stable-channel_full_mp-v3.bin-gvtgcytgmq4tfjn7l3hsy6p3zfhrdkrz.signed"
+    ],
+    "very_eol": false
+}
