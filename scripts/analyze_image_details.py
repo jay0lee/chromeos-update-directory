@@ -76,7 +76,9 @@ for data_file in data_files:
 
   # Get EOL / AUE date of image
   hwclass_regex = data['hwidmatches'][0]
+  print(hwclass_regex)
   hwclass_regex = hwclass_regex.replace('.*', 'NNN')
+  print(hwclass_regex)
   hardware_class = rstr.xeger(hwclass_regex)
   print(f'hwid: {hardware_class}')
   update_data = common.check_updates(
