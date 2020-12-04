@@ -1,0 +1,17 @@
+{
+    "app_board": "winky-signed-mp-v2keys",
+    "board_id": "{4B8B5979-526A-48D6-B6EB-D72680471AAD}",
+    "check_time": "2020-12-04 17:11:41.569826",
+    "chrome_version": "87.0.4280.88",
+    "chromeos_version": "13505.63.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{4B8B5979-526A-48D6-B6EB-D72680471AAD}\" version=\"13505.0.0\" board=\"winky-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"WINKY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13505\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5086\" elapsed_seconds=\"33101\"/><app appid=\"{4B8B5979-526A-48D6-B6EB-D72680471AAD}\" cohort=\"1:4/47:\" cohortname=\"winky_stable_canaryrelease_13505.63.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"10.2\" _firmware_version_0=\"10.2\" _firmware_version_1=\"10.2\" _firmware_version_2=\"10.2\" _firmware_version_3=\"10.2\" _firmware_version_4=\"10.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/winky/13505.63.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/winky/13505.63.0/stable-channel/\"/></urls><manifest version=\"13505.63.0\"><actions><action event=\"update\" run=\"chromeos_13505.63.0_winky_stable-channel_full_mp-v2.bin-gvtggnztmzqwnopotsibfyjct36wc3tl.signed\"/><action ChromeOSVersion=\"13505.63.0\" ChromeVersion=\"87.0.4280.88\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"UKpWbi1O0DdD9jsy+wGngr/q+FqRumhkHDaDFNk67ILb/0Gq8fcwmvkmSEGAyciXDpL6ZORXhjxO6sCUdPctGEfrxZe4ts9vnsZ1+yNNiZizEFxSKfVH33f0MhS7fA9+AhYW060nNrQqMMNNzVd8NlQc0sK5eUz/hb8EacCH454CkhO/VOVPf2JDnutfC/CkatrLTgTPpYm2hNSKdR7JY5YrlJvR3vlT98micQtGUh768D0kwC83+KWzEvXmSg7s8fypj4c+drgPXD+/pkYf6h60vtGwUanf4H2xn/2ZlGTcVuwZD7QG9XVii73tmho0vn8RRCA1EbFP6ypZSeGRog==\" MetadataSize=\"56267\" event=\"postinstall\" sha256=\"B7rGnJl9YlXvJaunkNRHh3y9pXWPporYfwVMUjN80pk=\"/></actions><packages><package fp=\"3.07bac69c997d6255ef25aba790d447877cbda5758fa68ad87f054c52337cd299\" hash_sha256=\"07bac69c997d6255ef25aba790d447877cbda5758fa68ad87f054c52337cd299\" name=\"chromeos_13505.63.0_winky_stable-channel_full_mp-v2.bin-gvtggnztmzqwnopotsibfyjct36wc3tl.signed\" required=\"true\" size=\"537420332\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "WINKY NNN",
+    "sha256": "07bac69c997d6255ef25aba790d447877cbda5758fa68ad87f054c52337cd299",
+    "size": 537420332,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/winky/13505.63.0/stable-channel/chromeos_13505.63.0_winky_stable-channel_full_mp-v2.bin-gvtggnztmzqwnopotsibfyjct36wc3tl.signed",
+        "https://dl.google.com/chromeos/winky/13505.63.0/stable-channel/chromeos_13505.63.0_winky_stable-channel_full_mp-v2.bin-gvtggnztmzqwnopotsibfyjct36wc3tl.signed"
+    ]
+}

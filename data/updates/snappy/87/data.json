@@ -1,0 +1,17 @@
+{
+    "app_board": "snappy-signed-mpkeys",
+    "board_id": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "check_time": "2020-12-04 17:11:35.829342",
+    "chrome_version": "87.0.4280.88",
+    "chromeos_version": "13505.63.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}\" version=\"13505.0.0\" board=\"snappy-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SNAPPY Q6BYDTFKOS0ELVQL-BJD-JCQRW9F7N6DJNXI8SPXR70QOOW-7GVCKN-OJZHMCMVWD95FP55\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13505\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5086\" elapsed_seconds=\"33095\"/><app appid=\"{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}\" cohort=\"1:30/3k:\" cohortname=\"snappy_alan_stable_canaryrelease_13505.63.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"10.1\" _firmware_version_0=\"10.1\" _firmware_version_1=\"10.1\" _firmware_version_2=\"10.1\" _firmware_version_3=\"10.1\" _firmware_version_4=\"10.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/snappy/13505.63.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/snappy/13505.63.0/stable-channel/\"/></urls><manifest version=\"13505.63.0\"><actions><action event=\"update\" run=\"chromeos_13505.63.0_snappy_stable-channel_full_mp.bin-gvtggnzugfstacdc5jjytocfgqmdms7s.signed\"/><action ChromeOSVersion=\"13505.63.0\" ChromeVersion=\"87.0.4280.88\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"T7A9V0EPgUXjsBLJfsTa5+/ZIg/+N9HMPDj/tOMvws5iuN1mXUH13+gBpakrZi+u+CGMVu1EgkqS8HP8IU/4etxLfXoKoYZ/mG6DMrga+Bb4r1Yt8ZVsSU7eWeTclSiwDLP4I+KjQuWlN8BvIgSRhzZd1w4SqsWAkwdaDGcmO9oJvoGpLk9HLNfFsP+tq0ePBF72USAAwG1yZwS8TGZOIFHTjeVX4krOMTKrqlqIxm5kb/skga4b03eRz/skcVJqtj16kOjNxO4E+BzjbeYHe6JwcjI8VG4tZIa2WkcdT3MqlGwRfwgygeSxE9lkwHzjJD+N+uXsl/3eQC7Dv3QatA==\" MetadataSize=\"57034\" event=\"postinstall\" sha256=\"MDdHbwJbI2JZeshIaexF6KknayPaWh4Uf7wAUjyNXmM=\"/></actions><packages><package fp=\"3.3037476f025b2362597ac84869ec45e8a9276b23da5a1e147fbc00523c8d5e63\" hash_sha256=\"3037476f025b2362597ac84869ec45e8a9276b23da5a1e147fbc00523c8d5e63\" name=\"chromeos_13505.63.0_snappy_stable-channel_full_mp.bin-gvtggnzugfstacdc5jjytocfgqmdms7s.signed\" required=\"true\" size=\"1019727861\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SNAPPY Q6BYDTFKOS0ELVQL-BJD-JCQRW9F7N6DJNXI8SPXR70QOOW-7GVCKN-OJZHMCMVWD95FP55",
+    "sha256": "3037476f025b2362597ac84869ec45e8a9276b23da5a1e147fbc00523c8d5e63",
+    "size": 1019727861,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/snappy/13505.63.0/stable-channel/chromeos_13505.63.0_snappy_stable-channel_full_mp.bin-gvtggnzugfstacdc5jjytocfgqmdms7s.signed",
+        "https://dl.google.com/chromeos/snappy/13505.63.0/stable-channel/chromeos_13505.63.0_snappy_stable-channel_full_mp.bin-gvtggnzugfstacdc5jjytocfgqmdms7s.signed"
+    ]
+}

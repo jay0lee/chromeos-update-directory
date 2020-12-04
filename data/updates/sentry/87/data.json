@@ -1,0 +1,17 @@
+{
+    "app_board": "sentry-signed-mpkeys",
+    "board_id": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+    "check_time": "2020-12-04 17:11:34.770191",
+    "chrome_version": "87.0.4280.88",
+    "chromeos_version": "13505.63.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" version=\"13505.0.0\" board=\"sentry-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SENTRY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13505\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5086\" elapsed_seconds=\"33094\"/><app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" cohort=\"1:4/41:\" cohortname=\"sentry_stable_canaryrelease_13505.63.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"20.1\" _firmware_version_0=\"20.1\" _firmware_version_1=\"20.1\" _firmware_version_2=\"20.1\" _firmware_version_3=\"20.1\" _firmware_version_4=\"20.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sentry/13505.63.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sentry/13505.63.0/stable-channel/\"/></urls><manifest version=\"13505.63.0\"><actions><action event=\"update\" run=\"chromeos_13505.63.0_sentry_stable-channel_full_mp.bin-gvtggnzugu4djktdy6ycydpoq4mekb2q.signed\"/><action ChromeOSVersion=\"13505.63.0\" ChromeVersion=\"87.0.4280.88\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"hvye5Xe6PrTpmgPTf/zGA3MkawESsEze8cqhNlNsh067/PSFhlsZhMxax8cQCYlapXt2DxNLEF2/BADa4cK+Md5c+kszy/XDlPGC9k18hwQHuEIwGziBVjMG1zA8ziE5Yh5nX/IQyyN7pOKHeL56wC/2IEs0oL+EGnwYGwbfD+QCjuweedsEEAtP7qD1HA4MqoWz6G+J+hWdpFoIf9PXXfwneYyjHSaJ1HV7of2Xv7IWsZjMPoEXj+Q7pJShxD619Bx2cKTaI1mjJlsjsJqWtZA66R4iq/Ytl6HVH9pSWgnuUpNYhdHiYOGSiCTsQsn1zuybs+Ej6GhOULyFjsTYgA==\" MetadataSize=\"56950\" event=\"postinstall\" sha256=\"rioHX3Xu0ZhY16xKR4KhviETDeQFj1Nxc3LdNCLb1X8=\"/></actions><packages><package fp=\"3.ae2a075f75eed19858d7ac4a4782a1be21130de4058f53717372dd3422dbd57f\" hash_sha256=\"ae2a075f75eed19858d7ac4a4782a1be21130de4058f53717372dd3422dbd57f\" name=\"chromeos_13505.63.0_sentry_stable-channel_full_mp.bin-gvtggnzugu4djktdy6ycydpoq4mekb2q.signed\" required=\"true\" size=\"1008915224\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SENTRY NNN",
+    "sha256": "ae2a075f75eed19858d7ac4a4782a1be21130de4058f53717372dd3422dbd57f",
+    "size": 1008915224,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/sentry/13505.63.0/stable-channel/chromeos_13505.63.0_sentry_stable-channel_full_mp.bin-gvtggnzugu4djktdy6ycydpoq4mekb2q.signed",
+        "https://dl.google.com/chromeos/sentry/13505.63.0/stable-channel/chromeos_13505.63.0_sentry_stable-channel_full_mp.bin-gvtggnzugu4djktdy6ycydpoq4mekb2q.signed"
+    ]
+}
