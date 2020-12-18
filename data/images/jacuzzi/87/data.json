@@ -1,0 +1,63 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "juniper",
+        "kappa"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7017315",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "chromeos_release_board": "jacuzzi-signed-mp-v4keys",
+    "chromeos_release_branch_number": "73",
+    "chromeos_release_build_number": "13505",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "jacuzzi-release/R87-13505.73.0",
+    "chromeos_release_chrome_milestone": "87",
+    "chromeos_release_description": "13505.73.0 (Official Build) stable-channel jacuzzi ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13505.73.0",
+    "cr_version": 87,
+    "cros_version": 13505,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13505.73.0_jacuzzi_recovery_stable-channel_mp-v4.bin",
+    "filesize": 3190796800,
+    "google_release": "13505.73.0",
+    "hwidmatches": [
+        "^JUNIPER-HVPU .*",
+        "^KAPPA .*"
+    ],
+    "image_name": "jacuzzi",
+    "linux_kernel_versions": [
+        "4.19.148-10426-g8bcdf0543345"
+    ],
+    "manufacturers": [
+        "Acer",
+        "HP"
+    ],
+    "md5": "a1c546be42d078460359bf4362064197",
+    "models": [
+        "Acer Chromebook Spin 311 (CP311-3H)",
+        "HP Chromebook 11a"
+    ],
+    "names": [
+        "Acer Chromebook Spin 311 (CP311-3H)",
+        "HP Chromebook 11a"
+    ],
+    "sample_hwid": "JUNIPER-HVPU NNN",
+    "sha1": "338e0b0f0496e9cafbbb35f1bd0b7529424a3df4",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_jacuzzi_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "13505.73.0",
+    "zipfilesize": 1069693690
+}
