@@ -1,0 +1,17 @@
+{
+    "app_board": "zork-signed-mp-v4keys",
+    "board_id": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "check_time": "2020-12-18 20:29:11.666405",
+    "chrome_version": "87.0.4280.109",
+    "chromeos_version": "13505.73.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" version=\"13505.0.0\" board=\"zork-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"MORPHIUS|NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13505\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5100\" elapsed_seconds=\"44951\"/><app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" cohort=\"1:1s:\" cohortname=\"zork_morphius_stable\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/zork/13505.73.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/zork/13505.73.0/stable-channel/\"/></urls><manifest version=\"13505.73.0\"><actions><action event=\"update\" run=\"chromeos_13505.73.0_zork_stable-channel_full_mp-v4.bin-gvtgimztgntdgmim57tnazc3x77rn6ah.signed\"/><action ChromeOSVersion=\"13505.73.0\" ChromeVersion=\"87.0.4280.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"FKUg4H13udBP8w1GrfUkklbScRHBLLZuqWhWy3y4UMz+Amr5Ze/h25V2jhnzvtaK9T2I0484/N/l5bcHdkIgOdp4MwyfCSZ5qD2wDb2MW9xJTSJzRYuEPUikNxUgsIaHL9UYwynGNX938fwk/xm6FoPn+zxo0UOt2Rzu+mHl/KExfKtM0P8YWiu+esU85iYykj1ptorPtS7BqYWzGD4s++As528ZUcSfTLxkhBfz+tydVNHYH/lm5oJS5mWKNdbEjZBmYCuHvgp7wVq7/TqwD8RF7edCX5+JsWZ2wpvN9D1YbRDbaxTsm4wDrcHSoLR995lhgF8vq4CJzxDZObFbiA==\" MetadataSize=\"66063\" event=\"postinstall\" sha256=\"EbIMkEgzAdr/k+5SDDeqm1tmDqAmr/Y5zOoMkJ2w1PQ=\"/></actions><packages><package fp=\"3.11b20c90483301daff93ee520c37aa9b5b660ea026aff639ccea0c909db0d4f4\" hash_sha256=\"11b20c90483301daff93ee520c37aa9b5b660ea026aff639ccea0c909db0d4f4\" name=\"chromeos_13505.73.0_zork_stable-channel_full_mp-v4.bin-gvtgimztgntdgmim57tnazc3x77rn6ah.signed\" required=\"true\" size=\"1197351634\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "MORPHIUS|NNN",
+    "sha256": "11b20c90483301daff93ee520c37aa9b5b660ea026aff639ccea0c909db0d4f4",
+    "size": 1197351634,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/zork/13505.73.0/stable-channel/chromeos_13505.73.0_zork_stable-channel_full_mp-v4.bin-gvtgimztgntdgmim57tnazc3x77rn6ah.signed",
+        "https://dl.google.com/chromeos/zork/13505.73.0/stable-channel/chromeos_13505.73.0_zork_stable-channel_full_mp-v4.bin-gvtgimztgntdgmim57tnazc3x77rn6ah.signed"
+    ]
+}
