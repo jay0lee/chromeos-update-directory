@@ -15,6 +15,12 @@ jobs:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
 
+      - name: Ensure we're at ToT
+        run: |
+          git config pull.rebase true
+          git config --global pull.ff only
+          git pull
+
       - name: Install requirements
         run: pip3 install -r scripts/requirements.txt
 
