@@ -18,6 +18,7 @@ jobs:
       - name: Ensure we're at ToT
         run: |
           git config pull.rebase true
+          git config --global pull.ff only
           git pull
 
       - name: Install requirements
