@@ -20,6 +20,7 @@ jobs:
           git config pull.rebase true
           git config --global pull.ff only
           git pull
+          git pull --rebase
 
       - name: Install requirements
         run: pip3 install -r scripts/requirements.txt
