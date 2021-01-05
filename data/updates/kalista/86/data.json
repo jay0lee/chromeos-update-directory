@@ -1,17 +1,1 @@
-{
-    "app_board": "kalista-signed-mp-v2keys",
-    "board_id": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
-    "check_time": "2020-11-23 21:18:41.130229",
-    "chrome_version": "86.0.4240.199",
-    "chromeos_version": "13421.102.0",
-    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{073ABAF9-40D3-4065-85F3-74B1FA49675D}\" version=\"13421.0.0\" board=\"kalista-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"KARMA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5075\" elapsed_seconds=\"47921\"/><app appid=\"{073ABAF9-40D3-4065-85F3-74B1FA49675D}\" cohort=\"1:a/1q:\" cohortname=\"kalista_karma_stable_canaryrelease_13421.102.0\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kalista/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kalista/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_kalista_stable-channel_full_mp-v2.bin-gvtgenzqmnqwmjku4xk2yacbzw577ssv.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"QgAMziU0OpkL3+WpJy6Bd715HTbKlK5/lsELiyLNAjCOKRpIzAquvpbbjapSCQNlWOmI1On0J2TrEtqygsw/UowSvdm9WNrvbSZU9E/tRgaCqujIQvVJA0O3oCNLqcmEuNct6DLyipFwt12nlVEnBIV0smvB8N5ADX75cef/XyLTRCucKan2urLwU6GUABJzuE+B3UnqJIOFdEGsyK950kNj9QqY4LgNDb+GXf8R5gPIGKP7g9h1r1xAD/kE5hH/HrOJI7gPJPnrka/6dMejAirXjGFKJwbfdviwoFAAOF3wVww3DJ2SMjnvQ2NXOZi3ozNMwoKWd/CWK5wqzIO8OA==\" MetadataSize=\"66284\" event=\"postinstall\" sha256=\"srARLpJfUlJZXzkjQzuOdnHEDyQNoVFpQFGSga7MKV4=\"/></actions><packages><package fp=\"3.b2b0112e925f5252595f3923433b8e7671c40f240da1516940519281aecc295e\" hash_sha256=\"b2b0112e925f5252595f3923433b8e7671c40f240da1516940519281aecc295e\" name=\"chromeos_13421.102.0_kalista_stable-channel_full_mp-v2.bin-gvtgenzqmnqwmjku4xk2yacbzw577ssv.signed\" required=\"true\" size=\"1242240597\"/></packages></manifest></updatecheck></app></response>",
-    "sample_hwid": "KARMA NNN",
-    "sha256": "b2b0112e925f5252595f3923433b8e7671c40f240da1516940519281aecc295e",
-    "size": 1242240597,
-    "status": "ok",
-    "urls": [
-        "http://dl.google.com/chromeos/kalista/13421.102.0/stable-channel/chromeos_13421.102.0_kalista_stable-channel_full_mp-v2.bin-gvtgenzqmnqwmjku4xk2yacbzw577ssv.signed",
-        "https://dl.google.com/chromeos/kalista/13421.102.0/stable-channel/chromeos_13421.102.0_kalista_stable-channel_full_mp-v2.bin-gvtgenzqmnqwmjku4xk2yacbzw577ssv.signed"
-    ]
-}
+{}
