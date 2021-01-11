@@ -1,1 +1,17 @@
-{}
+{
+    "app_board": "nami-signed-mp-v5keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2021-01-11 18:28:32.571169",
+    "chrome_version": "89.0.4384.0",
+    "chromeos_version": "13718.0.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"13505.0.0\" board=\"nami-signed-mp-v5keys\" track=\"canary-channel\" hardware_class=\"AKALI NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5124\" elapsed_seconds=\"37712\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:4v:\" cohortname=\"nami_akali_canary\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13718.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13718.0.0/\"/></urls><manifest version=\"13718.0.0\"><actions><action event=\"update\" run=\"chromeos_13718.0.0_nami_canary-channel_full_mp-v5.bin-gvtgmyzsmzrgi3n5knteuvnldnqgj243.signed\"/><action ChromeOSVersion=\"13718.0.0\" ChromeVersion=\"89.0.4384.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ANlJX2OLFHrYuwHBNhuWzx1cqNrD3BusoPVVzrs7QZWv7Wd3HzQPQ7FCWFXF8o7sld4mu23WC4Ww8xg8PZoElZNOqCCsgldpAZmdY/N8iIJtkIb/5vRoZ+8mMz521shPo7xt7Xp9MxOL4UzCI5WOEdYkG71HXAZTBcj61kwsT9959S40ThO3UpNcc4EnK/919QAMaltPK0yknAGTwifb1i7+WAEgLJv5XSbH7RQis0xTkj9fbtpBxLqvCGffzYZRqYZUanvVeQZbrst2HRiFx8y8IRgH/OzTFZsctT+9wKkov7rUML0YyyfK229ZK+mGJQqBhVTTotQpptrGuFYfoQ==\" MetadataSize=\"65752\" event=\"postinstall\" sha256=\"z6vjxjHtVcGGotVesIJrxBr/APqRrvAyoOSge7IdIgE=\"/></actions><packages><package fp=\"3.cfabe3c631ed55c186a2d55eb0826bc41aff00fa91aef032a0e4a07bb21d2201\" hash_sha256=\"cfabe3c631ed55c186a2d55eb0826bc41aff00fa91aef032a0e4a07bb21d2201\" name=\"chromeos_13718.0.0_nami_canary-channel_full_mp-v5.bin-gvtgmyzsmzrgi3n5knteuvnldnqgj243.signed\" required=\"true\" size=\"1204671916\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "AKALI NNN",
+    "sha256": "cfabe3c631ed55c186a2d55eb0826bc41aff00fa91aef032a0e4a07bb21d2201",
+    "size": 1204671916,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13718.0.0/chromeos_13718.0.0_nami_canary-channel_full_mp-v5.bin-gvtgmyzsmzrgi3n5knteuvnldnqgj243.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13718.0.0/chromeos_13718.0.0_nami_canary-channel_full_mp-v5.bin-gvtgmyzsmzrgi3n5knteuvnldnqgj243.signed"
+    ]
+}
