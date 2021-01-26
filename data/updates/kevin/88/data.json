@@ -1,0 +1,17 @@
+{
+    "app_board": "kevin-signed-mpkeys",
+    "board_id": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "check_time": "2021-01-26 21:51:20.374629",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{92A7272A-834A-47A3-9112-E8FD55831660}\" version=\"13597.0.0\" board=\"kevin-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"KEVIN NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5139\" elapsed_seconds=\"49880\"/><app appid=\"{92A7272A-834A-47A3-9112-E8FD55831660}\" cohort=\"1:5/3r:\" cohortname=\"kevin_stable_canaryrelease_13597.66.0\" status=\"ok\"><updatecheck _eol_date=\"19571\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kevin/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kevin/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_kevin_stable-channel_full_mp.bin-gyydaojtguydldsmo4e2m4yx3kerroqi.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"mxYvNYJwYBL/q3kPVMqF9S+6JXwHb/aXT+6PaPCIDtG1zRwfQSKapoz4e4OdvevVVm8OHu3UcOTETQcjxo9/WHAIMF5k4nivEjTQXD5btsB01B6NNRguvjeILcYy7yebWHpAx69zkfV8PGVwW6CqM6NU59EKjPKXxclGfVaTKj9trNpRM9DD4KCr6wxyiqIpWyFpW2yJOBdUs6cWo+JxaPSgHmrM/9Wy4q3fXmgphVgsfhgFyFXSPhwp6YKWwSevjgtoIcZfR5o9Et3Ad4G6UT/2/uW/J2WBjNGPI1lPnoIoXVMJ4tzKSDuov8kw0hznZGkA3OilE5IB6KMP5ujp+g==\" MetadataSize=\"56740\" event=\"postinstall\" sha256=\"YjYcDJeuQ8bQaxYL96NVrwrIJScezLFyECDt59K1brc=\"/></actions><packages><package fp=\"3.62361c0c97ae43c6d06b160bf7a355af0ac825271eccb1721020ede7d2b56eb7\" hash_sha256=\"62361c0c97ae43c6d06b160bf7a355af0ac825271eccb1721020ede7d2b56eb7\" name=\"chromeos_13597.66.0_kevin_stable-channel_full_mp.bin-gyydaojtguydldsmo4e2m4yx3kerroqi.signed\" required=\"true\" size=\"908688307\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "KEVIN NNN",
+    "sha256": "62361c0c97ae43c6d06b160bf7a355af0ac825271eccb1721020ede7d2b56eb7",
+    "size": 908688307,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/kevin/13597.66.0/stable-channel/chromeos_13597.66.0_kevin_stable-channel_full_mp.bin-gyydaojtguydldsmo4e2m4yx3kerroqi.signed",
+        "https://dl.google.com/chromeos/kevin/13597.66.0/stable-channel/chromeos_13597.66.0_kevin_stable-channel_full_mp.bin-gyydaojtguydldsmo4e2m4yx3kerroqi.signed"
+    ]
+}

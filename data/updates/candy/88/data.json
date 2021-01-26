@@ -1,0 +1,17 @@
+{
+    "app_board": "candy-signed-mp-v2keys",
+    "board_id": "{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}",
+    "check_time": "2021-01-26 21:51:08.110391",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}\" version=\"13597.0.0\" board=\"candy-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"CANDY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5139\" elapsed_seconds=\"49868\"/><app appid=\"{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}\" cohort=\"1:4/4g:\" cohortname=\"candy_stable_canaryrelease_13597.66.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"10.2\" _firmware_version_0=\"10.2\" _firmware_version_1=\"10.2\" _firmware_version_2=\"10.2\" _firmware_version_3=\"10.2\" _firmware_version_4=\"10.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/candy/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/candy/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_candy_stable-channel_full_mp-v2.bin-gyydaojsmnstmi7oyisym7mqoqaqweyp.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"igtpwZpXEwgKo9adkh/RhgOQe5kVdHt27gF0QqCWOZWC1g4B5YmrU7z79RgCHSVxR7ZYFH+il2RIWgt7ZvmprF/VxRDwTpFbaLCbcnzHXAzX2jfN4XuN73L+bQciZDeVRs1f5+BgSmdsJHfbqoif7JdqbVBq06F+2cqli9ain7YoI7Om0dbG9r6uDug/qu80UyLlMe0zwOLZrIUGD8+TdDGaTcxw7X2RZdOu/SlEc7vbLWp3oMSkS+Xg7v4ewrHIGQU5ZUS/Ts7OETYjpJEpdsvxRHXJyisnLdIGYUP0V8PLy76LyNesCv41bJ1g+yf53bW8neYVuIH3ytzq20dHhg==\" MetadataSize=\"56235\" event=\"postinstall\" sha256=\"9ZktLVIz9ctCAn5pJQ94Sm/bytcerBihCWcdIsk5F6I=\"/></actions><packages><package fp=\"3.f5992d2d5233f5cb42027e69250f784a6fdbcad71eac18a109671d22c93917a2\" hash_sha256=\"f5992d2d5233f5cb42027e69250f784a6fdbcad71eac18a109671d22c93917a2\" name=\"chromeos_13597.66.0_candy_stable-channel_full_mp-v2.bin-gyydaojsmnstmi7oyisym7mqoqaqweyp.signed\" required=\"true\" size=\"528225745\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "CANDY NNN",
+    "sha256": "f5992d2d5233f5cb42027e69250f784a6fdbcad71eac18a109671d22c93917a2",
+    "size": 528225745,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/candy/13597.66.0/stable-channel/chromeos_13597.66.0_candy_stable-channel_full_mp-v2.bin-gyydaojsmnstmi7oyisym7mqoqaqweyp.signed",
+        "https://dl.google.com/chromeos/candy/13597.66.0/stable-channel/chromeos_13597.66.0_candy_stable-channel_full_mp-v2.bin-gyydaojsmnstmi7oyisym7mqoqaqweyp.signed"
+    ]
+}

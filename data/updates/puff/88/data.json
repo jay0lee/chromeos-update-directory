@@ -1,0 +1,17 @@
+{
+    "app_board": "puff-signed-mp-v6keys",
+    "board_id": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "check_time": "2021-01-26 21:51:26.898410",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{2514829E-8550-4E24-91F2-331AB7A12B03}\" version=\"13597.0.0\" board=\"puff-signed-mp-v6keys\" track=\"stable-channel\" hardware_class=\"DUFFY-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5139\" elapsed_seconds=\"49886\"/><app appid=\"{2514829E-8550-4E24-91F2-331AB7A12B03}\" cohort=\"1:2m/51:\" cohortname=\"puff_duffy_stable_canaryrelease_13597.66.0\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/puff/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/puff/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_puff_stable-channel_full_mp-v10.bin-gyydaojug4ythbpncwbduuzu3zhu7rzp.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"u+CRoJ4Z7ymvf94zztpWHHPeVFWQX+aITkTwtCCADOldE5IWncHKywqmni5vzh3J2qgZV6toYoI2AfxhN8fGbTRJ3nUNVtyp/akLFI8hoIo5dEFe3ksOyJSvqiF0vyfNTyFuwelBwDr4+EdRFIuzsGFBvL9sHRaamp5/gnWY7oTS27wS/S/7acOTItUwmsmfWdYUCxB62j9+at0L6bPPQg4OuoVUuBqM+LPGEs3/R72M2OJrV27neZbDhkakVoEgnI1x9nBiyTJ92pgpUzGJbuAvU8A5+kO3aj5oBqkOU994lpGD4jjk03M5gSEpnf9awOq0pA2i0ElV+QnHhiNR4w==\" MetadataSize=\"66205\" event=\"postinstall\" sha256=\"QtpmeGb0O9haHeRZSScfE9OoRf69rxWEiUng393eGOI=\"/></actions><packages><package fp=\"3.42da667866f43bd85a1de45949271f13d3a845febdaf15848949e0dfddde18e2\" hash_sha256=\"42da667866f43bd85a1de45949271f13d3a845febdaf15848949e0dfddde18e2\" name=\"chromeos_13597.66.0_puff_stable-channel_full_mp-v10.bin-gyydaojug4ythbpncwbduuzu3zhu7rzp.signed\" required=\"true\" size=\"1223553077\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DUFFY-NNN",
+    "sha256": "42da667866f43bd85a1de45949271f13d3a845febdaf15848949e0dfddde18e2",
+    "size": 1223553077,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/puff/13597.66.0/stable-channel/chromeos_13597.66.0_puff_stable-channel_full_mp-v10.bin-gyydaojug4ythbpncwbduuzu3zhu7rzp.signed",
+        "https://dl.google.com/chromeos/puff/13597.66.0/stable-channel/chromeos_13597.66.0_puff_stable-channel_full_mp-v10.bin-gyydaojug4ythbpncwbduuzu3zhu7rzp.signed"
+    ]
+}

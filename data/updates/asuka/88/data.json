@@ -1,0 +1,17 @@
+{
+    "app_board": "asuka-signed-mpkeys",
+    "board_id": "{7B2FC5AC-894A-5702-D00E-62E999F0AE22}",
+    "check_time": "2021-01-26 21:51:05.388923",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{7B2FC5AC-894A-5702-D00E-62E999F0AE22}\" version=\"13597.0.0\" board=\"asuka-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"ASUKA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5139\" elapsed_seconds=\"49865\"/><app appid=\"{7B2FC5AC-894A-5702-D00E-62E999F0AE22}\" cohort=\"1:5/3l:\" cohortname=\"asuka_stable_canaryrelease_13597.66.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/asuka/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/asuka/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_asuka_stable-channel_full_mp.bin-gyydaojtgjsddfxwh2qhoth7s3mpgqg7.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"oivX6D/uHWARZwuzXuiEi5ioIhRw3EkbY+Zshe1cjXZbMBeTiJVrgcDDgw6kJMa+ahCfA3DI4Q8wI92OZE5nYi053YWaiD4xdzBJ4MAIlLb7ZUs3IVI4VGc1bDy88axvHM7A7kBQ+atuiliTU+9a9UiukvhhWwMaqBQth4M2n5Hu2S927BU7YSRaX/2Jurs60Xs4bRR5CIpB2wlWVJfn+yUluGSefwn5PCsW7AXq0IWlsspIv3Btwwlo7QOwiwSIXFP0WzKVRkFm+af3kSAGFw7kqc3YhAQC+eOAScKedvs37Ay4AS2PyznP9paHTxMpB5IoiCpUyiN3SzoK0zDBow==\" MetadataSize=\"56937\" event=\"postinstall\" sha256=\"7Nt4ICpE0RcPtD13uwbsG/aCRkuVydPFNvJagBjCRZQ=\"/></actions><packages><package fp=\"3.ecdb78202a44d1170fb43d77bb06ec1bf682464b95c9d3c536f25a8018c24594\" hash_sha256=\"ecdb78202a44d1170fb43d77bb06ec1bf682464b95c9d3c536f25a8018c24594\" name=\"chromeos_13597.66.0_asuka_stable-channel_full_mp.bin-gyydaojtgjsddfxwh2qhoth7s3mpgqg7.signed\" required=\"true\" size=\"1002669351\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "ASUKA NNN",
+    "sha256": "ecdb78202a44d1170fb43d77bb06ec1bf682464b95c9d3c536f25a8018c24594",
+    "size": 1002669351,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/asuka/13597.66.0/stable-channel/chromeos_13597.66.0_asuka_stable-channel_full_mp.bin-gyydaojtgjsddfxwh2qhoth7s3mpgqg7.signed",
+        "https://dl.google.com/chromeos/asuka/13597.66.0/stable-channel/chromeos_13597.66.0_asuka_stable-channel_full_mp.bin-gyydaojtgjsddfxwh2qhoth7s3mpgqg7.signed"
+    ]
+}

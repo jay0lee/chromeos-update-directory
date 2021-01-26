@@ -1,0 +1,17 @@
+{
+    "app_board": "swanky-signed-mp-v3keys",
+    "board_id": "{493FA09F-94EA-B829-46E0-48B12FD7264D}",
+    "check_time": "2021-01-26 21:51:35.235181",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{493FA09F-94EA-B829-46E0-48B12FD7264D}\" version=\"13597.0.0\" board=\"swanky-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"SWANKY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5139\" elapsed_seconds=\"49895\"/><app appid=\"{493FA09F-94EA-B829-46E0-48B12FD7264D}\" cohort=\"1:4/4f:\" cohortname=\"swanky_stable_canaryrelease_13597.66.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"5.3\" _firmware_version_0=\"5.3\" _firmware_version_1=\"5.3\" _firmware_version_2=\"5.3\" _firmware_version_3=\"5.3\" _firmware_version_4=\"5.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/swanky/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/swanky/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_swanky_stable-channel_full_mp-v3.bin-gyydaojtgi2depyttck2fpmtq3iv5vzs.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"z4jETDwnO2xMaXhtekaKuYfOM2JB15H4xDm4d3S4hzzUKkFLaZNuXDZwVz4WAApIsSarqnZx0BUU5Y9xVrHchimLPtILcRxk9LadkZIUpqx+h+JWgwLIB8tvsuE8QIheHhHrEPLsx+ZV8+hhcOg8tLhQIO8JNmWwI/4Lt0rrEllf6/1O1TL63GyxMwYjRzWlyvFygnjr5125fGTnIIjGRv29BX6hAHPw+zVhXzqfdwC+VLPtVi1g1eGX3r4Yhicv5VRL1n3Vj+QiIwnfnmkPZskAifmGX3Xor7XB4bctKhniSPI5dUwx8AiLSdWaF3tB4xR2E1WsT/i+rckIY1kcwQ==\" MetadataSize=\"56239\" event=\"postinstall\" sha256=\"8Wu2D2x023jLjVfT/pwZninLUoe3tzYp/dbevVoYr0I=\"/></actions><packages><package fp=\"3.f16bb60f6c74db78cb8d57d3fe9c199e29cb5287b7b73629fdd6debd5a18af42\" hash_sha256=\"f16bb60f6c74db78cb8d57d3fe9c199e29cb5287b7b73629fdd6debd5a18af42\" name=\"chromeos_13597.66.0_swanky_stable-channel_full_mp-v3.bin-gyydaojtgi2depyttck2fpmtq3iv5vzs.signed\" required=\"true\" size=\"527986356\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SWANKY NNN",
+    "sha256": "f16bb60f6c74db78cb8d57d3fe9c199e29cb5287b7b73629fdd6debd5a18af42",
+    "size": 527986356,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/swanky/13597.66.0/stable-channel/chromeos_13597.66.0_swanky_stable-channel_full_mp-v3.bin-gyydaojtgi2depyttck2fpmtq3iv5vzs.signed",
+        "https://dl.google.com/chromeos/swanky/13597.66.0/stable-channel/chromeos_13597.66.0_swanky_stable-channel_full_mp-v3.bin-gyydaojtgi2depyttck2fpmtq3iv5vzs.signed"
+    ]
+}

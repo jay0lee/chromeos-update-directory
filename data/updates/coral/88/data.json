@@ -1,0 +1,17 @@
+{
+    "app_board": "coral-signed-mp-v19keys",
+    "board_id": "{5A3AB642-2A67-470A-8F37-37E737A53CFC}",
+    "check_time": "2021-01-26 21:51:10.556098",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{5A3AB642-2A67-470A-8F37-37E737A53CFC}\" version=\"13597.0.0\" board=\"coral-signed-mp-v19keys\" track=\"stable-channel\" hardware_class=\"BLACKTIP360 PIF-QH84\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5139\" elapsed_seconds=\"49870\"/><app appid=\"{5A3AB642-2A67-470A-8F37-37E737A53CFC}\" cohort=\"1:23/tv:\" cohortname=\"coral_blacktip360_stable_canaryrelease_13597.66.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/coral/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/coral/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_coral_stable-channel_full_mp-v19.bin-gyydaojtmnrtpdjbol6rbsv7ih3ek5zj.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"F5E2/WY8ecOJzJva9aV4oKMWt/tOER2MAQnnREY294Nnymscs1w7JyHPqlCXH+Q+1OE32vyJbhAuLLGFDU8YVQAOh/NZAZJi9l4wdZoHOXc02BlsLUFQAh14eaYuvF0SdBpAuL3G5SgC8j8WbffQBYFaBHHCXSvVaQTCZe6ljQqDmLtygoCyJAiqSabXV3egwAYC73QhmwNYXx1pLSzNj3jZUimD4fMbo++LcwV7KU742CtXUOddCY8q/re1D+E79WKNver4dZsnbd5xRYws0BYbMqYgtvkvxk6tA2XGUJqVWJl66evvNO8ZZi79Gmed6mchyeqpWIE8r5m5iv7lNA==\" MetadataSize=\"57022\" event=\"postinstall\" sha256=\"YwCsrdMmbHTMy897gQ0DF4SbW7RbJs0KxEnMYGFsvu4=\"/></actions><packages><package fp=\"3.6300acadd3266c74cccbcf7b810d0317849b5bb45b26cd0ac449cc60616cbeee\" hash_sha256=\"6300acadd3266c74cccbcf7b810d0317849b5bb45b26cd0ac449cc60616cbeee\" name=\"chromeos_13597.66.0_coral_stable-channel_full_mp-v19.bin-gyydaojtmnrtpdjbol6rbsv7ih3ek5zj.signed\" required=\"true\" size=\"1052929724\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "BLACKTIP360 PIF-QH84",
+    "sha256": "6300acadd3266c74cccbcf7b810d0317849b5bb45b26cd0ac449cc60616cbeee",
+    "size": 1052929724,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/coral/13597.66.0/stable-channel/chromeos_13597.66.0_coral_stable-channel_full_mp-v19.bin-gyydaojtmnrtpdjbol6rbsv7ih3ek5zj.signed",
+        "https://dl.google.com/chromeos/coral/13597.66.0/stable-channel/chromeos_13597.66.0_coral_stable-channel_full_mp-v19.bin-gyydaojtmnrtpdjbol6rbsv7ih3ek5zj.signed"
+    ]
+}
