@@ -1,17 +1,1 @@
-{
-    "app_board": "eve-signed-mp-v2keys",
-    "board_id": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
-    "check_time": "2020-11-21 19:36:15.943406",
-    "chrome_version": "83.0.4103.119",
-    "chromeos_version": "13020.87.0",
-    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}\" version=\"13020.0.0\" board=\"eve-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"EVE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13020\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41775\"/><app appid=\"{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}\" cohort=\"1:35:\" cohortname=\"eve_eve_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/eve/13020.87.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/eve/13020.87.0/stable-channel/\"/></urls><manifest version=\"13020.87.0\"><actions><action event=\"update\" run=\"chromeos_13020.87.0_eve_stable-channel_full_mp-v2.bin-gvswmmbzhaydtii2ywljaxzi2oerx6s7.signed\"/><action ChromeOSVersion=\"13020.87.0\" ChromeVersion=\"83.0.4103.119\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"pVTrG3w75313R7oJ2PXH6f7/Ai7AR9HvHb+gembEB/83QL1QI3vPRGzaNmMDrmMi/ck3aYmqhM1OG7VgxL6LbAbicUvxPn0dwyuAeHMNektLadR7Sss0/TvWzL1ERD86wt2glxCb+SiODe85yfNu2trYZdLhfTe3N5D386XLkzAe57lnFBkkOzne6htRuqCkSMxtnimOgyCX1mfC/tGhBhnPdVaBj/+12595yqa6B0XSgNITCijVUjxgm5l5j8NuBzN9lIWFAcYxWW4SuDkUD3Bf27Xb8jBs1/7YGwP4rsydmVJdSMUAofgedHzk7R8XlSUakxePuCr2NvAlm8ZjXw==\" MetadataSize=\"65786\" event=\"postinstall\" sha256=\"7wdZMY/CoGS845AJweO1kDIFh5z1D9KU5PunA+lNi3M=\"/></actions><packages><package fp=\"1.ef0759318fc2a064bce39009c1e3b5903205879cf50fd294e4fba703e94d8b73\" hash_sha256=\"ef0759318fc2a064bce39009c1e3b5903205879cf50fd294e4fba703e94d8b73\" name=\"chromeos_13020.87.0_eve_stable-channel_full_mp-v2.bin-gvswmmbzhaydtii2ywljaxzi2oerx6s7.signed\" required=\"true\" size=\"1121048241\"/></packages></manifest></updatecheck></app></response>",
-    "sample_hwid": "EVE NNN",
-    "sha256": "ef0759318fc2a064bce39009c1e3b5903205879cf50fd294e4fba703e94d8b73",
-    "size": 1121048241,
-    "status": "ok",
-    "urls": [
-        "http://dl.google.com/chromeos/eve/13020.87.0/stable-channel/chromeos_13020.87.0_eve_stable-channel_full_mp-v2.bin-gvswmmbzhaydtii2ywljaxzi2oerx6s7.signed",
-        "https://dl.google.com/chromeos/eve/13020.87.0/stable-channel/chromeos_13020.87.0_eve_stable-channel_full_mp-v2.bin-gvswmmbzhaydtii2ywljaxzi2oerx6s7.signed"
-    ]
-}
+{}
