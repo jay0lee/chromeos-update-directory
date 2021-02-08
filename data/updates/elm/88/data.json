@@ -1,1 +1,17 @@
-{}
+{
+    "app_board": "elm-signed-mp-v2keys",
+    "board_id": "{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}",
+    "check_time": "2021-02-08 22:39:58.678129",
+    "chrome_version": "88.0.4324.109",
+    "chromeos_version": "13597.66.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}\" version=\"13597.0.0\" board=\"elm-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"ELM NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5152\" elapsed_seconds=\"52798\"/><app appid=\"{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}\" cohort=\"1:3z:\" cohortname=\"elm_elm_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/elm-kernelnext/13597.66.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/elm-kernelnext/13597.66.0/stable-channel/\"/></urls><manifest version=\"13597.66.0\"><actions><action event=\"update\" run=\"chromeos_13597.66.0_elm-kernelnext_stable-channel_full_elm-mp-v2.bin-gyydaojtgazwcswrhmrbesvvhorlr4rt.signed\"/><action ChromeOSVersion=\"13597.66.0\" ChromeVersion=\"88.0.4324.109\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"fI5P0Pq74f7GFUouBr8MLhtihy6Ia5hG/mjGoV1leY0BNjDc9ssjH15XTjrF5tBrIOvSAg8ycXVIu3tlXPYKeO9qXaat3iyquJ9kt/GQhIQvq+FgvFlfaT4VE4E8Xtk63NVaLndb/i7tXP/0kMUFeroktUMbEkyp60yc40U2bxKP90IIhyDsSNim1eSPlOzr2sG6gtsUK9BNd9gtdrcE9AXTodwu82+h4cQTriGdipERj5vzW/wsrvvU/w7pda9hgWiFuedTo1YXJ14z5V8LTBahTOE0+aT7axhHkzSa0PAL7ExFYv3+mXai6pwQwyM6TMHJTSLyO0ja9j7CExt8hw==\" MetadataSize=\"56747\" event=\"postinstall\" sha256=\"PQ/K4SL/eGMjarYm1ajzwF5uMjtLdRWTumz1ICICfDg=\"/></actions><packages><package fp=\"3.3d0fcae122ff7863236ab626d5a8f3c05e6e323b4b751593ba6cf52022027c38\" hash_sha256=\"3d0fcae122ff7863236ab626d5a8f3c05e6e323b4b751593ba6cf52022027c38\" name=\"chromeos_13597.66.0_elm-kernelnext_stable-channel_full_elm-mp-v2.bin-gyydaojtgazwcswrhmrbesvvhorlr4rt.signed\" required=\"true\" size=\"910173071\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "ELM NNN",
+    "sha256": "3d0fcae122ff7863236ab626d5a8f3c05e6e323b4b751593ba6cf52022027c38",
+    "size": 910173071,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/elm-kernelnext/13597.66.0/stable-channel/chromeos_13597.66.0_elm-kernelnext_stable-channel_full_elm-mp-v2.bin-gyydaojtgazwcswrhmrbesvvhorlr4rt.signed",
+        "https://dl.google.com/chromeos/elm-kernelnext/13597.66.0/stable-channel/chromeos_13597.66.0_elm-kernelnext_stable-channel_full_elm-mp-v2.bin-gyydaojtgazwcswrhmrbesvvhorlr4rt.signed"
+    ]
+}
