@@ -3,6 +3,7 @@
     "android_app_support": false,
     "app_board": "gnawty-signed-mp-v3keys",
     "board_id": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+<<<<<<< HEAD
     "check_time": "2021-02-17 22:35:40.608881",
     "chrome_version": "88.0.4324.186",
     "chromeos_auserver": "https://tools.google.com/service/update2",
@@ -29,14 +30,19 @@
     "linux_kernel_versions": [
         "4.4.241-19420-g5a63ca2874a0"
     ],
+=======
+    "check_time": "2021-03-03 17:58:14.763836",
+    "chrome_version": "88.0.4324.208",
+    "chromeos_version": "13597.105.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}\" version=\"13597.0.0\" board=\"gnawty-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"GNAWTY rRB-8zg-JQW\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5161\" elapsed_seconds=\"52540\"/><app appid=\"{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}\" cohort=\"1:4/4d:\" cohortname=\"gnawty_stable_canaryrelease_13597.94.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"10.3\" _firmware_version_0=\"10.3\" _firmware_version_1=\"10.3\" _firmware_version_2=\"10.3\" _firmware_version_3=\"10.3\" _firmware_version_4=\"10.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/gnawty/13597.94.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/gnawty/13597.94.0/stable-channel/\"/></urls><manifest version=\"13597.94.0\"><actions><action event=\"update\" run=\"chromeos_13597.94.0_gnawty_stable-channel_full_mp-v3.bin-gyydeyrzg5rtef3kjvigcsuyswj5eyue.signed\"/><action ChromeOSVersion=\"13597.94.0\" ChromeVersion=\"88.0.4324.186\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"daq94lGQbnzO9WQXcstEIS/gc4m1Zo2I9HbTx82FxqX08z8G0BSyVbH7wP/wzXRt+J8uNktMfLCRR2cKFQRa5awtyfgos+3tN8ogDikyvmT8Gis+xo87YNriGUHycwadEPQxsJfXbcvzk7NvBKTo1N/l042fXYXHvaIlzWYNAaGFY+ZiEpFDGlqUeWvBcdqgQ2X6F0uY6zgTJWoAjjsu7zzjIuDviWDDYt3tHE09EL3COgRvuvmME+lECELMmDxQZvdw8WkIkR3pFz5U75jvWv6D5WZYPLNKkXFTjrn8dphCiGQbs1cS15FETHo3NpWpuKSSkyinjruObh8v1wLxhQ==\" MetadataSize=\"56249\" event=\"postinstall\" sha256=\"8EKuh50YT/OmZDaInHSL/Zfluxrt4du3Y48232WwWLA=\"/></actions><packages><package fp=\"3.f042ae879d184ff3a66436889c748bfd97e5bb1aede1dbb7638f36df65b058b0\" hash_sha256=\"f042ae879d184ff3a66436889c748bfd97e5bb1aede1dbb7638f36df65b058b0\" name=\"chromeos_13597.94.0_gnawty_stable-channel_full_mp-v3.bin-gyydeyrzg5rtef3kjvigcsuyswj5eyue.signed\" required=\"true\" size=\"527803451\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"35894\"/><app appid=\"{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}\" cohort=\"1:4/4f:\" cohortname=\"gnawty_stable_canaryrelease_13597.105.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"10.3\" _firmware_version_0=\"10.3\" _firmware_version_1=\"10.3\" _firmware_version_2=\"10.3\" _firmware_version_3=\"10.3\" _firmware_version_4=\"10.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/gnawty/13597.105.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/gnawty/13597.105.0/stable-channel/\"/></urls><manifest version=\"13597.105.0\"><actions><action event=\"update\" run=\"chromeos_13597.105.0_gnawty_stable-channel_full_mp-v3.bin-gyydgy3bgy2db7mm66fhlxi3q3cvila6.signed\"/><action ChromeOSVersion=\"13597.105.0\" ChromeVersion=\"88.0.4324.208\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"fj+pk8Nz6A/F9+60R0KGP7gnvSnv9Mw0kWnhzYRdhcGlhU48vp5Do3Qxr414HmE8qgDVJp9BaTDxWvbgQBNULZyqhUiqcMMQ+C+mGVwKOAxHxXfjC50ilOPOFw/0Uu00tgw9ezSw3oHz3tSdq6AbleaLQDbcK/BAUrETC5aLSekUiLQlXItjSETBjafUt+YD04q+IbKjo9A2YVKfSRB67tQMB05qUk7iWYGvcamwIirTXkSDrHLUDIRG0xAvMHIFiTvsxDDrlHZHc64RAktNc6/B+UrN1m8MXaQWWbsy1gPEp3j3SUD+eHp/9RIe4btmbFs1vwQFi7R8M+ThvMBl4Q==\" MetadataSize=\"56226\" event=\"postinstall\" sha256=\"EIMxAoQZ3Vq4s2iTZYlssalq8RDrdT+KE+GfUxjc0SM=\"/></actions><packages><package fp=\"3.108331028419dd5ab8b3689365896cb1a96af110eb753f8a13e19f5318dcd123\" hash_sha256=\"108331028419dd5ab8b3689365896cb1a96af110eb753f8a13e19f5318dcd123\" name=\"chromeos_13597.105.0_gnawty_stable-channel_full_mp-v3.bin-gyydgy3bgy2db7mm66fhlxi3q3cvila6.signed\" required=\"true\" size=\"528348074\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "GNAWTY rRB-8zg-JQW",
-    "sha256": "f042ae879d184ff3a66436889c748bfd97e5bb1aede1dbb7638f36df65b058b0",
-    "size": 527803451,
+    "sha256": "108331028419dd5ab8b3689365896cb1a96af110eb753f8a13e19f5318dcd123",
+    "size": 528348074,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/gnawty/13597.94.0/stable-channel/chromeos_13597.94.0_gnawty_stable-channel_full_mp-v3.bin-gyydeyrzg5rtef3kjvigcsuyswj5eyue.signed",
-        "https://dl.google.com/chromeos/gnawty/13597.94.0/stable-channel/chromeos_13597.94.0_gnawty_stable-channel_full_mp-v3.bin-gyydeyrzg5rtef3kjvigcsuyswj5eyue.signed"
+        "http://dl.google.com/chromeos/gnawty/13597.105.0/stable-channel/chromeos_13597.105.0_gnawty_stable-channel_full_mp-v3.bin-gyydgy3bgy2db7mm66fhlxi3q3cvila6.signed",
+        "https://dl.google.com/chromeos/gnawty/13597.105.0/stable-channel/chromeos_13597.105.0_gnawty_stable-channel_full_mp-v3.bin-gyydgy3bgy2db7mm66fhlxi3q3cvila6.signed"
     ]
 }

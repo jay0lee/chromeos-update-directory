@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "nami-signed-mp-v5keys",
     "board_id": "{495DCB07-E19A-4D7D-99B9-4710011A65B1}",
+<<<<<<< HEAD
     "check_time": "2021-02-18 22:57:07.950234",
     "chrome_version": "89.0.4389.57",
     "chromeos_arc_android_sdk_version": "28",
@@ -33,14 +34,19 @@
     "linux_kernel_versions": [
         "4.4.250-19713-g86a113a4c077"
     ],
+=======
+    "check_time": "2021-03-04 04:35:47.423416",
+    "chrome_version": "89.0.4389.76",
+    "chromeos_version": "13729.41.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{495DCB07-E19A-4D7D-99B9-4710011A65B1}\" version=\"13597.0.0\" board=\"nami-signed-mp-v5keys\" track=\"beta-channel\" hardware_class=\"AKALI NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5162\" elapsed_seconds=\"53827\"/><app appid=\"{495DCB07-E19A-4D7D-99B9-4710011A65B1}\" cohort=\"1:1f:\" cohortname=\"nami_akali_beta\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/nami/13729.29.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nami/13729.29.0/beta-channel/\"/></urls><manifest version=\"13729.29.0\"><actions><action event=\"update\" run=\"chromeos_13729.29.0_nami_beta-channel_full_mp-v5.bin-gyydey3emntdb6mbndrhi6p3ldo3tbyz.signed\"/><action ChromeOSVersion=\"13729.29.0\" ChromeVersion=\"89.0.4389.57\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ySAuxCgSF2L2zhGj+Vx1dqAYcHiWw7HDlxwAXyeUba0PvCq+Jl+pw9Xn7pP1Xw9G59b7LD36+MLAzUoood7fJeq4LusDhe3uKal3LV72xsi4PMdBc7K/HXjMWQX4ff7GYXjdyqphE0SMEtr3ukvilszFe84bS75QtuJiaRw7nJRvzdFSY+/RVDi6x/gs5hbJxAamkC02FrPPkWHOJungk/MGRZ/Nfzfo79Ewz/tDhDcWI7qKF+4cmuP5IUUA6C1n99j9r25PjEVOd4GHTfPymcdyblOkSs8BLRU4iFj3bzs4n213lv/bTrwU7yNIkQZOD8HcwjCCCrGZquodDkDPOQ==\" MetadataSize=\"65722\" event=\"postinstall\" sha256=\"xo0KfP8Eb/SgyHU5dJ5CmGjr3gu6vs9WGFZkkO9qHnA=\"/></actions><packages><package fp=\"3.c68d0a7cff046ff4a0c87539749e429868ebde0bbabecf5618566490ef6a1e70\" hash_sha256=\"c68d0a7cff046ff4a0c87539749e429868ebde0bbabecf5618566490ef6a1e70\" name=\"chromeos_13729.29.0_nami_beta-channel_full_mp-v5.bin-gyydey3emntdb6mbndrhi6p3ldo3tbyz.signed\" required=\"true\" size=\"1204936290\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"74147\"/><app appid=\"{495DCB07-E19A-4D7D-99B9-4710011A65B1}\" cohort=\"1:1f:\" cohortname=\"nami_akali_beta\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/nami/13729.41.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nami/13729.41.0/beta-channel/\"/></urls><manifest version=\"13729.41.0\"><actions><action event=\"update\" run=\"chromeos_13729.41.0_nami_beta-channel_full_mp-v5.bin-gyydgzjqgm4tnruxv6b3rvqtvxqb2mou.signed\"/><action ChromeOSVersion=\"13729.41.0\" ChromeVersion=\"89.0.4389.76\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"gAO3P1fq+28uU2hxhjvOlzKBRryk1/z5X7jNa4A04KhY1QRqSzLLcIffIW9G0sN+4HMsr8yB16WbIDbiQX3NgF1QwoRWT67Zu6bqBBxxP7LG2URlG7fADeGFh1oiW1gwHx7mBEh7Sm34XhIbHuI5yUuI5TEcGnEKNJfBE1tVH0+eUxc8tkxQLX87paHRq1ZiwfTdU26AjEn4D3SHGL8DS7DGuETGdClVMVoVNpkJt8Tzuj1XbtPJAXNilqmu7CgeEfoyEaXBsSiwRkennebYqmeHYviVufQLXOFoq5I0WojF0Fr9mPutwNOu8YgGMLEzWwnL0/6Z2PubuGyGb/wr2g==\" MetadataSize=\"65708\" event=\"postinstall\" sha256=\"GuvBrK3e8zOmA7j4ShEDDOJhzYaGySAgNXXjeOJjWQQ=\"/></actions><packages><package fp=\"3.1aebc1acaddef333a603b8f84a11030ce261cd8686c920203575e378e2635904\" hash_sha256=\"1aebc1acaddef333a603b8f84a11030ce261cd8686c920203575e378e2635904\" name=\"chromeos_13729.41.0_nami_beta-channel_full_mp-v5.bin-gyydgzjqgm4tnruxv6b3rvqtvxqb2mou.signed\" required=\"true\" size=\"1204979897\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "AKALI NNN",
-    "sha256": "c68d0a7cff046ff4a0c87539749e429868ebde0bbabecf5618566490ef6a1e70",
-    "size": 1204936290,
+    "sha256": "1aebc1acaddef333a603b8f84a11030ce261cd8686c920203575e378e2635904",
+    "size": 1204979897,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/nami/13729.29.0/beta-channel/chromeos_13729.29.0_nami_beta-channel_full_mp-v5.bin-gyydey3emntdb6mbndrhi6p3ldo3tbyz.signed",
-        "https://dl.google.com/chromeos/nami/13729.29.0/beta-channel/chromeos_13729.29.0_nami_beta-channel_full_mp-v5.bin-gyydey3emntdb6mbndrhi6p3ldo3tbyz.signed"
+        "http://dl.google.com/chromeos/nami/13729.41.0/beta-channel/chromeos_13729.41.0_nami_beta-channel_full_mp-v5.bin-gyydgzjqgm4tnruxv6b3rvqtvxqb2mou.signed",
+        "https://dl.google.com/chromeos/nami/13729.41.0/beta-channel/chromeos_13729.41.0_nami_beta-channel_full_mp-v5.bin-gyydgzjqgm4tnruxv6b3rvqtvxqb2mou.signed"
     ]
 }

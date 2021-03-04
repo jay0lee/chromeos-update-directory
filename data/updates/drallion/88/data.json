@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "drallion-signed-mp-v2keys",
     "board_id": "{ED3A4869-C380-4F79-A190-027C3E879357}",
+<<<<<<< HEAD
     "check_time": "2021-02-17 22:35:35.146233",
     "chrome_version": "88.0.4324.186",
     "chromeos_arc_android_sdk_version": "28",
@@ -33,14 +34,19 @@
     "linux_kernel_versions": [
         "4.19.155-10581-g8bdb5ed8e80c"
     ],
+=======
+    "check_time": "2021-03-03 17:58:08.626833",
+    "chrome_version": "88.0.4324.208",
+    "chromeos_version": "13597.105.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" version=\"13597.0.0\" board=\"drallion-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"DRALLION-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5161\" elapsed_seconds=\"52535\"/><app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" cohort=\"1:m/3e:\" cohortname=\"drallion_drallion_stable_canaryrelease_13597.94.0\" status=\"ok\"><updatecheck _eol_date=\"21036\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/drallion/13597.94.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/drallion/13597.94.0/stable-channel/\"/></urls><manifest version=\"13597.94.0\"><actions><action event=\"update\" run=\"chromeos_13597.94.0_drallion_stable-channel_full_mp-v2.bin-gyydeyrzmy3dsk6hg2cyomltdy2ztqql.signed\"/><action ChromeOSVersion=\"13597.94.0\" ChromeVersion=\"88.0.4324.186\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"aFbjsFWO9E/CqdAQpBEtBCOMs6k5o1VOU5VHLIOQKqWlFICWoo+mJ2HibgMF2c+XgzTHZ20xMwVVGDA+LkB2zlmEmQbDYeb/ccEgwd1yKUBDjLrRpUjn2/fs4mLkmyX/jOc7mtgXj1Hi+amkV8lCW1H0PrtTuYLjEFrtMkfUlB+xWzxYl/x9JUAoo+yaba9kiaaarFNoT1zyzP9rgt6Zy0wV8cspZ5MGyXBD7sumRXilyhxZnt12PdiybN+2TF8uSY3Mjx5Ha0WtDI/FFKK5NroFL6xKHbRxiJpQEe2sHe6TvNywIMQ/rDSVkprteQ2cmL2fAqnhbdYKwurBPT75Yw==\" MetadataSize=\"65796\" event=\"postinstall\" sha256=\"wl3Gj+iMalotYtgimPh4efPzFoeHXkYiM3KMxYokibM=\"/></actions><packages><package fp=\"3.c25dc68fe88c6a5a2d62d82298f87879f3f31687875e462233728cc58a2489b3\" hash_sha256=\"c25dc68fe88c6a5a2d62d82298f87879f3f31687875e462233728cc58a2489b3\" name=\"chromeos_13597.94.0_drallion_stable-channel_full_mp-v2.bin-gyydeyrzmy3dsk6hg2cyomltdy2ztqql.signed\" required=\"true\" size=\"1232790577\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"35888\"/><app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" cohort=\"1:m/3k:\" cohortname=\"drallion_drallion_stable_canaryrelease_13597.105.0\" status=\"ok\"><updatecheck _eol_date=\"21036\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/drallion/13597.105.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/drallion/13597.105.0/stable-channel/\"/></urls><manifest version=\"13597.105.0\"><actions><action event=\"update\" run=\"chromeos_13597.105.0_drallion_stable-channel_full_mp-v2.bin-gyydgy3cgqzdghv6nn6oac7renfozwni.signed\"/><action ChromeOSVersion=\"13597.105.0\" ChromeVersion=\"88.0.4324.208\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"vTQqDoy4aSKu09pKJO2wSIovtTGCBuKw0doIRfCcOUucX5WEN/1laCIFaFLPL++EMKhSUCoIeub1VbB2MTRubwXJMBCdSK5suXSj2pdc4FqHtf4pIqZ+8NaVsul2ggLoOAOvWV4WzMX4xuEZmIVTATmRXtodQSyo3pVoMZgLk5oPzqIfmH3jfzCvUChpZN0ryTuVBM6oAS5Kl20yMciaad0690h9+qeDhYMlcyiHfHvobXRFOTcc8si8ILcGO41/iWuLd/PbBwZ41liEN7RTI8vuAy9T+VWU6A+T2hdIkzbzl99qfvLI2k8XI3a8F9BCNrtHf1mUF0o0Jgk9iF3sog==\" MetadataSize=\"65788\" event=\"postinstall\" sha256=\"jZ38GXs4mrDb/KNt3Ci8mSAVINjKFjilG1wH3FnwK/U=\"/></actions><packages><package fp=\"3.8d9dfc197b389ab0dbfca36ddc28bc99201520d8ca1638a51b5c07dc59f02bf5\" hash_sha256=\"8d9dfc197b389ab0dbfca36ddc28bc99201520d8ca1638a51b5c07dc59f02bf5\" name=\"chromeos_13597.105.0_drallion_stable-channel_full_mp-v2.bin-gyydgy3cgqzdghv6nn6oac7renfozwni.signed\" required=\"true\" size=\"1232468324\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "DRALLION-NNN",
-    "sha256": "c25dc68fe88c6a5a2d62d82298f87879f3f31687875e462233728cc58a2489b3",
-    "size": 1232790577,
+    "sha256": "8d9dfc197b389ab0dbfca36ddc28bc99201520d8ca1638a51b5c07dc59f02bf5",
+    "size": 1232468324,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/drallion/13597.94.0/stable-channel/chromeos_13597.94.0_drallion_stable-channel_full_mp-v2.bin-gyydeyrzmy3dsk6hg2cyomltdy2ztqql.signed",
-        "https://dl.google.com/chromeos/drallion/13597.94.0/stable-channel/chromeos_13597.94.0_drallion_stable-channel_full_mp-v2.bin-gyydeyrzmy3dsk6hg2cyomltdy2ztqql.signed"
+        "http://dl.google.com/chromeos/drallion/13597.105.0/stable-channel/chromeos_13597.105.0_drallion_stable-channel_full_mp-v2.bin-gyydgy3cgqzdghv6nn6oac7renfozwni.signed",
+        "https://dl.google.com/chromeos/drallion/13597.105.0/stable-channel/chromeos_13597.105.0_drallion_stable-channel_full_mp-v2.bin-gyydgy3cgqzdghv6nn6oac7renfozwni.signed"
     ]
 }

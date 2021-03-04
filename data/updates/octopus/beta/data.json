@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "octopus-signed-mp-v17keys",
     "board_id": "{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}",
+<<<<<<< HEAD
     "check_time": "2021-02-18 22:57:09.815450",
     "chrome_version": "89.0.4389.57",
     "chromeos_arc_android_sdk_version": "28",
@@ -33,14 +34,19 @@
     "linux_kernel_versions": [
         "4.14.214-17103-g887e64348b2b"
     ],
+=======
+    "check_time": "2021-03-04 04:35:50.588344",
+    "chrome_version": "89.0.4389.76",
+    "chromeos_version": "13729.41.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}\" version=\"13597.0.0\" board=\"octopus-signed-mp-v17keys\" track=\"beta-channel\" hardware_class=\"APEL NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5162\" elapsed_seconds=\"53829\"/><app appid=\"{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}\" cohort=\"1:1k:\" cohortname=\"octopus_apel_beta\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/octopus/13729.29.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/octopus/13729.29.0/beta-channel/\"/></urls><manifest version=\"13729.29.0\"><actions><action event=\"update\" run=\"chromeos_13729.29.0_octopus_beta-channel_full_mp-v23.bin-gyydey3fhbqwiyvmzhu2n5hetvjqabd3.signed\"/><action ChromeOSVersion=\"13729.29.0\" ChromeVersion=\"89.0.4389.57\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"JDxB3a3HY3TJvOoH0OdnIGm29m2FvJJYDwnDdRkSwbYEZlH/vsjyeAR1ZD/dW0fDTXY2CRop8fQI3wpHmwIGtHBdVIHKRLwn4EzxtUvPy01siW7Rw0C2DiFhp+gvqVFwIYoaR0XsaRZx0UZOKLDuqvHTe7PQ7ABpoJrvT7vPFWvYT7HjKfQqKOzY4/sNHNFxHWidilwufg/YTqljEnjy0UO6nYgmY/G/jRdA2oL4TEveQuQsP/durm2edL5gpvSoapVMqnifG9Ia1PxoNtGPwSWBD5mu+J4qoKlXUbP7cacUVzMeIHsiOCAZO+SUFyWVC8AIFZ1dlc2LY25ik1G3Ig==\" MetadataSize=\"66316\" event=\"postinstall\" sha256=\"3uf0wINyCD6cWAeltLZ004ZHI1SzNUCMbyFTUvCqtfI=\"/></actions><packages><package fp=\"3.dee7f4c08372083e9c5807a5b4b674d386472354b335408c6f215352f0aab5f2\" hash_sha256=\"dee7f4c08372083e9c5807a5b4b674d386472354b335408c6f215352f0aab5f2\" name=\"chromeos_13729.29.0_octopus_beta-channel_full_mp-v23.bin-gyydey3fhbqwiyvmzhu2n5hetvjqabd3.signed\" required=\"true\" size=\"1326802843\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"74150\"/><app appid=\"{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}\" cohort=\"1:1k:\" cohortname=\"octopus_apel_beta\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/octopus/13729.41.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/octopus/13729.41.0/beta-channel/\"/></urls><manifest version=\"13729.41.0\"><actions><action event=\"update\" run=\"chromeos_13729.41.0_octopus_beta-channel_full_mp-v23.bin-gyydgzjqgfqthojfza6vffjjllbo4skq.signed\"/><action ChromeOSVersion=\"13729.41.0\" ChromeVersion=\"89.0.4389.76\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"UkjmBCRX4iWCfFM8+7YxbXJaQWfH46auvpvtQLn1hg071YEGfUng45ReOBvW8t912F2hOjTfSNTL9MI7ov8sgL+YXt6qxRDEq9hoZ58UJIFtTjIjECqBusMgLOQ0lrX8AEMaROaCjR35mMqVWEOz7HIhORi3zglqYP2k7rmvdAXh0JEoBrBDhgi8NYTYYYtqkCKq1xC8l63AzBcVh0Lx+axCCGpTqSbc6l2Ji99FsX2XLIcJQ3vLgzdhq2wT383u3wyAhY+xpYkNePpHeWu4w99b0v9S5l204HhA53zS/chxt4OvtbrYDoE6lFTeWwRRsAjI4sjlCucstZDqdiQ2BQ==\" MetadataSize=\"66314\" event=\"postinstall\" sha256=\"WFSGsfivms9/Uxq0/SxgfqgOfaLnT8EYuSUWiOfLLO4=\"/></actions><packages><package fp=\"3.585486b1f8af9acf7f531ab4fd2c607ea80e7da2e74fc118b9251688e7cb2cee\" hash_sha256=\"585486b1f8af9acf7f531ab4fd2c607ea80e7da2e74fc118b9251688e7cb2cee\" name=\"chromeos_13729.41.0_octopus_beta-channel_full_mp-v23.bin-gyydgzjqgfqthojfza6vffjjllbo4skq.signed\" required=\"true\" size=\"1327203819\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "APEL NNN",
-    "sha256": "dee7f4c08372083e9c5807a5b4b674d386472354b335408c6f215352f0aab5f2",
-    "size": 1326802843,
+    "sha256": "585486b1f8af9acf7f531ab4fd2c607ea80e7da2e74fc118b9251688e7cb2cee",
+    "size": 1327203819,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/octopus/13729.29.0/beta-channel/chromeos_13729.29.0_octopus_beta-channel_full_mp-v23.bin-gyydey3fhbqwiyvmzhu2n5hetvjqabd3.signed",
-        "https://dl.google.com/chromeos/octopus/13729.29.0/beta-channel/chromeos_13729.29.0_octopus_beta-channel_full_mp-v23.bin-gyydey3fhbqwiyvmzhu2n5hetvjqabd3.signed"
+        "http://dl.google.com/chromeos/octopus/13729.41.0/beta-channel/chromeos_13729.41.0_octopus_beta-channel_full_mp-v23.bin-gyydgzjqgfqthojfza6vffjjllbo4skq.signed",
+        "https://dl.google.com/chromeos/octopus/13729.41.0/beta-channel/chromeos_13729.41.0_octopus_beta-channel_full_mp-v23.bin-gyydgzjqgfqthojfza6vffjjllbo4skq.signed"
     ]
 }

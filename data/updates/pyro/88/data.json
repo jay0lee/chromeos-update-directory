@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "pyro-signed-mpkeys",
     "board_id": "{63A9F698-C1CA-4A75-95E7-6B90181B3718}",
+<<<<<<< HEAD
     "check_time": "2021-02-17 22:35:54.639634",
     "chrome_version": "88.0.4324.186",
     "chromeos_arc_android_sdk_version": "28",
@@ -33,14 +34,19 @@
     "linux_kernel_versions": [
         "4.4.241-19420-g5a63ca2874a0"
     ],
+=======
+    "check_time": "2021-03-03 17:58:30.253253",
+    "chrome_version": "88.0.4324.208",
+    "chromeos_version": "13597.105.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{63A9F698-C1CA-4A75-95E7-6B90181B3718}\" version=\"13597.0.0\" board=\"pyro-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"PYRO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5161\" elapsed_seconds=\"52554\"/><app appid=\"{63A9F698-C1CA-4A75-95E7-6B90181B3718}\" cohort=\"1:30/3d:\" cohortname=\"pyro_pyro_stable_canaryrelease_13597.94.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"25.1\" _firmware_version_0=\"25.1\" _firmware_version_1=\"25.1\" _firmware_version_2=\"25.1\" _firmware_version_3=\"25.1\" _firmware_version_4=\"25.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/pyro/13597.94.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/pyro/13597.94.0/stable-channel/\"/></urls><manifest version=\"13597.94.0\"><actions><action event=\"update\" run=\"chromeos_13597.94.0_pyro_stable-channel_full_mp.bin-gyydeytbgayts7d2jhh7cmcx3gbv6d4r.signed\"/><action ChromeOSVersion=\"13597.94.0\" ChromeVersion=\"88.0.4324.186\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"GSMBIAADI9VUIfqUa4q+nqZA7VrU+zBRpD0kKuLeGwhqfYQLxzb39nw9I9wn46JVuW1nhpLnyS6ntWzmr7qD7PcOgQIEF5ozdB8a0E7EPsMViJO7gYQU0lnzbMR7o2hiNk3DJ4SXUnnopZxjaYFP4aDgTImSnqr+hAYLdsvSyxtduxc4lSmCR9HqY+gylMWcclJotMIwJt0TIFwNtHiU0b9t+caE6uhD/EH6Bgehf1Ctn135JEZK+4oF368lEvb2tGmBudKXMVxqrP+B+SO4EXahXziAk+5+Ne/FZzIzu1gJfZZB4Fk2e6c/UHIYGsJuc78fOeG7OD0c31EDm2X1HA==\" MetadataSize=\"56940\" event=\"postinstall\" sha256=\"81MilFX/rGBi3VdWvyoJVPOiSem09BIcZjHWXPx8ve0=\"/></actions><packages><package fp=\"3.f353229455ffac6062dd5756bf2a0954f3a249e9b4f4121c6631d65cfc7cbded\" hash_sha256=\"f353229455ffac6062dd5756bf2a0954f3a249e9b4f4121c6631d65cfc7cbded\" name=\"chromeos_13597.94.0_pyro_stable-channel_full_mp.bin-gyydeytbgayts7d2jhh7cmcx3gbv6d4r.signed\" required=\"true\" size=\"1007278308\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"35910\"/><app appid=\"{63A9F698-C1CA-4A75-95E7-6B90181B3718}\" cohort=\"1:30/3e:\" cohortname=\"pyro_pyro_stable_canaryrelease_13597.105.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"25.1\" _firmware_version_0=\"25.1\" _firmware_version_1=\"25.1\" _firmware_version_2=\"25.1\" _firmware_version_3=\"25.1\" _firmware_version_4=\"25.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/pyro/13597.105.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/pyro/13597.105.0/stable-channel/\"/></urls><manifest version=\"13597.105.0\"><actions><action event=\"update\" run=\"chromeos_13597.105.0_pyro_stable-channel_full_mp.bin-gyydgy3cgrrttimqgtzuk5umr2pjkyq2.signed\"/><action ChromeOSVersion=\"13597.105.0\" ChromeVersion=\"88.0.4324.208\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"NUdPnJUGowFNEhWTL0NJ/eE3MHawAIrfJdV9OsYV/2l07qH28+FS9UHrVZkMGf3V3bb4Y9h1SJzhFPUg7qylBUcYVsGm8Ot22PWViOczRDjx6Plti476+POONMS9JOkLUfmCYHaCQDHh998QnPN0Yql0j3ijqPhze7CKfejxpY3mypRfIQ/mBLxYUpUepngo9FRWoa3TqYFWDUOdTQnz/VvKdlyx+uM+xmSLEKDSVbJnSV3R6JLKbznSxhM+EQmNeFnG1fFm1FEpOolPJBNlZ9MhPrq2VWU0w+6nhLHIFLzl5OH5b36fvHa/7zjoUm+EjaRpqHbWGkIP5odiZY4Rlw==\" MetadataSize=\"56921\" event=\"postinstall\" sha256=\"TJZ+XkaFFg0Xzm8s2YxqexgQCr8uxqI90V4MygxSq00=\"/></actions><packages><package fp=\"3.4c967e5e4685160d17ce6f2cd98c6a7b18100abf2ec6a23dd15e0cca0c52ab4d\" hash_sha256=\"4c967e5e4685160d17ce6f2cd98c6a7b18100abf2ec6a23dd15e0cca0c52ab4d\" name=\"chromeos_13597.105.0_pyro_stable-channel_full_mp.bin-gyydgy3cgrrttimqgtzuk5umr2pjkyq2.signed\" required=\"true\" size=\"1008094833\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "PYRO NNN",
-    "sha256": "f353229455ffac6062dd5756bf2a0954f3a249e9b4f4121c6631d65cfc7cbded",
-    "size": 1007278308,
+    "sha256": "4c967e5e4685160d17ce6f2cd98c6a7b18100abf2ec6a23dd15e0cca0c52ab4d",
+    "size": 1008094833,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/pyro/13597.94.0/stable-channel/chromeos_13597.94.0_pyro_stable-channel_full_mp.bin-gyydeytbgayts7d2jhh7cmcx3gbv6d4r.signed",
-        "https://dl.google.com/chromeos/pyro/13597.94.0/stable-channel/chromeos_13597.94.0_pyro_stable-channel_full_mp.bin-gyydeytbgayts7d2jhh7cmcx3gbv6d4r.signed"
+        "http://dl.google.com/chromeos/pyro/13597.105.0/stable-channel/chromeos_13597.105.0_pyro_stable-channel_full_mp.bin-gyydgy3cgrrttimqgtzuk5umr2pjkyq2.signed",
+        "https://dl.google.com/chromeos/pyro/13597.105.0/stable-channel/chromeos_13597.105.0_pyro_stable-channel_full_mp.bin-gyydgy3cgrrttimqgtzuk5umr2pjkyq2.signed"
     ]
 }

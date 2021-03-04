@@ -3,6 +3,7 @@
     "android_app_support": false,
     "app_board": "enguarde-signed-mp-v25keys",
     "board_id": "{BB86912A-29BE-A59B-31EF-8F4DD1C023E2}",
+<<<<<<< HEAD
     "check_time": "2021-02-18 22:56:55.750584",
     "chrome_version": "89.0.4389.57",
     "chromeos_auserver": "https://tools.google.com/service/update2",
@@ -29,14 +30,19 @@
     "linux_kernel_versions": [
         "4.4.250-19713-g86a113a4c077"
     ],
+=======
+    "check_time": "2021-03-04 04:35:29.108974",
+    "chrome_version": "89.0.4389.76",
+    "chromeos_version": "13729.41.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BB86912A-29BE-A59B-31EF-8F4DD1C023E2}\" version=\"13597.0.0\" board=\"enguarde-signed-mp-v25keys\" track=\"beta-channel\" hardware_class=\"ENGUARDE 1o0-EHA-D1K-Kn0-Pvp-YoM-j1I-dCl-xBa-DeW-5AW-nWY\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5162\" elapsed_seconds=\"53815\"/><app appid=\"{BB86912A-29BE-A59B-31EF-8F4DD1C023E2}\" cohort=\"1:3:\" cohortname=\"enguarde_beta\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/enguarde/13729.29.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/enguarde/13729.29.0/beta-channel/\"/></urls><manifest version=\"13729.29.0\"><actions><action event=\"update\" run=\"chromeos_13729.29.0_enguarde_beta-channel_full_mp-v25.bin-gyydey3egy4dirvwpfi7uaprzcfpsgsy.signed\"/><action ChromeOSVersion=\"13729.29.0\" ChromeVersion=\"89.0.4389.57\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ynEqTmmJ6P+xHBMdvQgFogiE8lM0SPvd1j6FEfJRYsPhi9k4wOXAm8BojdfuJWXCwRDTt0vPsMW2Zd1F7/AhbPg/I/VbCNXgs2gWqR7elJfNVZCMr93N8n3Xd2sd7tCOy0qRFd6HLl4uBv7grU0XOKog636Xxx3nq/rdbbjgYsx41Qkx5TpXcdfS7aS3k392tj5SPAMC1/pDqMhJYsJhT5DU2cdmzhUOqDLFV0RFHaGHfAAi1REY2eQ3AYhWbWjARQVM19+bBIYA8G07nJ0y6GaK7o+OO0oBrtQCh7lyGPANDICaVj1aJxDz2DkmdJH1n6f97ByTBMTTk4zw4qaUMw==\" MetadataSize=\"56250\" event=\"postinstall\" sha256=\"Dy9l0Yco9Qual07l60gG4KRATNVZnsWGpv9CoaAsjWw=\"/></actions><packages><package fp=\"3.0f2f65d18728f50b9a974ee5eb4806e0a4404cd5599ec586a6ff42a1a02c8d6c\" hash_sha256=\"0f2f65d18728f50b9a974ee5eb4806e0a4404cd5599ec586a6ff42a1a02c8d6c\" name=\"chromeos_13729.29.0_enguarde_beta-channel_full_mp-v25.bin-gyydey3egy4dirvwpfi7uaprzcfpsgsy.signed\" required=\"true\" size=\"538325707\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"74129\"/><app appid=\"{BB86912A-29BE-A59B-31EF-8F4DD1C023E2}\" cohort=\"1:3:\" cohortname=\"enguarde_beta\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/enguarde/13729.41.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/enguarde/13729.41.0/beta-channel/\"/></urls><manifest version=\"13729.41.0\"><actions><action event=\"update\" run=\"chromeos_13729.41.0_enguarde_beta-channel_full_mp-v25.bin-gyydgzdfmq3wcw7pzcg42nep5aapjrhp.signed\"/><action ChromeOSVersion=\"13729.41.0\" ChromeVersion=\"89.0.4389.76\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ADPRaUnnKZr/x7uP3rOtYrllMrwooSpMruPGgoUwvmT8efjyngjOjk/Lsnt4NEO7M7Cc3/lUGYtSVH7rNYcTyPkIAPEt6CaVDbrTUC5Hzz0C8kmi46f+ur0xL6P1EFRYlfjQOfwA9UUgFbJoCdjbaNay8paOfBMvJewQM4/Y+5dLJ4l83CoV21fusnBoqdArAhLrnpKq84N7qfoJW1f/rU/p+UAhD8BsPm3wFTqgXoPTmhNG/PXuBkkRS3PXTxOi6105maLxNQBzLOjRiz7jGYsNTDlVFnVcBjdsqCl/5ngPNScCoaoqEQmnq8LQgyBeAwkof5Aj9wcpqgOZ5GQ5Iw==\" MetadataSize=\"56267\" event=\"postinstall\" sha256=\"1XDjydGxv5Ki/WI7ylVqWsEFd5w+x/aUepbVPE04bps=\"/></actions><packages><package fp=\"3.d570e3c9d1b1bf92a2fd623bca556a5ac105779c3ec7f6947a96d53c4d386e9b\" hash_sha256=\"d570e3c9d1b1bf92a2fd623bca556a5ac105779c3ec7f6947a96d53c4d386e9b\" name=\"chromeos_13729.41.0_enguarde_beta-channel_full_mp-v25.bin-gyydgzdfmq3wcw7pzcg42nep5aapjrhp.signed\" required=\"true\" size=\"538293923\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "ENGUARDE 1o0-EHA-D1K-Kn0-Pvp-YoM-j1I-dCl-xBa-DeW-5AW-nWY",
-    "sha256": "0f2f65d18728f50b9a974ee5eb4806e0a4404cd5599ec586a6ff42a1a02c8d6c",
-    "size": 538325707,
+    "sha256": "d570e3c9d1b1bf92a2fd623bca556a5ac105779c3ec7f6947a96d53c4d386e9b",
+    "size": 538293923,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/enguarde/13729.29.0/beta-channel/chromeos_13729.29.0_enguarde_beta-channel_full_mp-v25.bin-gyydey3egy4dirvwpfi7uaprzcfpsgsy.signed",
-        "https://dl.google.com/chromeos/enguarde/13729.29.0/beta-channel/chromeos_13729.29.0_enguarde_beta-channel_full_mp-v25.bin-gyydey3egy4dirvwpfi7uaprzcfpsgsy.signed"
+        "http://dl.google.com/chromeos/enguarde/13729.41.0/beta-channel/chromeos_13729.41.0_enguarde_beta-channel_full_mp-v25.bin-gyydgzdfmq3wcw7pzcg42nep5aapjrhp.signed",
+        "https://dl.google.com/chromeos/enguarde/13729.41.0/beta-channel/chromeos_13729.41.0_enguarde_beta-channel_full_mp-v25.bin-gyydgzdfmq3wcw7pzcg42nep5aapjrhp.signed"
     ]
 }

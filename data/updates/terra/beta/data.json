@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "terra-signed-mp-v2keys",
     "board_id": "{C9947713-1881-D543-F1C0-900256540EFC}",
+<<<<<<< HEAD
     "check_time": "2021-02-18 22:57:21.098734",
     "chrome_version": "89.0.4389.57",
     "chromeos_arc_android_sdk_version": "28",
@@ -32,14 +33,19 @@
     "linux_kernel_versions": [
         "4.19.166-10968-gb6ba7c0eef6e"
     ],
+=======
+    "check_time": "2021-03-04 04:36:08.448040",
+    "chrome_version": "89.0.4389.76",
+    "chromeos_version": "13729.41.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" version=\"13597.0.0\" board=\"terra-signed-mp-v2keys\" track=\"beta-channel\" hardware_class=\"TERRA WoJ-ikR-g3I-ANNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5162\" elapsed_seconds=\"53841\"/><app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" cohort=\"1:3:\" cohortname=\"terra_beta\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/terra/13729.29.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/terra/13729.29.0/beta-channel/\"/></urls><manifest version=\"13729.29.0\"><actions><action event=\"update\" run=\"chromeos_13729.29.0_terra_beta-channel_full_mp-v2.bin-gyydey3emyythxerhjjxaz7frvnmstd2.signed\"/><action ChromeOSVersion=\"13729.29.0\" ChromeVersion=\"89.0.4389.57\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"oOt0zVh/qazM/mBr0rzhjH6EUWWCe8+yks6OnCAlvrR454Ib4zRsdGpXZMmV1oYItH1K5w21tRzLCF4RuVMKFXcJ3VmkrP6nytTPL06bd7H2J4HOx5h/JfCs5qhe8UKRur0GMwSdVOo1CbJWCVElc6r93mZBDMukVh7CHmcensH//sYpGvfs0SqZnvC96+/FB8HXadDpg5ye/Cbv0YNEMNn5y6Q0K/rNyOnKqk95ywaPkNZsjSzxouuWw5Nd+o5tZQrhKSg1FSb73YddrdoxCqQcidPEW/mNbDwoiEVKjCna9h7MJJBH1BEFMPOmfIBJrVmNjaGABz64Y8xh70nsnw==\" MetadataSize=\"56972\" event=\"postinstall\" sha256=\"I36Bfd7Db2RXZZgTCGZM6Q8wJHeQ6E4IbSLBpqPK6Bc=\"/></actions><packages><package fp=\"3.237e817ddec36f645765981308664ce90f30247790e84e086d22c1a6a3cae817\" hash_sha256=\"237e817ddec36f645765981308664ce90f30247790e84e086d22c1a6a3cae817\" name=\"chromeos_13729.29.0_terra_beta-channel_full_mp-v2.bin-gyydey3emyythxerhjjxaz7frvnmstd2.signed\" required=\"true\" size=\"1016138715\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"74168\"/><app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" cohort=\"1:3:\" cohortname=\"terra_beta\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/terra/13729.41.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/terra/13729.41.0/beta-channel/\"/></urls><manifest version=\"13729.41.0\"><actions><action event=\"update\" run=\"chromeos_13729.41.0_terra_beta-channel_full_mp-v2.bin-gyydgzdgmjrgm3hisgbwzj333jbbnicd.signed\"/><action ChromeOSVersion=\"13729.41.0\" ChromeVersion=\"89.0.4389.76\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"s0rZUf2+BHvf7ge/AztRoJD3mLOZNT5I8dNy5x6nlUIaYDbUo36MgdsiN3bAwfIVti46qHwZARv/Cd6ZMB2VgYdcbkm4qbShj0Yp7U0th973JYU2xqmf+yy6A6DWAuEFSXlsZPz905cVSCIKGIhDi2M6prlo6DrTddV1f39kdrr8/GauKYZjnLVPuPPHLThGt7JdtlLm4WJILByUYDLD2vek5WbYy9tda2BNbtExwC1WSz5chyj/2CO+cETw87r1IyLWxkqlJhtP9OflBjRtvgtkawa3DFd2ov/qqh6tFiIfwxoTPRUNLLa7CYKU2XSLnxLxaPAdjptpLvXCyGAGQA==\" MetadataSize=\"56969\" event=\"postinstall\" sha256=\"3USYDOUbaHiDJCiGBmitHfCzg4FzA3lwbonRTRfrfFo=\"/></actions><packages><package fp=\"3.dd44980ce51b6878832428860668ad1df0b38381730379706e89d14d17eb7c5a\" hash_sha256=\"dd44980ce51b6878832428860668ad1df0b38381730379706e89d14d17eb7c5a\" name=\"chromeos_13729.41.0_terra_beta-channel_full_mp-v2.bin-gyydgzdgmjrgm3hisgbwzj333jbbnicd.signed\" required=\"true\" size=\"1016175369\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "TERRA WoJ-ikR-g3I-ANNN",
-    "sha256": "237e817ddec36f645765981308664ce90f30247790e84e086d22c1a6a3cae817",
-    "size": 1016138715,
+    "sha256": "dd44980ce51b6878832428860668ad1df0b38381730379706e89d14d17eb7c5a",
+    "size": 1016175369,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/terra/13729.29.0/beta-channel/chromeos_13729.29.0_terra_beta-channel_full_mp-v2.bin-gyydey3emyythxerhjjxaz7frvnmstd2.signed",
-        "https://dl.google.com/chromeos/terra/13729.29.0/beta-channel/chromeos_13729.29.0_terra_beta-channel_full_mp-v2.bin-gyydey3emyythxerhjjxaz7frvnmstd2.signed"
+        "http://dl.google.com/chromeos/terra/13729.41.0/beta-channel/chromeos_13729.41.0_terra_beta-channel_full_mp-v2.bin-gyydgzdgmjrgm3hisgbwzj333jbbnicd.signed",
+        "https://dl.google.com/chromeos/terra/13729.41.0/beta-channel/chromeos_13729.41.0_terra_beta-channel_full_mp-v2.bin-gyydgzdgmjrgm3hisgbwzj333jbbnicd.signed"
     ]
 }

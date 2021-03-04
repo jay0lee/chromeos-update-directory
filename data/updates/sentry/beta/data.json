@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "sentry-signed-mpkeys",
     "board_id": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+<<<<<<< HEAD
     "check_time": "2021-02-18 22:57:17.265818",
     "chrome_version": "89.0.4389.57",
     "chromeos_arc_android_sdk_version": "28",
@@ -32,14 +33,19 @@
     "linux_kernel_versions": [
         "3.18.0-20615-g21024ba2ab1d"
     ],
+=======
+    "check_time": "2021-03-04 04:36:02.478432",
+    "chrome_version": "89.0.4389.76",
+    "chromeos_version": "13729.41.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" version=\"13597.0.0\" board=\"sentry-signed-mpkeys\" track=\"beta-channel\" hardware_class=\"SENTRY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5162\" elapsed_seconds=\"53837\"/><app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" cohort=\"1:3:\" cohortname=\"sentry_beta\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"20.1\" _firmware_version_0=\"20.1\" _firmware_version_1=\"20.1\" _firmware_version_2=\"20.1\" _firmware_version_3=\"20.1\" _firmware_version_4=\"20.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sentry/13729.29.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sentry/13729.29.0/beta-channel/\"/></urls><manifest version=\"13729.29.0\"><actions><action event=\"update\" run=\"chromeos_13729.29.0_sentry_beta-channel_full_mp.bin-gyydey3egq3dl7djmbhcfeb37xvvclwv.signed\"/><action ChromeOSVersion=\"13729.29.0\" ChromeVersion=\"89.0.4389.57\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"hSpmMKPEjAsPjvTPyzOkQKQk9u7qvU3rvm/i60m7iIAMXtpwcNGbzoGVwBEuU9p+l7r84QxjT2u3k1/5Bw7Zl9DuH4Yd7s1UE1EKAnydTznIoktnmA6h/GQ+k+2ggPazsCQWZECPke9t19OKIbVa0S8bTdWIPm0fO+Da+7mrNPOgmHGTEIAdIMdyCkhcZ9oeM5FhNZDzwXd5knX41q3i3GLk1QqCgpdKudzbr0iaa8x0KRhaQo4D33UYtd0zqQLIP2Ofjjjvr8DIAwdIGtNHSbb++Du1veOELJaBPhlXBa44Tgbk+qZRUZCVRslJedD7gCE2TKdL256WHrMRbP8aYQ==\" MetadataSize=\"56973\" event=\"postinstall\" sha256=\"JrimJDqb5U0gTKT68TAXcH3ZtNcQ8khmjf3K5EKkEBs=\"/></actions><packages><package fp=\"3.26b8a6243a9be54d204ca4faf13017707dd9b4d710f248668dfdcae442a4101b\" hash_sha256=\"26b8a6243a9be54d204ca4faf13017707dd9b4d710f248668dfdcae442a4101b\" name=\"chromeos_13729.29.0_sentry_beta-channel_full_mp.bin-gyydey3egq3dl7djmbhcfeb37xvvclwv.signed\" required=\"true\" size=\"1012767761\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"74162\"/><app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" cohort=\"1:3:\" cohortname=\"sentry_beta\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"20.1\" _firmware_version_0=\"20.1\" _firmware_version_1=\"20.1\" _firmware_version_2=\"20.1\" _firmware_version_3=\"20.1\" _firmware_version_4=\"20.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sentry/13729.41.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sentry/13729.41.0/beta-channel/\"/></urls><manifest version=\"13729.41.0\"><actions><action event=\"update\" run=\"chromeos_13729.41.0_sentry_beta-channel_full_mp.bin-gyydgzdgmfrgimodr4zcyr7mfgd6e3lm.signed\"/><action ChromeOSVersion=\"13729.41.0\" ChromeVersion=\"89.0.4389.76\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"qwH5k8K0yY/gyyiww4UcIxOGZH/s7DtxB9NgmPxSjXMyRVYy/CAvqCpJGPT1QxfJzrrWps1x3VQ1+FyKychx7IQt40EPEIgP2XmWaVVJhDz3IVFAsYEfU7+uo5FLMNgJfEywOZucmqaGOK7Oa3aubt1REBgJ9tAJOAd4c4CzK0xBtlepk/uhKgcmBKhz+JHh1LBZG2hnV6cBACYnolJT13285Otf/ohQGhUs7+xZNGMgQORbFQFBMSmkWj52zA8IyFNLajTUyI6kDfuLldfIi1xHP4FwzZ06EG1NAIbQzj+bS3u3w9sGWT6OQnvNVDsyj2via1bhWNZ0Xdw2JL9gDA==\" MetadataSize=\"56978\" event=\"postinstall\" sha256=\"nm0VW94R0SvKuUW6dUUDGEobFfGOf6hB14xgYfG6wy4=\"/></actions><packages><package fp=\"3.9e6d155bde11d12bcab945ba754503184a1b15f18e7fa841d78c6061f1bac32e\" hash_sha256=\"9e6d155bde11d12bcab945ba754503184a1b15f18e7fa841d78c6061f1bac32e\" name=\"chromeos_13729.41.0_sentry_beta-channel_full_mp.bin-gyydgzdgmfrgimodr4zcyr7mfgd6e3lm.signed\" required=\"true\" size=\"1012528550\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "SENTRY NNN",
-    "sha256": "26b8a6243a9be54d204ca4faf13017707dd9b4d710f248668dfdcae442a4101b",
-    "size": 1012767761,
+    "sha256": "9e6d155bde11d12bcab945ba754503184a1b15f18e7fa841d78c6061f1bac32e",
+    "size": 1012528550,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/sentry/13729.29.0/beta-channel/chromeos_13729.29.0_sentry_beta-channel_full_mp.bin-gyydey3egq3dl7djmbhcfeb37xvvclwv.signed",
-        "https://dl.google.com/chromeos/sentry/13729.29.0/beta-channel/chromeos_13729.29.0_sentry_beta-channel_full_mp.bin-gyydey3egq3dl7djmbhcfeb37xvvclwv.signed"
+        "http://dl.google.com/chromeos/sentry/13729.41.0/beta-channel/chromeos_13729.41.0_sentry_beta-channel_full_mp.bin-gyydgzdgmfrgimodr4zcyr7mfgd6e3lm.signed",
+        "https://dl.google.com/chromeos/sentry/13729.41.0/beta-channel/chromeos_13729.41.0_sentry_beta-channel_full_mp.bin-gyydgzdgmfrgimodr4zcyr7mfgd6e3lm.signed"
     ]
 }

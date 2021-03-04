@@ -4,6 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "auron_paine-signed-mp-v2keys",
     "board_id": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+<<<<<<< HEAD
     "check_time": "2021-02-18 22:57:10.989449",
     "chrome_version": "89.0.4389.57",
     "chromeos_arc_android_sdk_version": "28",
@@ -32,14 +33,19 @@
     "linux_kernel_versions": [
         "4.14.214-17103-g887e64348b2b"
     ],
+=======
+    "check_time": "2021-03-04 04:35:52.028233",
+    "chrome_version": "89.0.4389.76",
+    "chromeos_version": "13729.41.0",
+>>>>>>> 3bef8b5741a8579347346ef06074a59b2822840b
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" version=\"13597.0.0\" board=\"auron_paine-signed-mp-v2keys\" track=\"beta-channel\" hardware_class=\"PAINE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5162\" elapsed_seconds=\"53830\"/><app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" cohort=\"1:3:\" cohortname=\"auron-paine_beta\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/auron-paine/13729.29.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/auron-paine/13729.29.0/beta-channel/\"/></urls><manifest version=\"13729.29.0\"><actions><action event=\"update\" run=\"chromeos_13729.29.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydey3ehbsdcd4dwhembnlqmpqfexwr.signed\"/><action ChromeOSVersion=\"13729.29.0\" ChromeVersion=\"89.0.4389.57\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"dAwDrZUvaN9sFlRMAtjrmAG1f28ztM8IR9VxdF9dSLi5Zgg/m+i3Ep5APwOtwPT03aWKQJAW6vfgyw00YoWDkRt+tdccOFLXnwt7qE0OMQt49QamkeMxy2erfXN6PS9pHb/A/18eyy8/zXc3sDjw2GTlKN5Q0yR22xC1RlvzdbvZr+Z048zxm/NWHj6Tg/vOQOM60S7BT9pITPbgt2eVnCsGsA4lLi3i5IPfCExG51C1frck6Rg14xIkcgG6SRcatBxxyMx5sBDDpTKw1khFm1ahH7W0BZn9ouvnDxQ+h5bBfoLm5R9Ct5J4QH32V2yIk28wSCk1M9i8Qq4IZCJLFQ==\" MetadataSize=\"56958\" event=\"postinstall\" sha256=\"t+3zJinvHReZlW3AlThFrCmMxaURhtduxkcLeXV10EA=\"/></actions><packages><package fp=\"3.b7edf32629ef1d1799956dc0953845ac298cc5a51186d76ec6470b797575d040\" hash_sha256=\"b7edf32629ef1d1799956dc0953845ac298cc5a51186d76ec6470b797575d040\" name=\"chromeos_13729.29.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydey3ehbsdcd4dwhembnlqmpqfexwr.signed\" required=\"true\" size=\"1009452849\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5175\" elapsed_seconds=\"74152\"/><app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" cohort=\"1:3:\" cohortname=\"auron-paine_beta\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/auron-paine/13729.41.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/auron-paine/13729.41.0/beta-channel/\"/></urls><manifest version=\"13729.41.0\"><actions><action event=\"update\" run=\"chromeos_13729.41.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydgzdgmrtgdv5s6wtzyq3sq3o7b5ah.signed\"/><action ChromeOSVersion=\"13729.41.0\" ChromeVersion=\"89.0.4389.76\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"d6hYFXuKCKFprUlSTai4PMK1emBD/16OUbo+OFN2fO0VegBNuqTLJuhttneniOT/sEnzrGyEj/Cmzt61iSnGghjy1KvHTdwN3yl0lH0B8QhgAltlXlBSp+2rONU8S81NHFcYCDVSNtQmiMBsUGyqen5/DU737+l2jzLH2SNlnLrH+lEM9AnDIi4xYaabySDi98uwuAbZ5dZ1Tye2wJQjGKRhLZ/txAMEa3NrMaoRRLQSRg4Rnc7DfBBDkiHt0p4AuwhHrcSIENs+EWilg50OwLMZZEE1Qr+HNod0tu686VXOldtzjF0INpqQk1f7hae3C1v9fjuEbLsisLjzwT0Spw==\" MetadataSize=\"56960\" event=\"postinstall\" sha256=\"Lm38q0/8kMIMppzsLXXVz9UylIqCAbJhhRcdDnhtkmI=\"/></actions><packages><package fp=\"3.2e6dfcab4ffc90c20ca69cec2d75d5cfd532948a8201b26185171d0e786d9262\" hash_sha256=\"2e6dfcab4ffc90c20ca69cec2d75d5cfd532948a8201b26185171d0e786d9262\" name=\"chromeos_13729.41.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydgzdgmrtgdv5s6wtzyq3sq3o7b5ah.signed\" required=\"true\" size=\"1009519730\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "PAINE NNN",
-    "sha256": "b7edf32629ef1d1799956dc0953845ac298cc5a51186d76ec6470b797575d040",
-    "size": 1009452849,
+    "sha256": "2e6dfcab4ffc90c20ca69cec2d75d5cfd532948a8201b26185171d0e786d9262",
+    "size": 1009519730,
     "status": "ok",
     "urls": [
-        "http://dl.google.com/chromeos/auron-paine/13729.29.0/beta-channel/chromeos_13729.29.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydey3ehbsdcd4dwhembnlqmpqfexwr.signed",
-        "https://dl.google.com/chromeos/auron-paine/13729.29.0/beta-channel/chromeos_13729.29.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydey3ehbsdcd4dwhembnlqmpqfexwr.signed"
+        "http://dl.google.com/chromeos/auron-paine/13729.41.0/beta-channel/chromeos_13729.41.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydgzdgmrtgdv5s6wtzyq3sq3o7b5ah.signed",
+        "https://dl.google.com/chromeos/auron-paine/13729.41.0/beta-channel/chromeos_13729.41.0_auron-paine_beta-channel_full_paine-mp-v2.bin-gyydgzdgmrtgdv5s6wtzyq3sq3o7b5ah.signed"
     ]
 }
