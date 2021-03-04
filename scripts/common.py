@@ -55,7 +55,7 @@ def check_updates(appid, version, board, track, hardware_class, targetversionpre
     return_data['eol_date'] = (epoch + add_days)
   return return_data
 
-def download_update_file(data, path, curl_verbosity='--progress-bar'):
+def download_update_file(data, path, curl_verbosity=''):
     url = data.get('urls', [None])[0]
     if not url:
         print(f'No urls in {data}')
@@ -95,7 +95,7 @@ def download_update_file(data, path, curl_verbosity='--progress-bar'):
     return return_data
 
 
-def download_image_file(data, path, verify=True, backfill_verify=False, curl_verbosity='--progress-bar'):
+def download_image_file(data, path, verify=True, backfill_verify=False, curl_verbosity=''):
   rel_file = data.get('file')
   recovery_file = f'{path}/{rel_file}'
   return_data = {'full_file_path': recovery_file}

@@ -77,6 +77,5 @@ for data_file in data_files:
 
   if delete_download:
     sleep(1)
-    os.remove(update_file_path)
-    os.remove(partition_file)
+    os.remove(f'{update_file_path}*')
   
