@@ -77,5 +77,10 @@ for data_file in data_files:
 
   if delete_download:
     sleep(1)
-    os.remove(f'{update_file_path}*')
+    delete_pattern = f'{update_file_path}*'
+    data_files = glob.glob(delete_pattern)
+    i = 0
+    count = len(data_files)
+    for data_file in data_files:
+        os.remove(data_file)
   
