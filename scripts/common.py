@@ -55,6 +55,46 @@ def check_updates(appid, version, board, track, hardware_class, targetversionpre
     return_data['eol_date'] = (epoch + add_days)
   return return_data
 
+def download_update_file(data, path, curl_verbosity='--progress-bar'):
+    url = data.get('urls', [None])[0]
+    if not url:
+        print(f'No urls in {data}')
+        sys.exit(3)
+    rel_file = url.split('/')[-1]
+    update_file = f'{path}/{rel_file}'
+    return_data = {'full_file_path': update_file}
+    #if os.path.isfile(update_file):
+    #    return_data['needed_to_download'] = False
+    #    return return_data
+    sha256_file = f'{update_file}.sha256'
+    update_sha256 = data.get('sha256')
+    partial_file = '{update_file}.part'
+    with open(sha256_file, 'w') as f:
+        print(f'writing {sha256_file}...')
+        f.write(f'{update_sha256} -')
+    cmd = f'curl {curl_verbosity} {url} | tee {partial_file} | sha256sum -c {sha256_file}'
+    for _ in range(3):
+      print(f'Downloading image {rel_file}...\n\n')
+      return_code = os.system(f'bash -c "{cmd}"')
+      if return_code == 0:
+        os.rename(partial_file, update_file)
+        break
+      else:
+        print('FAILURE! Trying again...')
+    if return_code != 0:
+        sys.exit(1)
+    partition_file = f'{update_file}.partition'
+    kernel_file = f'{update_file}.kernel'
+    cmd = f'python3 ~/update_engine/scripts/paycheck.py {update_file} --part_names root kernel --out_dst_part_paths {partition_file} {kernel_file}'
+    return_code = os.system(f'bash -c "{cmd}"')
+    if return_code != 0:
+        sys.exit(1)
+    return_data['partition_file'] = partition_file
+    return_data['needed_to_download'] = True
+    return_data['data'] = data
+    return return_data
+
+
 def download_image_file(data, path, verify=True, backfill_verify=False, curl_verbosity='--progress-bar'):
   rel_file = data.get('file')
   recovery_file = f'{path}/{rel_file}'
@@ -153,19 +193,23 @@ def mount_image(image_file, mnt_path, partition=3):
   #  print(lodevices)
   #  sys.exit(4)
 
+  losetup_cmd = ['sudo', 'losetup', '--show', '--find',]
   # Use fdisk to find start and end of the partition
-  fdisk_cmd = ['bash', '-c', f'/sbin/fdisk -l {image_file} 2> /dev/null']
-  fdisk_out = str(subprocess.run(fdisk_cmd, stdout=subprocess.PIPE).stdout)
-  rx = f'{image_file}{partition}\s+([0-9]*)\s+([0-9]*)'
-  mg = re.search(rx, fdisk_out)
-  if not mg:
-    print(f'ERROR: failed to find partition {partition} of {image_file} (does file exist?)')
-    sys.exit(5)
-  part_start = str(int(mg.group(1)) * 512)
-  part_end = str(int(mg.group(2)) * 512)
+  # partition=0 means image is partition itself
+  if partition != 0:
+      fdisk_cmd = ['bash', '-c', f'/sbin/fdisk -l {image_file} 2> /dev/null']
+      fdisk_out = str(subprocess.run(fdisk_cmd, stdout=subprocess.PIPE).stdout)
+      rx = f'{image_file}{partition}\s+([0-9]*)\s+([0-9]*)'
+      mg = re.search(rx, fdisk_out)
+      if not mg:
+          print(f'ERROR: failed to find partition {partition} of {image_file} (does file exist?)')
+          sys.exit(5)
+      part_start = str(int(mg.group(1)) * 512)
+      part_end = str(int(mg.group(2)) * 512)
+      losetup_cmd.extend(['--offset', part_start, '--sizelimit', part_end])
 
-  # setup loopback device /dev/loop0 and mount
-  losetup_cmd = ['sudo', 'losetup', '--show', '--find', '--offset', part_start, '--sizelimit', part_end, image_file]
+  losetup_cmd.append(image_file)
+  print(losetup_cmd)
   loop_device = subprocess.run(losetup_cmd, stdout=subprocess.PIPE).stdout.strip()
   mount_cmd = ['sudo', 'mount', '-o', 'ro', loop_device, mnt_path]
   subprocess.run(mount_cmd)
