@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "atlas-signed-mpkeys",
+    "board_id": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "check_time": "2021-03-04 22:15:59.450834",
+    "chrome_version": "86.0.4240.199",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "6983197",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "chromeos_release_board": "atlas-signed-mpkeys",
+    "chromeos_release_branch_number": "102",
+    "chromeos_release_build_number": "13421",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "atlas-release/R86-13421.102.0",
+    "chromeos_release_chrome_milestone": "86",
+    "chromeos_release_description": "13421.102.0 (Official Build) stable-channel atlas ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13421.102.0",
+    "chromeos_version": "13421.102.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13421.102.0",
+    "linux_kernel_versions": [
+        "4.4.232-19106-g8255e54b7c36"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}\" version=\"13421.0.0\" board=\"atlas-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"ATLAS NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5176\" elapsed_seconds=\"51359\"/><app appid=\"{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}\" cohort=\"1:1o:\" cohortname=\"atlas_atlas_stable\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/atlas/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/atlas/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_atlas_stable-channel_full_mp.bin-gvtgenzqmqzwnaexg3q7472hqcfv4ilt.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"JK9o0W3Q/7hyVG+/u3hZwBGbz+0skgUlGyAduTTQb6peBxdvoq83IxTaX+Z/e4JiPNK0HR0gRBrUGwFH8E17tDClFSCQ2o4q8YQuT1R0s1JtDJCkDcY2LCgnhxP/Y+xCTJQEZM+8Ys//qv0gz5prChiB7g7u8zO6nZiNsI3TgGU487E166XuTDz/NQNyUTBR5pSGblulkagrBkjGchW1kZsTtcM/6HOX05ZJcdBEcNupLIzc+7PSiM4zwylp0/XJiqXSIUu/6J+p5MKevS+6JZnDTAm9FyhZK4zhfMjN8dbh0QQ2jaM3fFnntAewy0RUOi0S1YR525SC0GK+seGLbQ==\" MetadataSize=\"65781\" event=\"postinstall\" sha256=\"4/X9q8/1Iu6Khf/aq0lWYMbPZpWpcH21RuQOMvF+0Gk=\"/></actions><packages><package fp=\"3.e3f5fdabcff522ee8a85ffdaab495660c6cf6695a9707db546e40e32f17ed069\" hash_sha256=\"e3f5fdabcff522ee8a85ffdaab495660c6cf6695a9707db546e40e32f17ed069\" name=\"chromeos_13421.102.0_atlas_stable-channel_full_mp.bin-gvtgenzqmqzwnaexg3q7472hqcfv4ilt.signed\" required=\"true\" size=\"1190926923\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "ATLAS NNN",
+    "sha256": "e3f5fdabcff522ee8a85ffdaab495660c6cf6695a9707db546e40e32f17ed069",
+    "size": 1190926923,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/atlas/13421.102.0/stable-channel/chromeos_13421.102.0_atlas_stable-channel_full_mp.bin-gvtgenzqmqzwnaexg3q7472hqcfv4ilt.signed",
+        "https://dl.google.com/chromeos/atlas/13421.102.0/stable-channel/chromeos_13421.102.0_atlas_stable-channel_full_mp.bin-gvtgenzqmqzwnaexg3q7472hqcfv4ilt.signed"
+    ]
+}
