@@ -25,8 +25,14 @@ jobs:
       - name: Install requirements
         run: pip3 install -r scripts/requirements.txt
 
+      - name: Install update_engine tools
+        run: git clone https://chromium.googlesource.com/aosp/platform/system/update_engine ~/update_engine
+
       - name: Check for updates
         run: python3 scripts/check_for_updates.py
+
+      - name: Analyze updates
+        run: python3 scripts/analyze_update_details.py
 
       - name: Commit files
         run: |
