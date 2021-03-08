@@ -108,6 +108,7 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
     return latest_update_info
 
 def write_update_file(data_path, image, channel, update_data):
+   global something_changed
    update_path = f'{data_path}/updates/{image}/{channel}'
    os.makedirs(update_path, exist_ok=True)
    update_file = f'{update_path}/data.json'
