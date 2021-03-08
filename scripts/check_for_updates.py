@@ -203,7 +203,8 @@ def main():
                                                         pinned_release=chromeos_milestone)
             write_update_file(data_path, image, chrome_milestone, images[image][chrome_milestone])
 
-    if something_changed:
+    #if something_changed:
+    if True:
         # find most common versions
         versions = {}
         newest_versions = {}
