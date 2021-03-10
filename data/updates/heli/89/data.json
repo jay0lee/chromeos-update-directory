@@ -1,0 +1,42 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "app_board": "heli-signed-mp-v4keys",
+    "board_id": "{3E8F25F2-3438-46CE-85AC-4A0329A79E09}",
+    "check_time": "2021-03-09 23:29:19.936633",
+    "chrome_version": "89.0.4389.82",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3E8F25F2-3438-46CE-85AC-4A0329A79E09}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3E8F25F2-3438-46CE-85AC-4A0329A79E09}",
+    "chromeos_release_board": "heli-signed-mp-v4keys",
+    "chromeos_release_branch_number": "45",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "heli-release/R89-13729.45.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.45.0 (Official Build) stable-channel heli ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13729.45.0",
+    "chromeos_version": "13729.45.0",
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13729.45.0",
+    "linux_kernel_versions": [
+        "4.4.250-19735-gee6fdafe8c48"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{3E8F25F2-3438-46CE-85AC-4A0329A79E09}\" version=\"13729.0.0\" board=\"heli-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"HELI NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13729\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5181\" elapsed_seconds=\"55759\"/><app appid=\"{3E8F25F2-3438-46CE-85AC-4A0329A79E09}\" cohort=\"1:4/4h:\" cohortname=\"heli_stable_canaryrelease_13729.45.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/heli/13729.45.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/heli/13729.45.0/stable-channel/\"/></urls><manifest version=\"13729.45.0\"><actions><action event=\"update\" run=\"chromeos_13729.45.0_heli_stable-channel_full_mp-v4.bin-gyydimrwmm4dj4iv5kg7mayslmcykbg5.signed\"/><action ChromeOSVersion=\"13729.45.0\" ChromeVersion=\"89.0.4389.82\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"WzyLomYlxEjaiQsGdtqLYdNYT+y12xx8oei+hJ/0W97ZzJGEIpb/vOd5kpaodOcQqsE2AReQwmpPyD/jJ+p+SdhNDTzhSBAZ8qBExGypAJosEEMNizpgY7Ib4a9FgZBQJY4LOpHgVoR58EP4e1RvUAjTE/LxOFTCH76PKPRustqSMFaHxjHeGa8HR+zajfhFQmmUsHdEmE8iqioH3o82Nnw7BOIs8oOpMkBspYSFrYtvaqFbr5s3AYMDZo21Lzm5jdLk7OhyXP8hMO3MiH0/6y3YcPzFsLYVFjuMMVszBFzrpL+Za1uFnsjlG/1Ra/UXERHO0LG64aP4x/6UYpWHbA==\" MetadataSize=\"56269\" event=\"postinstall\" sha256=\"0b/hIEq53wqTaVLLjYy2bs49boC2mEbLKdaN7mZvh0Y=\"/></actions><packages><package fp=\"3.d1bfe1204ab9df0a936952cb8d8cb66ece3d6e80b69846cb29d68dee666f8746\" hash_sha256=\"d1bfe1204ab9df0a936952cb8d8cb66ece3d6e80b69846cb29d68dee666f8746\" name=\"chromeos_13729.45.0_heli_stable-channel_full_mp-v4.bin-gyydimrwmm4dj4iv5kg7mayslmcykbg5.signed\" required=\"true\" size=\"537458170\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "HELI NNN",
+    "sha256": "d1bfe1204ab9df0a936952cb8d8cb66ece3d6e80b69846cb29d68dee666f8746",
+    "size": 537458170,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/heli/13729.45.0/stable-channel/chromeos_13729.45.0_heli_stable-channel_full_mp-v4.bin-gyydimrwmm4dj4iv5kg7mayslmcykbg5.signed",
+        "https://dl.google.com/chromeos/heli/13729.45.0/stable-channel/chromeos_13729.45.0_heli_stable-channel_full_mp-v4.bin-gyydimrwmm4dj4iv5kg7mayslmcykbg5.signed"
+    ]
+}
