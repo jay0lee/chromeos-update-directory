@@ -1,1 +1,42 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "app_board": "buddy-signed-mp-v2keys",
+    "board_id": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
+    "check_time": "2021-03-12 22:29:32.007213",
+    "chrome_version": "88.0.4324.208",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
+    "chromeos_release_board": "buddy-signed-mp-v2keys",
+    "chromeos_release_branch_number": "105",
+    "chromeos_release_build_number": "13597",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "buddy-release/R88-13597.105.0",
+    "chromeos_release_chrome_milestone": "88",
+    "chromeos_release_description": "13597.105.0 (Official Build) stable-channel buddy ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13597.105.0",
+    "chromeos_version": "13597.105.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBASE",
+    "google_release": "13597.105.0",
+    "linux_kernel_versions": [
+        "4.14.204-16731-gb869cbdcd220"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{B801E98B-4AB6-4D82-B3B3-E1517DC53266}\" version=\"13597.0.0\" board=\"buddy-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"BUDDY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5184\" elapsed_seconds=\"52171\"/><app appid=\"{B801E98B-4AB6-4D82-B3B3-E1517DC53266}\" cohort=\"1:4:\" cohortname=\"buddy_stable\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"50.2\" _firmware_version_0=\"50.2\" _firmware_version_1=\"50.2\" _firmware_version_2=\"50.2\" _firmware_version_3=\"50.2\" _firmware_version_4=\"50.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/buddy/13597.105.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/buddy/13597.105.0/stable-channel/\"/></urls><manifest version=\"13597.105.0\"><actions><action event=\"update\" run=\"chromeos_13597.105.0_buddy_stable-channel_full_mp-v2.bin-gyydgy3bmnrdbthgih4joe6np64gwkyc.signed\"/><action ChromeOSVersion=\"13597.105.0\" ChromeVersion=\"88.0.4324.208\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ECfPhKPAJm8nKeWxLrvXnXno0hWVt8GWGXfdpth7bnDY/DxyfrUWuzC5c/S8L0CRMTwypEPnCheI/6N39MlI7ij9EjnrCuYf7SWcJNsMZGa6TdtFccjcJF15XAJxIerCONf3sTsYV2UodY/o+60IRW6zFaaWAoHIstACdkIA153l8mxGcIf0vP/xM3JM4/EWabWZqIlvwL1DroeYI8spjmcjNuxC+5H5dCAGHSXYDyGtn8bJg4HDpuWs9NtvhMK9YEHYnBcpF839rU+ZcJaAbgsEF9QTPUoaY+9ogYfE/EujIWkbc5TjXlsNqPDAWi+QqVD2+Bvu+hIU805P3n67DQ==\" MetadataSize=\"56381\" event=\"postinstall\" sha256=\"CKLp8j5oYrQ1HNMtwVRy6+4dmMODhsbXvJX7b3xMWY8=\"/></actions><packages><package fp=\"3.08a2e9f23e6862b4351cd32dc15472ebee1d98c38386c6d7bc95fb6f7c4c598f\" hash_sha256=\"08a2e9f23e6862b4351cd32dc15472ebee1d98c38386c6d7bc95fb6f7c4c598f\" name=\"chromeos_13597.105.0_buddy_stable-channel_full_mp-v2.bin-gyydgy3bmnrdbthgih4joe6np64gwkyc.signed\" required=\"true\" size=\"620489123\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "BUDDY NNN",
+    "sha256": "08a2e9f23e6862b4351cd32dc15472ebee1d98c38386c6d7bc95fb6f7c4c598f",
+    "size": 620489123,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/buddy/13597.105.0/stable-channel/chromeos_13597.105.0_buddy_stable-channel_full_mp-v2.bin-gyydgy3bmnrdbthgih4joe6np64gwkyc.signed",
+        "https://dl.google.com/chromeos/buddy/13597.105.0/stable-channel/chromeos_13597.105.0_buddy_stable-channel_full_mp-v2.bin-gyydgy3bmnrdbthgih4joe6np64gwkyc.signed"
+    ]
+}

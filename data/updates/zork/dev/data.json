@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "zork-signed-mp-v4keys",
+    "board_id": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "check_time": "2021-03-12 22:29:27.622830",
+    "chrome_version": "90.0.4430.11",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7178533",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "chromeos_release_board": "zork-signed-mp-v5keys",
+    "chromeos_release_branch_number": "6",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "zork-release/R90-13816.6.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.6.0 (Official Build) dev-channel zork ",
+    "chromeos_release_keyset": "mp-v5",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "dev-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13816.6.0",
+    "chromeos_version": "13816.6.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13816.6.0",
+    "linux_kernel_versions": [
+        "5.4.99-13099-gc08bb484bf8d"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" version=\"13729.0.0\" board=\"zork-signed-mp-v4keys\" track=\"dev-channel\" hardware_class=\"MORPHIUS|NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5184\" elapsed_seconds=\"52167\"/><app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" cohort=\"1:5:\" cohortname=\"zork_morphius_dev\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/zork/13816.6.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/zork/13816.6.0/dev-channel/\"/></urls><manifest version=\"13816.6.0\"><actions><action event=\"update\" run=\"chromeos_13816.6.0_zork_dev-channel_full_mp-v5.bin-gyydgzrvme3temy7wjcwriwvaiu2x764.signed\"/><action ChromeOSVersion=\"13816.6.0\" ChromeVersion=\"90.0.4430.11\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"KkWsTA8qPN3swdNzjCQlQsyu7wn8/41WtuSnWXGj1Ys7LtkUUjKkhN2KrKmlK++UKBTrr7u2oc3c5yG7tiE3+huNa1+CdHnk/r5kfWjo9wvcxnuK+QZ8Ro+EcQQ5oIs+AA/iRxtEiWfHN1mAkJTeuhp/6v9GnAXbEKk/KUyYSjuYWBQLLm+n+F5dkcXraEUfNxm7k3YdbAw9zHRlI64X64yvXdAQ/NnFVdpPvEAilOXJik0Wrs3B5dEYgwLjUkuwgmyj/i37yyEZHN3S7vvjg90MM4sFY0MyzzmQiij38bTRw3XX1WWgSK+FWcRhLqaTA3uFrAc9U0J+U38ij0Ek8Q==\" MetadataSize=\"66210\" event=\"postinstall\" sha256=\"9kR0gE9AmIK5i7RrvM+5mQtMdNUg+HD0AADqyEYsnQ0=\"/></actions><packages><package fp=\"3.f64474804f409882b98bb46bbccfb9990b4c74d520f870f40000eac8462c9d0d\" hash_sha256=\"f64474804f409882b98bb46bbccfb9990b4c74d520f870f40000eac8462c9d0d\" name=\"chromeos_13816.6.0_zork_dev-channel_full_mp-v5.bin-gyydgzrvme3temy7wjcwriwvaiu2x764.signed\" required=\"true\" size=\"1237951491\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "MORPHIUS|NNN",
+    "sha256": "f64474804f409882b98bb46bbccfb9990b4c74d520f870f40000eac8462c9d0d",
+    "size": 1237951491,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/zork/13816.6.0/dev-channel/chromeos_13816.6.0_zork_dev-channel_full_mp-v5.bin-gyydgzrvme3temy7wjcwriwvaiu2x764.signed",
+        "https://dl.google.com/chromeos/zork/13816.6.0/dev-channel/chromeos_13816.6.0_zork_dev-channel_full_mp-v5.bin-gyydgzrvme3temy7wjcwriwvaiu2x764.signed"
+    ]
+}
