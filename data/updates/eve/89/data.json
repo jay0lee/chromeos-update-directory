@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "eve-signed-mp-v2keys",
+    "board_id": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
+    "check_time": "2021-03-15 15:32:03.240892",
+    "chrome_version": "89.0.4389.82",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7179805",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
+    "chromeos_release_board": "eve-signed-mp-v2keys",
+    "chromeos_release_branch_number": "45",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "eve-release/R89-13729.45.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.45.0 (Official Build) stable-channel eve ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13729.45.0",
+    "chromeos_version": "13729.45.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13729.45.0",
+    "linux_kernel_versions": [
+        "5.4.88-12229-g6d872e08a933"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}\" version=\"13729.0.0\" board=\"eve-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"EVE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13729\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5187\" elapsed_seconds=\"30723\"/><app appid=\"{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}\" cohort=\"1:35/3y:\" cohortname=\"eve_eve_stable_canaryrelease_13729.45.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/eve/13729.45.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/eve/13729.45.0/stable-channel/\"/></urls><manifest version=\"13729.45.0\"><actions><action event=\"update\" run=\"chromeos_13729.45.0_eve_stable-channel_full_mp-v2.bin-gyydimrxheydrjw2zszv6yjoyhxztlsq.signed\"/><action ChromeOSVersion=\"13729.45.0\" ChromeVersion=\"89.0.4389.82\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"M3k1fneqxzyuG4tLkr/BSZunLmIujOmggg/I8om39W55RdlH6O8ApdU9DM+wCI42Qvil98QSGv499tDuZnux4O9v3kD9iIgg0qNSKRk6LsRSMClPIX2OfGmyyuyhvfKl5umk1FsfcZMEtmCn/lMq9hjQUbJ8iFNJwocP7ffqpVZEsVYE2m4DC5PJv/m9v1usHk28YyIahZLsn/+jjUaUcs5UtRHSF4xnH5JmhUZevRlHjPVRmUW/+UHu4esexxhvSE7acUIdgmEKbi5yvIgIrTCj/KezXwozvBDtx4/0gn9RHjyK27Gf/wojoY4ev+AEUd5BTVEzKdvxZyhmS+tS9A==\" MetadataSize=\"65678\" event=\"postinstall\" sha256=\"GvORcGaR2CCyuKPwDC9Ws1TXnIs6UmNR1nW0ujt5KhI=\"/></actions><packages><package fp=\"3.1af391706691d820b2b8a3f00c2f56b354d79c8b3a526351d675b4ba3b792a12\" hash_sha256=\"1af391706691d820b2b8a3f00c2f56b354d79c8b3a526351d675b4ba3b792a12\" name=\"chromeos_13729.45.0_eve_stable-channel_full_mp-v2.bin-gyydimrxheydrjw2zszv6yjoyhxztlsq.signed\" required=\"true\" size=\"1194956685\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "EVE NNN",
+    "sha256": "1af391706691d820b2b8a3f00c2f56b354d79c8b3a526351d675b4ba3b792a12",
+    "size": 1194956685,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/eve/13729.45.0/stable-channel/chromeos_13729.45.0_eve_stable-channel_full_mp-v2.bin-gyydimrxheydrjw2zszv6yjoyhxztlsq.signed",
+        "https://dl.google.com/chromeos/eve/13729.45.0/stable-channel/chromeos_13729.45.0_eve_stable-channel_full_mp-v2.bin-gyydimrxheydrjw2zszv6yjoyhxztlsq.signed"
+    ]
+}
