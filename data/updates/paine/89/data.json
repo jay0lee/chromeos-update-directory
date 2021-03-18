@@ -1,1 +1,45 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "auron_paine-signed-mp-v2keys",
+    "board_id": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+    "check_time": "2021-03-17 23:01:53.958096",
+    "chrome_version": "89.0.4389.95",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7179805",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+    "chromeos_release_board": "auron_paine-signed-mp-v2keys",
+    "chromeos_release_branch_number": "56",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "auron_paine-release/R89-13729.56.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.56.0 (Official Build) stable-channel auron_paine ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13729.56.0",
+    "chromeos_version": "13729.56.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13729.56.0",
+    "linux_kernel_versions": [
+        "4.14.214-17104-g56f0bf5f36db"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" version=\"13729.0.0\" board=\"auron_paine-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"PAINE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13729\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5189\" elapsed_seconds=\"57713\"/><app appid=\"{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}\" cohort=\"1:4/4b:\" cohortname=\"auron-paine_stable_canaryrelease_13729.56.0\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/auron-paine/13729.56.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/auron-paine/13729.56.0/stable-channel/\"/></urls><manifest version=\"13729.56.0\"><actions><action event=\"update\" run=\"chromeos_13729.56.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gyydkmbvmzrggsq2oe54pzauuv7r4z2d.signed\"/><action ChromeOSVersion=\"13729.56.0\" ChromeVersion=\"89.0.4389.95\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"sYr+LeXcYe3kZQZhpuNq+jEABld3sVocbMOR1Gc7BprCdszKX59eRPGF6KJsL/iOb3NumJqiCQrGBjNfuAmI5viHqYXPLq/pwkAILouJwX3bQTbNtvNIj2zOTq4YTVwzkq2O43IK6NdKG1sqPvzcQuC5SOoKfwr9BL32R0L/5usuuMJu2MJjXy7dNncJgzVNqfalZWkc4sfcMEgKx5L7L5fvw8dRF8FZq0p16AIa/5GkyalnqDZ7EcrLE1YVYinVgQ9CU80kd0LnvMXsZQQ5kZg7syegZzGPHd1NXYoxp7SdKr9yDQoHeaFNONuepCdz3atX/tT6h1q8kWulDKvMxg==\" MetadataSize=\"57036\" event=\"postinstall\" sha256=\"diVmQuiYrRK/0UqM1YIqM95/cTcNdENifzq0nLFZqaI=\"/></actions><packages><package fp=\"3.76256642e898ad12bfd14a8cd5822a33de7f71370d7443627f3ab49cb159a9a2\" hash_sha256=\"76256642e898ad12bfd14a8cd5822a33de7f71370d7443627f3ab49cb159a9a2\" name=\"chromeos_13729.56.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gyydkmbvmzrggsq2oe54pzauuv7r4z2d.signed\" required=\"true\" size=\"1009585710\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "PAINE NNN",
+    "sha256": "76256642e898ad12bfd14a8cd5822a33de7f71370d7443627f3ab49cb159a9a2",
+    "size": 1009585710,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/auron-paine/13729.56.0/stable-channel/chromeos_13729.56.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gyydkmbvmzrggsq2oe54pzauuv7r4z2d.signed",
+        "https://dl.google.com/chromeos/auron-paine/13729.56.0/stable-channel/chromeos_13729.56.0_auron-paine_stable-channel_full_paine-mp-v2.bin-gyydkmbvmzrggsq2oe54pzauuv7r4z2d.signed"
+    ]
+}
