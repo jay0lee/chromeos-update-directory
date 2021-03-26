@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-02 00:00:00",
+    "boards": [
+        "pyro"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7116332",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{63A9F698-C1CA-4A75-95E7-6B90181B3718}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{63A9F698-C1CA-4A75-95E7-6B90181B3718}",
+    "chromeos_release_board": "pyro-signed-mpkeys",
+    "chromeos_release_branch_number": "105",
+    "chromeos_release_build_number": "13597",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "pyro-release/R88-13597.105.0",
+    "chromeos_release_chrome_milestone": "88",
+    "chromeos_release_description": "13597.105.0 (Official Build) stable-channel pyro ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13597.105.0",
+    "cr_version": 88,
+    "cros_version": 13597,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13597.105.0_pyro_recovery_stable-channel_mp.bin",
+    "filesize": 2320053760,
+    "google_release": "13597.105.0",
+    "hwidmatches": [
+        "^PYRO .*"
+    ],
+    "image_name": "pyro",
+    "linux_kernel_versions": [
+        "4.4.241-19420-g5a63ca2874a0c"
+    ],
+    "manufacturers": [
+        "Lenovo"
+    ],
+    "md5": "aa7d58c32cbc7b6cb5660c67097968ce",
+    "models": [
+        "Lenovo ThinkPad 11e 4th Gen Chromebook"
+    ],
+    "names": [
+        "Lenovo ThinkPad 11e 4th Gen Chromebook"
+    ],
+    "sample_hwid": "PYRO NNN",
+    "sha1": "9e37ecfe9b8ac1abd1b75489572987e9aca8d9d5",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_pyro_recovery_stable-channel_mp.bin.zip",
+    "version": "13597.105.0",
+    "zipfilesize": 1154783432
+}

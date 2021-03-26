@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "gnawty"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_release_board": "gnawty-signed-mp-v3keys",
+    "chromeos_release_branch_number": "105",
+    "chromeos_release_build_number": "13597",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "gnawty-release/R88-13597.105.0",
+    "chromeos_release_chrome_milestone": "88",
+    "chromeos_release_description": "13597.105.0 (Official Build) stable-channel gnawty ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13597.105.0",
+    "cr_version": 88,
+    "cros_version": 13597,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13597.105.0_gnawty_recovery_stable-channel_mp-v3.bin",
+    "filesize": 2320053760,
+    "google_release": "13597.105.0",
+    "hwidmatches": [
+        "^GNAWTY \\w{3}-\\w{3}-\\w{3}$|^GNAWTY \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$",
+        "^GNAWTY \\w{3}-\\w{3}-\\w{2}B(-\\w{3})+$"
+    ],
+    "image_name": "gnawty",
+    "linux_kernel_versions": [
+        "4.4.241-19420-g5a63ca2874a0c"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer"
+    ],
+    "md5": "2499c86fef1365ed54af98292c961fc4",
+    "models": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "names": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "sample_hwid": "GNAWTY D7C-S9Q-8ni",
+    "sha1": "c7b047e72118e28ca4da8ce6226e13960391c21d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "13597.105.0",
+    "zipfilesize": 666412527
+}

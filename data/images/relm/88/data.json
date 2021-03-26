@@ -1,0 +1,81 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "relm"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7116332",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3FC66B4B-1B63-94FA-BD6F-DB856B496918}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3FC66B4B-1B63-94FA-BD6F-DB856B496918}",
+    "chromeos_release_board": "relm-signed-mp-v8keys",
+    "chromeos_release_branch_number": "105",
+    "chromeos_release_build_number": "13597",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "relm-release/R88-13597.105.0",
+    "chromeos_release_chrome_milestone": "88",
+    "chromeos_release_description": "13597.105.0 (Official Build) stable-channel relm ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13597.105.0",
+    "cr_version": 88,
+    "cros_version": 13597,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13597.105.0_relm_recovery_stable-channel_mp-v8.bin",
+    "filesize": 2320053760,
+    "google_release": "13597.105.0",
+    "hwidmatches": [
+        "^RELM ([A-Z2-9])+-((H[2-9][A-Z2-7]-([A-Z2-9\\-])+)|(F9[A-Z2-7]-([A-Z2-9])+-[A-Z2-7][2-9][A-DI-LQ-TYZ23]-[A-P]([A-Z2-9\\-])+))",
+        "^RELM ([A-Z0-9])+-B[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+",
+        "^RELM ([A-Z0-9])+-C[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+",
+        "^RELM ([A-Z0-9])+-G[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+",
+        "^RELM ([A-Z2-9])+-((F8[A-Z2-7])|(F9[A-Z2-7]-([A-Z2-9])+-[A-Z2-7][2-9][E-HM-PU-X4-7]))-([A-Z2-9\\-])+",
+        "^RELM ([A-Z0-9])+-A[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+",
+        "^RELM ([A-Z0-9])+-I[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+"
+    ],
+    "image_name": "relm",
+    "linux_kernel_versions": [
+        "4.19.155-10581-g8bdb5ed8e80c"
+    ],
+    "manufacturers": [
+        "Acer",
+        "CTL",
+        "Edxis",
+        "HP",
+        "Mercer/Mustek",
+        "Quanta WL",
+        "Positivo"
+    ],
+    "md5": "914a1d33a66eb57fae7e09452213be2b",
+    "models": [
+        "Acer Chromebook 11 N7 (C731, C731T)",
+        "CTL NL61 Chromebook",
+        "Edxis Education Chromebook (NL6D)",
+        "HP Chromebook 11 G5 EE",
+        "Mercer/Mustek Mecer V2 Chromebook",
+        "Quanta WL N/A",
+        "Positivo Chromebook C216B"
+    ],
+    "names": [
+        "Acer Chromebook 11 N7 (C731, C731T)",
+        "CTL NL61 Chromebook",
+        "Edxis Education Chromebook (NL6D)",
+        "HP Chromebook 11 G5 EE",
+        "Mecer V2 Chromebook",
+        "N/A",
+        "Positivo Chromebook C216B"
+    ],
+    "sample_hwid": "RELM 4ICBQA2T3Y322YC-H97-L7ZRUEUZ8VWUD7V-",
+    "sha1": "f2dc22057913f7a9319adabe04ac7e231aecd97c",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_relm_recovery_stable-channel_mp-v8.bin.zip",
+    "version": "13597.105.0",
+    "zipfilesize": 1154842445
+}
