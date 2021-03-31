@@ -1,0 +1,54 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "candy"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BABC2E82-8F7D-26E5-EE66-4C60A2B41DBC}",
+    "chromeos_release_board": "candy-signed-mp-v2keys",
+    "chromeos_release_branch_number": "45",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "candy-release/R89-13729.45.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.45.0 (Official Build) stable-channel candy ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13729.45.0",
+    "cr_version": 89,
+    "cros_version": 13729,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13729.45.0_candy_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319976960,
+    "google_release": "13729.45.0",
+    "hwidmatches": [
+        "^CANDY .*"
+    ],
+    "image_name": "candy",
+    "linux_kernel_versions": [
+        "4.4.250-19735-gee6fdafe8c48"
+    ],
+    "manufacturers": [
+        "Dell"
+    ],
+    "md5": "a57851a4d2eea136caa02ffe6063f7ec",
+    "models": [
+        "Dell Chromebook 11 (3120)"
+    ],
+    "names": [
+        "Dell Chromebook 11 (3120)"
+    ],
+    "sample_hwid": "CANDY NNN",
+    "sha1": "e92cf412ab0d6503d5a41aa39c1270a4a5b0515f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_candy_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13729.45.0",
+    "zipfilesize": 676699177
+}

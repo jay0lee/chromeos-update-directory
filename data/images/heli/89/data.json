@@ -1,0 +1,54 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "heli"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3E8F25F2-3438-46CE-85AC-4A0329A79E09}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3E8F25F2-3438-46CE-85AC-4A0329A79E09}",
+    "chromeos_release_board": "heli-signed-mp-v4keys",
+    "chromeos_release_branch_number": "45",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "heli-release/R89-13729.45.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.45.0 (Official Build) stable-channel heli ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13729.45.0",
+    "cr_version": 89,
+    "cros_version": 13729,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13729.45.0_heli_recovery_stable-channel_mp-v4.bin",
+    "filesize": 2319657472,
+    "google_release": "13729.45.0",
+    "hwidmatches": [
+        "^HELI .*"
+    ],
+    "image_name": "heli",
+    "linux_kernel_versions": [
+        "4.4.250-19735-gee6fdafe8c48"
+    ],
+    "manufacturers": [
+        "Haier WL"
+    ],
+    "md5": "5d48f5cd687214c64b3efb3ed3b5d417",
+    "models": [
+        "Haier WL Haier Chromebook 11 G2"
+    ],
+    "names": [
+        "Haier Chromebook 11 G2"
+    ],
+    "sample_hwid": "HELI NNN",
+    "sha1": "a4f164234f1a6dfee214d32df26c35a2a8ccb00d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_heli_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "13729.45.0",
+    "zipfilesize": 675883601
+}

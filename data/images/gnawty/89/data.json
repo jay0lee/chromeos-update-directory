@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "gnawty"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_release_board": "gnawty-signed-mp-v3keys",
+    "chromeos_release_branch_number": "45",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "gnawty-release/R89-13729.45.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.45.0 (Official Build) stable-channel gnawty ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13729.45.0",
+    "cr_version": 89,
+    "cros_version": 13729,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13729.45.0_gnawty_recovery_stable-channel_mp-v3.bin",
+    "filesize": 2319657472,
+    "google_release": "13729.45.0",
+    "hwidmatches": [
+        "^GNAWTY \\w{3}-\\w{3}-\\w{3}$|^GNAWTY \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$",
+        "^GNAWTY \\w{3}-\\w{3}-\\w{2}B(-\\w{3})+$"
+    ],
+    "image_name": "gnawty",
+    "linux_kernel_versions": [
+        "4.4.250-19735-gee6fdafe8c48"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer"
+    ],
+    "md5": "aa3c6db56b06bee477d41b5beb98ca95",
+    "models": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "names": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "sample_hwid": "GNAWTY MdE-DL9-GWE",
+    "sha1": "8c45963b6cafaf444cac097ea8e8fd465d15ddc3",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "13729.45.0",
+    "zipfilesize": 676393932
+}

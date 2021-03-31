@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-02-02 00:00:00",
+    "boards": [
+        "tiger"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7179805",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{549D848C-2674-F41D-AE75-E163F8612099}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{549D848C-2674-F41D-AE75-E163F8612099}",
+    "chromeos_release_board": "veyron_tiger-signed-mpkeys",
+    "chromeos_release_branch_number": "45",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "veyron_tiger-release/R89-13729.45.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.45.0 (Official Build) stable-channel veyron_tiger ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13729.45.0",
+    "cr_version": 89,
+    "cros_version": 13729,
+    "crostini_support": false,
+    "devicetype": "CHROMEBASE",
+    "file": "chromeos_13729.45.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin",
+    "filesize": 2319657472,
+    "google_release": "13729.45.0",
+    "hwidmatches": [
+        "^TIGER .*"
+    ],
+    "image_name": "tiger",
+    "linux_kernel_versions": [
+        "4.19.166-10982-g7b4adc7ea88e"
+    ],
+    "manufacturers": [
+        "AOpen"
+    ],
+    "md5": "948a4fd6d900e0670518ff336e3337b5",
+    "models": [
+        "AOpen Chromebase Mini"
+    ],
+    "names": [
+        "AOpen Chromebase Mini"
+    ],
+    "sample_hwid": "TIGER NNN",
+    "sha1": "d11492afa5c8d01cbc8e3f2282d8ee2ad3237a1a",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin.zip",
+    "version": "13729.45.0",
+    "zipfilesize": 1031583690
+}
