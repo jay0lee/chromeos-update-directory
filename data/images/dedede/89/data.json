@@ -1,0 +1,68 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2029-06-02 00:00:00",
+    "boards": [
+        "drawlat",
+        "drawman",
+        "drawcia"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7179805",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_release_board": "dedede-signed-mp-v6keys",
+    "chromeos_release_branch_number": "56",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "dedede-release/R89-13729.56.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.56.0 (Official Build) stable-channel dedede ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13729.56.0",
+    "cr_version": 89,
+    "cros_version": 13729,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13729.56.0_dedede_recovery_stable-channel_mp-v6.bin",
+    "filesize": 3189985792,
+    "google_release": "13729.56.0",
+    "hwidmatches": [
+        "^DRAWLAT-EKWL.*",
+        "^DRAWMAN-RHDN.*",
+        "^DRAWCIA-CFUL.*"
+    ],
+    "image_name": "dedede",
+    "linux_kernel_versions": [
+        "5.4.88-12229-g6d872e08a933"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "HP"
+    ],
+    "md5": "7f3eaddd34b0e703e70c347d36e07a9f",
+    "models": [
+        "HP Chromebook 11 G9 EE",
+        "HP Chromebook 14 G7",
+        "HP Chromebook x360 11 G4 EE"
+    ],
+    "names": [
+        "HP Chromebook 11 G9 EE",
+        "HP Chromebook 14 G7",
+        "HP Chromebook x360 11 G4 EE"
+    ],
+    "sample_hwid": "DRAWLAT-EKWLNNN",
+    "sha1": "9d4df47b83c52db683fc9c507821731070547338",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.56.0_dedede_recovery_stable-channel_mp-v6.bin.zip",
+    "version": "13729.56.0",
+    "zipfilesize": 1474847109
+}

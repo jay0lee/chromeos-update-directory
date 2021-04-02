@@ -1,0 +1,66 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-02 00:00:00",
+    "boards": [
+        "snappy"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7179805",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_release_board": "snappy-signed-mpkeys",
+    "chromeos_release_branch_number": "56",
+    "chromeos_release_build_number": "13729",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "snappy-release/R89-13729.56.0",
+    "chromeos_release_chrome_milestone": "89",
+    "chromeos_release_description": "13729.56.0 (Official Build) stable-channel snappy ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13729.56.0",
+    "cr_version": 89,
+    "cros_version": 13729,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13729.56.0_snappy_recovery_stable-channel_mp.bin",
+    "filesize": 2319688704,
+    "google_release": "13729.56.0",
+    "hwidmatches": [
+        "^SNAPPY ([A-Z0-9])+-B[A-Z0-9][A-Z0-9]-([A-Z0-9])+-([A-Z0-9\\-])+",
+        "^SNAPPY ([A-Z0-9])+-C[A-Z0-9][A-Z0-9]-([A-Z0-9])+-([A-Z0-9\\-])+",
+        "^SNAPPY ([A-Z0-9])+-[^BC].*"
+    ],
+    "image_name": "snappy",
+    "linux_kernel_versions": [
+        "4.4.250-19739-g585a16a753f6"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "HP"
+    ],
+    "md5": "8c30863ca054320b7569580c39007d78",
+    "models": [
+        "HP Chromebook 11 G6 EE",
+        "HP Chromebook 14 G5",
+        "HP Chromebook x360 11 G1 EE"
+    ],
+    "names": [
+        "HP Chromebook 11 G6 EE",
+        "HP Chromebook 14 G5",
+        "HP Chromebook x360 11 G1 EE"
+    ],
+    "sample_hwid": "SNAPPY JP-B9X-1JSL5VYB89AEJSM21VWHETOH674IN3RO-Y-HIBBQH7Z2ZVJ8KC4Z999E2I1P7KH3YYSEI5T1A1UD37MVE-C7B3NJVDWJ2FGTW13SU6-0",
+    "sha1": "375b4dea892c53a8cc1ab9152589736515fb3fa0",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.56.0_snappy_recovery_stable-channel_mp.bin.zip",
+    "version": "13729.56.0",
+    "zipfilesize": 1172068105
+}
