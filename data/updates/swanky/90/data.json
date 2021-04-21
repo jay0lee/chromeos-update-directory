@@ -1,0 +1,42 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "app_board": "swanky-signed-mp-v3keys",
+    "board_id": "{493FA09F-94EA-B829-46E0-48B12FD7264D}",
+    "check_time": "2021-04-21 21:26:58.589031",
+    "chrome_version": "90.0.4430.86",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{493FA09F-94EA-B829-46E0-48B12FD7264D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{493FA09F-94EA-B829-46E0-48B12FD7264D}",
+    "chromeos_release_board": "swanky-signed-mp-v3keys",
+    "chromeos_release_branch_number": "55",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "swanky-release/R90-13816.55.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.55.0 (Official Build) stable-channel swanky ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13816.55.0",
+    "chromeos_version": "13816.55.0",
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13816.55.0",
+    "linux_kernel_versions": [
+        "4.4.257-19935-g0ab0a71a40fd"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{493FA09F-94EA-B829-46E0-48B12FD7264D}\" version=\"13816.0.0\" board=\"swanky-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"SWANKY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5224\" elapsed_seconds=\"52018\"/><app appid=\"{493FA09F-94EA-B829-46E0-48B12FD7264D}\" cohort=\"1:4/4q:\" cohortname=\"swanky_stable_canaryrelease_13816.55.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"5.3\" _firmware_version_0=\"5.3\" _firmware_version_1=\"5.3\" _firmware_version_2=\"5.3\" _firmware_version_3=\"5.3\" _firmware_version_4=\"5.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/swanky/13816.55.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/swanky/13816.55.0/stable-channel/\"/></urls><manifest version=\"13816.55.0\"><actions><action event=\"update\" run=\"chromeos_13816.55.0_swanky_stable-channel_full_mp-v3.bin-gyydozjygiztst6c336nl3m5n4z4tm4u.signed\"/><action ChromeOSVersion=\"13816.55.0\" ChromeVersion=\"90.0.4430.86\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"o007ErgpEy/4sYwRTPkrD9AeJu5TBWtDz3mkPChNj72YUHQpj7QDgT0uJQg2xrolWl+QewkRgquUD75gqWbKVnqbZL1VxVLOYTQmyRagRJPBFOZFuEsntuRzVGyhPRoI9870msR2oZzdcOppHYjXjXA+3WiNLNTUXqyxI1tyLmJjrkjmjo8ma8EiKaswKJ9b17gN/FFnhhvHBpmaFbsrso71VmfD+S4jspH0aaW5Dm2R6SnaPD8pxSejd6fcHAwl+3i2eWDksJdqQUeOAZRCywa8wYv5rKTry5YNNCQm5XgYjk2Ts6lV1x7L06sIEnovolqwHxNcU9V+j08YYCBwmg==\" MetadataSize=\"56272\" event=\"postinstall\" sha256=\"oB2sPO7w8AcZXy4BUX2HUrvSiBiqlxuMysT8oKCrwvc=\"/></actions><packages><package fp=\"3.a01dac3ceef0f007195f2e01517d8752bbd28818aa971b8ccac4fca0a0abc2f7\" hash_sha256=\"a01dac3ceef0f007195f2e01517d8752bbd28818aa971b8ccac4fca0a0abc2f7\" name=\"chromeos_13816.55.0_swanky_stable-channel_full_mp-v3.bin-gyydozjygiztst6c336nl3m5n4z4tm4u.signed\" required=\"true\" size=\"538655361\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SWANKY NNN",
+    "sha256": "a01dac3ceef0f007195f2e01517d8752bbd28818aa971b8ccac4fca0a0abc2f7",
+    "size": 538655361,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/swanky/13816.55.0/stable-channel/chromeos_13816.55.0_swanky_stable-channel_full_mp-v3.bin-gyydozjygiztst6c336nl3m5n4z4tm4u.signed",
+        "https://dl.google.com/chromeos/swanky/13816.55.0/stable-channel/chromeos_13816.55.0_swanky_stable-channel_full_mp-v3.bin-gyydozjygiztst6c336nl3m5n4z4tm4u.signed"
+    ]
+}

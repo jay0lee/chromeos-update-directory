@@ -1,0 +1,42 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "app_board": "banjo-signed-mp-v2keys",
+    "board_id": "{3A837630-D749-4B7A-86C1-DB0ECC07A08B}",
+    "check_time": "2021-04-21 21:26:24.978990",
+    "chrome_version": "90.0.4430.86",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3A837630-D749-4B7A-86C1-DB0ECC07A08B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3A837630-D749-4B7A-86C1-DB0ECC07A08B}",
+    "chromeos_release_board": "banjo-signed-mp-v2keys",
+    "chromeos_release_branch_number": "55",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "banjo-release/R90-13816.55.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.55.0 (Official Build) stable-channel banjo ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13816.55.0",
+    "chromeos_version": "13816.55.0",
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13816.55.0",
+    "linux_kernel_versions": [
+        "4.4.257-19935-g0ab0a71a40fd"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{3A837630-D749-4B7A-86C1-DB0ECC07A08B}\" version=\"13816.0.0\" board=\"banjo-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"BANJO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5224\" elapsed_seconds=\"51984\"/><app appid=\"{3A837630-D749-4B7A-86C1-DB0ECC07A08B}\" cohort=\"1:4/4r:\" cohortname=\"banjo_stable_canaryrelease_13816.55.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"40.2\" _firmware_version_0=\"40.2\" _firmware_version_1=\"40.2\" _firmware_version_2=\"40.2\" _firmware_version_3=\"40.2\" _firmware_version_4=\"40.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/banjo/13816.55.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/banjo/13816.55.0/stable-channel/\"/></urls><manifest version=\"13816.55.0\"><actions><action event=\"update\" run=\"chromeos_13816.55.0_banjo_stable-channel_full_mp-v2.bin-gyydozjxgzsgmt4prwkjiqhp7j3gl2ec.signed\"/><action ChromeOSVersion=\"13816.55.0\" ChromeVersion=\"90.0.4430.86\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"SxplrYfMPVE10KaITEtWs0R7uGikkvgtY6BC8QvdkepT4OSx844k2tV8LKVsBKmMA/wStJduWJwiyfCJxFMzetGM3Pc11oOrSM8xDCbXTIxBNzrXPbTVS1om806y/hnTqOshtqHPB2vpDw042ewNIE2zjSmCaNPkb3E+Z9MHxzu59RydjZRFx7W/2AJjRFsYna/vOxraxaWlMlLGTRoIX4qeKaQW1rN1AyWw8EtzhsP8B5/I6jNCq52s+2XHJZrk6dWAFZGDZslH1+7AURoZxMUnIZZm0hw2W8LBhQMm7bSqGQbyrmH92dhfF2IcaHKt6RX9PBrRVeBih6zGvHd2bQ==\" MetadataSize=\"56274\" event=\"postinstall\" sha256=\"8DiajJozfSjaWsrL8aAQ7BJB7yriBtpeCidisDtCpe0=\"/></actions><packages><package fp=\"3.f0389a8c9a337d28da5acacbf1a010ec1241ef2ae206da5e0a2762b03b42a5ed\" hash_sha256=\"f0389a8c9a337d28da5acacbf1a010ec1241ef2ae206da5e0a2762b03b42a5ed\" name=\"chromeos_13816.55.0_banjo_stable-channel_full_mp-v2.bin-gyydozjxgzsgmt4prwkjiqhp7j3gl2ec.signed\" required=\"true\" size=\"539639679\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "BANJO NNN",
+    "sha256": "f0389a8c9a337d28da5acacbf1a010ec1241ef2ae206da5e0a2762b03b42a5ed",
+    "size": 539639679,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/banjo/13816.55.0/stable-channel/chromeos_13816.55.0_banjo_stable-channel_full_mp-v2.bin-gyydozjxgzsgmt4prwkjiqhp7j3gl2ec.signed",
+        "https://dl.google.com/chromeos/banjo/13816.55.0/stable-channel/chromeos_13816.55.0_banjo_stable-channel_full_mp-v2.bin-gyydozjxgzsgmt4prwkjiqhp7j3gl2ec.signed"
+    ]
+}
