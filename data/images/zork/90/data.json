@@ -1,0 +1,78 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2029-06-02 00:00:00",
+    "boards": [
+        "woomax",
+        "ezkinil",
+        "dirinboz",
+        "berknip",
+        "morphius"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7259670",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "chromeos_release_board": "zork-signed-mp-v7keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "zork-release/R90-13816.64.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.64.0 (Official Build) stable-channel zork ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13816.64.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13816.64.0_zork_recovery_stable-channel_mp-v7.bin",
+    "filesize": 3189985792,
+    "google_release": "13816.64.0",
+    "hwidmatches": [
+        "^WOOMAX-.*",
+        "^EZKINIL-.*",
+        "^DIRINBOZ-.*",
+        "^BERKNIP-.*",
+        "^MORPHIUS[-| ].*"
+    ],
+    "image_name": "zork",
+    "linux_kernel_versions": [
+        "5.4.99-13153-g28a2c98317f3"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Acer",
+        "HP",
+        "HP",
+        "Lenovo"
+    ],
+    "md5": "4988c47290cd34d51dcb25dad3361a2e",
+    "models": [
+        "ASUS Chromebook Flip CM5",
+        "Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH)",
+        "HP Chromebook 14a",
+        "HP Pro c645 Chromebook Enterprise",
+        "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise"
+    ],
+    "names": [
+        "ASUS Chromebook Flip CM5",
+        "Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH)",
+        "HP Chromebook 14a",
+        "HP Pro c645 Chromebook Enterprise",
+        "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise"
+    ],
+    "sample_hwid": "WOOMAX-NNN",
+    "sha1": "4bac5100b85b60b71af9962c925b47b6f0b86305",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_zork_recovery_stable-channel_mp-v7.bin.zip",
+    "version": "13816.64.0",
+    "zipfilesize": 1451549921
+}

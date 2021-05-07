@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2021-06-02 00:00:00",
+    "boards": [
+        "samus"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7259670",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F67500C1-C6D8-5287-E4EC-F9BBB4AEE5C5}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F67500C1-C6D8-5287-E4EC-F9BBB4AEE5C5}",
+    "chromeos_release_board": "samus-signed-mp-v3keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "samus-release/R90-13816.64.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.64.0 (Official Build) stable-channel samus ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13816.64.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13816.64.0_samus_recovery_stable-channel_mp-v3.bin",
+    "filesize": 2319657472,
+    "google_release": "13816.64.0",
+    "hwidmatches": [
+        "^SAMUS .*"
+    ],
+    "image_name": "samus",
+    "linux_kernel_versions": [
+        "4.14.221-17322-g61523ee5d009"
+    ],
+    "manufacturers": [
+        "Google"
+    ],
+    "md5": "a56db9fd330c878dc2762d6fceee99e4",
+    "models": [
+        "Google Chromebook Pixel (2015)"
+    ],
+    "names": [
+        "Google Chromebook Pixel (2015)"
+    ],
+    "sample_hwid": "SAMUS NNN",
+    "sha1": "de5bdbadd9a7ec5aa4f59241fcc5a94c3d327955",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_samus_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "13816.64.0",
+    "zipfilesize": 1159854230
+}

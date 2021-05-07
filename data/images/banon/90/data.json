@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "banon"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7259670",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{4D1D08CA-E0D4-5ECB-09D2-13DD5859A362}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{4D1D08CA-E0D4-5ECB-09D2-13DD5859A362}",
+    "chromeos_release_board": "banon-signed-mpkeys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "banon-release/R90-13816.64.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.64.0 (Official Build) stable-channel banon ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13816.64.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13816.64.0_banon_recovery_stable-channel_mp.bin",
+    "filesize": 2319657472,
+    "google_release": "13816.64.0",
+    "hwidmatches": [
+        "^BANON .*"
+    ],
+    "image_name": "banon",
+    "linux_kernel_versions": [
+        "4.19.176-11263-g91924d8d61fa"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "f2e42db985bd0b24cebe714f1f1ad6da",
+    "models": [
+        "Acer Chromebook 15 (CB3-532)"
+    ],
+    "names": [
+        "Acer Chromebook 15 (CB3-532)"
+    ],
+    "sample_hwid": "BANON NNN",
+    "sha1": "fb7cdcec6ae2f1e9646f340fd4bccc1ff164f765",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_banon_recovery_stable-channel_mp.bin.zip",
+    "version": "13816.64.0",
+    "zipfilesize": 1169253765
+}

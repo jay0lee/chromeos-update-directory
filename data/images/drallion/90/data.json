@@ -1,0 +1,63 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2027-08-06 00:00:00",
+    "boards": [
+        "drallion360",
+        "drallion"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7259670",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{ED3A4869-C380-4F79-A190-027C3E879357}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{ED3A4869-C380-4F79-A190-027C3E879357}",
+    "chromeos_release_board": "drallion-signed-mp-v2keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "drallion-release/R90-13816.64.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.64.0 (Official Build) stable-channel drallion ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13816.64.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13816.64.0_drallion_recovery_stable-channel_mp-v2.bin",
+    "filesize": 3209898496,
+    "google_release": "13816.64.0",
+    "hwidmatches": [
+        "^DRALLION360-.*",
+        "^DRALLION-.*"
+    ],
+    "image_name": "drallion",
+    "linux_kernel_versions": [
+        "4.19.176-11263-g91924d8d61fa"
+    ],
+    "manufacturers": [
+        "Dell",
+        "Dell"
+    ],
+    "md5": "9c1260efbeab860351f2024ede2084df",
+    "models": [
+        "Dell Latitude 7410 Chromebook Enterprise",
+        "Dell Latitude 7410 Chromebook Enterprise"
+    ],
+    "names": [
+        "Dell Latitude 7410 Chromebook Enterprise",
+        "Dell Latitude 7410 Chromebook Enterprise"
+    ],
+    "sample_hwid": "DRALLION360-NNN",
+    "sha1": "a6728870336e4aaff6599319c7c540d8d4507c23",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_drallion_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13816.64.0",
+    "zipfilesize": 1447288986
+}

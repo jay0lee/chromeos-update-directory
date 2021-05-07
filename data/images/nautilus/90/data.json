@@ -1,0 +1,62 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-07-01 00:00:00",
+    "boards": [
+        "nautilus"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7259670",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{85F8FA82-F276-4EA6-8980-93FE091F6D25}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{85F8FA82-F276-4EA6-8980-93FE091F6D25}",
+    "chromeos_release_board": "nautilus-signed-mp-v2keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nautilus-release/R90-13816.64.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.64.0 (Official Build) stable-channel nautilus ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13816.64.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13816.64.0_nautilus_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2688756224,
+    "google_release": "13816.64.0",
+    "hwidmatches": [
+        "^NAUTILUS [A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][Q-Z2-7].*",
+        "^NAUTILUS [A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-P].*"
+    ],
+    "image_name": "nautilus",
+    "linux_kernel_versions": [
+        "4.4.257-19938-g86d266acc51a"
+    ],
+    "manufacturers": [
+        "Samsung",
+        "Samsung"
+    ],
+    "md5": "9334f6f952dc2ff23cf1c294b4710bd6",
+    "models": [
+        "Samsung Chromebook Plus (LTE)",
+        "Samsung Chromebook Plus (V2)"
+    ],
+    "names": [
+        "Samsung Chromebook Plus (LTE)",
+        "Samsung Chromebook Plus (V2)"
+    ],
+    "sample_hwid": "NAUTILUS J8T-U2C-B26NNN",
+    "sha1": "46068e45133bf46e5021659ad6d4d2033f3bd94f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_nautilus_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13816.64.0",
+    "zipfilesize": 1353352818
+}
