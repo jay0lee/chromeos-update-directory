@@ -1,4 +1,5 @@
 name: Process Chrome OS updates 
+concurrency: main
 
 on:
   push:

@@ -1,4 +1,5 @@
 name: Process Chrome OS recovery images
+concurrency: main
 
 on:
   push:
