@@ -1,0 +1,54 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-06-02 00:00:00",
+    "boards": [
+        "rikku"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{8F55A657-819A-4F70-B178-C7E2D54D7C0C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{8F55A657-819A-4F70-B178-C7E2D54D7C0C}",
+    "chromeos_release_board": "rikku-signed-mp-v2keys",
+    "chromeos_release_branch_number": "82",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "rikku-release/R90-13816.82.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.82.0 (Official Build) stable-channel rikku ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13816.82.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_13816.82.0_rikku_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319657472,
+    "google_release": "13816.82.0",
+    "hwidmatches": [
+        "^RIKKU .*"
+    ],
+    "image_name": "rikku",
+    "linux_kernel_versions": [
+        "4.14.221-37010-g61523ee5d009"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "40e446ea674a51867ddf6aff87906961",
+    "models": [
+        "Acer Chromebox CXI2 / CXV2"
+    ],
+    "names": [
+        "Acer Chromebox CXI2 / CXV2"
+    ],
+    "sample_hwid": "RIKKU NNN",
+    "sha1": "cb7274cfa73ac7d0e5db53b1f729a38dd837b7a1",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_rikku_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13816.82.0",
+    "zipfilesize": 684161964
+}

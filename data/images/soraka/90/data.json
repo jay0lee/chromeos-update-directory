@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-07-01 00:00:00",
+    "boards": [
+        "soraka"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7334568",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}",
+    "chromeos_release_board": "soraka-signed-mpkeys",
+    "chromeos_release_branch_number": "82",
+    "chromeos_release_build_number": "13816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "soraka-release/R90-13816.82.0",
+    "chromeos_release_chrome_milestone": "90",
+    "chromeos_release_description": "13816.82.0 (Official Build) stable-channel soraka ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13816.82.0",
+    "cr_version": 90,
+    "cros_version": 13816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13816.82.0_soraka_recovery_stable-channel_mp.bin",
+    "filesize": 2688787456,
+    "google_release": "13816.82.0",
+    "hwidmatches": [
+        "^SORAKA .*"
+    ],
+    "image_name": "soraka",
+    "linux_kernel_versions": [
+        "4.4.257-36964-g86d266acc51a"
+    ],
+    "manufacturers": [
+        "HP"
+    ],
+    "md5": "331679f186f7ca656dbe7e4dbf011023",
+    "models": [
+        "HP Chromebook x2"
+    ],
+    "names": [
+        "HP Chromebook x2"
+    ],
+    "sample_hwid": "SORAKA NNN",
+    "sha1": "5791e7c4bed8a7035e1fc4baeb0f4284e03bbb6b",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_soraka_recovery_stable-channel_mp.bin.zip",
+    "version": "13816.82.0",
+    "zipfilesize": 1340072660
+}
