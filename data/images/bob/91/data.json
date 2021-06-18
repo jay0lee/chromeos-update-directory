@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-08-02 00:00:00",
+    "boards": [
+        "bob"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7436342",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "chromeos_release_board": "bob-signed-mpkeys",
+    "chromeos_release_branch_number": "55",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "bob-release/R91-13904.55.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.55.0 (Official Build) stable-channel bob ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13904.55.0",
+    "cr_version": 91,
+    "cros_version": 13904,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13904.55.0_bob_recovery_stable-channel_mp.bin",
+    "filesize": 2319657472,
+    "google_release": "13904.55.0",
+    "hwidmatches": [
+        "^BOB .*"
+    ],
+    "image_name": "bob",
+    "linux_kernel_versions": [
+        "4.4.265-37689-g90cbe4d754f7"
+    ],
+    "manufacturers": [
+        "Asus"
+    ],
+    "md5": "8df81eff77ccdd8fc5a132d7f14b70a2",
+    "models": [
+        "ASUS Chromebook Flip C101PA"
+    ],
+    "names": [
+        "ASUS Chromebook Flip C101PA"
+    ],
+    "sample_hwid": "BOB NNN",
+    "sha1": "8b59bbdf718f5e320a596e52a4f17ca07de756f2",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_bob_recovery_stable-channel_mp.bin.zip",
+    "version": "13904.55.0",
+    "zipfilesize": 1135594784
+}

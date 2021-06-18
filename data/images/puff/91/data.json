@@ -1,0 +1,82 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "duffy",
+        "faffy",
+        "kaisa",
+        "wyvern",
+        "noibat"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "7395040",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "chromeos_release_board": "puff-signed-mp-v11keys",
+    "chromeos_release_branch_number": "55",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "puff-release/R91-13904.55.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.55.0 (Official Build) stable-channel puff ",
+    "chromeos_release_keyset": "mp-v11",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13904.55.0",
+    "cr_version": 91,
+    "cros_version": 13904,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_13904.55.0_puff_recovery_stable-channel_mp-v11.bin",
+    "filesize": 4968370688,
+    "google_release": "13904.55.0",
+    "hwidmatches": [
+        "^DUFFY-.*",
+        "^FAFFY-.*",
+        "^KAISA.*",
+        "^WYVERN-JLOF.*",
+        "^NOIBAT-.*",
+        "^WYVERN-JOTV.*"
+    ],
+    "image_name": "puff",
+    "linux_kernel_versions": [
+        "4.19.185-29738-gf8e4fd700b66"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus",
+        "Acer",
+        "CTL",
+        "HP",
+        "Promethean"
+    ],
+    "md5": "cbcbbbc87be1c1a02f5a6e605354ac4f",
+    "models": [
+        "ASUS Chromebox 4",
+        "ASUS Fanless Chromebox",
+        "Acer Chromebox CXI4",
+        "CTL Chromebox CBx2",
+        "HP Chromebox G3",
+        "Promethean Chromebox 2"
+    ],
+    "names": [
+        "ASUS Chromebox 4",
+        "ASUS Fanless Chromebox",
+        "Acer Chromebox CXI4",
+        "CTL Chromebox CBx2",
+        "HP Chromebox G3",
+        "Promethean Chromebox 2"
+    ],
+    "sample_hwid": "DUFFY-NNN",
+    "sha1": "7e29a13acf9d0a61f511106b887a10a0a081e392",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_puff_recovery_stable-channel_mp-v11.bin.zip",
+    "version": "13904.55.0",
+    "zipfilesize": 1560815030
+}

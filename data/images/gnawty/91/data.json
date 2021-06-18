@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "gnawty"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
+    "chromeos_release_board": "gnawty-signed-mp-v3keys",
+    "chromeos_release_branch_number": "55",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "gnawty-release/R91-13904.55.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.55.0 (Official Build) stable-channel gnawty ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13904.55.0",
+    "cr_version": 91,
+    "cros_version": 13904,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13904.55.0_gnawty_recovery_stable-channel_mp-v3.bin",
+    "filesize": 2319657472,
+    "google_release": "13904.55.0",
+    "hwidmatches": [
+        "^GNAWTY \\w{3}-\\w{3}-\\w{3}$|^GNAWTY \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$",
+        "^GNAWTY \\w{3}-\\w{3}-\\w{2}B(-\\w{3})+$"
+    ],
+    "image_name": "gnawty",
+    "linux_kernel_versions": [
+        "4.4.265-37689-g90cbe4d754f7"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer"
+    ],
+    "md5": "245791bca9a1716cb1a2cc44596af09c",
+    "models": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "names": [
+        "Acer Chromebook 11 (CB3-111, C730, C730E)",
+        "Acer Chromebook 11 (CB3-131, C735)"
+    ],
+    "sample_hwid": "GNAWTY t1O-RxH-pBA-xQW-gI0-0Jw-uio-l62-dan-SkN-cSB-Iow-Iav-vfG-qG3-WLa-9wf-cqC-vai-FaS-fdP-hA4-63G-g3K-Zda-ApO-Mbb-g3c-wha-gkX-adF-3Y3-kNx-hiZ-juB-TS1-rEu-qsG-5Ib-OFq-1xR-4y2-4u7-30S-8JM-CqH-wOv-RyE-z7C-ufB-RTH-Pfw-qj0-PjD-HUd-Syw-y8a-Jwr",
+    "sha1": "1687e681ea4e160f4b413eb3e6dc10bad89fbe9b",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "13904.55.0",
+    "zipfilesize": 671514846
+}

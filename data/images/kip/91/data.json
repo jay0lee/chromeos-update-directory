@@ -1,0 +1,62 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "kip"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BBE772C3-5541-6976-C676-54FD72D41B2B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BBE772C3-5541-6976-C676-54FD72D41B2B}",
+    "chromeos_release_board": "kip-signed-mp-v3keys",
+    "chromeos_release_branch_number": "55",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kip-release/R91-13904.55.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.55.0 (Official Build) stable-channel kip ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13904.55.0",
+    "cr_version": 91,
+    "cros_version": 13904,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13904.55.0_kip_recovery_stable-channel_mp-v3.bin",
+    "filesize": 2319688704,
+    "google_release": "13904.55.0",
+    "hwidmatches": [
+        "NO MATCH JUST FOR ENTRY",
+        "^KIP [ABC].*",
+        "^KIP [DE].*"
+    ],
+    "image_name": "kip",
+    "linux_kernel_versions": [
+        "4.4.265-37689-g90cbe4d754f7"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "HP"
+    ],
+    "md5": "33ada40d9b9d9f21b921831e719a3bdf",
+    "models": [
+        "HP Chromebook 11 2100-2199 / HP Chromebook 11 G3",
+        "HP Chromebook 11 G3/G4/G4 EE",
+        "HP Chromebook 14 G4"
+    ],
+    "names": [
+        "HP Chromebook 11 2100-2199 / HP Chromebook 11 G3",
+        "HP Chromebook 11 G3/G4/G4 EE",
+        "HP Chromebook 14 G4"
+    ],
+    "sample_hwid": "NO MATCH JUST FOR ENTRY",
+    "sha1": "c91a111c85fc19d2cf10dd0385947e5216b947ee",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_kip_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "13904.55.0",
+    "zipfilesize": 672331505
+}
