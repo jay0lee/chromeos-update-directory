@@ -4,7 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "jacuzzi-signed-mp-v2keys",
     "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "check_time": "2021-07-22 17:09:07.666073",
+    "check_time": "2021-07-23 16:51:40.941987",
     "chrome_version": "94.0.4581.0",
     "chromeos_arc_android_sdk_version": "28",
     "chromeos_arc_version": "7568734",
@@ -15,32 +15,32 @@
     "chromeos_release_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
     "chromeos_release_board": "jacuzzi-signed-mp-v7keys",
     "chromeos_release_branch_number": "0",
-    "chromeos_release_build_number": "14105",
+    "chromeos_release_build_number": "14108",
     "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "jacuzzi-release/R94-14105.0.0",
+    "chromeos_release_builder_path": "jacuzzi-release/R94-14108.0.0",
     "chromeos_release_chrome_milestone": "94",
-    "chromeos_release_description": "14105.0.0 (Official Build) canary-channel jacuzzi ",
+    "chromeos_release_description": "14108.0.0 (Official Build) canary-channel jacuzzi ",
     "chromeos_release_keyset": "mp-v7",
     "chromeos_release_name": "Chrome OS",
     "chromeos_release_patch_number": "0",
     "chromeos_release_track": "canary-channel",
     "chromeos_release_unibuild": "1",
-    "chromeos_release_version": "14105.0.0",
-    "chromeos_version": "14105.0.0",
+    "chromeos_release_version": "14108.0.0",
+    "chromeos_version": "14108.0.0",
     "crostini_support": true,
     "devicetype": "CHROMEBOOK",
-    "google_release": "14105.0.0",
+    "google_release": "14108.0.0",
     "linux_kernel_versions": [
-        "4.19.197-12080-g96331cea1db1"
+        "4.19.198-12081-g182e22a24b73"
     ],
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"13904.0.0\" board=\"jacuzzi-signed-mp-v2keys\" track=\"canary-channel\" hardware_class=\"JUNIPER-HVPU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5316\" elapsed_seconds=\"36547\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:87:\" cohortname=\"jacuzzi_juniper_canary\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14105.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14105.0.0/\"/></urls><manifest version=\"14105.0.0\"><actions><action event=\"update\" run=\"chromeos_14105.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmodfgu2dpxk4tmbvg3wiupvikw3c.signed\"/><action ChromeOSVersion=\"14105.0.0\" ChromeVersion=\"94.0.4581.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"PBOLwQ+6tqyzFdrMD3FX7+n4AJzpNsnV7KKuZm5YDZJsFBFpLWqT28ag6wc9vpaM5646H1Q7wq9H5VHicBGpvEQuySoMrfT/LYF4LZZqOPD29LpG4TPi53d5l7fwI8lLtl+Zttgv/RvRceC/3S61X1AtvD3bAlwLSDcSOwnB7dVcEq7mNFALptt8+fT3m2Ta/ZRREtkBPj2HqT2lq42cjDGNbqsrUy/UPK2pL6yd33W22JNq3OJgxycUFVl8myrHfg7vDJHq1QgljbqVeoBOzVxpNMcKXQDtbZ1k1+C7Bx7XU9fiBvPs4d43BSDWaPzteeap2b9zb16UF4K0RAHtNA==\" MetadataSize=\"65838\" event=\"postinstall\" sha256=\"oYcBR2v+SwpuG2SW1p6SzDtFz12v68RZ7Cf6WLXDR3U=\"/></actions><packages><package fp=\"3.a18701476bfe4b0a6e1b6496d69e92cc3b45cf5dafebc459ec27fa58b5c34775\" hash_sha256=\"a18701476bfe4b0a6e1b6496d69e92cc3b45cf5dafebc459ec27fa58b5c34775\" name=\"chromeos_14105.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmodfgu2dpxk4tmbvg3wiupvikw3c.signed\" required=\"true\" size=\"1057127363\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5317\" elapsed_seconds=\"35500\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:87:\" cohortname=\"jacuzzi_juniper_canary\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14108.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14108.0.0/\"/></urls><manifest version=\"14108.0.0\"><actions><action event=\"update\" run=\"chromeos_14108.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmylfgbrtjm6olr2nsvfqfpuam74g.signed\"/><action ChromeOSVersion=\"14108.0.0\" ChromeVersion=\"94.0.4581.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"W5jliGt76GHX2zJ8vQD831SxTXTd8LFf+UyW6YBqDDPkCNIUsfDkSRrDZhL0tKbzJeO8uEHnW7+9nuip7xUIChx4PqHnAaA53GjtZylSYssBGLG9vG+GX2nyxUxs7Y92ApM7LDWysSfz3h5tPUS6LJxlVjU48yfMF084rwL8k3aUJzzT6IVFj0WMGa3+9HUKfp5/g+0t9VOJKkbDPVwSuJYzKbGwr9dLg83Tv0Amqgb4LaHlS1Xo1Psk8OQ/KGSnN0qPpM0DGFLDgg8Yp4OiVhyzGqK8mtyRPoyFGmsUMUKLwljFywACIkqGkKzqvVVcKdNkUUz4pbOQTT7GYpLY9Q==\" MetadataSize=\"65838\" event=\"postinstall\" sha256=\"roBjqyGeUkdGCzlW8fOTtykpYra98Z54rUOuWTwALJ8=\"/></actions><packages><package fp=\"3.ae8063ab219e5247460b3956f1f393b7292962b6bdf19e78ad43ae593c002c9f\" hash_sha256=\"ae8063ab219e5247460b3956f1f393b7292962b6bdf19e78ad43ae593c002c9f\" name=\"chromeos_14108.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmylfgbrtjm6olr2nsvfqfpuam74g.signed\" required=\"true\" size=\"1057248137\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "JUNIPER-HVPU NNN",
-    "sha256": "a18701476bfe4b0a6e1b6496d69e92cc3b45cf5dafebc459ec27fa58b5c34775",
-    "size": 1057127363,
+    "sha256": "ae8063ab219e5247460b3956f1f393b7292962b6bdf19e78ad43ae593c002c9f",
+    "size": 1057248137,
     "status": "ok",
     "urls": [
-        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14105.0.0/chromeos_14105.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmodfgu2dpxk4tmbvg3wiupvikw3c.signed",
-        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14105.0.0/chromeos_14105.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmodfgu2dpxk4tmbvg3wiupvikw3c.signed"
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14108.0.0/chromeos_14108.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmylfgbrtjm6olr2nsvfqfpuam74g.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14108.0.0/chromeos_14108.0.0_jacuzzi_canary-channel_full_mp-v7.bin-gyygmylfgbrtjm6olr2nsvfqfpuam74g.signed"
     ]
 }
