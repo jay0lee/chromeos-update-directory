@@ -1,0 +1,42 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "app_board": "orco-signed-mp-v2keys",
+    "board_id": "{C13F1877-80F6-0531-A06A-FA478898AA73}",
+    "check_time": "2021-08-02 20:30:34.160754",
+    "chrome_version": "92.0.4515.130",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C13F1877-80F6-0531-A06A-FA478898AA73}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C13F1877-80F6-0531-A06A-FA478898AA73}",
+    "chromeos_release_board": "orco-signed-mp-v2keys",
+    "chromeos_release_branch_number": "69",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "orco-release/R92-13982.69.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.69.0 (Official Build) stable-channel orco ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.69.0",
+    "chromeos_version": "13982.69.0",
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13982.69.0",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C13F1877-80F6-0531-A06A-FA478898AA73}\" version=\"13982.0.0\" board=\"orco-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"ORCO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5327\" elapsed_seconds=\"48634\"/><app appid=\"{C13F1877-80F6-0531-A06A-FA478898AA73}\" cohort=\"1:4/51:\" cohortname=\"orco_stable_canaryrelease_13982.69.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"5.2\" _firmware_version_0=\"5.2\" _firmware_version_1=\"5.2\" _firmware_version_2=\"5.2\" _firmware_version_3=\"5.2\" _firmware_version_4=\"5.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/orco/13982.69.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/orco/13982.69.0/stable-channel/\"/></urls><manifest version=\"13982.69.0\"><actions><action event=\"update\" run=\"chromeos_13982.69.0_orco_stable-channel_full_mp-v2.bin-gyytam3cmqzdjphyr6gkhdv74djurzzq.signed\"/><action ChromeOSVersion=\"13982.69.0\" ChromeVersion=\"92.0.4515.130\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"KatCy1Ouec8DGoBeDyvpduv2mjn1XZVWm4s8ZDcSFVrTKKLmmoNzo1ijtHDQ3NyByhilIaPGIn29ThvuBh2uwGLAvMGp0Vy7k5y35zhXhfR5UUw4NIwWF/13wPgAOD3t4fIxpdFzOzsEJuD45z33uuHA03Bzv17Amzc7ikOpHGTJNesdIkbnzwyq84jlqDBcO+kf8f8vC4HPN/ognYSVfV2Lu/HsinHfqWtPT3MdH1rekrgUc6A96GxFlBG8oQGJKqzOicx9ploZrtlJP3CC8IIZiLnrLDYBZKwPzsIELSrCj25jICcsLUtwT6jk6WFa9mduk1qE4gFvUAzSwN/0uQ==\" MetadataSize=\"56403\" event=\"postinstall\" sha256=\"aWwU/0Yc2VpW5wYJ+tWyD3Wwhwb8UTLvAUQM17UjHkI=\"/></actions><packages><package fp=\"3.696c14ff461cd95a56e70609fad5b20f75b08706fc5132ef01440cd7b5231e42\" hash_sha256=\"696c14ff461cd95a56e70609fad5b20f75b08706fc5132ef01440cd7b5231e42\" name=\"chromeos_13982.69.0_orco_stable-channel_full_mp-v2.bin-gyytam3cmqzdjphyr6gkhdv74djurzzq.signed\" required=\"true\" size=\"646378239\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "ORCO NNN",
+    "sha256": "696c14ff461cd95a56e70609fad5b20f75b08706fc5132ef01440cd7b5231e42",
+    "size": 646378239,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/orco/13982.69.0/stable-channel/chromeos_13982.69.0_orco_stable-channel_full_mp-v2.bin-gyytam3cmqzdjphyr6gkhdv74djurzzq.signed",
+        "https://dl.google.com/chromeos/orco/13982.69.0/stable-channel/chromeos_13982.69.0_orco_stable-channel_full_mp-v2.bin-gyytam3cmqzdjphyr6gkhdv74djurzzq.signed"
+    ]
+}

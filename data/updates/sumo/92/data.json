@@ -1,0 +1,42 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "app_board": "sumo-signed-mp-v2keys",
+    "board_id": "{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}",
+    "check_time": "2021-08-02 20:30:46.500699",
+    "chrome_version": "92.0.4515.130",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}",
+    "chromeos_release_board": "sumo-signed-mp-v2keys",
+    "chromeos_release_branch_number": "69",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "sumo-release/R92-13982.69.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.69.0 (Official Build) stable-channel sumo ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.69.0",
+    "chromeos_version": "13982.69.0",
+    "crostini_support": false,
+    "devicetype": "CHROMEBASE",
+    "google_release": "13982.69.0",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}\" version=\"13982.0.0\" board=\"sumo-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"SUMO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5327\" elapsed_seconds=\"48646\"/><app appid=\"{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}\" cohort=\"1:4/4v:\" cohortname=\"sumo_stable_canaryrelease_13982.69.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"5.2\" _firmware_version_0=\"5.2\" _firmware_version_1=\"5.2\" _firmware_version_2=\"5.2\" _firmware_version_3=\"5.2\" _firmware_version_4=\"5.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sumo/13982.69.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sumo/13982.69.0/stable-channel/\"/></urls><manifest version=\"13982.69.0\"><actions><action event=\"update\" run=\"chromeos_13982.69.0_sumo_stable-channel_full_mp-v2.bin-gyytam3bmu4drbuivyhuptomefueur7z.signed\"/><action ChromeOSVersion=\"13982.69.0\" ChromeVersion=\"92.0.4515.130\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Ip/P1zPrMSICtZxTVMgg/EYa7m/dht44hzuAhl/2gDH3PPBtZQBjiJIOwtm7Saiy7BTarfYrmVOJ2n9f2MOX7wHH+jCpdobpVvB4yFsZ7SBrhNCHQmowoBTG+w+faQ6BV7BDAqLfSHMqF2rF706F9HS/bD+zBQ3TlELQD68g/Ec1tLzE7wvESrLU7JVlyHl2X+8WsAh9RPWkOjXf5CpYEGej4jwa9RmaHd52vF2egEB+sT7cC+ely0uyLCddQm54ShJf3V9EZOC1oHCcwoeKfkGebRfqfq7A1a4B5DM5T5cZLpchfyFeZVWKjfhhM56ZbNV46ukbUnUTrY0NYfuMHw==\" MetadataSize=\"56481\" event=\"postinstall\" sha256=\"PrqfRWZA2vHT7k/0BJqZ7mjtITg1PUDITUnyq7VUzUM=\"/></actions><packages><package fp=\"3.3eba9f456640daf1d3ee4ff4049a99ee68ed2138353d40c84d49f2abb554cd43\" hash_sha256=\"3eba9f456640daf1d3ee4ff4049a99ee68ed2138353d40c84d49f2abb554cd43\" name=\"chromeos_13982.69.0_sumo_stable-channel_full_mp-v2.bin-gyytam3bmu4drbuivyhuptomefueur7z.signed\" required=\"true\" size=\"646574271\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SUMO NNN",
+    "sha256": "3eba9f456640daf1d3ee4ff4049a99ee68ed2138353d40c84d49f2abb554cd43",
+    "size": 646574271,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/sumo/13982.69.0/stable-channel/chromeos_13982.69.0_sumo_stable-channel_full_mp-v2.bin-gyytam3bmu4drbuivyhuptomefueur7z.signed",
+        "https://dl.google.com/chromeos/sumo/13982.69.0/stable-channel/chromeos_13982.69.0_sumo_stable-channel_full_mp-v2.bin-gyytam3bmu4drbuivyhuptomefueur7z.signed"
+    ]
+}
