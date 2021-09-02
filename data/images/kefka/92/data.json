@@ -1,0 +1,61 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "kefka"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7611540",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2EDF7C6D-6586-D292-0B61-4A33B62E3BF6}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2EDF7C6D-6586-D292-0B61-4A33B62E3BF6}",
+    "chromeos_release_board": "kefka-signed-mpkeys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kefka-release/R92-13982.88.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.88.0 (Official Build) stable-channel kefka ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.88.0",
+    "cr_version": 92,
+    "cros_version": 13982,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13982.88.0_kefka_recovery_stable-channel_mp.bin",
+    "filesize": 2319657472,
+    "google_release": "13982.88.0",
+    "hwidmatches": [
+        "^KEFKA \\w{3}-[^B].*",
+        "^KEFKA \\w{3}-B\\w{2}(-\\w{3})*"
+    ],
+    "image_name": "kefka",
+    "linux_kernel_versions": [
+        "4.19.190-11780-g9abe9eac8155"
+    ],
+    "manufacturers": [
+        "Dell",
+        "Dell"
+    ],
+    "md5": "c3d3d85b87e45b1b745007df4418723b",
+    "models": [
+        "Dell Chromebook 11 (3180)",
+        "Dell Chromebook 11 2-in-1 (3189)"
+    ],
+    "names": [
+        "Dell Chromebook 11 (3180)",
+        "Dell Chromebook 11 2-in-1 (3189)"
+    ],
+    "sample_hwid": "KEFKA DxH-[NNN",
+    "sha1": "46d46aea25b6ded8d7e9d06566af155f20a25649",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_kefka_recovery_stable-channel_mp.bin.zip",
+    "version": "13982.88.0",
+    "zipfilesize": 1279571127
+}

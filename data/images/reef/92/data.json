@@ -1,0 +1,62 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-02 00:00:00",
+    "boards": [
+        "reef"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7611540",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}",
+    "chromeos_release_board": "reef-signed-mp-v2keys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reef-release/R92-13982.88.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.88.0 (Official Build) stable-channel reef ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "13982.88.0",
+    "cr_version": 92,
+    "cros_version": 13982,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13982.88.0_reef_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319657472,
+    "google_release": "13982.88.0",
+    "hwidmatches": [
+        "^REEF \\w{3}-C\\w{2}(-\\w{3})*",
+        "^REEF \\w{3}-B\\w{2}(-\\w{3})*"
+    ],
+    "image_name": "reef",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Acer"
+    ],
+    "md5": "6196888891bd486f90cd059149fd47f0",
+    "models": [
+        "ASUS Chromebook Flip C213",
+        "Acer Chromebook Spin 11 (R751T / CP511)"
+    ],
+    "names": [
+        "ASUS Chromebook Flip C213",
+        "Acer Chromebook Spin 11 (R751T / CP511)"
+    ],
+    "sample_hwid": "REEF Ff7-CNt-kSq-uik-Rt0-tfA-JdL-o9A-C85-r6s-mij-g8u-MAA-idv-wDW-w9x-jQz-QAA-Vd_-O73-Fng-y7C-xPZ-9Vt-_n_-pPe-T52-Art-tQS-VWA-iOG-pTO-Tcn-9is-_bv-tNT-mXJ-VXZ-yFb-wn8-fJ4-jMT-cEq-afp-uXh-E7Y-HIz-EEk-1TD-7kk-9dY-H5C-X_t-9j4-aaU-uEF-9Ix-3Pt-fHx-Qv1-s08-hNo-6ZD-i1_-C35-tVV-qoA-VXz-GN2-Axo-ChC-djE-FvV-A9v-TKe-0UO-odr-pko-yDM-x2P-0XA-oj3-DPz-ppN-H2K-xCE-RLn-i3a-ZiX-vob-XIP-Vww-pvv-FP0",
+    "sha1": "9eda259847e7f38b3669b419e052717948c9c44f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_reef_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13982.88.0",
+    "zipfilesize": 1279953089
+}

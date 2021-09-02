@@ -1,0 +1,54 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "winky"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{4B8B5979-526A-48D6-B6EB-D72680471AAD}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{4B8B5979-526A-48D6-B6EB-D72680471AAD}",
+    "chromeos_release_board": "winky-signed-mp-v2keys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "winky-release/R92-13982.88.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.88.0 (Official Build) stable-channel winky ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.88.0",
+    "cr_version": 92,
+    "cros_version": 13982,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13982.88.0_winky_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2333200896,
+    "google_release": "13982.88.0",
+    "hwidmatches": [
+        "^WINKY .*"
+    ],
+    "image_name": "winky",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "manufacturers": [
+        "Samsung"
+    ],
+    "md5": "8b6263c9ac106242497830098bc7d978",
+    "models": [
+        "Samsung Chromebook 2 11\" - XE500C12"
+    ],
+    "names": [
+        "Samsung Chromebook 2 11\" - XE500C12"
+    ],
+    "sample_hwid": "WINKY NNN",
+    "sha1": "b077db7b4611bdef7b88de0c33364c9ac0aa5d38",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_winky_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13982.88.0",
+    "zipfilesize": 798755303
+}

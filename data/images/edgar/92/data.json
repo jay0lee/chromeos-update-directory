@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "edgar"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7611540",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{196C49C7-152F-499B-9C64-F5B8A89E43A4}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{196C49C7-152F-499B-9C64-F5B8A89E43A4}",
+    "chromeos_release_board": "edgar-signed-mp-v2keys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "edgar-release/R92-13982.88.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.88.0 (Official Build) stable-channel edgar ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.88.0",
+    "cr_version": 92,
+    "cros_version": 13982,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13982.88.0_edgar_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319657472,
+    "google_release": "13982.88.0",
+    "hwidmatches": [
+        "^EDGAR .*"
+    ],
+    "image_name": "edgar",
+    "linux_kernel_versions": [
+        "4.19.190-11780-g9abe9eac8155"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "0e425ab6f84547f68a0fb17ae39886bd",
+    "models": [
+        "Acer Chromebook 14 (CB3-431)"
+    ],
+    "names": [
+        "Acer Chromebook 14 (CB3-431)"
+    ],
+    "sample_hwid": "EDGAR NNN",
+    "sha1": "a5f2782023bb740c35b8e918520344b0b0776a0d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_edgar_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13982.88.0",
+    "zipfilesize": 1281518456
+}

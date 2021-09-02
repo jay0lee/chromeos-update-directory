@@ -1,0 +1,54 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "ninja"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{555B868F-306A-3E26-6687-FC081968D43A}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{555B868F-306A-3E26-6687-FC081968D43A}",
+    "chromeos_release_board": "ninja-signed-mp-v2keys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "ninja-release/R92-13982.88.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.88.0 (Official Build) stable-channel ninja ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.88.0",
+    "cr_version": 92,
+    "cros_version": 13982,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_13982.88.0_ninja_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319657472,
+    "google_release": "13982.88.0",
+    "hwidmatches": [
+        "^NINJA .*"
+    ],
+    "image_name": "ninja",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "manufacturers": [
+        "AOpen"
+    ],
+    "md5": "8dac790b9e6287cb92d90a28aaf44bd4",
+    "models": [
+        "AOpen Chromebox Commercial"
+    ],
+    "names": [
+        "AOpen Chromebox Commercial"
+    ],
+    "sample_hwid": "NINJA NNN",
+    "sha1": "6dbfe4ee2ce77854fb791f8ffce697f36d5ce883",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_ninja_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13982.88.0",
+    "zipfilesize": 785650007
+}

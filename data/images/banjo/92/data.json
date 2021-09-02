@@ -1,0 +1,54 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
+    "boards": [
+        "banjo"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3A837630-D749-4B7A-86C1-DB0ECC07A08B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3A837630-D749-4B7A-86C1-DB0ECC07A08B}",
+    "chromeos_release_board": "banjo-signed-mp-v2keys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "banjo-release/R92-13982.88.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.88.0 (Official Build) stable-channel banjo ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13982.88.0",
+    "cr_version": 92,
+    "cros_version": 13982,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13982.88.0_banjo_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319657472,
+    "google_release": "13982.88.0",
+    "hwidmatches": [
+        "^BANJO .*"
+    ],
+    "image_name": "banjo",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "7544bfa97aa158e18af001888dedfb3e",
+    "models": [
+        "Acer Chromebook 15 (CB3-531)"
+    ],
+    "names": [
+        "Acer Chromebook 15 (CB3-531)"
+    ],
+    "sample_hwid": "BANJO NNN",
+    "sha1": "1c25dfe4e8d73674b2c48ea7ea2063128ca1eeb6",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_banjo_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13982.88.0",
+    "zipfilesize": 787224986
+}
