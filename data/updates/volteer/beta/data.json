@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "app_board": "volteer-signed-mp-v6keys",
+    "board_id": "{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}",
+    "check_time": "2021-09-02 21:33:01.497877",
+    "chrome_version": "93.0.4577.69",
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "7678555",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}",
+    "chromeos_release_board": "volteer-signed-mp-v8keys",
+    "chromeos_release_branch_number": "46",
+    "chromeos_release_build_number": "14092",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "volteer-release/R93-14092.46.0",
+    "chromeos_release_chrome_milestone": "93",
+    "chromeos_release_description": "14092.46.0 (Official Build) beta-channel volteer ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "beta-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14092.46.0",
+    "chromeos_version": "14092.46.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14092.46.0",
+    "linux_kernel_versions": [
+        "5.4.131-16048-gbb1a6b403823"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}\" version=\"13904.0.0\" board=\"volteer-signed-mp-v6keys\" track=\"beta-channel\" hardware_class=\"DELBIN-XHVINNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5358\" elapsed_seconds=\"52381\"/><app appid=\"{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}\" cohort=\"1:g:\" cohortname=\"volteer_delbin_beta\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/volteer/14092.46.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/volteer/14092.46.0/beta-channel/\"/></urls><manifest version=\"14092.46.0\"><actions><action event=\"update\" run=\"chromeos_14092.46.0_volteer_beta-channel_full_mp-v8.bin-gyytezjsgvtgix4j3uunp6gswjdtnoq4.signed\"/><action ChromeOSVersion=\"14092.46.0\" ChromeVersion=\"93.0.4577.69\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"dcOpLc5FWbepP23qG2m/C8fpaRZS81J0WawT+fFzmcK+VokecB/IBSD9ab+1AeOcF59xKRbeVBv6nQ8o3y/wZ1XwsKI3/gYBVvi/hoBxrklD15Awa1XS5U9dsoHqN3uWDNhCL31EFFIIuiBxkbqfeZBGks6s53bxFqqGIxQ7iUqjjb2RwGc28iOxPEqMI1pG+s/Nou1/Hb6uFF6yT0sgXe/TIocHoSqiLYXxM0+wAjLG02oTvofR+eyMz7/DfqhEST2x2Ea/YN7M4szC5MVrZWR3vXgHzO8tVt9XpBDaR9a58QDyZsEmMrozJrUdSezOqq/Czx0SJGpT8IV7dr9zwQ==\" MetadataSize=\"74861\" event=\"postinstall\" sha256=\"vhjgR+7C8yjiFCbfeMk8/0H9D9fSXtvI6aUgRE3AD3A=\"/></actions><packages><package fp=\"3.be18e047eec2f328e21426df78c93cff41fd0fd7d25edbc8e9a520444dc00f70\" hash_sha256=\"be18e047eec2f328e21426df78c93cff41fd0fd7d25edbc8e9a520444dc00f70\" name=\"chromeos_14092.46.0_volteer_beta-channel_full_mp-v8.bin-gyytezjsgvtgix4j3uunp6gswjdtnoq4.signed\" required=\"true\" size=\"1529492936\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DELBIN-XHVINNN",
+    "sha256": "be18e047eec2f328e21426df78c93cff41fd0fd7d25edbc8e9a520444dc00f70",
+    "size": 1529492936,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/volteer/14092.46.0/beta-channel/chromeos_14092.46.0_volteer_beta-channel_full_mp-v8.bin-gyytezjsgvtgix4j3uunp6gswjdtnoq4.signed",
+        "https://dl.google.com/chromeos/volteer/14092.46.0/beta-channel/chromeos_14092.46.0_volteer_beta-channel_full_mp-v8.bin-gyytezjsgvtgix4j3uunp6gswjdtnoq4.signed"
+    ]
+}
