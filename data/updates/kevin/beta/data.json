@@ -1,1 +1,45 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "kevin-signed-mpkeys",
+    "board_id": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "check_time": "2021-09-17 18:26:27.421894",
+    "chrome_version": "92.0.4515.111",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7540039",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "chromeos_release_board": "kevin-signed-mpkeys",
+    "chromeos_release_branch_number": "60",
+    "chromeos_release_build_number": "13982",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kevin-release/R92-13982.60.0",
+    "chromeos_release_chrome_milestone": "92",
+    "chromeos_release_description": "13982.60.0 (Official Build) beta-channel kevin ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "beta-channel",
+    "chromeos_release_version": "13982.60.0",
+    "chromeos_version": "13982.60.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "13982.60.0",
+    "linux_kernel_versions": [
+        "4.4.268-20533-gcb85bd3a0149"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{92A7272A-834A-47A3-9112-E8FD55831660}\" version=\"13982.0.0\" board=\"kevin-signed-mpkeys\" track=\"beta-channel\" hardware_class=\"KEVIN NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5373\" elapsed_seconds=\"41187\"/><app appid=\"{92A7272A-834A-47A3-9112-E8FD55831660}\" cohort=\"1:3:\" cohortname=\"kevin_beta\" status=\"ok\"><updatecheck _eol_date=\"19571\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kevin/13982.60.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kevin/13982.60.0/beta-channel/\"/></urls><manifest version=\"13982.60.0\"><actions><action event=\"update\" run=\"chromeos_13982.60.0_kevin_beta-channel_full_mp.bin-gyygmodggy3dkms2urx7k5cmdd53quyy.signed\"/><action ChromeOSVersion=\"13982.60.0\" ChromeVersion=\"92.0.4515.111\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Eyxd/V+6YQXaZJqmBeN5VoCEXGqIXGmqPqaGLmxVW9jhZxHe6n2qTbGkVOOXnwdAK3x3RpDVz7K0YQKXY/K6S4wLe4NQLGOoJQZxaoxEfRUwxrU363brgWz4l7lo1OAdnAQjyJMK9NqxL52erPii4qUQ2a8HYNCb9xkVaU1aPlLvcZONfTgZqxF80UOqgiF7eBBfLj2/niXFvWfd8YdGslB0ilJVi8/V6vWIq/eibNuvduWc/BTt27SC5HaGjZFWf7oCVtObkWeNAVrdbh6zG1voqIEODDjD2SpNe1ye0ZTg4b7VhMxo2o1kn/PQaIrbgr19Wr1DaamxamO2PqRE2A==\" MetadataSize=\"56842\" event=\"postinstall\" sha256=\"8HO725IsMk0aYvKVS98TBD12jsRBHfVyWY/62VX2MkE=\"/></actions><packages><package fp=\"3.f073bbdb922c324d1a62f2954bdf13043d768ec4411df572598ffad955f63241\" hash_sha256=\"f073bbdb922c324d1a62f2954bdf13043d768ec4411df572598ffad955f63241\" name=\"chromeos_13982.60.0_kevin_beta-channel_full_mp.bin-gyygmodggy3dkms2urx7k5cmdd53quyy.signed\" required=\"true\" size=\"1014051168\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "KEVIN NNN",
+    "sha256": "f073bbdb922c324d1a62f2954bdf13043d768ec4411df572598ffad955f63241",
+    "size": 1014051168,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/kevin/13982.60.0/beta-channel/chromeos_13982.60.0_kevin_beta-channel_full_mp.bin-gyygmodggy3dkms2urx7k5cmdd53quyy.signed",
+        "https://dl.google.com/chromeos/kevin/13982.60.0/beta-channel/chromeos_13982.60.0_kevin_beta-channel_full_mp.bin-gyygmodggy3dkms2urx7k5cmdd53quyy.signed"
+    ]
+}
