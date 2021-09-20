@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-06-02 00:00:00",
+    "boards": [
+        "sentry"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7611564",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+    "chromeos_release_board": "sentry-signed-mpkeys",
+    "chromeos_release_branch_number": "46",
+    "chromeos_release_build_number": "14092",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "sentry-release/R93-14092.46.0",
+    "chromeos_release_chrome_milestone": "93",
+    "chromeos_release_description": "14092.46.0 (Official Build) stable-channel sentry ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14092.46.0",
+    "cr_version": 93,
+    "cros_version": 14092,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14092.46.0_sentry_recovery_stable-channel_mp.bin",
+    "filesize": 2319657472,
+    "google_release": "14092.46.0",
+    "hwidmatches": [
+        "^SENTRY .*"
+    ],
+    "image_name": "sentry",
+    "linux_kernel_versions": [
+        "3.18.0-20695-gda4ed594ddac"
+    ],
+    "manufacturers": [
+        "Lenovo"
+    ],
+    "md5": "0ebacfe8e48cc374dd88cc279bf12c01",
+    "models": [
+        "Lenovo ThinkPad 13"
+    ],
+    "names": [
+        "Lenovo ThinkPad 13"
+    ],
+    "sample_hwid": "SENTRY NNN",
+    "sha1": "5c3ff27b3520364d9d097697ecfda8c412b0d922",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.46.0_sentry_recovery_stable-channel_mp.bin.zip",
+    "version": "14092.46.0",
+    "zipfilesize": 1277675664
+}

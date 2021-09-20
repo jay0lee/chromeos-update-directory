@@ -1,0 +1,61 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-06-02 00:00:00",
+    "boards": [
+        "lars"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7611564",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "chromeos_release_board": "lars-signed-mpkeys",
+    "chromeos_release_branch_number": "46",
+    "chromeos_release_build_number": "14092",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "lars-release/R93-14092.46.0",
+    "chromeos_release_chrome_milestone": "93",
+    "chromeos_release_description": "14092.46.0 (Official Build) stable-channel lars ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14092.46.0",
+    "cr_version": 93,
+    "cros_version": 14092,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14092.46.0_lars_recovery_stable-channel_mp.bin",
+    "filesize": 2319657472,
+    "google_release": "14092.46.0",
+    "hwidmatches": [
+        "^LARS [DE]\\w{2}-\\w{3}-\\w{3}-.3.*",
+        "^LARS [ABCF-Z].*"
+    ],
+    "image_name": "lars",
+    "linux_kernel_versions": [
+        "3.18.0-20695-gda4ed594ddac"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer"
+    ],
+    "md5": "07c8a983fada34499f104abe4d3e63b7",
+    "models": [
+        "Acer Chromebook 11 (C771, C771T)",
+        "Acer Chromebook 14 for Work (CP5-471)"
+    ],
+    "names": [
+        "Acer Chromebook 11 (C771, C771T)",
+        "Acer Chromebook 14 for Work (CP5-471)"
+    ],
+    "sample_hwid": "LARS DPl-F1o-ymo-)3NNN",
+    "sha1": "ab210fe63a9d3ec3632847ca002af5e02bebca5e",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.46.0_lars_recovery_stable-channel_mp.bin.zip",
+    "version": "14092.46.0",
+    "zipfilesize": 1280028331
+}
