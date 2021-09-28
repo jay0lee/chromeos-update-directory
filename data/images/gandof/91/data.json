@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2021-06-02 00:00:00",
+    "boards": [
+        "gandof"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7441046",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{17E83440-0027-4D60-A6D3-D7F2BA99720B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{17E83440-0027-4D60-A6D3-D7F2BA99720B}",
+    "chromeos_release_board": "gandof-signed-mp-v2keys",
+    "chromeos_release_branch_number": "77",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "gandof-release/R91-13904.77.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.77.0 (Official Build) stable-channel gandof ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13904.77.0",
+    "cr_version": 91,
+    "cros_version": 13904,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_13904.77.0_gandof_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2319657472,
+    "google_release": "13904.77.0",
+    "hwidmatches": [
+        "^GANDOF .*"
+    ],
+    "image_name": "gandof",
+    "linux_kernel_versions": [
+        "4.14.228-37743-g49d2c603c1a5"
+    ],
+    "manufacturers": [
+        "Toshiba"
+    ],
+    "md5": "4dbda2c1825c94d5cb8fb0f0aa208cab",
+    "models": [
+        "Toshiba Chromebook 2 (2015 Edition)"
+    ],
+    "names": [
+        "Toshiba Chromebook 2 (2015 Edition)"
+    ],
+    "sample_hwid": "GANDOF NNN",
+    "sha1": "80df058c3ef8d797d59ee4e8e2327a06a99f8ea9",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_gandof_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "13904.77.0",
+    "zipfilesize": 1152812312
+}
