@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "app_board": "dedede-signed-mp-v3keys",
+    "board_id": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "check_time": "2021-09-29 21:32:29.349188",
+    "chrome_version": "93.0.4577.95",
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "7732988",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_release_board": "dedede-signed-mp-v16keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "14092",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "dedede-release/R93-14092.66.1",
+    "chromeos_release_chrome_milestone": "93",
+    "chromeos_release_description": "14092.66.1 (Official Build) stable-channel dedede ",
+    "chromeos_release_keyset": "mp-v16",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "1",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14092.66.1",
+    "chromeos_version": "14092.66.1",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14092.66.1",
+    "linux_kernel_versions": [
+        "5.4.131-16049-gc688e114d34e"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E0DD1258-E890-493E-ADA3-0C755240B89C}\" version=\"14092.0.0\" board=\"dedede-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"DRAWLAT-EKWLNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14092\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5385\" elapsed_seconds=\"52349\"/><app appid=\"{E0DD1258-E890-493E-ADA3-0C755240B89C}\" cohort=\"1:i/90:\" cohortname=\"dedede_drawlat_stable_canaryrelease_14092.66.1\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/dedede/14092.66.1/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/dedede/14092.66.1/stable-channel/\"/></urls><manifest version=\"14092.66.1\"><actions><action event=\"update\" run=\"chromeos_14092.66.1_dedede_stable-channel_full_mp-v16.bin-gyytizlcgbsdgwy6mmtkpjl5skbshrab.signed\"/><action ChromeOSVersion=\"14092.66.1\" ChromeVersion=\"93.0.4577.95\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"mskG+sMJ4lQM/08MOW1QEa6vC5xxN3DHdVEpOU6aBoFTDJUdQhGcxC61VOFR6p7wk4WhewkaH/dINby3qjLQj1KCSSPwq63oXqUK+akWi1pbc+vNd1r+ksH3+nXRBiPlidHH39jBTbcmTRN4emm1v0QODwK3rqYK+xKnq7KqPPgBC1uC2NAoCtIfA5apI/SZifdtSHrQYmel/vyv7m1JYKhWpwQrLsv+sr14dRS6Bu7m8JobGKcCvSwtHc5gEcS0ACFUwUyMyheiZg6gjthKNyXOTqbqgRZUO8eLH0Q8o1CoYz4KZhwswfBZdM45EcXspfJxvZAWTRdAmLu7TnXCzg==\" MetadataSize=\"81992\" event=\"postinstall\" sha256=\"6IVygCbruOGR5Mf4gboup8z9bHL0bFXyLopYBVMSlbM=\"/></actions><packages><package fp=\"3.e885728026ebb8e191e4c7f881ba2ea7ccfd6c72f46c55f22e8a5805531295b3\" hash_sha256=\"e885728026ebb8e191e4c7f881ba2ea7ccfd6c72f46c55f22e8a5805531295b3\" name=\"chromeos_14092.66.1_dedede_stable-channel_full_mp-v16.bin-gyytizlcgbsdgwy6mmtkpjl5skbshrab.signed\" required=\"true\" size=\"1725223029\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DRAWLAT-EKWLNNN",
+    "sha256": "e885728026ebb8e191e4c7f881ba2ea7ccfd6c72f46c55f22e8a5805531295b3",
+    "size": 1725223029,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/dedede/14092.66.1/stable-channel/chromeos_14092.66.1_dedede_stable-channel_full_mp-v16.bin-gyytizlcgbsdgwy6mmtkpjl5skbshrab.signed",
+        "https://dl.google.com/chromeos/dedede/14092.66.1/stable-channel/chromeos_14092.66.1_dedede_stable-channel_full_mp-v16.bin-gyytizlcgbsdgwy6mmtkpjl5skbshrab.signed"
+    ]
+}
