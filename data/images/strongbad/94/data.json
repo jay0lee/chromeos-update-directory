@@ -1,0 +1,63 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2029-06-02 00:00:00",
+    "boards": [
+        "coachz",
+        "homestar"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7833743",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{ABD68995-5A83-31CA-9AC6-49D8194EEA52}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{ABD68995-5A83-31CA-9AC6-49D8194EEA52}",
+    "chromeos_release_board": "strongbad-signed-mp-v3keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "14150",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "strongbad-release/R94-14150.64.0",
+    "chromeos_release_chrome_milestone": "94",
+    "chromeos_release_description": "14150.64.0 (Official Build) stable-channel strongbad ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14150.64.0",
+    "cr_version": 94,
+    "cros_version": 14150,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14150.64.0_strongbad_recovery_stable-channel_mp-v3.bin",
+    "filesize": 3189985792,
+    "google_release": "14150.64.0",
+    "hwidmatches": [
+        "^COACHZ.*",
+        "^HOMESTAR-MBLE.*"
+    ],
+    "image_name": "strongbad",
+    "linux_kernel_versions": [
+        "5.4.139-16309-g748e5311576e"
+    ],
+    "manufacturers": [
+        "HP",
+        "Lenovo"
+    ],
+    "md5": "0c5eae40af52a470452c8e361d11aac2",
+    "models": [
+        "HP Chromebook x2 11c",
+        "Lenovo Chromebook Duet 5 / IdeaPad Duet 5 Chromebook"
+    ],
+    "names": [
+        "HP Chromebook x2 11c",
+        "Lenovo Chromebook Duet 5 / IdeaPad Duet 5 Chromebook"
+    ],
+    "sample_hwid": "COACHZNNN",
+    "sha1": "d0d6b84d28e7f8085b2d58ccd2c863df07032511",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.64.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "14150.64.0",
+    "zipfilesize": 1271458560
+}
