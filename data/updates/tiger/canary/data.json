@@ -4,7 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "veyron_tiger-signed-mpkeys",
     "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "check_time": "2021-11-01 18:58:20.301597",
+    "check_time": "2021-11-03 20:16:20.949672",
     "chrome_version": "97.0.4685.4",
     "chromeos_arc_android_sdk_version": "28",
     "chromeos_arc_version": "7857292",
@@ -15,31 +15,31 @@
     "chromeos_release_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
     "chromeos_release_board": "veyron_tiger-signed-mpkeys",
     "chromeos_release_branch_number": "0",
-    "chromeos_release_build_number": "14317",
+    "chromeos_release_build_number": "14320",
     "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "veyron_tiger-release/R97-14317.0.0",
+    "chromeos_release_builder_path": "veyron_tiger-release/R97-14320.0.0",
     "chromeos_release_chrome_milestone": "97",
-    "chromeos_release_description": "14317.0.0 (Official Build) canary-channel veyron_tiger ",
+    "chromeos_release_description": "14320.0.0 (Official Build) canary-channel veyron_tiger ",
     "chromeos_release_keyset": "mp",
     "chromeos_release_name": "Chrome OS",
     "chromeos_release_patch_number": "0",
     "chromeos_release_track": "canary-channel",
-    "chromeos_release_version": "14317.0.0",
-    "chromeos_version": "14317.0.0",
+    "chromeos_release_version": "14320.0.0",
+    "chromeos_version": "14320.0.0",
     "crostini_support": false,
     "devicetype": "CHROMEBASE",
-    "google_release": "14317.0.0",
+    "google_release": "14320.0.0",
     "linux_kernel_versions": [
-        "4.19.214-12473-g4e783d155de8"
+        "4.19.214-12482-gdc2e95317dfe"
     ],
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"14150.0.0\" board=\"veyron_tiger-signed-mpkeys\" track=\"canary-channel\" hardware_class=\"TIGER NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5418\" elapsed_seconds=\"43100\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:31:\" cohortname=\"veyron-tiger_canary\" status=\"ok\"><updatecheck _eol_date=\"19025\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14317.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14317.0.0/\"/></urls><manifest version=\"14317.0.0\"><actions><action event=\"update\" run=\"chromeos_14317.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytozruguztsk35ngpt5yqion6aefbp.signed\"/><action ChromeOSVersion=\"14317.0.0\" ChromeVersion=\"97.0.4685.4\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"SbTmXXvq8/dHVxTkPBO9fpacFN4XIMuE42etsnqKTpunVfYAdzYbs08JuAZNDxu7GYyKTNmeq8AkR4bF8ZfxgPrxQUL+MtYZk+1DB76igkGXWhvZs2yvWs/R/arWhrVucuxXfA45OE00qt0YbmhxqK7rT/dlhmq/Cz1QPPlZoroCxKzN+0zRooX94QhBQ/wTigxXaX2gEs4W27o16cpYrVbnZ2uapMItx5ZmcBIZ20IdIeM/q7XVMkZMfmgUws/l3rsE9NOsiKc0fFbtAYalsf9x+M/RGQgwBMG0CoMEXpzWr/0qMY2lRgHibL+BX/H3YbPOUUVP51Y5pugkRndH/A==\" MetadataSize=\"56896\" event=\"postinstall\" sha256=\"8gpYlATZrPjNqAHD1+wzyB3UjMdDcR6Z99FFK45qwP0=\"/></actions><packages><package fp=\"3.f20a589404d9acf8cda801c3d7ec33c81dd48cc743711e99f7d1452b8e6ac0fd\" hash_sha256=\"f20a589404d9acf8cda801c3d7ec33c81dd48cc743711e99f7d1452b8e6ac0fd\" name=\"chromeos_14317.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytozruguztsk35ngpt5yqion6aefbp.signed\" required=\"true\" size=\"1024799477\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5420\" elapsed_seconds=\"47780\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:31:\" cohortname=\"veyron-tiger_canary\" status=\"ok\"><updatecheck _eol_date=\"19025\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14320.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14320.0.0/\"/></urls><manifest version=\"14320.0.0\"><actions><action event=\"update\" run=\"chromeos_14320.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytqmjxha3tgxvybpdhc2clvudcduj3.signed\"/><action ChromeOSVersion=\"14320.0.0\" ChromeVersion=\"97.0.4685.4\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"zQWv2mVhYx/igiFE+84WTCoVJEYerYfosom9nFCCzpZTtC/VboGzplBglbrfM1VTNQhDbjgOGnjOKmKXZUc78Go0lyi6vgQM9vLp8GHvAdvmhs+b9MNeo9jDoJSTMiS4eA+kkeKMgi2vxwQWdSrr9Ltuf1w56KRMOXBimElmHAmZ63YRtq9DokaRrlPKHiDwjn0mhCHkNYGZ2EyINn+nTyvlH5Vu4bU5cYZPjh8L+idP0sj3CnZPdDuFWhE6R4XEqbod5j8ePREYzn9av81/fDQznw3D/WFnb3PhsGcjmTLPYf0T7BgQEhXLUgG6n83qtr71x74w3sPwES3FScdIbg==\" MetadataSize=\"56773\" event=\"postinstall\" sha256=\"1hpCogu+k9M3vB74PpfzlbY2l137uBVkR+rJVXaBFW4=\"/></actions><packages><package fp=\"3.d61a42a20bbe93d337bc1ef83e97f395b636975dfbb8156447eac9557681156e\" hash_sha256=\"d61a42a20bbe93d337bc1ef83e97f395b636975dfbb8156447eac9557681156e\" name=\"chromeos_14320.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytqmjxha3tgxvybpdhc2clvudcduj3.signed\" required=\"true\" size=\"926759947\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "TIGER NNN",
-    "sha256": "f20a589404d9acf8cda801c3d7ec33c81dd48cc743711e99f7d1452b8e6ac0fd",
-    "size": 1024799477,
+    "sha256": "d61a42a20bbe93d337bc1ef83e97f395b636975dfbb8156447eac9557681156e",
+    "size": 926759947,
     "status": "ok",
     "urls": [
-        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14317.0.0/chromeos_14317.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytozruguztsk35ngpt5yqion6aefbp.signed",
-        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14317.0.0/chromeos_14317.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytozruguztsk35ngpt5yqion6aefbp.signed"
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14320.0.0/chromeos_14320.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytqmjxha3tgxvybpdhc2clvudcduj3.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14320.0.0/chromeos_14320.0.0_veyron-tiger_canary-channel_full_tiger-mp.bin-gyytqmjxha3tgxvybpdhc2clvudcduj3.signed"
     ]
 }
