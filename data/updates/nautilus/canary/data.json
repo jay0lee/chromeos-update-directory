@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "nautilus-signed-mp-v2keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2021-12-18 20:12:50.782212",
+    "chrome_version": "99.0.4768.0",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8006604",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{85F8FA82-F276-4EA6-8980-93FE091F6D25}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_release_board": "nautilus-signed-mp-v2keys",
+    "chromeos_release_branch_number": "0",
+    "chromeos_release_build_number": "14405",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nautilus-release/R99-14405.0.0",
+    "chromeos_release_chrome_milestone": "99",
+    "chromeos_release_description": "14405.0.0 (Official Build) canary-channel nautilus ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "canary-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14405.0.0",
+    "chromeos_version": "14405.0.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14405.0.0",
+    "linux_kernel_versions": [
+        "5.4.166-17407-gee94311df70e"
+    ],
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"14268.0.0\" board=\"nautilus-signed-mp-v2keys\" track=\"canary-channel\" hardware_class=\"NAUTILUS X7D-N6G-W8SNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5465\" elapsed_seconds=\"43970\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:55:\" cohortname=\"nautilus_nautiluslte_canary\" status=\"ok\"><updatecheck _eol_date=\"19905\" _firmware_version=\"5.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14405.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14405.0.0/\"/></urls><manifest version=\"14405.0.0\"><actions><action event=\"update\" run=\"chromeos_14405.0.0_nautilus_canary-channel_full_mp-v2.bin-gyywezdgmu3tlhrqd4xekuuwz5u5ohv6.signed\"/><action ChromeOSVersion=\"14405.0.0\" ChromeVersion=\"99.0.4768.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"TcghmKzua2g+7GlmyKBWCseGnqTlcy6vRiSzDTIst5LDzCYZA2l+fY49rXEoXqlf3AGI/cNDiuOlgeDT+xbRCUSl7UzxFAVe44smRzp74J+xQ9PWkw9GPllhrver0+AQz8pqD+fEP0fvi84EeKdWnLfs9sN6ASJAfmfLUDen47Ul8ChP9ENdBgYrWj8XVWzRE1RXfOdPO/wzbYpbKNjBSn9mtH7X17T4oern3fGLIWcn0Zw+xFEcIqjTQT8sI7cGD6qCUx7Xow3KYC0sfJkBZLbj/ikm/hgGTPpo+j8RdioeqIMJ4p1JRdpbLlvoKvUV432rnH3KoMOlx32w6k18kg==\" MetadataSize=\"65969\" event=\"postinstall\" sha256=\"3le2h89dtcGuTT+2K9kt+T2tI+rl4yXkE0aSEhpghXA=\"/></actions><packages><package fp=\"3.de57b687cf5db5c1ae4d3fb62bd92df93dad23eae5e325e4134692121a608570\" hash_sha256=\"de57b687cf5db5c1ae4d3fb62bd92df93dad23eae5e325e4134692121a608570\" name=\"chromeos_14405.0.0_nautilus_canary-channel_full_mp-v2.bin-gyywezdgmu3tlhrqd4xekuuwz5u5ohv6.signed\" required=\"true\" size=\"1359645695\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "NAUTILUS X7D-N6G-W8SNNN",
+    "sha256": "de57b687cf5db5c1ae4d3fb62bd92df93dad23eae5e325e4134692121a608570",
+    "size": 1359645695,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14405.0.0/chromeos_14405.0.0_nautilus_canary-channel_full_mp-v2.bin-gyywezdgmu3tlhrqd4xekuuwz5u5ohv6.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14405.0.0/chromeos_14405.0.0_nautilus_canary-channel_full_mp-v2.bin-gyywezdgmu3tlhrqd4xekuuwz5u5ohv6.signed"
+    ]
+}
