@@ -1,0 +1,57 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-08-02 00:00:00",
+    "boards": [
+        "kevin"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7982014",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "chromeos_release_board": "kevin-signed-mpkeys",
+    "chromeos_release_branch_number": "67",
+    "chromeos_release_build_number": "14268",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kevin-release/R96-14268.67.0",
+    "chromeos_release_chrome_milestone": "96",
+    "chromeos_release_description": "14268.67.0 (Official Build) stable-channel kevin ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14268.67.0",
+    "cr_version": 96,
+    "cros_version": 14268,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14268.67.0_kevin_recovery_stable-channel_mp.bin",
+    "filesize": 2429213696,
+    "google_release": "14268.67.0",
+    "hwidmatches": [
+        "^KEVIN .*"
+    ],
+    "image_name": "kevin",
+    "linux_kernel_versions": [
+        "4.4.286-21004-g90921f1f9a15"
+    ],
+    "manufacturers": [
+        "Samsung"
+    ],
+    "md5": "8f4a40a2cd89dade0b058c96a71ef0c5",
+    "models": [
+        "Samsung Chromebook Plus"
+    ],
+    "names": [
+        "Samsung Chromebook Plus"
+    ],
+    "sample_hwid": "KEVIN NNN",
+    "sha1": "0b804d35798fc1b5fc3a392943136cc9797daa73",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_kevin_recovery_stable-channel_mp.bin.zip",
+    "version": "14268.67.0",
+    "zipfilesize": 1179073508
+}

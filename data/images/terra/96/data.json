@@ -1,0 +1,61 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "terra"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7982014",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "chromeos_release_board": "terra-signed-mp-v2keys",
+    "chromeos_release_branch_number": "67",
+    "chromeos_release_build_number": "14268",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "terra-release/R96-14268.67.0",
+    "chromeos_release_chrome_milestone": "96",
+    "chromeos_release_description": "14268.67.0 (Official Build) stable-channel terra ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14268.67.0",
+    "cr_version": 96,
+    "cros_version": 14268,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14268.67.0_terra_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2320306176,
+    "google_release": "14268.67.0",
+    "hwidmatches": [
+        "^TERRA \\w{3}-\\w{3}-\\w{3}-A.*",
+        "^TERRA \\w{3}-\\w{3}-\\w{3}-B.*"
+    ],
+    "image_name": "terra",
+    "linux_kernel_versions": [
+        "4.19.208-12427-gf85a69d601ba"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus"
+    ],
+    "md5": "00650453fac02058cd6962ef1a8d1e4d",
+    "models": [
+        "ASUS Chromebook C202SA",
+        "ASUS Chromebook C300SA / C301SA"
+    ],
+    "names": [
+        "ASUS Chromebook C202SA",
+        "ASUS Chromebook C300SA / C301SA"
+    ],
+    "sample_hwid": "TERRA 2Ec-RHQ-8og-ANNN",
+    "sha1": "615acbe403ad20244c72a4057d393a4c0a5ed48f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_terra_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14268.67.0",
+    "zipfilesize": 1306500559
+}
