@@ -1,0 +1,69 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "reks"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8050614",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_release_board": "reks-signed-mp-v4keys",
+    "chromeos_release_branch_number": "52",
+    "chromeos_release_build_number": "14388",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reks-release/R98-14388.52.0",
+    "chromeos_release_chrome_milestone": "98",
+    "chromeos_release_description": "14388.52.0 (Official Build) stable-channel reks ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14388.52.0",
+    "cr_version": 98,
+    "cros_version": 14388,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14388.52.0_reks_recovery_stable-channel_mp-v4.bin",
+    "filesize": 2320224768,
+    "google_release": "14388.52.0",
+    "hwidmatches": [
+        "^REKS \\w{3}-\\w{3}-\\w{3}-[^BCD]\\w{2}(-\\w{3})*$",
+        "^REKS \\w{3}-\\w{3}-\\w{3}-D\\w{2}(-\\w{3})*$",
+        "^REKS \\w{3}-\\w{3}-\\w{3}-C\\w{2}(-\\w{3})*$",
+        "^REKS \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
+    ],
+    "image_name": "reks",
+    "linux_kernel_versions": [
+        "4.19.219-12582-gc8503e212913"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo",
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "8b92fbe63b4628000ceb5a7740e7dadc",
+    "models": [
+        "Lenovo N22 Chromebook",
+        "Lenovo N23 Chromebook",
+        "Lenovo N23 Chromebook (Touch)",
+        "Lenovo N42 Chromebook"
+    ],
+    "names": [
+        "Lenovo N22 Chromebook",
+        "Lenovo N23 Chromebook",
+        "Lenovo N23 Chromebook (Touch)",
+        "Lenovo N42 Chromebook"
+    ],
+    "sample_hwid": "REKS Aal-zro-8LM-_Vj-lg0-qGd-IWl-0l0-7lI-C0G-oYm-u9q-3Is-a6p-j8q-wWt-arR-ePe-CJ5-2UN-rPA-Tam-NP7-gMr-L3T-Ewx-L0G-sua-S7A-KV1-Q8n-1pI-5O2-R2e-evF-C7E-pJr-u4G-2Wd-XGq-yb2",
+    "sha1": "4b7c07014208d847c3a94f3931ac131fb04dd9ab",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.52.0_reks_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "14388.52.0",
+    "zipfilesize": 1303174254
+}
