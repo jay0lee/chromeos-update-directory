@@ -23,6 +23,7 @@ mnt_path = f'{data_path}mnt/'
 lsb_path = f'{mnt_path}etc/lsb-release'
 modules_path = pathlib.Path(f'{mnt_path}lib/modules/')
 crostini_path = f'{mnt_path}usr/bin/crostini_client'
+parallels_path = f'{mnt_path}opt/google/dlc/pita/package/imageloader.json'
 
 with open(f'{data_path}android_versions.json', 'r') as f:
   android_versions = json.load(f)
@@ -69,6 +70,9 @@ for data_file in data_files:
 
   # if /usr/sbin/crostini-client exists, Linux VMs are supported
   data['crostini_support'] = os.path.isfile(crostini_path)
+  
+  # if /opt/google/dlc/pita/package/imageloader.json exists, Parallels is supported in certain configs
+  data['parallels_support'] = os.path.isfile(parallels_path)
 
   with open(data_file, 'w') as f:
     json.dump(data, f, indent=4, sort_keys=True)
