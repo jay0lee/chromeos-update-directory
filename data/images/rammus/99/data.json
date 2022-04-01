@@ -1,0 +1,68 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2026-06-02 00:00:00",
+    "boards": [
+        "leona",
+        "shyvana"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8267479",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{625849FA-56A0-4E67-9163-B89BE0C2A6AE}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{625849FA-56A0-4E67-9163-B89BE0C2A6AE}",
+    "chromeos_release_board": "rammus-signed-mp-v2keys",
+    "chromeos_release_branch_number": "59",
+    "chromeos_release_build_number": "14469",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "rammus-release/R99-14469.59.0",
+    "chromeos_release_chrome_milestone": "99",
+    "chromeos_release_description": "14469.59.0 (Official Build) stable-channel rammus ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14469.59.0",
+    "cr_version": 99,
+    "cros_version": 14469,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14469.59.0_rammus_recovery_stable-channel_mp-v2.bin",
+    "filesize": 3226185728,
+    "google_release": "14469.59.0",
+    "hwidmatches": [
+        "^LEONA .*",
+        "^SHYVANA.* ...(-...){2}-..([DHLPTX37]-.*|[CGKOSW26]-([^A]|A(2A-A)*([^2].-.|.[^A]-.|..-[^A])).*)$",
+        "^SHYVANA.* ...((-...){0,3}|(-...){2}-..([ABEFIJMNQRUVYZ45].*|[CGKOSW26]-A(2A-A)*..))$"
+    ],
+    "image_name": "rammus",
+    "linux_kernel_versions": [
+        "4.4.299-21246-g66d66457ae6d"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus",
+        "Asus"
+    ],
+    "md5": "2a8317762a20066d26d7ca531c48a31f",
+    "models": [
+        "ASUS Chromebook C425",
+        "ASUS Chromebook Flip C433",
+        "ASUS Chromebook Flip C434"
+    ],
+    "names": [
+        "ASUS Chromebook C425",
+        "ASUS Chromebook Flip C433",
+        "ASUS Chromebook Flip C434"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "LEONA NNN",
+    "sha1": "fcce500f5dea475965868b038f520a778c17278f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14469.59.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14469.59.0",
+    "zipfilesize": 1506669810
+}

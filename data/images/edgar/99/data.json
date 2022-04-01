@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "edgar"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8267479",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{196C49C7-152F-499B-9C64-F5B8A89E43A4}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{196C49C7-152F-499B-9C64-F5B8A89E43A4}",
+    "chromeos_release_board": "edgar-signed-mp-v2keys",
+    "chromeos_release_branch_number": "59",
+    "chromeos_release_build_number": "14469",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "edgar-release/R99-14469.59.0",
+    "chromeos_release_chrome_milestone": "99",
+    "chromeos_release_description": "14469.59.0 (Official Build) stable-channel edgar ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14469.59.0",
+    "cr_version": 99,
+    "cros_version": 14469,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14469.59.0_edgar_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2320229376,
+    "google_release": "14469.59.0",
+    "hwidmatches": [
+        "^EDGAR .*"
+    ],
+    "image_name": "edgar",
+    "linux_kernel_versions": [
+        "4.19.225-12812-g959692546150"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "faf02c93b7c951861feb56e41a86bd2e",
+    "models": [
+        "Acer Chromebook 14 (CB3-431)"
+    ],
+    "names": [
+        "Acer Chromebook 14 (CB3-431)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "EDGAR NNN",
+    "sha1": "9f3a0654df52204efaa40244f78a9af1a63f1a48",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14469.59.0_edgar_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14469.59.0",
+    "zipfilesize": 1297626672
+}
