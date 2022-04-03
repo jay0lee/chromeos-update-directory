@@ -1,0 +1,56 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
+    "boards": [
+        "reven"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_release_board": "reven-signed-mp-v2keys",
+    "chromeos_release_branch_number": "0",
+    "chromeos_release_build_number": "14574",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reven-release/R101-14574.0.0",
+    "chromeos_release_chrome_milestone": "101",
+    "chromeos_release_description": "14574.0.0 (Official Build) dev-channel reven ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "dev-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14574.0.0",
+    "cr_version": 0,
+    "cros_version": 14574,
+    "crostini_support": true,
+    "devicetype": "OTHER",
+    "file": "chromeos_14574.0.0_reven_recovery_dev-channel_mp-v2.bin",
+    "filesize": 6939566592,
+    "google_release": "14574.0.0",
+    "hwidmatches": [
+        "^REVEN($|-.*)"
+    ],
+    "image_name": "reven",
+    "linux_kernel_versions": [
+        "5.10.104-15197-g290eba49a6d9"
+    ],
+    "manufacturers": [
+        "Google Chrome OS Flex"
+    ],
+    "md5": "1fbe971b314a8154bbc6ca4ef1e565ae",
+    "models": [
+        "Google Chrome OS Flex Chrome OS Flex (Developer-Unstable)"
+    ],
+    "names": [
+        "Chrome OS Flex (Developer-Unstable)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "REVEN",
+    "sha1": "b953d408a80b7cf1801c8734532e0c248f7204f0",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14574.0.0_reven_recovery_dev-channel_mp-v2.bin.zip",
+    "version": "14574.0.0",
+    "zipfilesize": 1149840863
+}
