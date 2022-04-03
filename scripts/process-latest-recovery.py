@@ -19,7 +19,7 @@ with open(f'{data_path}cros_versions.json') as f:
  
 recovery_urls = [
                  'https://dl.google.com/dl/edgedl/chromeos/recovery/recovery.json',
-                 'https://dl.google.com/dl/edgedl/chromeos/recovery/recovery2.json'.
+                 'https://dl.google.com/dl/edgedl/chromeos/recovery/recovery2.json',
                  'https://dl.google.com/dl/edgedl/chromeos/recovery/cloudready_recovery2.json',
                 ]
 seen_images = {}
