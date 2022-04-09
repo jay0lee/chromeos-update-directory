@@ -1,0 +1,69 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2026-06-02 00:00:00",
+    "boards": [
+        "treeya",
+        "liara",
+        "treeya360"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8334839",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{9496CDE8-85E6-4118-960F-E26DC0C69FD6}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{9496CDE8-85E6-4118-960F-E26DC0C69FD6}",
+    "chromeos_release_board": "grunt-signed-mp-v6keys",
+    "chromeos_release_branch_number": "57",
+    "chromeos_release_build_number": "14526",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "grunt-release/R100-14526.57.0",
+    "chromeos_release_chrome_milestone": "100",
+    "chromeos_release_description": "14526.57.0 (Official Build) stable-channel grunt ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14526.57.0",
+    "cr_version": 100,
+    "cros_version": 14526,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14526.57.0_grunt_recovery_stable-channel_mp-v6.bin",
+    "filesize": 3209426432,
+    "google_release": "14526.57.0",
+    "hwidmatches": [
+        "^TREEYA-QCDF .*",
+        "^LIARA[-| ].*",
+        "^TREEYA360-TZIV .*"
+    ],
+    "image_name": "grunt",
+    "linux_kernel_versions": [
+        "5.10.101-14959-g9234f94ed582"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo",
+        "NEC"
+    ],
+    "md5": "cd6b70e272679a70a2c1672e2da5bdc1",
+    "models": [
+        "Lenovo IdeaPad 3 Chromebook (11\", 5)",
+        "Lenovo 14e Chromebook, Lenovo Chromebook S345-14",
+        "NEC Chromebook Y1 Gen2A"
+    ],
+    "names": [
+        "IdeaPad 3 Chromebook (11\", 5)",
+        "Lenovo 14e Chromebook, Lenovo Chromebook S345-14",
+        "NEC Chromebook Y1 Gen2A"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "TREEYA-QCDF NNN",
+    "sha1": "80714c038b0067ba66b5c3908e380c87ea3735e2",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.57.0_grunt_recovery_stable-channel_mp-v6.bin.zip",
+    "version": "14526.57.0",
+    "zipfilesize": 1516092102
+}
