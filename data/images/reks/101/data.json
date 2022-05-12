@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "reks"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8529499",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_release_board": "reks-signed-mp-v4keys",
+    "chromeos_release_branch_number": "98",
+    "chromeos_release_build_number": "14588",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reks-release/R101-14588.98.0",
+    "chromeos_release_chrome_milestone": "101",
+    "chromeos_release_description": "14588.98.0 (Official Build) stable-channel reks ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14588.98.0",
+    "cr_version": 101,
+    "cros_version": 14588,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14588.98.0_reks_recovery_stable-channel_mp-v4.bin",
+    "filesize": 2320243200,
+    "google_release": "14588.98.0",
+    "hwidmatches": [
+        "^REKS \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
+    ],
+    "image_name": "reks",
+    "linux_kernel_versions": [
+        "4.19.234-12910-g254ead18a8fe"
+    ],
+    "manufacturers": [
+        "Lenovo"
+    ],
+    "md5": "e5554685892b932cc449eac3a2107dce",
+    "models": [
+        "Lenovo N42 Chromebook"
+    ],
+    "names": [
+        "Lenovo N42 Chromebook"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "REKS JT8-3Lw-ugS-BwH-akS-ZjN-rvJ-MEe-Man-dOY-59i-xEM-CCQ-iu7-QCa-clh-kPs-69N-ctT-c6k-tLr-NRB-LGe-paB-FFE-cw0-anV-Fvc-U9Q-8mb-srM-MLF-m2y-7Ee-qTT-yIL-n_z-YGd-1qW-eqF-u7v-G2b",
+    "sha1": "869a503dd2aa5d62a6b38b1f00d162094827922d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_reks_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "14588.98.0",
+    "zipfilesize": 1303327886
+}

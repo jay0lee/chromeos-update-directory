@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "wizpig"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8529499",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{74A5A9DD-1B51-4602-A7FA-751B804627A0}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{74A5A9DD-1B51-4602-A7FA-751B804627A0}",
+    "chromeos_release_board": "wizpig-signed-mp-v10keys",
+    "chromeos_release_branch_number": "98",
+    "chromeos_release_build_number": "14588",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "wizpig-release/R101-14588.98.0",
+    "chromeos_release_chrome_milestone": "101",
+    "chromeos_release_description": "14588.98.0 (Official Build) stable-channel wizpig ",
+    "chromeos_release_keyset": "mp-v10",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14588.98.0",
+    "cr_version": 101,
+    "cros_version": 14588,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14588.98.0_wizpig_recovery_stable-channel_mp-v10.bin",
+    "filesize": 2320233984,
+    "google_release": "14588.98.0",
+    "hwidmatches": [
+        "^WIZPIG \\w{3}-\\w{3}-\\w{2}D(-\\w{3})*"
+    ],
+    "image_name": "wizpig",
+    "linux_kernel_versions": [
+        "4.19.234-12910-g254ead18a8fe"
+    ],
+    "manufacturers": [
+        "XMA Viglen"
+    ],
+    "md5": "46e03363123bdc6b55f6f08e5b887955",
+    "models": [
+        "XMA Viglen Viglen Chromebook 360"
+    ],
+    "names": [
+        "Viglen Chromebook 360"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "WIZPIG mte-mmr-3dD-kCA-4VO-g79-526-3zk-LpX-vGh-sdX-769-s1O-6pk-jTc-MlU-HnZ-3cg-0Kk-2OQ-I_W-7Te-RQQ-YKE-p2g-hYT-aik-ZkM-ZWU-to9",
+    "sha1": "57ad0fb41d52d6dd3d12d784027f5915a229c0a8",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
+    "version": "14588.98.0",
+    "zipfilesize": 1330939702
+}

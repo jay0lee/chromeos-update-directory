@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "terra"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8529499",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "chromeos_release_board": "terra-signed-mp-v2keys",
+    "chromeos_release_branch_number": "98",
+    "chromeos_release_build_number": "14588",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "terra-release/R101-14588.98.0",
+    "chromeos_release_chrome_milestone": "101",
+    "chromeos_release_description": "14588.98.0 (Official Build) stable-channel terra ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14588.98.0",
+    "cr_version": 101,
+    "cros_version": 14588,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14588.98.0_terra_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2320351232,
+    "google_release": "14588.98.0",
+    "hwidmatches": [
+        "^TERRA \\w{3}-\\w{3}-\\w{3}-B.*"
+    ],
+    "image_name": "terra",
+    "linux_kernel_versions": [
+        "4.19.234-12910-g254ead18a8fe"
+    ],
+    "manufacturers": [
+        "Asus"
+    ],
+    "md5": "9030292a3239340d2ea18f36a2c7d434",
+    "models": [
+        "ASUS Chromebook C300SA / C301SA"
+    ],
+    "names": [
+        "ASUS Chromebook C300SA / C301SA"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "TERRA aLH-fXl-Nu1-BNNN",
+    "sha1": "6acac92661b4459a20760bb530cad83fd7d2fcfe",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_terra_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14588.98.0",
+    "zipfilesize": 1304670925
+}
