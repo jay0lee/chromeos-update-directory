@@ -1,1 +1,47 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "app_board": "puff-signed-mp-v6keys",
+    "board_id": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "check_time": "2022-05-23 19:35:30.285971",
+    "chrome_version": "101.0.4951.72",
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "8603969",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "chromeos_release_board": "puff-signed-mp-v11keys",
+    "chromeos_release_branch_number": "123",
+    "chromeos_release_build_number": "14588",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "puff-release/R101-14588.123.0",
+    "chromeos_release_chrome_milestone": "101",
+    "chromeos_release_description": "14588.123.0 (Official Build) stable-channel puff ",
+    "chromeos_release_keyset": "mp-v11",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14588.123.0",
+    "chromeos_version": "14588.123.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "google_release": "14588.123.0",
+    "linux_kernel_versions": [
+        "4.19.234-12910-g254ead18a8fe"
+    ],
+    "parallels_support": true,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{2514829E-8550-4E24-91F2-331AB7A12B03}\" version=\"14588.0.0\" board=\"puff-signed-mp-v6keys\" track=\"stable-channel\" hardware_class=\"DUFFY-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14588\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5621\" elapsed_seconds=\"45330\"/><app appid=\"{2514829E-8550-4E24-91F2-331AB7A12B03}\" cohort=\"1:2m/hv:\" cohortname=\"puff_duffy_stable_fractional_14588.123.0\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/puff/14588.123.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/puff/14588.123.0/stable-channel/\"/></urls><manifest version=\"14588.123.0\"><actions><action event=\"update\" run=\"chromeos_14588.123.0_puff_stable-channel_full_mp-v11.bin-gyzdqnrrhe4ddeqryi7am3bsjwr7nhae.signed\"/><action ChromeOSVersion=\"14588.123.0\" ChromeVersion=\"101.0.4951.72\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"iuQGquHMmlK5vmJe9ndm8mW7nhaPqdHmpcuVIoqc5Pg6OCdXvUvVTIuiK6LoVr+LNa03LahHSPyBpHJhBAu3Vj9gNT2k2bTNycmRWdCzUluyXZVfVSc6veafREPN5+Su2BdQnXqEojmcwQTj30DyHxcGwTu3ESD8QfY3nqO1fvVvfLhXVKy6H2sYtXG3mWScLjuTwFEfltSDRt72XYirOUXk45ORhsbmIaTxFu8CQtqCJBrVOURGbNGi21lNislfUA+tTYKjQQq5OeG1oxIooEGyR1v5q7fDh6JL3kLq22lwFZs0dVhR/3TZsjcgjJf9xS3ZwDb5l6VSaA9MDkJIzA==\" MetadataSize=\"74726\" event=\"postinstall\" sha256=\"045ApWFub0uCMURdANXfH6BmwpcMe6h1O87YDyb90Yk=\"/></actions><packages><package fp=\"3.d38e40a5616e6f4b8231445d00d5df1fa066c2970c7ba8753bced80f26fdd189\" hash_sha256=\"d38e40a5616e6f4b8231445d00d5df1fa066c2970c7ba8753bced80f26fdd189\" name=\"chromeos_14588.123.0_puff_stable-channel_full_mp-v11.bin-gyzdqnrrhe4ddeqryi7am3bsjwr7nhae.signed\" required=\"true\" size=\"1418557776\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DUFFY-NNN",
+    "sha256": "d38e40a5616e6f4b8231445d00d5df1fa066c2970c7ba8753bced80f26fdd189",
+    "size": 1418557776,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/puff/14588.123.0/stable-channel/chromeos_14588.123.0_puff_stable-channel_full_mp-v11.bin-gyzdqnrrhe4ddeqryi7am3bsjwr7nhae.signed",
+        "https://dl.google.com/chromeos/puff/14588.123.0/stable-channel/chromeos_14588.123.0_puff_stable-channel_full_mp-v11.bin-gyzdqnrrhe4ddeqryi7am3bsjwr7nhae.signed"
+    ]
+}
