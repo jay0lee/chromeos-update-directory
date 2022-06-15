@@ -1,1 +1,47 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "scarlet-signed-mp-v7keys",
+    "board_id": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "check_time": "2022-06-15 16:52:56.832406",
+    "chrome_version": "102.0.5005.125",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8697754",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "chromeos_release_board": "scarlet-signed-mp-v7keys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "scarlet-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel scarlet ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14695.107.0",
+    "chromeos_version": "14695.107.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14695.107.0",
+    "linux_kernel_versions": [
+        "4.4.302-21526-ga09c85531b92"
+    ],
+    "parallels_support": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F1C30EB2-8429-4A18-9321-93E224753A98}\" version=\"14695.0.0\" board=\"scarlet-signed-mp-v7keys\" track=\"stable-channel\" hardware_class=\"DRUWL ZEBNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14695\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5644\" elapsed_seconds=\"35576\"/><app appid=\"{F1C30EB2-8429-4A18-9321-93E224753A98}\" cohort=\"1:y/bg:\" cohortname=\"scarlet_druwl_stable_fractional_14695.107.0\" status=\"ok\"><updatecheck _eol_date=\"19571\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/scarlet/14695.107.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/scarlet/14695.107.0/stable-channel/\"/></urls><manifest version=\"14695.107.0\"><actions><action event=\"update\" run=\"chromeos_14695.107.0_scarlet_stable-channel_full_mp-v7.bin-gyzgcmtfmy4tpw2xe23frvrprn7rdgom.signed\"/><action ChromeOSVersion=\"14695.107.0\" ChromeVersion=\"102.0.5005.125\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Bhaem3HR5vrwyYEpIqhi+Id4pTYG1Mt+2e6eNzRJHtfplgsrnANsoNJ5fc9VMqwA8Di8+wSVC4oePKd1+Au4uZmyYDZ5UKX7FcB2nVZN8W5OE6BdWpzibqZpsIz6YWa2KkTTGxqyL2etczjdKL0tjxIpBdDgzhg18LITh2G/rhe2lolB1kPz87HJJduODorgxWj0n+S/mcWV0lP6wS1M8m6fakQQI0n1yBp18oRTiLQjR2vTsNXukWy76u0EW0Gz2lyoDSDqTOIRrj3Xt+tJ4IZ8egVLY2+avbgf1mMeRZwBqqqx8UiZiSUTkY5X5javoApQBmSQGVn+pAtxi0i8hw==\" MetadataSize=\"56972\" event=\"postinstall\" sha256=\"bd0jmbr4WMGVBPiZ51/wODNC5nnobFN7YlBGZGzwr84=\"/></actions><packages><package fp=\"3.6ddd2399baf858c19504f899e75ff0383342e679e86c537b625046646cf0afce\" hash_sha256=\"6ddd2399baf858c19504f899e75ff0383342e679e86c537b625046646cf0afce\" name=\"chromeos_14695.107.0_scarlet_stable-channel_full_mp-v7.bin-gyzgcmtfmy4tpw2xe23frvrprn7rdgom.signed\" required=\"true\" size=\"1147812585\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DRUWL ZEBNNN",
+    "sha256": "6ddd2399baf858c19504f899e75ff0383342e679e86c537b625046646cf0afce",
+    "size": 1147812585,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/scarlet/14695.107.0/stable-channel/chromeos_14695.107.0_scarlet_stable-channel_full_mp-v7.bin-gyzgcmtfmy4tpw2xe23frvrprn7rdgom.signed",
+        "https://dl.google.com/chromeos/scarlet/14695.107.0/stable-channel/chromeos_14695.107.0_scarlet_stable-channel_full_mp-v7.bin-gyzgcmtfmy4tpw2xe23frvrprn7rdgom.signed"
+    ]
+}

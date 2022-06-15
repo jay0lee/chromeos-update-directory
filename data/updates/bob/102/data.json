@@ -1,1 +1,47 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "bob-signed-mpkeys",
+    "board_id": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "check_time": "2022-06-15 16:52:11.961177",
+    "chrome_version": "102.0.5005.125",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8697754",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "chromeos_release_board": "bob-signed-mpkeys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "bob-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel bob ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14695.107.0",
+    "chromeos_version": "14695.107.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14695.107.0",
+    "linux_kernel_versions": [
+        "4.4.302-21526-ga09c85531b92"
+    ],
+    "parallels_support": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{564AC308-CBD5-485D-9EF5-EB97DBB5F264}\" version=\"14695.0.0\" board=\"bob-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"BOB NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14695\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5644\" elapsed_seconds=\"35531\"/><app appid=\"{564AC308-CBD5-485D-9EF5-EB97DBB5F264}\" cohort=\"1:4g/53:\" cohortname=\"bob_bob_stable_fractional_14695.107.0\" status=\"ok\"><updatecheck _eol_date=\"19571\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/bob/14695.107.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/bob/14695.107.0/stable-channel/\"/></urls><manifest version=\"14695.107.0\"><actions><action event=\"update\" run=\"chromeos_14695.107.0_bob_stable-channel_full_mp.bin-gyzgcmtfmftdlkzphwcg7clrphiqisyv.signed\"/><action ChromeOSVersion=\"14695.107.0\" ChromeVersion=\"102.0.5005.125\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"OTExXK0Q2XtbdDzczc4aHB5iOTt4wusHFxY1TtphApkrD2214meHfSVdz/HyEqJCI0CW3efxyZCIG7kRDAxpgWLeuR/tFKulza8ZfBXA/WqD3jC93GNsRlDPcFvMKKRq57g+vBcl8TtOjnPEiX5fHHrqJfl9X2WWap3CNThFVNbu/wBgVGk93UOuiigrac+h26DhEBuXnwy5aXmE7sO/9p4LHBacPItq9o4KF1V7lqZ7piX8bU8xY7GBtTgYgeXpeFCFbCCMHwXETg55nf2VSe0K2Z9BlCGaCR0R2wfh2LfaETyjpEoBswSdiHI3+lu0PfJJK3Jlx9kN/4aRA3cccA==\" MetadataSize=\"56969\" event=\"postinstall\" sha256=\"K6GSOysbDItDOFKBj1JFGCafuwUac2bM0RbRbjXnoXM=\"/></actions><packages><package fp=\"3.2ba1923b2b1b0c8b433852818f524518269fbb051a7366ccd116d16e35e7a173\" hash_sha256=\"2ba1923b2b1b0c8b433852818f524518269fbb051a7366ccd116d16e35e7a173\" name=\"chromeos_14695.107.0_bob_stable-channel_full_mp.bin-gyzgcmtfmftdlkzphwcg7clrphiqisyv.signed\" required=\"true\" size=\"1141696257\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "BOB NNN",
+    "sha256": "2ba1923b2b1b0c8b433852818f524518269fbb051a7366ccd116d16e35e7a173",
+    "size": 1141696257,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/bob/14695.107.0/stable-channel/chromeos_14695.107.0_bob_stable-channel_full_mp.bin-gyzgcmtfmftdlkzphwcg7clrphiqisyv.signed",
+        "https://dl.google.com/chromeos/bob/14695.107.0/stable-channel/chromeos_14695.107.0_bob_stable-channel_full_mp.bin-gyzgcmtfmftdlkzphwcg7clrphiqisyv.signed"
+    ]
+}
