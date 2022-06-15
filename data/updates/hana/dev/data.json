@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "hana-signed-mp-v7keys",
+    "board_id": "{AAE972E1-A913-C860-B7AB-BF7F267F199B}",
+    "check_time": "2022-06-14 21:08:01.704314",
+    "chrome_version": "104.0.5112.6",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8709486",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{AAE972E1-A913-C860-B7AB-BF7F267F199B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{AAE972E1-A913-C860-B7AB-BF7F267F199B}",
+    "chromeos_release_board": "hana-signed-mp-v7keys",
+    "chromeos_release_branch_number": "7",
+    "chromeos_release_build_number": "14909",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "hana-release/R104-14909.7.0",
+    "chromeos_release_chrome_milestone": "104",
+    "chromeos_release_description": "14909.7.0 (Official Build) dev-channel hana ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "dev-channel",
+    "chromeos_release_version": "14909.7.0",
+    "chromeos_version": "14909.7.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14909.7.0",
+    "linux_kernel_versions": [
+        "4.19.246-13481-g15fda228a70c"
+    ],
+    "parallels_support": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{AAE972E1-A913-C860-B7AB-BF7F267F199B}\" version=\"14695.0.0\" board=\"hana-signed-mp-v7keys\" track=\"dev-channel\" hardware_class=\"TELESU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5643\" elapsed_seconds=\"50881\"/><app appid=\"{AAE972E1-A913-C860-B7AB-BF7F267F199B}\" cohort=\"1:2:\" cohortname=\"hana_dev\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/hana/14909.7.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/hana/14909.7.0/dev-channel/\"/></urls><manifest version=\"14909.7.0\"><actions><action event=\"update\" run=\"chromeos_14909.7.0_hana_dev-channel_full_mp-v7.bin-gyzgcntfgeywkvuhhj2ornxdnx7tby5o.signed\"/><action ChromeOSVersion=\"14909.7.0\" ChromeVersion=\"104.0.5112.6\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"rSw04bYeUATb0TocVpiMa1A6Jeyr2GdAN0DfJ/1KG/9rEAgVuXmPs1FcnccICraWO4j58K9sS49yk67PE0xe/RNGfSTLMrrEWms8gBfMcgufz4UyeNO6ZIp4x13prBzyTT6GQTAjFwaZKhULWM0a01R8btPub6e7fh34RyqZfzoDqufZW4b/TTslTuavFMQY5njIkKOlNmMmj+09z3h8AePUTkKuE/CIj5tbPT6ASWTiQ94hl35HpsojcrNLggVVO82G1/q/VgDVRZsAasMgW5jwW847wznrfmRHsu2F0JVp4ZM9zwIvVKc4EwhfIzklUicxWOvCBYPHoIukZKrlwQ==\" MetadataSize=\"57052\" event=\"postinstall\" sha256=\"uErh++G7tfZ9qRP72vvY6KyFir7mNEHVDIrwMe+m3Po=\"/></actions><packages><package fp=\"3.b84ae1fbe1bbb5f67da913fbdafbd8e8ac858abee63441d50c8af031efa6dcfa\" hash_sha256=\"b84ae1fbe1bbb5f67da913fbdafbd8e8ac858abee63441d50c8af031efa6dcfa\" name=\"chromeos_14909.7.0_hana_dev-channel_full_mp-v7.bin-gyzgcntfgeywkvuhhj2ornxdnx7tby5o.signed\" required=\"true\" size=\"1150690603\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TELESU NNN",
+    "sha256": "b84ae1fbe1bbb5f67da913fbdafbd8e8ac858abee63441d50c8af031efa6dcfa",
+    "size": 1150690603,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/hana/14909.7.0/dev-channel/chromeos_14909.7.0_hana_dev-channel_full_mp-v7.bin-gyzgcntfgeywkvuhhj2ornxdnx7tby5o.signed",
+        "https://dl.google.com/chromeos/hana/14909.7.0/dev-channel/chromeos_14909.7.0_hana_dev-channel_full_mp-v7.bin-gyzgcntfgeywkvuhhj2ornxdnx7tby5o.signed"
+    ]
+}
