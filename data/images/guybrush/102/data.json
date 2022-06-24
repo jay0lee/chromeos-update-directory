@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "nipperkin"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "8697760",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}",
+    "chromeos_release_board": "guybrush-signed-mp-v2keys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "guybrush-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel guybrush ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14695.107.0",
+    "cr_version": 102,
+    "cros_version": 14695,
+    "crostini_support": true,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_14695.107.0_guybrush_recovery_stable-channel_mp-v2.bin",
+    "filesize": 3360406528,
+    "google_release": "14695.107.0",
+    "hwidmatches": [
+        "^NIPPERKIN[-| ].*"
+    ],
+    "image_name": "guybrush",
+    "linux_kernel_versions": [
+        "5.10.110-15808-ge5740beba59b"
+    ],
+    "manufacturers": [
+        "HP"
+    ],
+    "md5": "253f4ab01c890f67abcf7e1a092bf245",
+    "models": [
+        "HP Elite c645 G2 Chromebook"
+    ],
+    "names": [
+        "HP Elite c645 G2 Chromebook"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "NIPPERKIN NNN",
+    "sha1": "8459048a7bc33cc4139016f35b9ba41de9be7b23",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_guybrush_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14695.107.0",
+    "zipfilesize": 1661258282
+}

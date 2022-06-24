@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "relm"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8697754",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3FC66B4B-1B63-94FA-BD6F-DB856B496918}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3FC66B4B-1B63-94FA-BD6F-DB856B496918}",
+    "chromeos_release_board": "relm-signed-mp-v8keys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "relm-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel relm ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14695.107.0",
+    "cr_version": 102,
+    "cros_version": 14695,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14695.107.0_relm_recovery_stable-channel_mp-v8.bin",
+    "filesize": 2320238592,
+    "google_release": "14695.107.0",
+    "hwidmatches": [
+        "^RELM ([A-Z0-9])+-I[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+"
+    ],
+    "image_name": "relm",
+    "linux_kernel_versions": [
+        "4.19.237-13190-g5e1548ebbe56"
+    ],
+    "manufacturers": [
+        "Positivo"
+    ],
+    "md5": "a65d508554fbb225fc6d4d25c69b5238",
+    "models": [
+        "Positivo Chromebook C216B"
+    ],
+    "names": [
+        "Positivo Chromebook C216B"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "RELM PI8RF50G4Y2A-IW8-JQUZ6M5ER165PVUHP6",
+    "sha1": "b46be444448cb982f43d8a47c299aded9ef4cfb0",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_relm_recovery_stable-channel_mp-v8.bin.zip",
+    "version": "14695.107.0",
+    "zipfilesize": 1307606227
+}

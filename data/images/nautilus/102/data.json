@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-07-01 00:00:00",
+    "boards": [
+        "nautilus"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8697754",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{85F8FA82-F276-4EA6-8980-93FE091F6D25}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{85F8FA82-F276-4EA6-8980-93FE091F6D25}",
+    "chromeos_release_board": "nautilus-signed-mp-v2keys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nautilus-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel nautilus ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14695.107.0",
+    "cr_version": 102,
+    "cros_version": 14695,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14695.107.0_nautilus_recovery_stable-channel_mp-v2.bin",
+    "filesize": 2689332736,
+    "google_release": "14695.107.0",
+    "hwidmatches": [
+        "^NAUTILUS [A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-P].*"
+    ],
+    "image_name": "nautilus",
+    "linux_kernel_versions": [
+        "5.4.188-18438-g02bd6b050d43"
+    ],
+    "manufacturers": [
+        "Samsung"
+    ],
+    "md5": "72452cbe7d0d98851b973ea574355886",
+    "models": [
+        "Samsung Chromebook Plus (V2)"
+    ],
+    "names": [
+        "Samsung Chromebook Plus (V2)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "NAUTILUS A8J-V5J-73JNNN",
+    "sha1": "65232ff3a9400c9241c32f3c99e0c388d083d637",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_nautilus_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14695.107.0",
+    "zipfilesize": 1543219729
+}

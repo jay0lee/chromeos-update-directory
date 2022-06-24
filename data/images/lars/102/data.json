@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-06-02 00:00:00",
+    "boards": [
+        "lars"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8697754",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E7507B05-EC5C-437C-9878-E870E20111BC}",
+    "chromeos_release_board": "lars-signed-mpkeys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "lars-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel lars ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14695.107.0",
+    "cr_version": 102,
+    "cros_version": 14695,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14695.107.0_lars_recovery_stable-channel_mp.bin",
+    "filesize": 2320251904,
+    "google_release": "14695.107.0",
+    "hwidmatches": [
+        "^LARS [ABCF-Z].*"
+    ],
+    "image_name": "lars",
+    "linux_kernel_versions": [
+        "4.19.237-13190-g5e1548ebbe56"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "dc42126218892d5e0e66d05f17c2e6ca",
+    "models": [
+        "Acer Chromebook 14 for Work (CP5-471)"
+    ],
+    "names": [
+        "Acer Chromebook 14 for Work (CP5-471)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "LARS INNN",
+    "sha1": "1359dd4d60641a5c9464ce1db2510cf2b4d1f161",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_lars_recovery_stable-channel_mp.bin.zip",
+    "version": "14695.107.0",
+    "zipfilesize": 1314042756
+}

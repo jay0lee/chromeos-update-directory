@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "kefka"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8697754",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2EDF7C6D-6586-D292-0B61-4A33B62E3BF6}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2EDF7C6D-6586-D292-0B61-4A33B62E3BF6}",
+    "chromeos_release_board": "kefka-signed-mpkeys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14695",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kefka-release/R102-14695.107.0",
+    "chromeos_release_chrome_milestone": "102",
+    "chromeos_release_description": "14695.107.0 (Official Build) stable-channel kefka ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14695.107.0",
+    "cr_version": 102,
+    "cros_version": 14695,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14695.107.0_kefka_recovery_stable-channel_mp.bin",
+    "filesize": 2320216064,
+    "google_release": "14695.107.0",
+    "hwidmatches": [
+        "^KEFKA \\w{3}-B\\w{2}(-\\w{3})*"
+    ],
+    "image_name": "kefka",
+    "linux_kernel_versions": [
+        "4.19.237-13190-g5e1548ebbe56"
+    ],
+    "manufacturers": [
+        "Dell"
+    ],
+    "md5": "0a24c29ec22635a3b572bd11210ced18",
+    "models": [
+        "Dell Chromebook 11 2-in-1 (3189)"
+    ],
+    "names": [
+        "Dell Chromebook 11 2-in-1 (3189)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KEFKA y6b-BkC-6gh-up6-HWb-GIp-n5I-rIl-L11-y9_-373-mmC-zZW-mIO-Uik-ua1-cGI-Hdm-7b7-doL-cuf-fV4-zdk-EIh-a7E-kj_-BCA-mdm-8OH-0kK-cFk-MvH-osF-g2J-yrw-qCx-2ek-OMi-Gcd-0bB-oh_-uYV-E1I-E7g-fMH-Fsv-0Wt-iY2-TNv-Yuc-EgR-DmJ-2pJ-ode-FME-GEn-8U7-rgc-cHr-GQj-SVk-M2i-ZcU",
+    "sha1": "d69fb2dfe45990bbfe8a115447fb949cb74a4e05",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_kefka_recovery_stable-channel_mp.bin.zip",
+    "version": "14695.107.0",
+    "zipfilesize": 1307486844
+}
