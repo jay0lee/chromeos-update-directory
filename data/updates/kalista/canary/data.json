@@ -1,1 +1,47 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "kalista-signed-mp-v2keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2022-06-28 07:01:14.183856",
+    "chrome_version": "105.0.5140.0",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8761559",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_release_board": "kalista-signed-mp-v2keys",
+    "chromeos_release_branch_number": "0",
+    "chromeos_release_build_number": "14941",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kalista-release/R105-14941.0.0",
+    "chromeos_release_chrome_milestone": "105",
+    "chromeos_release_description": "14941.0.0 (Official Build) canary-channel kalista ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "canary-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14941.0.0",
+    "chromeos_version": "14941.0.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBASE",
+    "google_release": "14941.0.0",
+    "linux_kernel_versions": [
+        "5.4.201-19102-g013c488bbc36"
+    ],
+    "parallels_support": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"14816.0.0\" board=\"kalista-signed-mp-v2keys\" track=\"canary-channel\" hardware_class=\"KARMA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5657\" elapsed_seconds=\"74\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:4t:\" cohortname=\"kalista_karma_canary\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14941.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14941.0.0/\"/></urls><manifest version=\"14941.0.0\"><actions><action event=\"update\" run=\"chromeos_14941.0.0_kalista_canary-channel_full_mp-v2.bin-gyzgeojxhfrtjm3kurd56cbka6shnoqv.signed\"/><action ChromeOSVersion=\"14941.0.0\" ChromeVersion=\"105.0.5140.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ExOFFxKw6VoQDkXgdvy5i+XZnLs41S7ga2Jl/6ch/yHEOtzv2aZB6fhXCzbHG4RfUow7LVNp/Ghp/Gu0HQpgIC3AyGAHHXPXRJ+UXN0s9G1GhcabSgUOD2Vck7rjku23iPokxBgmiQUAmPG5v3uYbiR7rqe0pImOgaxUd5JY2+QAJujB9SVNm2BRXdXqKTerbdnNV0Nb5r55raEawVvQd0DrN+6PaEW28Xk/eIlnwWUnYCaChzdFEivuXorCI3fYdVISO6JE2XV+VfjyPkwtAeASiYi+3Q+zv3SG16AYBPKZJ6WhqDpaMrJjhys9iLyXaQD6+kMiTGHZvsD/oM5LuA==\" MetadataSize=\"66377\" event=\"postinstall\" sha256=\"d6C94hlq03VWRcaFtPMiRNqGRUiAWgiejvoEt4v+L88=\"/></actions><packages><package fp=\"3.77a0bde2196ad3755645c685b4f32244da864548805a089e8efa04b78bfe2fcf\" hash_sha256=\"77a0bde2196ad3755645c685b4f32244da864548805a089e8efa04b78bfe2fcf\" name=\"chromeos_14941.0.0_kalista_canary-channel_full_mp-v2.bin-gyzgeojxhfrtjm3kurd56cbka6shnoqv.signed\" required=\"true\" size=\"1367175706\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "KARMA NNN",
+    "sha256": "77a0bde2196ad3755645c685b4f32244da864548805a089e8efa04b78bfe2fcf",
+    "size": 1367175706,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14941.0.0/chromeos_14941.0.0_kalista_canary-channel_full_mp-v2.bin-gyzgeojxhfrtjm3kurd56cbka6shnoqv.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/14941.0.0/chromeos_14941.0.0_kalista_canary-channel_full_mp-v2.bin-gyzgeojxhfrtjm3kurd56cbka6shnoqv.signed"
+    ]
+}
