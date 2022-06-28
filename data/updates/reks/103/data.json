@@ -1,1 +1,46 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "reks-signed-mp-v4keys",
+    "board_id": "{00599913-5741-F624-6375-E732C4602915}",
+    "check_time": "2022-06-28 02:23:40.057090",
+    "chrome_version": "103.0.5060.64",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8700602",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{00599913-5741-F624-6375-E732C4602915}",
+    "chromeos_release_board": "reks-signed-mp-v4keys",
+    "chromeos_release_branch_number": "82",
+    "chromeos_release_build_number": "14816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reks-release/R103-14816.82.0",
+    "chromeos_release_chrome_milestone": "103",
+    "chromeos_release_description": "14816.82.0 (Official Build) stable-channel reks ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14816.82.0",
+    "chromeos_version": "14816.82.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14816.82.0",
+    "linux_kernel_versions": [
+        "4.19.241-13212-ge9b0bab46475"
+    ],
+    "parallels_support": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{00599913-5741-F624-6375-E732C4602915}\" version=\"14816.0.0\" board=\"reks-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"REKS HRE-DvY-CUq-kr2-sUn-NC2-dfj-Vyf-z_6-Qm7-WOV-R3z-VF1-r2p-Vzn-zmT-xRR-GgM-Nch-f5q-ZVK-MAj-Po2-M6V-zEO-NlD-rET-6Wy-may-E9D-y9x-vlt-2qn-tqD-vUx-HQQ-K3U-yTa-3IO-Ina-bRZ-gwW-lgU-C8u-bG1-6jg\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14816\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5656\" elapsed_seconds=\"69820\"/><app appid=\"{00599913-5741-F624-6375-E732C4602915}\" cohort=\"1:4/63:\" cohortname=\"reks_stable_fractional_14816.82.0\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"19145\" _firmware_version=\"15.2\" _firmware_version_0=\"15.2\" _firmware_version_1=\"15.2\" _firmware_version_2=\"15.2\" _firmware_version_3=\"15.2\" _firmware_version_4=\"15.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/reks/14816.82.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/reks/14816.82.0/stable-channel/\"/></urls><manifest version=\"14816.82.0\"><actions><action event=\"update\" run=\"chromeos_14816.82.0_reks_stable-channel_full_mp-v4.bin-gyzgenleme3dmpplmlbb3vhojfkgn4sf.signed\"/><action ChromeOSVersion=\"14816.82.0\" ChromeVersion=\"103.0.5060.64\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"WaO+wEB6MZhpnMQHL2AJqOgCviplVUQiH1pB7WXfK6MNkTlauvEMBx1iEu8QGqRZHX45vBY2XZx+YY3EXM5MU1VysdF1wJzCIGspSwO1E6v1VXa2FN5TXS+m7I+aHi6+5bEOdOhcJENqnNZ2Y7hFZduFASEFx/jNDcUAnhA2IrRD1uZj824w1IQWLpifMK9XW1IK8bEIk7Ga8V2XaaTLyJ9OwzkdoNhvWq4B+N06T7FWve2SXMa7OU4/shsRvxCPYSDq0jqThPzCk0yHHOZdh8xM3wXOFwCTlt+ew5c4qgmOwWedaVdhypLjSC5p+l5P0AvHs4UglRwP8lUENYu9SA==\" MetadataSize=\"57171\" event=\"postinstall\" sha256=\"igu2e349d7EG7IDNELbrovj+lmbbJrbhE9lhnZOZ4rc=\"/></actions><packages><package fp=\"3.8a0bb67b7e3d77b106ec80cd10b6eba2f8fe9666db26b6e113d9619d9399e2b7\" hash_sha256=\"8a0bb67b7e3d77b106ec80cd10b6eba2f8fe9666db26b6e113d9619d9399e2b7\" name=\"chromeos_14816.82.0_reks_stable-channel_full_mp-v4.bin-gyzgenleme3dmpplmlbb3vhojfkgn4sf.signed\" required=\"true\" size=\"1153406219\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "REKS HRE-DvY-CUq-kr2-sUn-NC2-dfj-Vyf-z_6-Qm7-WOV-R3z-VF1-r2p-Vzn-zmT-xRR-GgM-Nch-f5q-ZVK-MAj-Po2-M6V-zEO-NlD-rET-6Wy-may-E9D-y9x-vlt-2qn-tqD-vUx-HQQ-K3U-yTa-3IO-Ina-bRZ-gwW-lgU-C8u-bG1-6jg",
+    "sha256": "8a0bb67b7e3d77b106ec80cd10b6eba2f8fe9666db26b6e113d9619d9399e2b7",
+    "size": 1153406219,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/reks/14816.82.0/stable-channel/chromeos_14816.82.0_reks_stable-channel_full_mp-v4.bin-gyzgenleme3dmpplmlbb3vhojfkgn4sf.signed",
+        "https://dl.google.com/chromeos/reks/14816.82.0/stable-channel/chromeos_14816.82.0_reks_stable-channel_full_mp-v4.bin-gyzgenleme3dmpplmlbb3vhojfkgn4sf.signed"
+    ]
+}
