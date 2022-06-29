@@ -1,1 +1,47 @@
-{}
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "app_board": "sentry-signed-mpkeys",
+    "board_id": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+    "check_time": "2022-06-28 22:09:47.955598",
+    "chrome_version": "104.0.5112.23",
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8732152",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E020B8D4-CA96-4599-84DA-5017455418AE}",
+    "chromeos_release_board": "sentry-signed-mpkeys",
+    "chromeos_release_branch_number": "26",
+    "chromeos_release_build_number": "14909",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "sentry-release/R104-14909.26.0",
+    "chromeos_release_chrome_milestone": "104",
+    "chromeos_release_description": "14909.26.0 (Official Build) beta-channel sentry ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "beta-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14909.26.0",
+    "chromeos_version": "14909.26.0",
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "google_release": "14909.26.0",
+    "linux_kernel_versions": [
+        "4.19.246-13481-g15fda228a70c"
+    ],
+    "parallels_support": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" version=\"14816.0.0\" board=\"sentry-signed-mpkeys\" track=\"beta-channel\" hardware_class=\"SENTRY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5657\" elapsed_seconds=\"54587\"/><app appid=\"{E020B8D4-CA96-4599-84DA-5017455418AE}\" cohort=\"1:6d/6e:\" cohortname=\"sentry_sentry_beta_fractional_14909.26.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"20.1\" _firmware_version_0=\"20.1\" _firmware_version_1=\"20.1\" _firmware_version_2=\"20.1\" _firmware_version_3=\"20.1\" _firmware_version_4=\"20.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sentry/14909.26.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sentry/14909.26.0/beta-channel/\"/></urls><manifest version=\"14909.26.0\"><actions><action event=\"update\" run=\"chromeos_14909.26.0_sentry_beta-channel_full_mp.bin-gyzgenbrgm2ghjld4pg5ppbjorzcck5f.signed\"/><action ChromeOSVersion=\"14909.26.0\" ChromeVersion=\"104.0.5112.23\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Yysg/s4UVXKvuPOjmc9+vd8DsuBQhEmFxTwfznC0EyxnBNElp1rP1UvycqryvacdbBcDJajZMfHCB4fri89H5FigFnM1rmqcZiVzYqrcy2WtQ9mQ9vy5d87K2ZUGP481LPngZRJlAciB1OormiQnPVHumdBGJLSgw+LD4nzUauNXtBSaYR10aNRnbvlfZIxtlK9Zqb8QFT8oKD8mxhF5wIoxe5lSxjrWuYTugfei3O/S+3ScvzXSrZ0G4F0+ZVO4oiTlEwhgqlgfdxc7r5mt1QTSpFbNiBY41XefJyBjwcMlCZVv8mAPpANmjDu3MnhXtPgfeRhufqII4SKx9mbYcg==\" MetadataSize=\"57128\" event=\"postinstall\" sha256=\"yImoku7zVVIaTptIw3xefFZ/T5YKivLsXpot09YyFOk=\"/></actions><packages><package fp=\"3.c889a892eef355521a4e9b48c37c5e7c567f4f960a8af2ec5e9a2dd3d63214e9\" hash_sha256=\"c889a892eef355521a4e9b48c37c5e7c567f4f960a8af2ec5e9a2dd3d63214e9\" name=\"chromeos_14909.26.0_sentry_beta-channel_full_mp.bin-gyzgenbrgm2ghjld4pg5ppbjorzcck5f.signed\" required=\"true\" size=\"1157051934\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SENTRY NNN",
+    "sha256": "c889a892eef355521a4e9b48c37c5e7c567f4f960a8af2ec5e9a2dd3d63214e9",
+    "size": 1157051934,
+    "status": "ok",
+    "urls": [
+        "http://dl.google.com/chromeos/sentry/14909.26.0/beta-channel/chromeos_14909.26.0_sentry_beta-channel_full_mp.bin-gyzgenbrgm2ghjld4pg5ppbjorzcck5f.signed",
+        "https://dl.google.com/chromeos/sentry/14909.26.0/beta-channel/chromeos_14909.26.0_sentry_beta-channel_full_mp.bin-gyzgenbrgm2ghjld4pg5ppbjorzcck5f.signed"
+    ]
+}
