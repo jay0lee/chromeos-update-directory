@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
+    "boards": [
+        "relm"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8700602",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{3FC66B4B-1B63-94FA-BD6F-DB856B496918}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{3FC66B4B-1B63-94FA-BD6F-DB856B496918}",
+    "chromeos_release_board": "relm-signed-mp-v8keys",
+    "chromeos_release_branch_number": "82",
+    "chromeos_release_build_number": "14816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "relm-release/R103-14816.82.0",
+    "chromeos_release_chrome_milestone": "103",
+    "chromeos_release_description": "14816.82.0 (Official Build) stable-channel relm ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14816.82.0",
+    "cr_version": 103,
+    "cros_version": 14816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14816.82.0_relm_recovery_stable-channel_mp-v8.bin",
+    "filesize": 2320188928,
+    "google_release": "14816.82.0",
+    "hwidmatches": [
+        "^RELM ([A-Z0-9])+-I[A-Z0-9][A-Z0-9]-([A-Z0-9\\-])+"
+    ],
+    "image_name": "relm",
+    "linux_kernel_versions": [
+        "4.19.241-13212-ge9b0bab46475"
+    ],
+    "manufacturers": [
+        "Positivo"
+    ],
+    "md5": "7fe6e753ba08e7499405691dfabb39a9",
+    "models": [
+        "Positivo Chromebook C216B"
+    ],
+    "names": [
+        "Positivo Chromebook C216B"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "RELM LJABN63IETMVZSUTLXJRRT9XB9DBI3XV4Q034ZR2YZJNCKHV4RREYN6PG4KP70GL4CM8-IUP-Z-ZZL",
+    "sha1": "ebbff2f9f1b97380336643642eccedcd37ffe183",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.82.0_relm_recovery_stable-channel_mp-v8.bin.zip",
+    "version": "14816.82.0",
+    "zipfilesize": 1311171458
+}

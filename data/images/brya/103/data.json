@@ -1,0 +1,74 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "felwinter",
+        "redrix",
+        "primus",
+        "anahera"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "8700636",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "chromeos_release_board": "brya-signed-mp-v7keys",
+    "chromeos_release_branch_number": "82",
+    "chromeos_release_build_number": "14816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "brya-release/R103-14816.82.0",
+    "chromeos_release_chrome_milestone": "103",
+    "chromeos_release_description": "14816.82.0 (Official Build) stable-channel brya ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14816.82.0",
+    "cr_version": 103,
+    "cros_version": 14816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14816.82.0_brya_recovery_stable-channel_mp-v7.bin",
+    "filesize": 5286561792,
+    "google_release": "14816.82.0",
+    "hwidmatches": [
+        "^FELWINTER-BDXJ.*",
+        "^REDRIX-CLQY .*",
+        "^PRIMUS-ZPIS.*",
+        "^ANAHERA-TYOO.*"
+    ],
+    "image_name": "brya",
+    "linux_kernel_versions": [
+        "5.10.114-16024-gbdf1547bd4f4"
+    ],
+    "manufacturers": [
+        "Asus",
+        "HP",
+        "Lenovo",
+        "HP"
+    ],
+    "md5": "05873cfb9c1b6744b3756bc93eb461e6",
+    "models": [
+        "CONS & EDU - ASUS Chromebook Flip CX5; ENT - ASUS Chromebook Enterprise Flip CX5",
+        "HP Elite Dragonfly Chromebook",
+        "Lenovo ThinkPad C14 Gen 1 Chromebook",
+        "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise"
+    ],
+    "names": [
+        "CONS & EDU - ASUS Chromebook Flip CX5; ENT - ASUS Chromebook Enterprise Flip CX5",
+        "HP Elite Dragonfly Chromebook",
+        "ThinkPad C14 Gen 1 Chromebook",
+        "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "FELWINTER-BDXJNNN",
+    "sha1": "1181e0595ea6fa1891538f5a036797e9d62957c6",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.82.0_brya_recovery_stable-channel_mp-v7.bin.zip",
+    "version": "14816.82.0",
+    "zipfilesize": 2183669928
+}

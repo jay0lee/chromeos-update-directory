@@ -1,0 +1,56 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
+    "boards": [
+        "reven"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_release_board": "reven-signed-mp-v2keys",
+    "chromeos_release_branch_number": "88",
+    "chromeos_release_build_number": "14816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reven-release/R103-14816.88.0",
+    "chromeos_release_chrome_milestone": "103",
+    "chromeos_release_description": "14816.88.0 (Official Build) stable-channel reven ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14816.88.0",
+    "cr_version": 103,
+    "cros_version": 14816,
+    "crostini_support": true,
+    "devicetype": "OTHER",
+    "file": "chromeos_14816.88.0_reven_recovery_stable-channel_mp-v2.bin",
+    "filesize": 6939566592,
+    "google_release": "14816.88.0",
+    "hwidmatches": [
+        "^REVEN($|-.*)"
+    ],
+    "image_name": "reven",
+    "linux_kernel_versions": [
+        "5.10.114-16024-gbdf1547bd4f4"
+    ],
+    "manufacturers": [
+        "Google Chrome OS Flex"
+    ],
+    "md5": "2e63630be68d2380f860e1967ae30369",
+    "models": [
+        "Google Chrome OS Flex Chrome OS Flex (Developer-Unstable)"
+    ],
+    "names": [
+        "Chrome OS Flex (Developer-Unstable)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "REVEN-NNN",
+    "sha1": "a7d608a07d789ac22c97acd4f714c6dd161721fd",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.88.0_reven_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "14816.88.0",
+    "zipfilesize": 1156624898
+}
