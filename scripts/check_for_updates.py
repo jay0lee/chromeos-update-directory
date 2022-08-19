@@ -81,17 +81,19 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
                 update_info['urls'].append(codebase['@codebase'] + json_response['response']['app']['updatecheck']['manifest']['packages']['package']['@name'])
             update_info['sha256'] = json_response['response']['app']['updatecheck']['manifest']['packages']['package']['@hash_sha256']
             if channel == 'stable' and pinned_release == '':
+                is_eol = eol_date = json_response['response']['app']['updatecheck'].get('@_eol') == 'eol'
                 eol_date = json_response['response']['app']['updatecheck'].get('@_eol_date')
-                if eol_date:
+                if is_eol and eol_date:
                     add_days = datetime.timedelta(days=int(eol_date))
                     epoch = datetime.datetime(1970,1,1)
                     eol_date = epoch + add_days
                     update_info['eol_date'] = str(eol_date)
-                else:
-                    # devices w/o eol_date in response are very_eol
+                elif is_eol:
+                    # eol devices w/o eol_date in response are very_eol
                     eol_date = six_months_ago
-                    print(f'  no eol data in {json_response["response"]["app"]["updatecheck"]}')
-                update_info['eol'] = today >= eol_date
+                else: # not eol
+                    eol_date = today
+                update_info['eol'] = is_eol
                 update_info['very_eol'] = six_months_ago >= eol_date
         except (KeyError, IndexError) as e:
             pass
