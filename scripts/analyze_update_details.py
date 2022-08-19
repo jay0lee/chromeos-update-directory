@@ -29,7 +29,7 @@ with open(f'{data_path}android_versions.json', 'r') as f:
   android_versions = json.load(f)
 
 pattern = f'{data_path}updates/*/*/data.json'
-data_files = glob.glob(pattern)
+data_files = sorted(glob.glob(pattern))
 i = 0
 count = len(data_files)
 for data_file in data_files:
