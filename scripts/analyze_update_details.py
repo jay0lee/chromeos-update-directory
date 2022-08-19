@@ -46,6 +46,9 @@ for data_file in data_files:
       continue
   else:
     data['analysis_version'] = analysis_version
+  if '_delta_' in data['urls'][0]:
+      print(f'  WARNING: cowardly refusing to analyze {dl_url} which appears to be a delta file. We should only be seeing non-delta images...')
+      continue
   dl_results = common.download_update_file(data, path)
   delete_download = dl_results.get('needed_to_download', False)
   update_file_path = dl_results.get('full_file_path')
