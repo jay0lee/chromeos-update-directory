@@ -90,6 +90,7 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
                 else:
                     # devices w/o eol_date in response are very_eol
                     eol_date = six_months_ago
+                    print(f'  no eol data in {json_response["response"]["app"]["updatecheck"]}')
                 update_info['eol'] = today >= eol_date
                 update_info['very_eol'] = six_months_ago >= eol_date
         except (KeyError, IndexError) as e:
