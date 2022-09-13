@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "tomato"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8946162",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_release_board": "cherry-signed-mp-v3keys",
+    "chromeos_release_branch_number": "85",
+    "chromeos_release_build_number": "14989",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "cherry-release/R105-14989.85.0",
+    "chromeos_release_chrome_milestone": "105",
+    "chromeos_release_description": "14989.85.0 (Official Build) stable-channel cherry ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14989.85.0",
+    "cr_version": 105,
+    "cros_version": 14989,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14989.85.0_cherry_recovery_stable-channel_mp-v3.bin",
+    "filesize": 3320563712,
+    "google_release": "14989.85.0",
+    "hwidmatches": [
+        "^TOMATO-LYVN.*"
+    ],
+    "image_name": "cherry",
+    "linux_kernel_versions": [
+        "5.10.131-19114-g6651b07c6153"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "1ec2cb4b8d385fd5b64083895740b4c0",
+    "models": [
+        "ACER Chromebook spin 513"
+    ],
+    "names": [
+        "ACER Chromebook spin 513"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "TOMATO-LYVNNNN",
+    "sha1": "11f02862fd32b587abf6b5cc58705e56a6786763",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14989.85.0_cherry_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "14989.85.0",
+    "zipfilesize": 1438399397
+}
