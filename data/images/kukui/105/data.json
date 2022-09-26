@@ -1,0 +1,69 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "kakadu",
+        "kodama",
+        "krane"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9040940",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{50F3C95B-CA5B-4AF8-87A2-8CD19588BD12}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{50F3C95B-CA5B-4AF8-87A2-8CD19588BD12}",
+    "chromeos_release_board": "kukui-signed-mp-v4keys",
+    "chromeos_release_branch_number": "107",
+    "chromeos_release_build_number": "14989",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kukui-release/R105-14989.107.0",
+    "chromeos_release_chrome_milestone": "105",
+    "chromeos_release_description": "14989.107.0 (Official Build) stable-channel kukui ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "14989.107.0",
+    "cr_version": 105,
+    "cros_version": 14989,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_14989.107.0_kukui_recovery_stable-channel_mp-v4.bin",
+    "filesize": 4968929280,
+    "google_release": "14989.107.0",
+    "hwidmatches": [
+        "^KAKADU-WFIQ.*",
+        "^KODAMA.*",
+        "^KRANE-ZDKS .*"
+    ],
+    "image_name": "kukui",
+    "linux_kernel_versions": [
+        "5.10.131-19115-g2e2fb0ed324d"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "026bc70da46b63491f257f8ea33469a8",
+    "models": [
+        "ASUS Chromebook Detachable CM3",
+        "Lenovo 10e Chromebook Tablet",
+        "Lenovo Chromebook Duet / Lenovo Ideapad Duet Chromebook"
+    ],
+    "names": [
+        "ASUS Chromebook Detachable CM3",
+        "Lenovo 10e Chromebook Tablet",
+        "Lenovo Chromebook Duet / Lenovo Ideapad Duet Chromebook"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KAKADU-WFIQNNN",
+    "sha1": "fde6309d4bf27043ac6c9f4b24944db232aa6250",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14989.107.0_kukui_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "14989.107.0",
+    "zipfilesize": 1625667016
+}
