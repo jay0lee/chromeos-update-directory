@@ -4,7 +4,7 @@
     "android_version": "Android Pie 9",
     "app_board": "asuka-signed-mpkeys",
     "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "check_time": "2022-10-30 07:00:56.198478",
+    "check_time": "2022-10-31 06:58:36.995481",
     "chrome_version": "109.0.5382.0",
     "chromeos_arc_android_sdk_version": "28",
     "chromeos_arc_version": "9231911",
@@ -15,32 +15,32 @@
     "chromeos_release_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
     "chromeos_release_board": "asuka-signed-mpkeys",
     "chromeos_release_branch_number": "0",
-    "chromeos_release_build_number": "15222",
+    "chromeos_release_build_number": "15224",
     "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "asuka-release/R109-15222.0.0",
+    "chromeos_release_builder_path": "asuka-release/R109-15224.0.0",
     "chromeos_release_chrome_milestone": "109",
-    "chromeos_release_description": "15222.0.0 (Official Build) canary-channel asuka ",
+    "chromeos_release_description": "15224.0.0 (Official Build) canary-channel asuka ",
     "chromeos_release_keyset": "mp",
     "chromeos_release_name": "Chrome OS",
     "chromeos_release_patch_number": "0",
     "chromeos_release_track": "canary-channel",
-    "chromeos_release_version": "15222.0.0",
-    "chromeos_version": "15222.0.0",
+    "chromeos_release_version": "15224.0.0",
+    "chromeos_version": "15224.0.0",
     "crostini_support": true,
     "devicetype": "CHROMEBOOK",
-    "google_release": "15222.0.0",
+    "google_release": "15224.0.0",
     "linux_kernel_versions": [
-        "4.19.261-13941-ga4dc9968e39d"
+        "4.19.262-13943-g0a122ef7fef6"
     ],
     "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"15117.0.0\" board=\"asuka-signed-mpkeys\" track=\"canary-channel\" hardware_class=\"ASUKA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
-    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5781\" elapsed_seconds=\"56\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:2v:\" cohortname=\"asuka_canary\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15222.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15222.0.0/\"/></urls><manifest version=\"15222.0.0\"><actions><action event=\"update\" run=\"chromeos_15222.0.0_asuka_canary-channel_full_mp.bin-gyztkzbxhe2diqym4rsenpe4marsz5bf.signed\"/><action ChromeOSVersion=\"15222.0.0\" ChromeVersion=\"109.0.5382.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"eTrTR42FW7yGygAXJnNl4APNZv7Xdij7zVjGlykkJOuSOWLKsMUsrCPfcm9YHecfITe3Qw16yxsBWu9fSSwDa82bxy81mD2YKfdzeN7/fFEFMrnYcE7oWDLAf6hf6PpSHG06OfWCNu95qEl4T7e7LPDa3VDKtRMZ8nX03VJrdPGhpfMNcYebgMa6/SMdFLaMdqigNW2k0g+aW/hV/dtox8hJfq8gVMwrez+I18Cv78wUXBByauBoPdzc9ZA7XORmxZAgqyWhpbhdAgal4iZuwTfdk5DAFiSzFb+9jn0IRuBsS7vr4O5k4yk7S5dOeneNaiOpTi2CafWw+bgAlyiyKA==\" MetadataSize=\"57169\" event=\"postinstall\" sha256=\"Q392c3jIjboUpbPGegkyseQT3rn7lAddVr2Ooa++B4E=\"/></actions><packages><package fp=\"3.437f767378c88dba14a5b3c67a0932b1e413deb9fb94075d56bd8ea1afbe0781\" hash_sha256=\"437f767378c88dba14a5b3c67a0932b1e413deb9fb94075d56bd8ea1afbe0781\" name=\"chromeos_15222.0.0_asuka_canary-channel_full_mp.bin-gyztkzbxhe2diqym4rsenpe4marsz5bf.signed\" required=\"true\" size=\"1122779587\"/></packages></manifest></updatecheck></app></response>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5781\" elapsed_seconds=\"86316\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:2v:\" cohortname=\"asuka_canary\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15224.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15224.0.0/\"/></urls><manifest version=\"15224.0.0\"><actions><action event=\"update\" run=\"chromeos_15224.0.0_asuka_canary-channel_full_mp.bin-gyztkzldmjstsozyemivamooozz57jvs.signed\"/><action ChromeOSVersion=\"15224.0.0\" ChromeVersion=\"109.0.5382.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"iumC7rndZMIWdN1v0pkasxfBUCY0cHTa5r5Xi9MHUHPE/6FxrBairTGIMhB7Nx0r9tlS0SQajBUjd3i0U9Ryvw3JsDKpabY1pbivVpY9t8ZiFsCiGrS3nFPUgcq1AcgW6hfynkCBv1vhZXa5FVG5WjplPJE5wrtiUCHbwIGevCs5/c6Wda7lAMhkswHLg6qSCBpcUmiha71nqipEekkZ4+TjoJ4ZxvjqMJLbANY6J7CRSBQlO3zZtzdbWaJRA0uAJ0fZlhwQ8FRxlxqV7TSzss0y+jzjoEk8tBT56VR1XYfVKA4mUMMfJndydCVy0VYudWbRfutfV+pswp1AT4cpBg==\" MetadataSize=\"57138\" event=\"postinstall\" sha256=\"YULEEQ67KXcWUoM0gXeTnRH/RWT39wG4Z0sNZ6tk9IU=\"/></actions><packages><package fp=\"3.6142c4110ebb2977165283348177939d11ff4564f7f701b8674b0d67ab64f485\" hash_sha256=\"6142c4110ebb2977165283348177939d11ff4564f7f701b8674b0d67ab64f485\" name=\"chromeos_15224.0.0_asuka_canary-channel_full_mp.bin-gyztkzldmjstsozyemivamooozz57jvs.signed\" required=\"true\" size=\"1122909952\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "ASUKA NNN",
-    "sha256": "437f767378c88dba14a5b3c67a0932b1e413deb9fb94075d56bd8ea1afbe0781",
-    "size": 1122779587,
+    "sha256": "6142c4110ebb2977165283348177939d11ff4564f7f701b8674b0d67ab64f485",
+    "size": 1122909952,
     "status": "ok",
     "urls": [
-        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15222.0.0/chromeos_15222.0.0_asuka_canary-channel_full_mp.bin-gyztkzbxhe2diqym4rsenpe4marsz5bf.signed",
-        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15222.0.0/chromeos_15222.0.0_asuka_canary-channel_full_mp.bin-gyztkzbxhe2diqym4rsenpe4marsz5bf.signed"
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15224.0.0/chromeos_15224.0.0_asuka_canary-channel_full_mp.bin-gyztkzldmjstsozyemivamooozz57jvs.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15224.0.0/chromeos_15224.0.0_asuka_canary-channel_full_mp.bin-gyztkzldmjstsozyemivamooozz57jvs.signed"
     ]
 }
