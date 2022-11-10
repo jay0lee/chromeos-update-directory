@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "None",
+    "boards": [
+        "shyvana"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9138510",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{625849FA-56A0-4E67-9163-B89BE0C2A6AE}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{625849FA-56A0-4E67-9163-B89BE0C2A6AE}",
+    "chromeos_release_board": "rammus-signed-mp-v2keys",
+    "chromeos_release_branch_number": "87",
+    "chromeos_release_build_number": "15117",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "rammus-release/R107-15117.87.0",
+    "chromeos_release_chrome_milestone": "107",
+    "chromeos_release_description": "15117.87.0 (Official Build) stable-channel rammus ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15117.87.0",
+    "cr_version": 107,
+    "cros_version": 15117,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15117.87.0_rammus_recovery_stable-channel_mp-v2.bin",
+    "filesize": 3226167808,
+    "google_release": "15117.87.0",
+    "hwidmatches": [
+        "^SHYVANA.* ...((-...){0,3}|(-...){2}-..([ABEFIJMNQRUVYZ45].*|[CGKOSW26]-A(2A-A)*..))$"
+    ],
+    "image_name": "rammus",
+    "linux_kernel_versions": [
+        "4.4.302-21932-gd6740e0ff665"
+    ],
+    "manufacturers": [
+        "Asus"
+    ],
+    "md5": "d1e9f24236151ab89a0cd8c72c58531e",
+    "models": [
+        "ASUS Chromebook Flip C434"
+    ],
+    "names": [
+        "ASUS Chromebook Flip C434"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "SHYVANANNN jQ\f--xo-:qI-\\?NNNN",
+    "sha1": "2a75170503a5e297d7df9d5fb02b4e83b967ffd4",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.87.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "15117.87.0",
+    "zipfilesize": 1576439592
+}

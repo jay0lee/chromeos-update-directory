@@ -1,0 +1,74 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "kappa",
+        "burnet",
+        "fennel",
+        "makomo"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9138510",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "chromeos_release_board": "jacuzzi-signed-mp-v7keys",
+    "chromeos_release_branch_number": "86",
+    "chromeos_release_build_number": "15117",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "jacuzzi-release/R107-15117.86.0",
+    "chromeos_release_chrome_milestone": "107",
+    "chromeos_release_description": "15117.86.0 (Official Build) stable-channel jacuzzi ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15117.86.0",
+    "cr_version": 107,
+    "cros_version": 15117,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15117.86.0_jacuzzi_recovery_stable-channel_mp-v7.bin",
+    "filesize": 4968933888,
+    "google_release": "15117.86.0",
+    "hwidmatches": [
+        "^KAPPA-.*",
+        "^BURNET-.*",
+        "^FENNEL-.*",
+        "^MAKOMO-UTTX .*"
+    ],
+    "image_name": "jacuzzi",
+    "linux_kernel_versions": [
+        "5.10.142-19740-g3a142da07016"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "079f6bd300dc976ed1280c2975b4572b",
+    "models": [
+        "HP Chromebook 11a na0xxx",
+        "HP Chromebook x360 11MK G3 EE",
+        "Lenovo IdeaPad Flex 3 Chromebook",
+        "Lenovo 100e Gen 2"
+    ],
+    "names": [
+        "HP Chromebook 11a na0xxx",
+        "HP Chromebook x360 11MK G3 EE",
+        "IdeaPad Flex 3 Chromebook",
+        "Lenovo 100e Gen 2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KAPPA-NNN",
+    "sha1": "75cb76fa1e6ad134817e6c17a698d535f442b7d6",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.86.0_jacuzzi_recovery_stable-channel_mp-v7.bin.zip",
+    "version": "15117.86.0",
+    "zipfilesize": 1417096191
+}

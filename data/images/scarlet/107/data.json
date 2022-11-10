@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-08-02 00:00:00",
+    "boards": [
+        "druwl"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9138510",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F1C30EB2-8429-4A18-9321-93E224753A98}",
+    "chromeos_release_board": "scarlet-signed-mp-v7keys",
+    "chromeos_release_branch_number": "87",
+    "chromeos_release_build_number": "15117",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "scarlet-release/R107-15117.87.0",
+    "chromeos_release_chrome_milestone": "107",
+    "chromeos_release_description": "15117.87.0 (Official Build) stable-channel scarlet ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15117.87.0",
+    "cr_version": 107,
+    "cros_version": 15117,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15117.87.0_scarlet_recovery_stable-channel_mp-v7.bin",
+    "filesize": 2336993280,
+    "google_release": "15117.87.0",
+    "hwidmatches": [
+        "^DRUWL [A-Z0-9][A-Z0-9]B.*"
+    ],
+    "image_name": "scarlet",
+    "linux_kernel_versions": [
+        "5.10.142-19740-g3a142da07016"
+    ],
+    "manufacturers": [
+        "Quanta CL"
+    ],
+    "md5": "2f4dda3ded0fb6a2d489ceb570209ece",
+    "models": [
+        "Quanta CL druwl"
+    ],
+    "names": [
+        "druwl"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "DRUWL CBBNNN",
+    "sha1": "1c450309079473425eea90d213c0e35e9a6f95b3",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.87.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
+    "version": "15117.87.0",
+    "zipfilesize": 1313686018
+}

@@ -1,0 +1,64 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "tomato",
+        "dojo"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9138510",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_release_board": "cherry-signed-mp-v3keys",
+    "chromeos_release_branch_number": "87",
+    "chromeos_release_build_number": "15117",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "cherry-release/R107-15117.87.0",
+    "chromeos_release_chrome_milestone": "107",
+    "chromeos_release_description": "15117.87.0 (Official Build) stable-channel cherry ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15117.87.0",
+    "cr_version": 107,
+    "cros_version": 15117,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15117.87.0_cherry_recovery_stable-channel_mp-v3.bin",
+    "filesize": 3320581632,
+    "google_release": "15117.87.0",
+    "hwidmatches": [
+        "^TOMATO-LYVN.*",
+        "^DOJO-EJPG.*"
+    ],
+    "image_name": "cherry",
+    "linux_kernel_versions": [
+        "5.10.142-19740-g3a142da07016"
+    ],
+    "manufacturers": [
+        "Acer",
+        "HP"
+    ],
+    "md5": "6403325ffa63fb585df8de7e464877b4",
+    "models": [
+        "ACER Chromebook spin 513",
+        "HP Chromebook x360 13.3\" - 13b-ca0xxx"
+    ],
+    "names": [
+        "ACER Chromebook spin 513",
+        "HP Chromebook x360 13.3\" - 13b-ca0xxx"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "TOMATO-LYVNNNN",
+    "sha1": "da5ef0bb8e549aa7c76549a98a9d8ca549a61397",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.87.0_cherry_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "15117.87.0",
+    "zipfilesize": 1460500075
+}
