@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-06 00:00:00",
+    "boards": [
+        "pirette"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9499179",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_release_board": "dedede-signed-mp-v27keys",
+    "chromeos_release_branch_number": "80",
+    "chromeos_release_build_number": "15236",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "dedede-release/R109-15236.80.0",
+    "chromeos_release_chrome_milestone": "109",
+    "chromeos_release_description": "15236.80.0 (Official Build) stable-channel dedede ",
+    "chromeos_release_keyset": "mp-v27",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15236.80.0",
+    "cr_version": 109,
+    "cros_version": 15236,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15236.80.0_dedede_recovery_stable-channel_mp-v27.bin",
+    "filesize": 4968929280,
+    "google_release": "15236.80.0",
+    "hwidmatches": [
+        "^PIRETTE-UBKE .*"
+    ],
+    "image_name": "dedede",
+    "linux_kernel_versions": [
+        "5.4.223-19729-g00e2ddb12382"
+    ],
+    "manufacturers": [
+        "Zyrex"
+    ],
+    "md5": "4e3f12a545e3c211e379fbca0c3abb80",
+    "models": [
+        "Zyrex Chromebook M432-2"
+    ],
+    "names": [
+        "Zyrex Chromebook M432-2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "PIRETTE-UBKE NNN",
+    "sha1": "4c7aa779115ec34036c5a39a8edb1afdc40ec69c",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15236.80.0_dedede_recovery_stable-channel_mp-v27.bin.zip",
+    "version": "15236.80.0",
+    "zipfilesize": 2188932277
+}

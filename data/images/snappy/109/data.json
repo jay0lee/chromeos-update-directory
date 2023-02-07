@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-02 00:00:00",
+    "boards": [
+        "snappy"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9499176",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_release_board": "snappy-signed-mpkeys",
+    "chromeos_release_branch_number": "80",
+    "chromeos_release_build_number": "15236",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "snappy-release/R109-15236.80.0",
+    "chromeos_release_chrome_milestone": "109",
+    "chromeos_release_description": "15236.80.0 (Official Build) stable-channel snappy ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15236.80.0",
+    "cr_version": 109,
+    "cros_version": 15236,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15236.80.0_snappy_recovery_stable-channel_mp.bin",
+    "filesize": 2336997888,
+    "google_release": "15236.80.0",
+    "hwidmatches": [
+        "^SNAPPY ([A-Z0-9])+-[^BC].*"
+    ],
+    "image_name": "snappy",
+    "linux_kernel_versions": [
+        "5.10.153-20434-g98da1eb2cf9d"
+    ],
+    "manufacturers": [
+        "HP"
+    ],
+    "md5": "c173d005fa77f6637034fae676d31cab",
+    "models": [
+        "HP Chromebook x360 11 G1 EE"
+    ],
+    "names": [
+        "HP Chromebook x360 11 G1 EE"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "SNAPPY 5DFR16ZT7AWLZKAXAWS2IMJBVI5LBGBIVRH3DK7M5Q6VN36UV9ARIVUXHS862V6F-sNNN",
+    "sha1": "10366811541a67b6fec45e542c1af39b35129b32",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15236.80.0_snappy_recovery_stable-channel_mp.bin.zip",
+    "version": "15236.80.0",
+    "zipfilesize": 1384945948
+}
