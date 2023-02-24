@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-01 00:00:00",
+    "boards": [
+        "snappy"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9580535",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_release_board": "snappy-signed-mpkeys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "15278",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "snappy-release/R110-15278.64.0",
+    "chromeos_release_chrome_milestone": "110",
+    "chromeos_release_description": "15278.64.0 (Official Build) stable-channel snappy ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15278.64.0",
+    "cr_version": 110,
+    "cros_version": 15278,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15278.64.0_snappy_recovery_stable-channel_mp.bin",
+    "filesize": 2510458880,
+    "google_release": "15278.64.0",
+    "hwidmatches": [
+        "^SNAPPY ([A-Z0-9])+-[^BC].*"
+    ],
+    "image_name": "snappy",
+    "linux_kernel_versions": [
+        "5.10.159-20948-g74a145af2334"
+    ],
+    "manufacturers": [
+        "HP"
+    ],
+    "md5": "bac1eda3f918507d70783ffaecfa1366",
+    "models": [
+        "HP Chromebook x360 11 G1 EE"
+    ],
+    "names": [
+        "HP Chromebook x360 11 G1 EE"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "SNAPPY 0RZQDEYQNAXZ3HT5T2CUQ2FUABR5XZT0O9SICUII6COZ2UTQWO287W423DR4ZWAZX-KNNN",
+    "sha1": "e16a59665ad4534508ea753b5164bf864431bc13",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.64.0_snappy_recovery_stable-channel_mp.bin.zip",
+    "version": "15278.64.0",
+    "zipfilesize": 1383960934
+}

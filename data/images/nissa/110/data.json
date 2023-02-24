@@ -1,0 +1,69 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2031-06-02 00:00:00",
+    "boards": [
+        "craaskvin",
+        "craaskbowl",
+        "craask"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9586199",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_release_board": "nissa-signed-mp-v4keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "15278",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nissa-release/R110-15278.64.0",
+    "chromeos_release_chrome_milestone": "110",
+    "chromeos_release_description": "15278.64.0 (Official Build) stable-channel nissa ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15278.64.0",
+    "cr_version": 110,
+    "cros_version": 15278,
+    "crostini_support": true,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_15278.64.0_nissa_recovery_stable-channel_mp-v4.bin",
+    "filesize": 4450228736,
+    "google_release": "15278.64.0",
+    "hwidmatches": [
+        "^CRAASKVIN-HOWA.*",
+        "^CRAASKBOWL-GSKT.*",
+        "^CRAASK-HULX.*"
+    ],
+    "image_name": "nissa",
+    "linux_kernel_versions": [
+        "5.15.83-15205-g20243b0e5bd5"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer",
+        "Acer"
+    ],
+    "md5": "50a29b0c8a559615b356e75df3802593",
+    "models": [
+        "Acer Chromebook 511( C736, C736T, C736L, C736LT )",
+        "Acer Chromebook Spin 511 (R756T R756T-TCO R756TN R756TN-TCO R756LT R756LT-TCO R756LTN R756LTN-TCO)",
+        "Acer Chromebook Spin 512 (R856T R856T-TCO R856TN R856TN-TCO R856LT R856LT-TCO R856LTN R856LTN-TCO)"
+    ],
+    "names": [
+        "Acer Chromebook 511( C736, C736T, C736L, C736LT )",
+        "Acer Chromebook Spin 511 (R756T R756T-TCO R756TN R756TN-TCO R756LT R756LT-TCO R756LTN R756LTN-TCO)",
+        "Acer Chromebook Spin 512 (R856T R856T-TCO R856TN R856TN-TCO R856LT R856LT-TCO R856LTN R856LTN-TCO)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "CRAASKVIN-HOWANNN",
+    "sha1": "6f860c6d842c5e68aa7f5cbf6b116845900cc7f1",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.64.0_nissa_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "15278.64.0",
+    "zipfilesize": 2117351855
+}
