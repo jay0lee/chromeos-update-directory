@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2024-06-01 00:00:00",
+    "boards": [
+        "eve"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9586199",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
+    "chromeos_release_board": "eve-signed-mp-v2keys",
+    "chromeos_release_branch_number": "64",
+    "chromeos_release_build_number": "15278",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "eve-release/R110-15278.64.0",
+    "chromeos_release_chrome_milestone": "110",
+    "chromeos_release_description": "15278.64.0 (Official Build) stable-channel eve ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15278.64.0",
+    "cr_version": 110,
+    "cros_version": 15278,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15278.64.0_eve_recovery_stable-channel_mp-v2.bin",
+    "filesize": 4685634048,
+    "google_release": "15278.64.0",
+    "hwidmatches": [
+        "^EVE .*"
+    ],
+    "image_name": "eve",
+    "linux_kernel_versions": [
+        "5.4.227-20160-g8ef2b0bf640e"
+    ],
+    "manufacturers": [
+        "Google"
+    ],
+    "md5": "b6354e09ce7f5d52dc01109cb6649d06",
+    "models": [
+        "Google Pixelbook"
+    ],
+    "names": [
+        "Google Pixelbook"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "EVE NNN",
+    "sha1": "e61c64ad5e2e9b0319881d63b73263c71486f224",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.64.0_eve_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "15278.64.0",
+    "zipfilesize": 1641299031
+}
