@@ -1,0 +1,58 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-06-01 00:00:00",
+    "boards": [
+        "caroline"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9663286",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C166AF52-7EE9-4F08-AAA7-B4B895A9F336}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C166AF52-7EE9-4F08-AAA7-B4B895A9F336}",
+    "chromeos_release_board": "caroline-signed-mpkeys",
+    "chromeos_release_branch_number": "44",
+    "chromeos_release_build_number": "15329",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "caroline-release/R111-15329.44.0",
+    "chromeos_release_chrome_milestone": "111",
+    "chromeos_release_description": "15329.44.0 (Official Build) stable-channel caroline ",
+    "chromeos_release_keyset": "mp",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "15329.44.0",
+    "cr_version": 111,
+    "cros_version": 15329,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15329.44.0_caroline_recovery_stable-channel_mp.bin",
+    "filesize": 2507426304,
+    "google_release": "15329.44.0",
+    "hwidmatches": [
+        "^CAROLINE .*"
+    ],
+    "image_name": "caroline",
+    "linux_kernel_versions": [
+        "4.19.271-14665-g2a6fa8038591"
+    ],
+    "manufacturers": [
+        "Samsung"
+    ],
+    "md5": "1ee7a2b1e68d876bb0eaa413d5f9c3d7",
+    "models": [
+        "Samsung Chromebook Pro"
+    ],
+    "names": [
+        "Samsung Chromebook Pro"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "CAROLINE NNN",
+    "sha1": "85ced71a89191251c9d16102179498082770f612",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15329.44.0_caroline_recovery_stable-channel_mp.bin.zip",
+    "version": "15329.44.0",
+    "zipfilesize": 1297243944
+}
