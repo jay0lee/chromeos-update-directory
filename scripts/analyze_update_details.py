@@ -35,7 +35,8 @@ count = len(data_files)
 for data_file in data_files:
   i += 1
   # limit to 10 images to avoid GHA timeouts.
-  if count >= 10:
+  if i >= 10:
+    print('stopping this job after 10 images, next job should pick up where it left off....')
     break
   subprocess.run(['sudo', 'losetup', '--detach-all'])
   path = os.path.dirname(os.path.abspath(data_file))
