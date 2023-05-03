@@ -34,6 +34,9 @@ i = 0
 count = len(data_files)
 for data_file in data_files:
   i += 1
+  # limit to 10 images to avoid GHA timeouts.
+  if count >= 10:
+    break
   subprocess.run(['sudo', 'losetup', '--detach-all'])
   path = os.path.dirname(os.path.abspath(data_file))
   with open(data_file, 'r') as f:
