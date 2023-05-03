@@ -95,7 +95,7 @@ def download_update_file(data, path, curl_verbosity=''):
     return return_data
 
 
-def download_image_file(data, path, verify=True, backfill_verify=False, curl_verbosity=''):
+def download_image_file(data, path, verify=True, backfill_verify=False, curl_verbosity='-s'):
   rel_file = data.get('file')
   recovery_file = f'{path}/{rel_file}'
   return_data = {'full_file_path': recovery_file}
