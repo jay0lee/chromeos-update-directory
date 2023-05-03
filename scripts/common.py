@@ -55,7 +55,7 @@ def check_updates(appid, version, board, track, hardware_class, targetversionpre
     return_data['eol_date'] = (epoch + add_days)
   return return_data
 
-def download_update_file(data, path, curl_verbosity=''):
+def download_update_file(data, path, curl_verbosity='-s'):
     url = data.get('urls', [None])[0]
     if not url:
         print(f'No urls in {data}')
