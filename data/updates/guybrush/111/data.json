@@ -1,1 +1,19 @@
-{}
+{
+    "app_board": "guybrush-signed-mp-v2keys",
+    "board_id": "{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}",
+    "check_time": "2023-05-03 15:10:33.644111",
+    "chrome_version": "111.0.5563.118",
+    "chromeos_version": "15329.59.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}\" version=\"15329.0.0\" board=\"guybrush-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"NIPPERKIN NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15329\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29433\"/><app appid=\"{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}\" cohort=\"1:v:\" cohortname=\"guybrush_nipperkin_stable\" status=\"ok\"><updatecheck _eol_date=\"22067\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/guybrush/15329.59.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/guybrush/15329.59.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/guybrush/15329.59.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/guybrush/15329.59.0/stable-channel/\"/></urls><manifest version=\"15329.59.0\"><actions><action event=\"update\" run=\"chromeos_15329.59.0_guybrush_stable-channel_full_mp-v6.bin-gy2dcyzrgzstdhbxujtu7pe2uj7ntpya.signed\"/><action ChromeOSVersion=\"15329.59.0\" ChromeVersion=\"111.0.5563.118\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"WdCw7Zvkd0dz5uO7inSV7egK3yqdDRP+T3LvbUBsBSjqQgUFuZpPsG3biQnTXk4zLg7KjQHhs00JNXYHhJ0tmYZ9533uRdkTh4/21OWvHqFdGUoyw31//rNY+T0/3qV9c4ZQKE3hr09RyxR685DfCMisZ+04EQ6crSxhUSG0GXqex5m4HpA3MtDsZNGfAVrKfcD3oCJB7WUEBhLahPy7qBjmhsFE96qlC5esRM8ykZkBGvwt9hYgQFBj5LaHgiGrpnokJFjzGRLdbmC4XXygymDsvt+4KbDfkRwL0YDWYsTW4F1Dq4K0FJTFlvX64LPZ0tG5DxkwIM18gT9ZBvJIaQ==\" MetadataSize=\"74913\" event=\"postinstall\" sha256=\"qlnrJSCWF/EPdcEF04klyWEDO/2wzvbnQfirFUacf3Q=\"/></actions><packages><package fp=\"3.aa59eb25209617f10f75c105d38925c961033bfdb0cef6e741f8ab15469c7f74\" hash_sha256=\"aa59eb25209617f10f75c105d38925c961033bfdb0cef6e741f8ab15469c7f74\" name=\"chromeos_15329.59.0_guybrush_stable-channel_full_mp-v6.bin-gy2dcyzrgzstdhbxujtu7pe2uj7ntpya.signed\" required=\"true\" size=\"1412913433\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "NIPPERKIN NNN",
+    "sha256": "aa59eb25209617f10f75c105d38925c961033bfdb0cef6e741f8ab15469c7f74",
+    "size": 1412913433,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/guybrush/15329.59.0/stable-channel/chromeos_15329.59.0_guybrush_stable-channel_full_mp-v6.bin-gy2dcyzrgzstdhbxujtu7pe2uj7ntpya.signed",
+        "http://dl.google.com/chromeos/guybrush/15329.59.0/stable-channel/chromeos_15329.59.0_guybrush_stable-channel_full_mp-v6.bin-gy2dcyzrgzstdhbxujtu7pe2uj7ntpya.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/guybrush/15329.59.0/stable-channel/chromeos_15329.59.0_guybrush_stable-channel_full_mp-v6.bin-gy2dcyzrgzstdhbxujtu7pe2uj7ntpya.signed",
+        "https://dl.google.com/chromeos/guybrush/15329.59.0/stable-channel/chromeos_15329.59.0_guybrush_stable-channel_full_mp-v6.bin-gy2dcyzrgzstdhbxujtu7pe2uj7ntpya.signed"
+    ]
+}

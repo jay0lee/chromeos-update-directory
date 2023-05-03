@@ -1,0 +1,19 @@
+{
+    "app_board": "reef-signed-mp-v2keys",
+    "board_id": "{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}",
+    "check_time": "2023-05-03 15:10:54.531776",
+    "chrome_version": "112.0.5615.134",
+    "chromeos_version": "15359.58.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}\" version=\"15359.0.0\" board=\"reef-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"REEF YTn-CGr-I4H-rnV-Zod-8Xf-0M7-B9k-t7h-69p-Xn8-O1S-Ew7-fOW-Pri\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15359\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29454\"/><app appid=\"{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}\" cohort=\"1:1o:\" cohortname=\"reef_basking_stable\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/reef/15359.58.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/reef/15359.58.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/reef/15359.58.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/reef/15359.58.0/stable-channel/\"/></urls><manifest version=\"15359.58.0\"><actions><action event=\"update\" run=\"chromeos_15359.58.0_reef_stable-channel_full_mp-v4.bin-gy2dgzbqga4dkp763ccqwgezjzzv26a3.signed\"/><action ChromeOSVersion=\"15359.58.0\" ChromeVersion=\"112.0.5615.134\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"GXfaLSbsdi50g3bSJAXn6LqQj/0g1Q+HMOOuWAn0yHUnpOO3riAiFi5YR5zmx+E3CLVsVthTK7tiRzazxAJHtMGqbzr8+cqNRYF2T8PjNFmYMG91JbyMC/1nvWPPdTKT1lSvbEYwtE2qHBJnXbKgHZ0ztbF0je+eXfIJvZQe8QfdMUEGzULHFwixkuvi/Fx1vuuaee5IZosuxiilqagtTuOaAsEVO4QgapYUR0xyUL+Xh+NNgMexJ1EqZvE+63yybzx8DeMOLDuyNqoH63sfZafbgothyNNPvP+v/alfcKYT8ySOP0RacZKxYt6Y7+2wlzW4r8NVjoGvovcqbj1H/Q==\" MetadataSize=\"57220\" event=\"postinstall\" sha256=\"d7SPeTXBY15KMfHRUog6ne8Ha/wV8Il7dchzoT13LbQ=\"/></actions><packages><package fp=\"3.77b48f7935c1635e4a31f1d152883a9def076bfc15f0897b75c873a13d772db4\" hash_sha256=\"77b48f7935c1635e4a31f1d152883a9def076bfc15f0897b75c873a13d772db4\" name=\"chromeos_15359.58.0_reef_stable-channel_full_mp-v4.bin-gy2dgzbqga4dkp763ccqwgezjzzv26a3.signed\" required=\"true\" size=\"1203552618\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "REEF YTn-CGr-I4H-rnV-Zod-8Xf-0M7-B9k-t7h-69p-Xn8-O1S-Ew7-fOW-Pri",
+    "sha256": "77b48f7935c1635e4a31f1d152883a9def076bfc15f0897b75c873a13d772db4",
+    "size": 1203552618,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/reef/15359.58.0/stable-channel/chromeos_15359.58.0_reef_stable-channel_full_mp-v4.bin-gy2dgzbqga4dkp763ccqwgezjzzv26a3.signed",
+        "http://dl.google.com/chromeos/reef/15359.58.0/stable-channel/chromeos_15359.58.0_reef_stable-channel_full_mp-v4.bin-gy2dgzbqga4dkp763ccqwgezjzzv26a3.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/reef/15359.58.0/stable-channel/chromeos_15359.58.0_reef_stable-channel_full_mp-v4.bin-gy2dgzbqga4dkp763ccqwgezjzzv26a3.signed",
+        "https://dl.google.com/chromeos/reef/15359.58.0/stable-channel/chromeos_15359.58.0_reef_stable-channel_full_mp-v4.bin-gy2dgzbqga4dkp763ccqwgezjzzv26a3.signed"
+    ]
+}

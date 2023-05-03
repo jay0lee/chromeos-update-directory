@@ -1,0 +1,19 @@
+{
+    "app_board": "volteer-signed-mp-v6keys",
+    "board_id": "{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}",
+    "check_time": "2023-05-03 15:11:10.792274",
+    "chrome_version": "112.0.5615.134",
+    "chromeos_version": "15359.58.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}\" version=\"15359.0.0\" board=\"volteer-signed-mp-v6keys\" track=\"stable-channel\" hardware_class=\"DELBIN-XHVINNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15359\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29470\"/><app appid=\"{77BE25D7-AFB8-4E3C-A7D2-1FACE1B186E3}\" cohort=\"1:l:\" cohortname=\"volteer_delbin_stable\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/volteer/15359.58.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/volteer/15359.58.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/volteer/15359.58.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/volteer/15359.58.0/stable-channel/\"/></urls><manifest version=\"15359.58.0\"><actions><action event=\"update\" run=\"chromeos_15359.58.0_volteer_stable-channel_full_mp-v9.bin-gy2dgzbrgjsteli6ej726rryblhzlrcy.signed\"/><action ChromeOSVersion=\"15359.58.0\" ChromeVersion=\"112.0.5615.134\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"JDO6A20rnTmPlzu1s84gSaMP9W0NxAwctgYKXfOvpFCfbU4Ta+q5GbyZi8DHwcLz5bgbZ1GqfMIzHBjsWrhx2V2d0DsUgPOFCLTwW9GRmmKym7uwkeH/nPZMwOFCzrfcdzh9wQYhcMqDtpZIaQvt7w6wL9XtE+HzZ/0j8IcwHjsES/3TvkQBvvFzHddlD7Oci8+2nqahwVRzk4rPR/F+Fj6NEvOKEvqkRpQzYIj4SBxHXi3AfCIkIRd6fmm3wl7VaGFGSR4RKo+uvftm0hlYDVSp+zP51+E5c+yBAMg8gNA4XaZX9RYdHHmqto2QMhscjsNa5dJq14H9t5fGdSKe2g==\" MetadataSize=\"74922\" event=\"postinstall\" sha256=\"P7H6v0ut9GodKo6U8NxRoKiDMTMZHD5DSJ6Pf+WCmB8=\"/></actions><packages><package fp=\"3.3fb1fabf4badf46a1d2a8e94f0dc51a0a8833133191c3e43489e8f7fe582981f\" hash_sha256=\"3fb1fabf4badf46a1d2a8e94f0dc51a0a8833133191c3e43489e8f7fe582981f\" name=\"chromeos_15359.58.0_volteer_stable-channel_full_mp-v9.bin-gy2dgzbrgjsteli6ej726rryblhzlrcy.signed\" required=\"true\" size=\"1551800098\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "DELBIN-XHVINNN",
+    "sha256": "3fb1fabf4badf46a1d2a8e94f0dc51a0a8833133191c3e43489e8f7fe582981f",
+    "size": 1551800098,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/volteer/15359.58.0/stable-channel/chromeos_15359.58.0_volteer_stable-channel_full_mp-v9.bin-gy2dgzbrgjsteli6ej726rryblhzlrcy.signed",
+        "http://dl.google.com/chromeos/volteer/15359.58.0/stable-channel/chromeos_15359.58.0_volteer_stable-channel_full_mp-v9.bin-gy2dgzbrgjsteli6ej726rryblhzlrcy.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/volteer/15359.58.0/stable-channel/chromeos_15359.58.0_volteer_stable-channel_full_mp-v9.bin-gy2dgzbrgjsteli6ej726rryblhzlrcy.signed",
+        "https://dl.google.com/chromeos/volteer/15359.58.0/stable-channel/chromeos_15359.58.0_volteer_stable-channel_full_mp-v9.bin-gy2dgzbrgjsteli6ej726rryblhzlrcy.signed"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "app_board": "reven-signed-mp-v2keys",
+    "board_id": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "check_time": "2023-05-03 15:10:55.876421",
+    "chrome_version": "112.0.5615.134",
+    "chromeos_version": "15359.58.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}\" version=\"15359.0.0\" board=\"reven-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"REVEN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15359\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29455\"/><app appid=\"{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}\" cohort=\"1:11:\" cohortname=\"reven_stable\" status=\"ok\"><updatecheck _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/reven/15359.58.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/reven/15359.58.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/reven/15359.58.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/reven/15359.58.0/stable-channel/\"/></urls><manifest version=\"15359.58.0\"><actions><action event=\"update\" run=\"chromeos_15359.58.0_reven_stable-channel_full_mp-v2.bin-gy2dgy3gmq4toy66clwvefthmmpzrr53.signed\"/><action ChromeOSVersion=\"15359.58.0\" ChromeVersion=\"112.0.5615.134\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"pWdMR1De+imXQYHlw94g7Z/6QhCbSOb1Vhe4kJ5FC6+oehtwAt50pLksds2tJlvfwxNZ5HSBYQnCOv332xKuhDUdf4OqAv7cpMfFqx/2CdFzcOA4TqY4NRLZ5i76aUmSokNIx1BbsB+0vcA7NImzy7husdIqh0fm5iUqMc1LnxwVWnWtXRwG0PWr+du8A8gFNDzJlsb3pnICBPoYM7/V+iSiL0s/f7DjuvyWx0PAYTPuPZ9aCooWPjz3UjZQLBWEJJ9XH7tfmLT2AuFrFzKrLSh6M03iORADgq0nLGJst8bjHVQzGY6OQDYtV6n7BsNx6rjKVihFLQHpLzb9rIWEYw==\" MetadataSize=\"65583\" event=\"postinstall\" sha256=\"I7qfLpy0lXQxPcae1Pd9zyGneGL7MpSyBPEBKj7UZxE=\"/></actions><packages><package fp=\"3.23ba9f2e9cb49574313dc69ed4f77dcf21a77862fb3294b204f1012a3ed46711\" hash_sha256=\"23ba9f2e9cb49574313dc69ed4f77dcf21a77862fb3294b204f1012a3ed46711\" name=\"chromeos_15359.58.0_reven_stable-channel_full_mp-v2.bin-gy2dgy3gmq4toy66clwvefthmmpzrr53.signed\" required=\"true\" size=\"890604257\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "REVEN",
+    "sha256": "23ba9f2e9cb49574313dc69ed4f77dcf21a77862fb3294b204f1012a3ed46711",
+    "size": 890604257,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/reven/15359.58.0/stable-channel/chromeos_15359.58.0_reven_stable-channel_full_mp-v2.bin-gy2dgy3gmq4toy66clwvefthmmpzrr53.signed",
+        "http://dl.google.com/chromeos/reven/15359.58.0/stable-channel/chromeos_15359.58.0_reven_stable-channel_full_mp-v2.bin-gy2dgy3gmq4toy66clwvefthmmpzrr53.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/reven/15359.58.0/stable-channel/chromeos_15359.58.0_reven_stable-channel_full_mp-v2.bin-gy2dgy3gmq4toy66clwvefthmmpzrr53.signed",
+        "https://dl.google.com/chromeos/reven/15359.58.0/stable-channel/chromeos_15359.58.0_reven_stable-channel_full_mp-v2.bin-gy2dgy3gmq4toy66clwvefthmmpzrr53.signed"
+    ]
+}

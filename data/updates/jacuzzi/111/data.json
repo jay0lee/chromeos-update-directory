@@ -1,1 +1,19 @@
-{}
+{
+    "app_board": "jacuzzi-signed-mp-v2keys",
+    "board_id": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "check_time": "2023-05-03 15:10:37.056840",
+    "chrome_version": "111.0.5563.152",
+    "chromeos_version": "15329.63.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}\" version=\"15329.0.0\" board=\"jacuzzi-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"JUNIPER-HVPU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15329\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29437\"/><app appid=\"{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}\" cohort=\"1:c:\" cohortname=\"jacuzzi_juniper_stable\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/jacuzzi/15329.63.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/jacuzzi/15329.63.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/jacuzzi/15329.63.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/jacuzzi/15329.63.0/stable-channel/\"/></urls><manifest version=\"15329.63.0\"><actions><action event=\"update\" run=\"chromeos_15329.63.0_jacuzzi_stable-channel_full_mp-v13.bin-gy2deyrymmyto7qnzbwxl4vislz2khpa.signed\"/><action ChromeOSVersion=\"15329.63.0\" ChromeVersion=\"111.0.5563.152\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"sWXpFAntG32kpmlMP0/XGRzJojOE/kiL/yYbAIN62r4fKOUZiqUZYZzP0pFD70XEkoDpFLefMx7QNnuulxtGcUvbc/UKhoWMD5fOf9UYH+5hw4LBPT/kD1FRHEyseGJuawcMcDbVsJUl3hSWKq3bCSdUnUbF0TKo56UctqZtL70jLo18i/JrqQWWvuvuki20HqPb3nKkfmbR+EVZ54DdCotzObzZNWHzaMRy60gk37icHTwnkdNVSN+eI03n40Lf0eUYUIDhTFFHQRKJ4S1xH0pKs7Jk7shGKDg+wWq/QRq8rK8OvDnf1SG1qe0erQI5uBN8GjWyncQiK96Es27UxA==\" MetadataSize=\"74374\" event=\"postinstall\" sha256=\"uJzn0MkA7k/9quiTQCMCeZxNGG61eVJSQrdCYI0n1OA=\"/></actions><packages><package fp=\"3.b89ce7d0c900ee4ffdaae893402302799c4d186eb579525242b742608d27d4e0\" hash_sha256=\"b89ce7d0c900ee4ffdaae893402302799c4d186eb579525242b742608d27d4e0\" name=\"chromeos_15329.63.0_jacuzzi_stable-channel_full_mp-v13.bin-gy2deyrymmyto7qnzbwxl4vislz2khpa.signed\" required=\"true\" size=\"1222478413\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "JUNIPER-HVPU NNN",
+    "sha256": "b89ce7d0c900ee4ffdaae893402302799c4d186eb579525242b742608d27d4e0",
+    "size": 1222478413,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/jacuzzi/15329.63.0/stable-channel/chromeos_15329.63.0_jacuzzi_stable-channel_full_mp-v13.bin-gy2deyrymmyto7qnzbwxl4vislz2khpa.signed",
+        "http://dl.google.com/chromeos/jacuzzi/15329.63.0/stable-channel/chromeos_15329.63.0_jacuzzi_stable-channel_full_mp-v13.bin-gy2deyrymmyto7qnzbwxl4vislz2khpa.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/jacuzzi/15329.63.0/stable-channel/chromeos_15329.63.0_jacuzzi_stable-channel_full_mp-v13.bin-gy2deyrymmyto7qnzbwxl4vislz2khpa.signed",
+        "https://dl.google.com/chromeos/jacuzzi/15329.63.0/stable-channel/chromeos_15329.63.0_jacuzzi_stable-channel_full_mp-v13.bin-gy2deyrymmyto7qnzbwxl4vislz2khpa.signed"
+    ]
+}

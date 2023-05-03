@@ -1,1 +1,19 @@
-{}
+{
+    "app_board": "brask-signed-mp-v3keys",
+    "board_id": "{94144292-1100-4882-AC53-51E04BB29F9E}",
+    "check_time": "2023-05-03 15:10:12.402946",
+    "chrome_version": "109.0.5414.125",
+    "chromeos_version": "15236.80.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{94144292-1100-4882-AC53-51E04BB29F9E}\" version=\"15236.0.0\" board=\"brask-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"KINOX-WGMJNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15236\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29412\"/><app appid=\"{94144292-1100-4882-AC53-51E04BB29F9E}\" cohort=\"1:n:\" cohortname=\"brask_kinox_stable\" status=\"ok\"><updatecheck _eol_date=\"22067\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/brask/15236.80.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/brask/15236.80.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/brask/15236.80.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/brask/15236.80.0/stable-channel/\"/></urls><manifest version=\"15236.80.0\"><actions><action event=\"update\" run=\"chromeos_15236.80.0_brask_stable-channel_full_mp-v3.bin-gyzwimdggnsts2l33sqfoywvsue6yie2.signed\"/><action ChromeOSVersion=\"15236.80.0\" ChromeVersion=\"109.0.5414.125\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"jmokLs8KDAJdUghFyEGMdPCqoFquLqJKwty4IYqs49V/eXLyhCAyEBtC5ZMwToE1GzHAJnYrO3ZK7N4oMRxNplWBvi8uiKwURYR31grr75Bro/OCJCN3Clx7ynMzZB0AbSuw04EUAbtYcJIrKiyOza34pnJADtoooEFRsP+R/NPcW6XqMsNwIqn8ov9OmGg8t6yL/cLds/LGfnfcTzgJEZVOiohuhDElNjFpFjBF9/uib9YHs2e3yXa6uD5lMRam1Vy6z1VfZwZmO5iNglx3mQ4aKgP9xy9lO0k7JHuYyGZH+Yp+DyhlFcd0m2IZkY09YMC6PdpaMdwVD6K+kO19OQ==\" MetadataSize=\"88690\" event=\"postinstall\" sha256=\"eK5NGDg7vHqkxYUPfbT+xvgOllIU6SViFvdu/4Y423s=\"/></actions><packages><package fp=\"3.78ae4d18383bbc7aa4c5850f7db4fec6f80e965214e9256216f76eff8638db7b\" hash_sha256=\"78ae4d18383bbc7aa4c5850f7db4fec6f80e965214e9256216f76eff8638db7b\" name=\"chromeos_15236.80.0_brask_stable-channel_full_mp-v3.bin-gyzwimdggnsts2l33sqfoywvsue6yie2.signed\" required=\"true\" size=\"1467810998\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "KINOX-WGMJNNN",
+    "sha256": "78ae4d18383bbc7aa4c5850f7db4fec6f80e965214e9256216f76eff8638db7b",
+    "size": 1467810998,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/brask/15236.80.0/stable-channel/chromeos_15236.80.0_brask_stable-channel_full_mp-v3.bin-gyzwimdggnsts2l33sqfoywvsue6yie2.signed",
+        "http://dl.google.com/chromeos/brask/15236.80.0/stable-channel/chromeos_15236.80.0_brask_stable-channel_full_mp-v3.bin-gyzwimdggnsts2l33sqfoywvsue6yie2.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/brask/15236.80.0/stable-channel/chromeos_15236.80.0_brask_stable-channel_full_mp-v3.bin-gyzwimdggnsts2l33sqfoywvsue6yie2.signed",
+        "https://dl.google.com/chromeos/brask/15236.80.0/stable-channel/chromeos_15236.80.0_brask_stable-channel_full_mp-v3.bin-gyzwimdggnsts2l33sqfoywvsue6yie2.signed"
+    ]
+}

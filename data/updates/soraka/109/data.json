@@ -1,1 +1,19 @@
-{}
+{
+    "app_board": "soraka-signed-mpkeys",
+    "board_id": "{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}",
+    "check_time": "2023-05-03 15:11:04.994149",
+    "chrome_version": "109.0.5414.125",
+    "chromeos_version": "15236.80.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}\" version=\"15236.0.0\" board=\"soraka-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SORAKA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15236\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29464\"/><app appid=\"{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}\" cohort=\"1:t:\" cohortname=\"soraka_soraka_stable\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/soraka/15236.80.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/soraka/15236.80.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/soraka/15236.80.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/soraka/15236.80.0/stable-channel/\"/></urls><manifest version=\"15236.80.0\"><actions><action event=\"update\" run=\"chromeos_15236.80.0_soraka_stable-channel_full_mp.bin-gyzwimdggvtda7lxtpuka4erpkusxaw2.signed\"/><action ChromeOSVersion=\"15236.80.0\" ChromeVersion=\"109.0.5414.125\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"eIw19D6LH6QpQ1avXp1YUTfW2YL282A1xIwX6VBYaTYSb1dqCGfWbsaTW6Gq4QbwwUYBibkrSLFnufgw4SFL39FY3P8XL/nqWuVoZxvEJstotpezpANOV8TdovVs3yeyIoF52lkN3sDW1aqlNQ+9Q7E3OH8C3NxEwtGrBaMY0g4F0JBEEBWK9IxGzUsBjlRObuUpPHe/OdkBZ8z8SOJFIzqXDkmXp6UGCaRQ9y0892RU682QniVU4bVpjgD5gS8oB3Skf1kFMNo1RHJ1JqcX8BXg4BOxF/MHR5MF837MnQYNDY5vcw92DrJoJNdTdLkxVsnd6xMepuvZ2jRCZiahdw==\" MetadataSize=\"71565\" event=\"postinstall\" sha256=\"+F6cq02N9vbahe3kyTIR6hw0VdXf1GVUXWROq2avVE4=\"/></actions><packages><package fp=\"3.f85e9cab4d8df6f6da85ede4c93211ea1c3455d5dfd465545d644eab66af544e\" hash_sha256=\"f85e9cab4d8df6f6da85ede4c93211ea1c3455d5dfd465545d644eab66af544e\" name=\"chromeos_15236.80.0_soraka_stable-channel_full_mp.bin-gyzwimdggvtda7lxtpuka4erpkusxaw2.signed\" required=\"true\" size=\"1401567577\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SORAKA NNN",
+    "sha256": "f85e9cab4d8df6f6da85ede4c93211ea1c3455d5dfd465545d644eab66af544e",
+    "size": 1401567577,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/soraka/15236.80.0/stable-channel/chromeos_15236.80.0_soraka_stable-channel_full_mp.bin-gyzwimdggvtda7lxtpuka4erpkusxaw2.signed",
+        "http://dl.google.com/chromeos/soraka/15236.80.0/stable-channel/chromeos_15236.80.0_soraka_stable-channel_full_mp.bin-gyzwimdggvtda7lxtpuka4erpkusxaw2.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/soraka/15236.80.0/stable-channel/chromeos_15236.80.0_soraka_stable-channel_full_mp.bin-gyzwimdggvtda7lxtpuka4erpkusxaw2.signed",
+        "https://dl.google.com/chromeos/soraka/15236.80.0/stable-channel/chromeos_15236.80.0_soraka_stable-channel_full_mp.bin-gyzwimdggvtda7lxtpuka4erpkusxaw2.signed"
+    ]
+}

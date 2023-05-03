@@ -1,0 +1,17 @@
+{
+    "app_board": "corsola-signed-mp-v5keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2023-05-03 15:09:09.047125",
+    "chrome_version": "115.0.5738.0",
+    "chromeos_version": "15446.0.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"15359.0.0\" board=\"corsola-signed-mp-v5keys\" track=\"canary-channel\" hardware_class=\"TENTACOOL-ZLJENNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29349\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:vz:\" cohortname=\"corsola_tentacool_canary\" status=\"ok\"><updatecheck _eol_date=\"22802\" _firmware_version=\"1.1\" _kernel_version=\"1.2\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15446.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15446.0.0/\"/></urls><manifest version=\"15446.0.0\"><actions><action event=\"update\" run=\"chromeos_15446.0.0_corsola_canary-channel_full_mp-v5.bin-gy2dkmdggezwkso624frsdx3swhhjwk7.signed\"/><action ChromeOSVersion=\"15446.0.0\" ChromeVersion=\"115.0.5738.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"WtjQiNH76yYFQ21K6FJ2wQfxnu+v5WX0jA1i0rojdwCFCUDGl7GTJamcoP7J3/jonqCKgAiFeUKtwZQzIxH9buE2VsGQqZwJzASBFykLZZptrm3/PP2k9d25Ul2Kx5Cnqn9gOxnHg31AFBUZo0+N5pnrB4DJefZkRS6+mp/I0fmwtv+ROj7dpMHpC3uBEVncEaTqrMYL4FdBd1M9BCA68K5iD8jy7lTv4isT7vVeBSBr9frtsOhrFQiH1JRQBa535ukuw5yTMHhYAB6Vj5v28E6j4fTbEJtXhDSfAte4pWaU4yY5vXonS+dnRjA+5OB099dikvCiaV+/rlFDK/oOKQ==\" MetadataSize=\"74639\" event=\"postinstall\" sha256=\"O78deL/Yls2FLTW4jTcIsF5IF/IGpPwNEcsb29QrW5w=\"/></actions><packages><package fp=\"3.3bbf1d78bfd896cd852d35b88d3708b05e4817f206a4fc0d11cb1bdbd42b5b9c\" hash_sha256=\"3bbf1d78bfd896cd852d35b88d3708b05e4817f206a4fc0d11cb1bdbd42b5b9c\" name=\"chromeos_15446.0.0_corsola_canary-channel_full_mp-v5.bin-gy2dkmdggezwkso624frsdx3swhhjwk7.signed\" required=\"true\" size=\"1327083993\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TENTACOOL-ZLJENNN",
+    "sha256": "3bbf1d78bfd896cd852d35b88d3708b05e4817f206a4fc0d11cb1bdbd42b5b9c",
+    "size": 1327083993,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15446.0.0/chromeos_15446.0.0_corsola_canary-channel_full_mp-v5.bin-gy2dkmdggezwkso624frsdx3swhhjwk7.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15446.0.0/chromeos_15446.0.0_corsola_canary-channel_full_mp-v5.bin-gy2dkmdggezwkso624frsdx3swhhjwk7.signed"
+    ]
+}

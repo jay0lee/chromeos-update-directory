@@ -1,1 +1,19 @@
-{}
+{
+    "app_board": "brya-signed-mp-v7keys",
+    "board_id": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "check_time": "2023-05-03 15:10:13.934456",
+    "chrome_version": "108.0.5359.111",
+    "chromeos_version": "15183.69.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}\" version=\"15183.0.0\" board=\"brya-signed-mp-v7keys\" track=\"stable-channel\" hardware_class=\"REDRIX-CLQY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15183\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29413\"/><app appid=\"{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}\" cohort=\"1:4o:\" cohortname=\"brya_redrix_stable\" status=\"ok\"><updatecheck _eol_date=\"22071\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/brya/15183.69.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/brya/15183.69.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/brya/15183.69.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/brya/15183.69.0/stable-channel/\"/></urls><manifest version=\"15183.69.0\"><actions><action event=\"update\" run=\"chromeos_15183.69.0_brya_stable-channel_full_mp-v9.bin-gyztsmlfmjrwj63zx46cfnvn3gcqcqnn.signed\"/><action ChromeOSVersion=\"15183.69.0\" ChromeVersion=\"108.0.5359.111\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"bW4MfX+XvcO7TX8gQaXzUtpjWi18IKdJII7AHya6HUb3uGk+VT0F4QFF3fgYwXe9QrT8IgXXrfvflzi45oJr9UHk09KVrUm5zNabgWggQ+hH8eUp3PCLf3T0lJQN14GreXHv/6ZBouZB5DiwpUa02DGM4oFuLQB0PrIp9ZlMmufczodOejbMTl3+2AKCDXs3jfUxCE+WzHL9Sw/daFkwR6JGwaXx5GjOlvzQ5u51PP1SDepme+GkvH6jWBrNDsRlQNTbylvx3eWM6H9geQFQCaChyiqxEgIwXuyoeM3qOXPAegN0VgnmNCO6nEGe0wt+XAwTOHNMLv1U4IjRrJpicg==\" MetadataSize=\"89137\" event=\"postinstall\" sha256=\"QrbxiBD6xdRyIGBMKFwqQtZq6L+Jhems6DDndHHQp3M=\"/></actions><packages><package fp=\"3.42b6f18810fac5d47220604c285c2a42d66ae8bf8985e9ace830e77471d0a773\" hash_sha256=\"42b6f18810fac5d47220604c285c2a42d66ae8bf8985e9ace830e77471d0a773\" name=\"chromeos_15183.69.0_brya_stable-channel_full_mp-v9.bin-gyztsmlfmjrwj63zx46cfnvn3gcqcqnn.signed\" required=\"true\" size=\"1895433379\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "REDRIX-CLQY NNN",
+    "sha256": "42b6f18810fac5d47220604c285c2a42d66ae8bf8985e9ace830e77471d0a773",
+    "size": 1895433379,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/brya/15183.69.0/stable-channel/chromeos_15183.69.0_brya_stable-channel_full_mp-v9.bin-gyztsmlfmjrwj63zx46cfnvn3gcqcqnn.signed",
+        "http://dl.google.com/chromeos/brya/15183.69.0/stable-channel/chromeos_15183.69.0_brya_stable-channel_full_mp-v9.bin-gyztsmlfmjrwj63zx46cfnvn3gcqcqnn.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/brya/15183.69.0/stable-channel/chromeos_15183.69.0_brya_stable-channel_full_mp-v9.bin-gyztsmlfmjrwj63zx46cfnvn3gcqcqnn.signed",
+        "https://dl.google.com/chromeos/brya/15183.69.0/stable-channel/chromeos_15183.69.0_brya_stable-channel_full_mp-v9.bin-gyztsmlfmjrwj63zx46cfnvn3gcqcqnn.signed"
+    ]
+}

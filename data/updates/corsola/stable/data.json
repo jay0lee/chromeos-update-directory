@@ -1,0 +1,21 @@
+{
+    "app_board": "corsola-signed-mp-v5keys",
+    "board_id": "{3C9B1B3B-E594-448D-97A7-B3A2568BCC5C}",
+    "check_time": "2023-05-03 15:09:08.093951",
+    "chrome_version": "112.0.5615.134",
+    "chromeos_version": "15359.58.0",
+    "eol": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{3C9B1B3B-E594-448D-97A7-B3A2568BCC5C}\" version=\"0.0.0.0\" board=\"corsola-signed-mp-v5keys\" track=\"stable-channel\" hardware_class=\"TENTACOOL-ZLJENNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5966\" elapsed_seconds=\"29348\"/><app appid=\"{3C9B1B3B-E594-448D-97A7-B3A2568BCC5C}\" cohort=\"1:3o:\" cohortname=\"corsola_tentacool_stable\" status=\"ok\"><updatecheck _eol_date=\"22802\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/corsola/15359.58.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/corsola/15359.58.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/corsola/15359.58.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/corsola/15359.58.0/stable-channel/\"/></urls><manifest version=\"15359.58.0\"><actions><action event=\"install\" run=\"chromeos_15359.58.0_corsola_stable-channel_full_mp-v5.bin-gy2dgzbqha2gh5ox7kgdd2d2ficyqnjt.signed\"/><action ChromeOSVersion=\"15359.58.0\" ChromeVersion=\"112.0.5615.134\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"mJtpvQEETSNilcCOHNa3dAHDPvuwCPPTJ+jlXxFzhmANBkh4OSr+wDZjtt0paMdYqzbk/U7HwfVuNSrFmjemGUm73dG2rs2EG0d8YPj1jhD3Vj1NK5UUP9pD/O5Vmak+LmlAjxHKHOhgx7tZFX+MUa3J9KRMaWPIA18XhuB2FJozeaIN9zG2+fGiO0C3sZTJekju5+zlJiRg8o1g7voxijDF4R1gIrHBs7Zjfniv3OWeZvzjacCrvGNYcCOfPjMdTRsVTaQGCrCs2Nl+HKV/nvSMFE6yjijQ2yEBaW1RwMrOqseW1IIS1n5Q/QzdHPqi3xo9kMFz4h2fv0YVsNZ+2Q==\" MetadataSize=\"66341\" event=\"postinstall\" sha256=\"fVj3PY6C0abDVSPYvrbTJ+7T5qoxdxqtI+fDn+TaqeE=\"/></actions><packages><package fp=\"3.7d58f73d8e82d1a6c35523d8beb6d327eed3e6aa31771aad23e7c39fe4daa9e1\" hash_sha256=\"7d58f73d8e82d1a6c35523d8beb6d327eed3e6aa31771aad23e7c39fe4daa9e1\" name=\"chromeos_15359.58.0_corsola_stable-channel_full_mp-v5.bin-gy2dgzbqha2gh5ox7kgdd2d2ficyqnjt.signed\" required=\"true\" size=\"1327427938\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "TENTACOOL-ZLJENNN",
+    "sha256": "7d58f73d8e82d1a6c35523d8beb6d327eed3e6aa31771aad23e7c39fe4daa9e1",
+    "size": 1327427938,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/corsola/15359.58.0/stable-channel/chromeos_15359.58.0_corsola_stable-channel_full_mp-v5.bin-gy2dgzbqha2gh5ox7kgdd2d2ficyqnjt.signed",
+        "http://dl.google.com/chromeos/corsola/15359.58.0/stable-channel/chromeos_15359.58.0_corsola_stable-channel_full_mp-v5.bin-gy2dgzbqha2gh5ox7kgdd2d2ficyqnjt.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/corsola/15359.58.0/stable-channel/chromeos_15359.58.0_corsola_stable-channel_full_mp-v5.bin-gy2dgzbqha2gh5ox7kgdd2d2ficyqnjt.signed",
+        "https://dl.google.com/chromeos/corsola/15359.58.0/stable-channel/chromeos_15359.58.0_corsola_stable-channel_full_mp-v5.bin-gy2dgzbqha2gh5ox7kgdd2d2ficyqnjt.signed"
+    ],
+    "very_eol": false
+}
