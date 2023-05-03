@@ -32,12 +32,9 @@ pattern = f'{data_path}updates/*/*/data.json'
 data_files = sorted(glob.glob(pattern))
 i = 0
 count = len(data_files)
+needed_analysis = 0
 for data_file in data_files:
   i += 1
-  # limit to 10 images to avoid GHA timeouts.
-  if i >= 10:
-    print('stopping this job after 10 images, next job should pick up where it left off....')
-    break
   subprocess.run(['sudo', 'losetup', '--detach-all'])
   path = os.path.dirname(os.path.abspath(data_file))
   with open(data_file, 'r') as f:
@@ -94,4 +91,9 @@ for data_file in data_files:
     count = len(data_files)
     for data_file in data_files:
         os.remove(data_file)
+  
+  needed_analysis += 1
+  if needed_analysis >= 10:
+    print('stopping this job after 10 images, next job should pick up where it left off....')
+    break
   
