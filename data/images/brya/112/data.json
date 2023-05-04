@@ -1,0 +1,69 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-06 00:00:00",
+    "boards": [
+        "brya",
+        "primus",
+        "anahera"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9891653",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "chromeos_release_board": "brya-signed-mp-v11keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "brya-release/R112-15359.58.2",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.2 (Official Build) stable-channel brya ",
+    "chromeos_release_keyset": "mp-v11",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "2",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.2",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15359.58.2_brya_recovery_stable-channel_mp-v11.bin",
+    "filesize": 4864240128,
+    "google_release": "15359.58.2",
+    "hwidmatches": [
+        "TAEKO.*",
+        "^PRIMUS-ZPIS.*",
+        "^ANAHERA-TYOO.*"
+    ],
+    "image_name": "brya",
+    "linux_kernel_versions": [
+        "5.10.169-21806-g859c3f4e9789"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo",
+        "HP"
+    ],
+    "md5": "9c854d116c501c7bc08c219948b5a907",
+    "models": [
+        "Lenovo Flex 5i Chromebook 14\"/IdeaPad Flex 5i Chromebook (14\", 7)",
+        "Lenovo ThinkPad C14 Gen 1 Chromebook",
+        "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise"
+    ],
+    "names": [
+        "Lenovo Flex 5i Chromebook 14\"/IdeaPad Flex 5i Chromebook (14\", 7)",
+        "ThinkPad C14 Gen 1 Chromebook",
+        "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "TAEKONNN",
+    "sha1": "72807511ea10b2b208fbc93ab7a75a5e99d86168",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.2_brya_recovery_stable-channel_mp-v11.bin.zip",
+    "version": "15359.58.2",
+    "zipfilesize": 2502199166
+}

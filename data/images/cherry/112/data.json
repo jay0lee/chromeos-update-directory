@@ -1,0 +1,64 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "tomato",
+        "dojo"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9891650",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_release_board": "cherry-signed-mp-v4keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "cherry-release/R112-15359.58.0",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.0 (Official Build) stable-channel cherry ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.0",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15359.58.0_cherry_recovery_stable-channel_mp-v4.bin",
+    "filesize": 3446664704,
+    "google_release": "15359.58.0",
+    "hwidmatches": [
+        "^TOMATO-LYVN.*",
+        "^DOJO-EJPG.*"
+    ],
+    "image_name": "cherry",
+    "linux_kernel_versions": [
+        "5.10.169-21799-g727536877896"
+    ],
+    "manufacturers": [
+        "Acer",
+        "HP"
+    ],
+    "md5": "4e66d9e173f8ebba2174813ae0ea7734",
+    "models": [
+        "ACER Chromebook Spin 513 (CP513-2H), Acer Chromebook Enterprise Spin 513 (CP513-2H)",
+        "HP Chromebook x360 13.3\" - 13b-ca0xxx"
+    ],
+    "names": [
+        "ACER Chromebook Spin 513 (CP513-2H), Acer Chromebook Enterprise Spin 513 (CP513-2H)",
+        "HP Chromebook x360 13.3\" - 13b-ca0xxx"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "TOMATO-LYVNNNN",
+    "sha1": "ce309348cbe0dcb1d9ea39ea78542df9afb3d0ec",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_cherry_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "15359.58.0",
+    "zipfilesize": 1442177641
+}

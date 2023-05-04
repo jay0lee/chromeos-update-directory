@@ -1,0 +1,79 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "kappa",
+        "burnet",
+        "fennel14",
+        "fennel",
+        "makomo"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9891650",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}",
+    "chromeos_release_board": "jacuzzi-signed-mp-v13keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "jacuzzi-release/R112-15359.58.0",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.0 (Official Build) stable-channel jacuzzi ",
+    "chromeos_release_keyset": "mp-v13",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.0",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15359.58.0_jacuzzi_recovery_stable-channel_mp-v13.bin",
+    "filesize": 3603937280,
+    "google_release": "15359.58.0",
+    "hwidmatches": [
+        "^KAPPA-.*",
+        "^BURNET-.*",
+        "^FENNEL14-.*",
+        "^FENNEL-.*",
+        "^MAKOMO-UTTX .*"
+    ],
+    "image_name": "jacuzzi",
+    "linux_kernel_versions": [
+        "5.10.169-21799-g727536877896"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "Lenovo",
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "70da64911bc562d7d234b51b4711d34c",
+    "models": [
+        "HP Chromebook 11a na0xxx",
+        "HP Chromebook x360 11MK G3 EE",
+        "Lenovo IdeaPad 3 Chromebook",
+        "Lenovo IdeaPad Flex 3 Chromebook",
+        "Lenovo 100e Gen 2"
+    ],
+    "names": [
+        "HP Chromebook 11a na0xxx",
+        "HP Chromebook x360 11MK G3 EE",
+        "IdeaPad 3 Chromebook",
+        "IdeaPad Flex 3 Chromebook",
+        "Lenovo 100e Gen 2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KAPPA-NNN",
+    "sha1": "9776a972eb83e0d14f15ae34fc74436a8cfa670f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_jacuzzi_recovery_stable-channel_mp-v13.bin.zip",
+    "version": "15359.58.0",
+    "zipfilesize": 1355644560
+}

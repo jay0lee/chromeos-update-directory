@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2025-06-02 00:00:00",
+    "boards": [
+        "hana"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9891650",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{AAE972E1-A913-C860-B7AB-BF7F267F199B}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{AAE972E1-A913-C860-B7AB-BF7F267F199B}",
+    "chromeos_release_board": "hana-signed-mp-v8keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "hana-release/R112-15359.58.0",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.0 (Official Build) stable-channel hana ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.0",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15359.58.0_hana_recovery_stable-channel_mp-v8.bin",
+    "filesize": 2330964480,
+    "google_release": "15359.58.0",
+    "hwidmatches": [
+        "^HANA ([A-Z0-9])+-([A-Z0-9])+-[A-Z0-9][A-Z0-9]G-([A-Z0-9\\-])+"
+    ],
+    "image_name": "hana",
+    "linux_kernel_versions": [
+        "4.19.272-14690-gda0c1392f4b0"
+    ],
+    "manufacturers": [
+        "Prowise"
+    ],
+    "md5": "4a7419aa95c45509fe5528564883a1bc",
+    "models": [
+        "Prowise Chromebook Eduline / Prowise Chromebook Eduline 360"
+    ],
+    "names": [
+        "Prowise Chromebook Eduline / Prowise Chromebook Eduline 360"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "HANA KEI5UYTCV742YB58QTLUFIJUON7QHL7LIHDJ3W0K8BQZQCDTOW0A26NERGAPW4G5UVCR1CSJNKYB8TWYGNNZDFXY2P9KVJG699FU-Z6KC6Z7D8AQWBYIB498M34P2W-SSG-N54M8QZQ2QJY2BRD9UPF8-B9MI",
+    "sha1": "d108b1bc9bd9806a0d4dfb5a7c89be414a6841bc",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_hana_recovery_stable-channel_mp-v8.bin.zip",
+    "version": "15359.58.0",
+    "zipfilesize": 1243466263
+}

@@ -1,0 +1,64 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "dewatt",
+        "nipperkin"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9891653",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BAEFD150-0AC7-4FC9-A044-8C3F317F7CD9}",
+    "chromeos_release_board": "guybrush-signed-mp-v6keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "guybrush-release/R112-15359.58.0",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.0 (Official Build) stable-channel guybrush ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.0",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_15359.58.0_guybrush_recovery_stable-channel_mp-v6.bin",
+    "filesize": 3905892864,
+    "google_release": "15359.58.0",
+    "hwidmatches": [
+        "^DEWATT[-| ].*",
+        "^NIPPERKIN[-| ].*"
+    ],
+    "image_name": "guybrush",
+    "linux_kernel_versions": [
+        "5.10.169-21799-g727536877896"
+    ],
+    "manufacturers": [
+        "Acer",
+        "HP"
+    ],
+    "md5": "9ab0ba9e2bbe4b6f8a78fd876081f68c",
+    "models": [
+        "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]",
+        "HP Elite c645 G2 Chromebook"
+    ],
+    "names": [
+        "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]",
+        "HP Elite c645 G2 Chromebook"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "DEWATT NNN",
+    "sha1": "3fa1eaf2561304dcbeaa7811ded1c9f1092069e5",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_guybrush_recovery_stable-channel_mp-v6.bin.zip",
+    "version": "15359.58.0",
+    "zipfilesize": 1763995966
+}

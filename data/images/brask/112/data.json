@@ -1,0 +1,64 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "moli",
+        "kinox"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9891653",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{94144292-1100-4882-AC53-51E04BB29F9E}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{94144292-1100-4882-AC53-51E04BB29F9E}",
+    "chromeos_release_board": "brask-signed-mp-v6keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "brask-release/R112-15359.58.2",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.2 (Official Build) stable-channel brask ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "2",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.2",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_15359.58.2_brask_recovery_stable-channel_mp-v6.bin",
+    "filesize": 4495236096,
+    "google_release": "15359.58.2",
+    "hwidmatches": [
+        "^MOLI-.*",
+        "^KINOX-WGMJ.*"
+    ],
+    "image_name": "brask",
+    "linux_kernel_versions": [
+        "5.10.169-21806-g859c3f4e9789"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Lenovo"
+    ],
+    "md5": "154d1af4614687d4eeee24267389f633",
+    "models": [
+        "Acer Chromebox CXI5",
+        "Lenovo ThinkCentre M60q Chromebox"
+    ],
+    "names": [
+        "Acer Chromebox CXI5",
+        "Lenovo ThinkCentre M60q Chromebox"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "MOLI-NNN",
+    "sha1": "aaef722212d3cedf207851eb1765bf3387a28eee",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.2_brask_recovery_stable-channel_mp-v6.bin.zip",
+    "version": "15359.58.2",
+    "zipfilesize": 1846217074
+}

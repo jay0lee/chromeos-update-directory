@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2030-06-06 00:00:00",
+    "boards": [
+        "pazquel"
+    ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "9891650",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{9023C063-08D6-4A4F-908C-BCF97DE8BA69}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{9023C063-08D6-4A4F-908C-BCF97DE8BA69}",
+    "chromeos_release_board": "trogdor-signed-mp-v10keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "trogdor-release/R112-15359.58.0",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.0 (Official Build) stable-channel trogdor ",
+    "chromeos_release_keyset": "mp-v10",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.0",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15359.58.0_trogdor_recovery_stable-channel_mp-v10.bin",
+    "filesize": 3184520192,
+    "google_release": "15359.58.0",
+    "hwidmatches": [
+        "^PAZQUEL-OPNA .*"
+    ],
+    "image_name": "trogdor",
+    "linux_kernel_versions": [
+        "5.15.95-16525-g33e57601bd30"
+    ],
+    "manufacturers": [
+        "Orbic"
+    ],
+    "md5": "582559430d88be1afd8752c2f0ec1106",
+    "models": [
+        "Orbic Chromebook"
+    ],
+    "names": [
+        "Orbic Chromebook"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "PAZQUEL-OPNA NNN",
+    "sha1": "b2dd1a88ae3535816ed77cf7ef2f7ed0bb4b72ce",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_trogdor_recovery_stable-channel_mp-v10.bin.zip",
+    "version": "15359.58.0",
+    "zipfilesize": 1448033010
+}

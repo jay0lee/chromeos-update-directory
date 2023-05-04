@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2027-06-06 00:00:00",
+    "boards": [
+        "garg"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "9891653",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{9A3BE5D2-C3DC-4AE6-9943-E2C113895DC5}",
+    "chromeos_release_board": "octopus-signed-mp-v32keys",
+    "chromeos_release_branch_number": "58",
+    "chromeos_release_build_number": "15359",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "octopus-release/R112-15359.58.0",
+    "chromeos_release_chrome_milestone": "112",
+    "chromeos_release_description": "15359.58.0 (Official Build) stable-channel octopus ",
+    "chromeos_release_keyset": "mp-v32",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15359.58.0",
+    "cr_version": 112,
+    "cros_version": 15359,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15359.58.0_octopus_recovery_stable-channel_mp-v32.bin",
+    "filesize": 4998519296,
+    "google_release": "15359.58.0",
+    "hwidmatches": [
+        "^GARG \\w{3}-\\w{3}-\\w{3}-N\\w{2}-.*"
+    ],
+    "image_name": "octopus",
+    "linux_kernel_versions": [
+        "4.14.306-20290-g9799d3cf8bba"
+    ],
+    "manufacturers": [
+        "Zyrex"
+    ],
+    "md5": "e12d1b6bdc06792b182f0ee4065131e2",
+    "models": [
+        "Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1"
+    ],
+    "names": [
+        "Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "GARG Hnr-x2N-wG4-N8k-NNN",
+    "sha1": "7f5868ff22efd608ae965cbe26cf3ff8b7216683",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_octopus_recovery_stable-channel_mp-v32.bin.zip",
+    "version": "15359.58.0",
+    "zipfilesize": 1790324167
+}
