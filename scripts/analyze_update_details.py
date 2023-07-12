@@ -15,7 +15,7 @@ import rstr
 import common 
 
 
-analysis_version = 7
+analysis_version = 8
 
 script_path, data_path = common.get_paths()
 paycheck_path = '~/update_engine/scripts/paycheck.py'
@@ -24,6 +24,7 @@ lsb_path = f'{mnt_path}etc/lsb-release'
 modules_path = pathlib.Path(f'{mnt_path}lib/modules/')
 crostini_path = f'{mnt_path}usr/bin/crostini_client'
 parallels_path = f'{mnt_path}opt/google/dlc/pita/package/imageloader.json'
+steam_path = f'{mnt_path}opt/google/dlc/borealis-dlc/package/imageloader.json'
 
 with open(f'{data_path}android_versions.json', 'r') as f:
   android_versions = json.load(f)
@@ -78,6 +79,9 @@ for data_file in data_files:
   # if /opt/google/dlc/pita/package/imageloader.json exists, Parallels is supported in certain configs
   data['parallels_support'] = os.path.isfile(parallels_path)
 
+  # if /opt/google/dlc/borealis-dlc/package/imageloader.json exists, Steam (Borealis) is supported in certain configs
+  data['steam_support'] = os.path.isfile(steam_path)
+  
   with open(data_file, 'w') as f:
     json.dump(data, f, indent=4, sort_keys=True)
 
