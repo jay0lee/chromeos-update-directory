@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "asurada-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "5.4.119-14945-gafc97d54f809"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{08F65CC8-BCFB-414F-9B49-DAB2996D2E71}\" version=\"13982.0.0\" board=\"asurada-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"HAYATO-YLRONNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5358\" elapsed_seconds=\"50168\"/><app appid=\"{08F65CC8-BCFB-414F-9B49-DAB2996D2E71}\" cohort=\"1:1o:\" cohortname=\"asurada_hayato_stable\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/asurada/13982.88.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/asurada/13982.88.0/stable-channel/\"/></urls><manifest version=\"13982.88.0\"><actions><action event=\"update\" run=\"chromeos_13982.88.0_asurada_stable-channel_full_mp-v2.bin-gyytembxgu3wmr2y6466jtuggvfz5jbp.signed\"/><action ChromeOSVersion=\"13982.88.0\" ChromeVersion=\"92.0.4515.162\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"HkXiRZKfggD08Bu3OaiETbJ6EDoNsX4ISOJbOIixsKzuH8AVtwDfv/l10eibjdlYDSrEED2xrQw4HZZSiIlucYFsec8TTT9xbmJvdXXr6sRvS1JJEXPaKzl0vqx2SDb934pmxenJ2Y7Og8N2vzsSApHUxfiD1hNQL638TTi7OCZzZJFKVl31HHUv6IZqzb2NduQMSxYbohwROi5BhMM8zrBPfa09nM/qhE325Pl6z2AXugbOcX1cMY8nA53+yaII33jt0igUW7WKIS8paOg1ul59q3c+7kWNGowDslSG5Mn3iis3mxB/CLEMw+8efF4+tJNYBQHHH3yW+IlMLDsTJw==\" MetadataSize=\"65782\" event=\"postinstall\" sha256=\"DPm/Ie3pPZKLZMtgiBYCQx1AaXRT9v6hkPrphkwpRdA=\"/></actions><packages><package fp=\"3.0cf9bf21ede93d928b64cb60881602431d40697453f6fea190fae9864c2945d0\" hash_sha256=\"0cf9bf21ede93d928b64cb60881602431d40697453f6fea190fae9864c2945d0\" name=\"chromeos_13982.88.0_asurada_stable-channel_full_mp-v2.bin-gyytembxgu3wmr2y6466jtuggvfz5jbp.signed\" required=\"true\" size=\"1041378147\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "HAYATO-YLRONNN",
     "sha256": "0cf9bf21ede93d928b64cb60881602431d40697453f6fea190fae9864c2945d0",
     "size": 1041378147,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/asurada/13982.88.0/stable-channel/chromeos_13982.88.0_asurada_stable-channel_full_mp-v2.bin-gyytembxgu3wmr2y6466jtuggvfz5jbp.signed",
         "https://dl.google.com/chromeos/asurada/13982.88.0/stable-channel/chromeos_13982.88.0_asurada_stable-channel_full_mp-v2.bin-gyytembxgu3wmr2y6466jtuggvfz5jbp.signed"
