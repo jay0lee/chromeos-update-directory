@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "banon-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.185-29738-gf8e4fd700b66"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{4D1D08CA-E0D4-5ECB-09D2-13DD5859A362}\" version=\"13904.0.0\" board=\"banon-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"BANON NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43414\"/><app appid=\"{4D1D08CA-E0D4-5ECB-09D2-13DD5859A362}\" cohort=\"1:4/4g:\" cohortname=\"banon_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/banon/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/banon/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_banon_stable-channel_full_mp.bin-gyygmnrxgm4glrtndzauaazu4meis7nt.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ONtFl81K+o4ifvmtdCDm1NI9r89vzT9U/1ncjWMeo5PGwqS6u4B4Agd+bVc3psiN0R10g6w+VUHlMkbukyh1g7yG333snYTlgTGD+h1mK/UNhb09I35LCcD4YkpxdbYNlP8PUPWTk02UnC1J6DCKSNeKevGisswjBuNKiUEyjSxHr6Al0x9Kp+UCv3casP5nKIEVq+MOPiN/2UptNmgq8GvXRUPIS1pm+IflsAmpVgNuHHumb63aAtsvrpsOBqNuu73E2fzSz14RdO2+xc0G2tBaeNdG89AZOBdAE6P+gghA7pNuHnijLh5peaFUBahcw34448VjLCS2rJ3UL36MNQ==\" MetadataSize=\"57037\" event=\"postinstall\" sha256=\"05LYTWkpEhJ/NKw5KknUyf96jUqoZ2kObIoA3cwlDZM=\"/></actions><packages><package fp=\"3.d392d84d692912127f34ac392a49d4c9ff7a8d4aa867690e6c8a00ddcc250d93\" hash_sha256=\"d392d84d692912127f34ac392a49d4c9ff7a8d4aa867690e6c8a00ddcc250d93\" name=\"chromeos_13904.97.0_banon_stable-channel_full_mp.bin-gyygmnrxgm4glrtndzauaazu4meis7nt.signed\" required=\"true\" size=\"1011685264\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "BANON NNN",
     "sha256": "d392d84d692912127f34ac392a49d4c9ff7a8d4aa867690e6c8a00ddcc250d93",
     "size": 1011685264,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/banon/13904.97.0/stable-channel/chromeos_13904.97.0_banon_stable-channel_full_mp.bin-gyygmnrxgm4glrtndzauaazu4meis7nt.signed",
         "https://dl.google.com/chromeos/banon/13904.97.0/stable-channel/chromeos_13904.97.0_banon_stable-channel_full_mp.bin-gyygmnrxgm4glrtndzauaazu4meis7nt.signed"
