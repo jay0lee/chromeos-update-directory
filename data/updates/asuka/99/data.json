@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "asuka-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.225-12812-g959692546150"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{7B2FC5AC-894A-5702-D00E-62E999F0AE22}\" version=\"14469.0.0\" board=\"asuka-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"ASUKA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14469\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5565\" elapsed_seconds=\"60174\"/><app appid=\"{7B2FC5AC-894A-5702-D00E-62E999F0AE22}\" cohort=\"1:5/56:\" cohortname=\"asuka_stable_canaryrelease_14469.59.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/asuka/14469.59.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/asuka/14469.59.0/stable-channel/\"/></urls><manifest version=\"14469.59.0\"><actions><action event=\"update\" run=\"chromeos_14469.59.0_asuka_stable-channel_full_mp.bin-gyzdgzbvhfrdmcxtctzh2m47w46hhsfj.signed\"/><action ChromeOSVersion=\"14469.59.0\" ChromeVersion=\"99.0.4844.94\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"UmYrHV2qF0kLM67G2uW9wyEb8IxUGs1oVgLvmG4PzaqIfuAl9nsvgnbfEDKyLtwywkM0mlHcZvGV1zd/fzSygakDYD8udQMvExSEEY2m5iB4iMJUSOFOjF7Vs0eq/O8B8DnqrTic1P7CGPZGrZCUgegctc0eY6p+k1Hv6UVmVxsXe6DoOJq36uqKcGng7mrsz2klNn22ukriV8AqmXNNOxxphMfvy8QJHVlFIrmjB1Te5xc1TckNVkbndzDodx7qNyA7RYqygJ1n3vfnQLostlPA6OMM5M8qQWArdVTKu15gq6O1MxNwB5/fstbB83qblOK+WZblV8jiVfOqoND/1A==\" MetadataSize=\"57182\" event=\"postinstall\" sha256=\"ceFQeStuMNl1an1EjFRPVL61PhgwBu9kBCZNQoxso8w=\"/></actions><packages><package fp=\"3.71e150792b6e30d9756a7d448c544f54beb53e183006ef6404264d428c6ca3cc\" hash_sha256=\"71e150792b6e30d9756a7d448c544f54beb53e183006ef6404264d428c6ca3cc\" name=\"chromeos_14469.59.0_asuka_stable-channel_full_mp.bin-gyzdgzbvhfrdmcxtctzh2m47w46hhsfj.signed\" required=\"true\" size=\"1144589094\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "ASUKA NNN",
     "sha256": "71e150792b6e30d9756a7d448c544f54beb53e183006ef6404264d428c6ca3cc",
     "size": 1144589094,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/asuka/14469.59.0/stable-channel/chromeos_14469.59.0_asuka_stable-channel_full_mp.bin-gyzdgzbvhfrdmcxtctzh2m47w46hhsfj.signed",
         "https://dl.google.com/chromeos/asuka/14469.59.0/stable-channel/chromeos_14469.59.0_asuka_stable-channel_full_mp.bin-gyzdgzbvhfrdmcxtctzh2m47w46hhsfj.signed"
