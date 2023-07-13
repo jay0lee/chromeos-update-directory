@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "cave-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.190-11780-g9abe9eac8155"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{B00DD0BC-D2C9-BAB4-E66C-81AE3F5A7CED}\" version=\"13982.0.0\" board=\"cave-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"CAVE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5350\" elapsed_seconds=\"36704\"/><app appid=\"{B00DD0BC-D2C9-BAB4-E66C-81AE3F5A7CED}\" cohort=\"1:7/4o:\" cohortname=\"cave_stable_canaryrelease_13982.88.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/cave/13982.88.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/cave/13982.88.0/stable-channel/\"/></urls><manifest version=\"13982.88.0\"><actions><action event=\"update\" run=\"chromeos_13982.88.0_cave_stable-channel_full_mp.bin-gyytembxgi2de6f54rw5lorx4zoag3xh.signed\"/><action ChromeOSVersion=\"13982.88.0\" ChromeVersion=\"92.0.4515.162\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"TrfHWNYkTUrqgjTUaMjn7WNPand1hn8Zz+e9t62+00jI5OSUmC39MDd89j8RRdESBlpXBC7VdKqpoLUYiwF34VpNpy+1pKYUk2R9vyZzqYb4COIGGPpTn6/t3uSGxZKTwcTl3XeHm7D+4wBDCKo/Ah/fjccdI5YTxr4m2PPVd1gV8Y5IVADbSCAMyjKSaLlkIrBRSF4KM8UxHcMaUQVUmslj409hsYJxf8GbUFElXDr4aGJQYB0vY30ZcqIPsRRnNrlqRHWn0eX3Cu8o5KrOKJ43IsZky1YzOWg5CndCQ6YiTSOpsvAkIvIWuFT81eTAtvWrL0CpddbYOjLaRVMWSw==\" MetadataSize=\"57154\" event=\"postinstall\" sha256=\"3G84CUcUu5PR8Y6ODtWHD2dIPFZYdo5NxU6paXKBulU=\"/></actions><packages><package fp=\"3.dc6f38094714bb93d1f18e8e0ed5870f67483c5658768e4dc54ea9697281ba55\" hash_sha256=\"dc6f38094714bb93d1f18e8e0ed5870f67483c5658768e4dc54ea9697281ba55\" name=\"chromeos_13982.88.0_cave_stable-channel_full_mp.bin-gyytembxgi2de6f54rw5lorx4zoag3xh.signed\" required=\"true\" size=\"1132700703\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "CAVE NNN",
     "sha256": "dc6f38094714bb93d1f18e8e0ed5870f67483c5658768e4dc54ea9697281ba55",
     "size": 1132700703,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/cave/13982.88.0/stable-channel/chromeos_13982.88.0_cave_stable-channel_full_mp.bin-gyytembxgi2de6f54rw5lorx4zoag3xh.signed",
         "https://dl.google.com/chromeos/cave/13982.88.0/stable-channel/chromeos_13982.88.0_cave_stable-channel_full_mp.bin-gyytembxgi2de6f54rw5lorx4zoag3xh.signed"
