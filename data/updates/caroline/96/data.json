@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "caroline-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.208-12427-gf85a69d601ba"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C166AF52-7EE9-4F08-AAA7-B4B895A9F336}\" version=\"14268.0.0\" board=\"caroline-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"CAROLINE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14268\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5461\" elapsed_seconds=\"62187\"/><app appid=\"{C166AF52-7EE9-4F08-AAA7-B4B895A9F336}\" cohort=\"1:a/4p:\" cohortname=\"caroline_stable_canaryrelease_14268.67.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/caroline/14268.67.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/caroline/14268.67.0/stable-channel/\"/></urls><manifest version=\"14268.67.0\"><actions><action event=\"update\" run=\"chromeos_14268.67.0_caroline_stable-channel_full_mp.bin-gyywenzrgzqtkzbblnzuwvyc6k5yh6be.signed\"/><action ChromeOSVersion=\"14268.67.0\" ChromeVersion=\"96.0.4664.111\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"YvaFlAklyErLMyqIJTde5Oi7gzxjhqVO1LfXQyM+OOW5gySRhPEF/raXKdW2lgCY3hz6PmXjQ6PUOobgHoJ9s+5awaHDNXqSgeJwwrgT+eHjFDIjHgxStFR75vAwC0P6pMOzWMEWi0SqDkicDaQ9EEYFoKcYnUL/gnOXetR7+tRPgqAjD93nD0JnJa0CyIPNoL2jvPuG9imV/BKJwR9Pqcd+49BI/1zB0BgPUAgh8jafJAKALrBar+1XWAQfUBKz5iQNZwqyblBNRuB36ePefJv+A546llpetgt/Gjb/HLyABIup9R/gNX/mIU4m7BJYviUPOHRsqpzGLDZoozCcAw==\" MetadataSize=\"57132\" event=\"postinstall\" sha256=\"N1t5hoJDA5sWczJhYWd+mUwIoYFTfZ5UO4Midd7TH4M=\"/></actions><packages><package fp=\"3.375b79868243039b1673326161677e994c08a181537d9e543b832275ded31f83\" hash_sha256=\"375b79868243039b1673326161677e994c08a181537d9e543b832275ded31f83\" name=\"chromeos_14268.67.0_caroline_stable-channel_full_mp.bin-gyywenzrgzqtkzbblnzuwvyc6k5yh6be.signed\" required=\"true\" size=\"1152695380\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "CAROLINE NNN",
     "sha256": "375b79868243039b1673326161677e994c08a181537d9e543b832275ded31f83",
     "size": 1152695380,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/caroline/14268.67.0/stable-channel/chromeos_14268.67.0_caroline_stable-channel_full_mp.bin-gyywenzrgzqtkzbblnzuwvyc6k5yh6be.signed",
         "https://dl.google.com/chromeos/caroline/14268.67.0/stable-channel/chromeos_14268.67.0_caroline_stable-channel_full_mp.bin-gyywenzrgzqtkzbblnzuwvyc6k5yh6be.signed"
