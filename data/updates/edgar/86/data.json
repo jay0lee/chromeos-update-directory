@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "edgar-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.139-10018-gaf7e5d091ef8"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{196C49C7-152F-499B-9C64-F5B8A89E43A4}\" version=\"13421.0.0\" board=\"edgar-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"EDGAR NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5075\" elapsed_seconds=\"47911\"/><app appid=\"{196C49C7-152F-499B-9C64-F5B8A89E43A4}\" cohort=\"1:4/3x:\" cohortname=\"edgar_stable_canaryrelease_13421.102.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"60.2\" _firmware_version_0=\"60.2\" _firmware_version_1=\"60.2\" _firmware_version_2=\"60.2\" _firmware_version_3=\"60.2\" _firmware_version_4=\"60.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/edgar/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/edgar/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_edgar_stable-channel_full_mp-v2.bin-gvtgenzqme4wemyg5nl2jp2i2ks2sh5m.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"QWt8ueMsitTljlGZmtjTCLMw14F6UcJhVJu/vyBlrm6wm/XPObPBmu3dk7TmwNF5z3vzFU6jID7ZFCOevUcqS14/lCdpeyMKwOllTpl8EwDQuhJimpZU9XrpMES/NjRM1FJaOa2Cyjlgnr3IPVAd4ZFyQSK7BnkmE1WBd47N9ZolcwSQUBGehvsdx4VFNOFjSKWUTiJ7sIfiNLO4uhrnUKr6LOw1QWksAIymTLITNAcUI/HEUFnneCK9fjtt5Q3IKfPygGdXGV+eJcYNjQbXHq4oVm1Nk+ttWWkRoE8f4bYTE6KI5vqf3F/0kqnq+fcLd+NUv3mWeRO0yL3pnws/zg==\" MetadataSize=\"57064\" event=\"postinstall\" sha256=\"7tORTctRv+Jre9cuVtd6xZz6NzHAnWhyPGKPnoW/FOs=\"/></actions><packages><package fp=\"3.eed3914dcb51bfe26b7bd72e56d77ac59cfa3731c09d68723c628f9e85bf14eb\" hash_sha256=\"eed3914dcb51bfe26b7bd72e56d77ac59cfa3731c09d68723c628f9e85bf14eb\" name=\"chromeos_13421.102.0_edgar_stable-channel_full_mp-v2.bin-gvtgenzqme4wemyg5nl2jp2i2ks2sh5m.signed\" required=\"true\" size=\"1009019720\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "EDGAR NNN",
     "sha256": "eed3914dcb51bfe26b7bd72e56d77ac59cfa3731c09d68723c628f9e85bf14eb",
     "size": 1009019720,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/edgar/13421.102.0/stable-channel/chromeos_13421.102.0_edgar_stable-channel_full_mp-v2.bin-gvtgenzqme4wemyg5nl2jp2i2ks2sh5m.signed",
         "https://dl.google.com/chromeos/edgar/13421.102.0/stable-channel/chromeos_13421.102.0_edgar_stable-channel_full_mp-v2.bin-gvtgenzqme4wemyg5nl2jp2i2ks2sh5m.signed"
