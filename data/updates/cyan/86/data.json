@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "cyan-signed-mp-v3keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.139-10018-gaf7e5d091ef8"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{11130F0B-738A-C024-7A78-CF72D93B77AF}\" version=\"13421.0.0\" board=\"cyan-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"CYAN NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5075\" elapsed_seconds=\"47910\"/><app appid=\"{11130F0B-738A-C024-7A78-CF72D93B77AF}\" cohort=\"1:4/3i:\" cohortname=\"cyan_stable_canaryrelease_13421.102.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"45.3\" _firmware_version_0=\"45.3\" _firmware_version_1=\"45.3\" _firmware_version_2=\"45.3\" _firmware_version_3=\"45.3\" _firmware_version_4=\"45.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/cyan/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/cyan/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_cyan_stable-channel_full_mp-v3.bin-gvtgenzqhazgg3tx3v7wjz6vy7xrjko7.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"gRVCXKAQ5Vp+DfDpDCPrwFtHJzLVtyfpcvf5alzNVhAuC9Zo6etKEKQ/EOZBezoXiE17r/sUzG5saPwtjiXWOPHU1k26fndSrpJFwjs82PeB3NlmWi6R/jj0MLHO7ynPlL/llGn4bd01tyVYxPHavJSRCn4QNaV4Nvf5VsSRHnrPuhBK5p1fxXBsCmZoJ9NpUinBFwZjPcKyUtkhd267xVu9SHVk3tJcQsKrtr/Fg5DKDOQP141ZOL6+1hBxA4RO4C9Mbzw2hUkBD6lxT92VKwRemHYVC9Xsod0pExK2bFffxC7pupyqvg7GGzhs0cguzmXzJci+DOLZxjdcIbBUVw==\" MetadataSize=\"57074\" event=\"postinstall\" sha256=\"t6zibkb2wVKlvn5gTNIfXtosaXfuV6dzAtBMPDGkdUA=\"/></actions><packages><package fp=\"3.b7ace26e46f6c152a5be7e604cd21f5eda2c6977ee57a77302d04c3c31a47540\" hash_sha256=\"b7ace26e46f6c152a5be7e604cd21f5eda2c6977ee57a77302d04c3c31a47540\" name=\"chromeos_13421.102.0_cyan_stable-channel_full_mp-v3.bin-gvtgenzqhazgg3tx3v7wjz6vy7xrjko7.signed\" required=\"true\" size=\"1009907137\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "CYAN NNN",
     "sha256": "b7ace26e46f6c152a5be7e604cd21f5eda2c6977ee57a77302d04c3c31a47540",
     "size": 1009907137,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/cyan/13421.102.0/stable-channel/chromeos_13421.102.0_cyan_stable-channel_full_mp-v3.bin-gvtgenzqhazgg3tx3v7wjz6vy7xrjko7.signed",
         "https://dl.google.com/chromeos/cyan/13421.102.0/stable-channel/chromeos_13421.102.0_cyan_stable-channel_full_mp-v3.bin-gvtgenzqhazgg3tx3v7wjz6vy7xrjko7.signed"
