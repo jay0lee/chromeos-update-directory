@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "chell-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "3.18.0-20616-g64ade1135b48e"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{114DBB0F-4507-F7FC-99B6-4BCAB6A39725}\" version=\"13729.0.0\" board=\"chell-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"CHELL NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13729\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5218\" elapsed_seconds=\"54048\"/><app appid=\"{114DBB0F-4507-F7FC-99B6-4BCAB6A39725}\" cohort=\"1:8/4o:\" cohortname=\"chell_stable_canaryrelease_13729.84.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/chell/13729.84.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/chell/13729.84.0/stable-channel/\"/></urls><manifest version=\"13729.84.0\"><actions><action event=\"update\" run=\"chromeos_13729.84.0_chell_stable-channel_full_mp.bin-gyydonrtgqzwjsscmruafv33sugqwnyg.signed\"/><action ChromeOSVersion=\"13729.84.0\" ChromeVersion=\"89.0.4389.130\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"I5OSI8WOaGyikgyrPfmyy2Sie5IQufjv8ZPobIKG7zw+E6Cok75vIIbrDww2CsTbI1eAyps85jZ0YjUmpugH/01zh6Uhg41FKUVi8MzDorrZQmJ4S5XLdsGM0NCp/3dV1lFWUcgDmElgqUdwlpKCRjdMapjKQO8cMH+prMM58e52kDrUug+8r550CE332tO43ngJ44afOetxqm6Sz/GNqL4IxPrBjvcyiooaPrMTVB6FoVHYjQjfE/qUvm3+izJNDfb4AK76XvEtC/PLi4n8a9qIA/6Hb04th5ROYBT/tfaZlFtBg5M/srolAx1T04kbZzBkkCFCPH6O0+dJGDrEBw==\" MetadataSize=\"57012\" event=\"postinstall\" sha256=\"1TNBnozEmmt9lVNqzjwLyKdZWnvGbfaYow71eld04fQ=\"/></actions><packages><package fp=\"3.d533419e8cc49a6b7d95536ace3c0bc8a7595a7bc66df698a30ef57a5774e1f4\" hash_sha256=\"d533419e8cc49a6b7d95536ace3c0bc8a7595a7bc66df698a30ef57a5774e1f4\" name=\"chromeos_13729.84.0_chell_stable-channel_full_mp.bin-gyydonrtgqzwjsscmruafv33sugqwnyg.signed\" required=\"true\" size=\"1014918947\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "CHELL NNN",
     "sha256": "d533419e8cc49a6b7d95536ace3c0bc8a7595a7bc66df698a30ef57a5774e1f4",
     "size": 1014918947,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/chell/13729.84.0/stable-channel/chromeos_13729.84.0_chell_stable-channel_full_mp.bin-gyydonrtgqzwjsscmruafv33sugqwnyg.signed",
         "https://dl.google.com/chromeos/chell/13729.84.0/stable-channel/chromeos_13729.84.0_chell_stable-channel_full_mp.bin-gyydonrtgqzwjsscmruafv33sugqwnyg.signed"
