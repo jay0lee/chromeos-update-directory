@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "bob-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{564AC308-CBD5-485D-9EF5-EB97DBB5F264}\" version=\"13904.0.0\" board=\"bob-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"BOB NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43415\"/><app appid=\"{564AC308-CBD5-485D-9EF5-EB97DBB5F264}\" cohort=\"1:6/3m:\" cohortname=\"bob_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"19571\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/bob/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/bob/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_bob_stable-channel_full_mp.bin-gyygmnrxga2dlyrbgaqfqhs5lshc5b2e.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"OFk2kp/tuQQlYZu7LmWE32kR3MHBL/reA4Uf8j2otavEE11U4s82tIrODi96UzM9HOqgpT3WzoRO8XKLombKACVDwlGjO9qWGA0rivAmHBkaju3ykzJMzPaNcIJcet0oISwxLmIYDRqzUUdylVKC2OyTgksVarnY+4oX2Nugdmoa0eE/T7c8E5XQPNUzQOGVRCUDoAF9Em8NleFBPbaLk/dg2GtajihgxGNogYLfVNC+8LqSFUG4doani0AycjxczTBr2oX6kJsRou2Cr2a3y3Zqim3VrCcyDOpQeo64AhlPP8aHxHZEDYRK+y9CAL6+JxttDGv4GUn+nvcULMRZ3g==\" MetadataSize=\"56770\" event=\"postinstall\" sha256=\"gwfcfrmqMKaS78tnCjv5y7mJls65P1NMfNLzeNg3Hm0=\"/></actions><packages><package fp=\"3.8307dc7eb9aa30a692efcb670a3bf9cbb98996ceb93f534c7cd2f378d8371e6d\" hash_sha256=\"8307dc7eb9aa30a692efcb670a3bf9cbb98996ceb93f534c7cd2f378d8371e6d\" name=\"chromeos_13904.97.0_bob_stable-channel_full_mp.bin-gyygmnrxga2dlyrbgaqfqhs5lshc5b2e.signed\" required=\"true\" size=\"1013085497\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "BOB NNN",
     "sha256": "8307dc7eb9aa30a692efcb670a3bf9cbb98996ceb93f534c7cd2f378d8371e6d",
     "size": 1013085497,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/bob/13904.97.0/stable-channel/chromeos_13904.97.0_bob_stable-channel_full_mp.bin-gyygmnrxga2dlyrbgaqfqhs5lshc5b2e.signed",
         "https://dl.google.com/chromeos/bob/13904.97.0/stable-channel/chromeos_13904.97.0_bob_stable-channel_full_mp.bin-gyygmnrxga2dlyrbgaqfqhs5lshc5b2e.signed"
