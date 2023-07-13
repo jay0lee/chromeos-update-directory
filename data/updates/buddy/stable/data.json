@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "buddy-signed-mp-v2keys",
     "board_id": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
@@ -31,12 +31,14 @@
     "linux_kernel_versions": [
         "4.14.228-37743-g49d2c603c1a5"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{B801E98B-4AB6-4D82-B3B3-E1517DC53266}\" version=\"0.0.0.0\" board=\"buddy-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"BUDDY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43375\"/><app appid=\"{B801E98B-4AB6-4D82-B3B3-E1517DC53266}\" cohort=\"1:4/4n:\" cohortname=\"buddy_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18780\" _firmware_version=\"50.2\" _firmware_version_0=\"50.2\" _firmware_version_1=\"50.2\" _firmware_version_2=\"50.2\" _firmware_version_3=\"50.2\" _firmware_version_4=\"50.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/buddy/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/buddy/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"install\" run=\"chromeos_13904.97.0_buddy_stable-channel_full_mp-v2.bin-gyygmnrwmfstn2ogjgng6jx5mlpapqcb.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"hVGEBTQ4MeeviIrCeRzd3HUSDjs6EApxEoOYuvdmmb0u+gERVdh1DyvOZZWHSLA1wxNriCFBA//hFLRU5PlcS5XZ0bsb01reWkXJGH4IA/VW7r1gb1X4tEhGS8lSRGYfsagOUplKrl63FsvLe3/aDdvwVKccN8ROJ/hCg1+kGAkj3aHZr1V0b93aCaNMbTmIPkTGRqysGo+byu8FzvrJAWHQZ2HousR5YG9oLJA6C+zNC0UaJApfYokzYbaoT2u/5bNJA18DB82m36US2oZoJ1rFSPvURTtZ0pNKe+cEJiJtYKu9Hq2N7POp/FhfNw4Iyw0FvhpCXG8mxN9XeFGZaA==\" MetadataSize=\"56256\" event=\"postinstall\" sha256=\"J1Cjzbn+6F9C+Fes7tjRozibv/rRVDPjtk6WQ7LCuwY=\"/></actions><packages><package fp=\"3.2750a3cdb9fee85f42f857aceed8d1a3389bbffad15433e3b64e9643b2c2bb06\" hash_sha256=\"2750a3cdb9fee85f42f857aceed8d1a3389bbffad15433e3b64e9643b2c2bb06\" name=\"chromeos_13904.97.0_buddy_stable-channel_full_mp-v2.bin-gyygmnrwmfstn2ogjgng6jx5mlpapqcb.signed\" required=\"true\" size=\"536910421\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "BUDDY NNN",
     "sha256": "2750a3cdb9fee85f42f857aceed8d1a3389bbffad15433e3b64e9643b2c2bb06",
     "size": 536910421,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/buddy/13904.97.0/stable-channel/chromeos_13904.97.0_buddy_stable-channel_full_mp-v2.bin-gyygmnrwmfstn2ogjgng6jx5mlpapqcb.signed",
         "https://dl.google.com/chromeos/buddy/13904.97.0/stable-channel/chromeos_13904.97.0_buddy_stable-channel_full_mp-v2.bin-gyygmnrwmfstn2ogjgng6jx5mlpapqcb.signed"
