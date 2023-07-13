@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
     "app_board": "drallion-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.19.215-12487-gf68446239393"
     ],
+    "parallels_support": true,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" version=\"14324.0.0\" board=\"drallion-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"DRALLION-NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14324\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5505\" elapsed_seconds=\"56734\"/><app appid=\"{ED3A4869-C380-4F79-A190-027C3E879357}\" cohort=\"1:m/7l:\" cohortname=\"drallion_drallion_stable_canaryrelease_14324.80.0\" status=\"ok\"><updatecheck _eol_date=\"21036\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/drallion/14324.80.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/drallion/14324.80.0/stable-channel/\"/></urls><manifest version=\"14324.80.0\"><actions><action event=\"update\" run=\"chromeos_14324.80.0_drallion_stable-channel_full_mp-v2.bin-gyywkyjxgbsdi46fmeopuqf4kxtwwecs.signed\"/><action ChromeOSVersion=\"14324.80.0\" ChromeVersion=\"97.0.4692.102\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"LOtd0s3IXpqHZIcE0ESLatMMyo6ZJ+IGec8B2CtI03yvBlq2/wv1OeaiGOTAz7TJ4hyAlWMvMQqGtqLj2z7Fv7f/i/alCt95Xxu3XAnugJ5eq+etCOo2ROblqFGrtlFCPPY50yiDX1OYCjIaqyAWm1QhukkV9Zv3hS+6ORU17TkRBwAT53mCvHEw/8aoUyShGhnGV9Hfmipod6bwt6hpQPrV6iXrU1+RT33CMz+Bmm0DrUfXBgWHzjY/V6AKGOFnIQw/7rGc8rEiCFT8XchUijjfQunxLqXvEVtHu7Ta0dewwTSx9pEqHtmN3lG5uZaZizCL+16NchPd/h9N1qfPMg==\" MetadataSize=\"74438\" event=\"postinstall\" sha256=\"ksiT1xVk7azPHDGIAN9XB/3or9srQ1ck7e4UbkJDlzA=\"/></actions><packages><package fp=\"3.92c893d71564edaccf1c318800df5707fde8afdb2b435724edee146e42439730\" hash_sha256=\"92c893d71564edaccf1c318800df5707fde8afdb2b435724edee146e42439730\" name=\"chromeos_14324.80.0_drallion_stable-channel_full_mp-v2.bin-gyywkyjxgbsdi46fmeopuqf4kxtwwecs.signed\" required=\"true\" size=\"1451906305\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "DRALLION-NNN",
     "sha256": "92c893d71564edaccf1c318800df5707fde8afdb2b435724edee146e42439730",
     "size": 1451906305,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/drallion/14324.80.0/stable-channel/chromeos_14324.80.0_drallion_stable-channel_full_mp-v2.bin-gyywkyjxgbsdi46fmeopuqf4kxtwwecs.signed",
         "https://dl.google.com/chromeos/drallion/14324.80.0/stable-channel/chromeos_14324.80.0_drallion_stable-channel_full_mp-v2.bin-gyywkyjxgbsdi46fmeopuqf4kxtwwecs.signed"
