@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "celes-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.208-12427-gf85a69d601ba"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{7834CC99-3294-421F-9963-028D7D6512CA}\" version=\"14268.0.0\" board=\"celes-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"CELES NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14268\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5461\" elapsed_seconds=\"62188\"/><app appid=\"{7834CC99-3294-421F-9963-028D7D6512CA}\" cohort=\"1:4/51:\" cohortname=\"celes_stable_canaryrelease_14268.67.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/celes/14268.67.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/celes/14268.67.0/stable-channel/\"/></urls><manifest version=\"14268.67.0\"><actions><action event=\"update\" run=\"chromeos_14268.67.0_celes_stable-channel_full_mp-v2.bin-gyywenzsgvqtkyy7e7yyq7a3ukyzaaa7.signed\"/><action ChromeOSVersion=\"14268.67.0\" ChromeVersion=\"96.0.4664.111\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Gk5x4Jq9wkFf2zWI8h06Q0uj/le1J6wneR8IMa0zb5qAbJbK51cg7LOoPeC6vlJM6nQltVcYpetcRJHCHPYF786IV+iKko7+FgOS2PQIgfgynaU1H+hFFt7vI1f8oauw3ONZ3Z5B7OcL52NnRU+Av8R3Qt2frm+eRu0hOyK/f+ZLS8gy0cwdFjDwCQBtwyIUoOjXjf5uvzD69O7xDCpws8fmrjwZ+D8vzDDqq+B9nSka1xZk4HxDK3Xg3Hfxa5wjthdrasjh6Jz0+sChP+kmzqOWpF1P2UTuzirOA7YabH5fJy+gzzgBZ314LT7QywWu2hYbkozc+yT3j3+rfenxdA==\" MetadataSize=\"57173\" event=\"postinstall\" sha256=\"BJQaEIbnBaosdtE2grqPV3FYDIFJokt8pvc0231j6ng=\"/></actions><packages><package fp=\"3.04941a1086e705aa2c76d13682ba8f5771580c8149a24b7ca6f734db7d63ea78\" hash_sha256=\"04941a1086e705aa2c76d13682ba8f5771580c8149a24b7ca6f734db7d63ea78\" name=\"chromeos_14268.67.0_celes_stable-channel_full_mp-v2.bin-gyywenzsgvqtkyy7e7yyq7a3ukyzaaa7.signed\" required=\"true\" size=\"1149395698\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "CELES NNN",
     "sha256": "04941a1086e705aa2c76d13682ba8f5771580c8149a24b7ca6f734db7d63ea78",
     "size": 1149395698,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/celes/14268.67.0/stable-channel/chromeos_14268.67.0_celes_stable-channel_full_mp-v2.bin-gyywenzsgvqtkyy7e7yyq7a3ukyzaaa7.signed",
         "https://dl.google.com/chromeos/celes/14268.67.0/stable-channel/chromeos_14268.67.0_celes_stable-channel_full_mp-v2.bin-gyywenzsgvqtkyy7e7yyq7a3ukyzaaa7.signed"
