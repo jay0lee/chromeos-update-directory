@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "dedede-signed-mp-v3keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "5.4.109-26094-g381754fbb430"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E0DD1258-E890-493E-ADA3-0C755240B89C}\" version=\"13904.0.0\" board=\"dedede-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"DRAWLAT-EKWLNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43421\"/><app appid=\"{E0DD1258-E890-493E-ADA3-0C755240B89C}\" cohort=\"1:i/5p:\" cohortname=\"dedede_drawlat_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/dedede/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/dedede/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_dedede_stable-channel_full_mp-v8.bin-gyygmnrymyzwh6tgtuyynsneeiv4xybn.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"JX9yd7xG7/nefJFv8wJPoDQhqfXAtkR/PHSJewnM7GdXRSq/rsLGboKWp/SuYsQvwGp7lDk6ykj/0zczexCxUWjPbqo1NJ3SFS/CsHhbUSmvbBu97rJSaGakCsPgYjzf1Ma0VrJL2h/vZQCmnLtYkSi//CRBgj+qAdFFeYHSM8rjwBOwQGpNM1J0fKiuC87xdzKHIZ280BPy0/olcG5gh0NrFVDko2PvF2M7IStRMAxGkrQQgWWnMvrXMXGBqW1oBJjQPA7xvCO18oFfJcMmyovoGDod4bO+LO7/+y+L9zk5WPD09zNhAE/Vs5m6aoc0VsA3gL1Iu/1WEjPfWak9HA==\" MetadataSize=\"74580\" event=\"postinstall\" sha256=\"35ITaMo6DuKneW7h2YaSVNEsL2BtWVsnbFzOOp//L/M=\"/></actions><packages><package fp=\"3.df921368ca3a0ee2a7796ee1d9869254d12c2f606d595b276c5cce3a9fff2ff3\" hash_sha256=\"df921368ca3a0ee2a7796ee1d9869254d12c2f606d595b276c5cce3a9fff2ff3\" name=\"chromeos_13904.97.0_dedede_stable-channel_full_mp-v8.bin-gyygmnrymyzwh6tgtuyynsneeiv4xybn.signed\" required=\"true\" size=\"1337216424\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "DRAWLAT-EKWLNNN",
     "sha256": "df921368ca3a0ee2a7796ee1d9869254d12c2f606d595b276c5cce3a9fff2ff3",
     "size": 1337216424,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/dedede/13904.97.0/stable-channel/chromeos_13904.97.0_dedede_stable-channel_full_mp-v8.bin-gyygmnrymyzwh6tgtuyynsneeiv4xybn.signed",
         "https://dl.google.com/chromeos/dedede/13904.97.0/stable-channel/chromeos_13904.97.0_dedede_stable-channel_full_mp-v8.bin-gyygmnrymyzwh6tgtuyynsneeiv4xybn.signed"
