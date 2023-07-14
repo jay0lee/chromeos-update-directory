@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "kefka-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.176-28773-g91924d8d61fa"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{2EDF7C6D-6586-D292-0B61-4A33B62E3BF6}\" version=\"13816.0.0\" board=\"kefka-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"KEFKA OiM-AbB-unY-i9O-qSk-RZ5-9oc-3fo-Zxr-9b4-0Ot-3VG-rbf-L1d-TBz-Ry5-MlM-zO3-RoO-HH8-2Qn\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5250\" elapsed_seconds=\"50291\"/><app appid=\"{2EDF7C6D-6586-D292-0B61-4A33B62E3BF6}\" cohort=\"1:4/43:\" cohortname=\"kefka_stable_canaryrelease_13816.82.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"5.1\" _firmware_version_0=\"5.1\" _firmware_version_1=\"5.1\" _firmware_version_2=\"5.1\" _firmware_version_3=\"5.1\" _firmware_version_4=\"5.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kefka/13816.82.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kefka/13816.82.0/stable-channel/\"/></urls><manifest version=\"13816.82.0\"><actions><action event=\"update\" run=\"chromeos_13816.82.0_kefka_stable-channel_full_mp.bin-gyydszjug43gdasu4urkrbnjmdvf637m.signed\"/><action ChromeOSVersion=\"13816.82.0\" ChromeVersion=\"90.0.4430.218\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"PUWLf8iRbMOdOb32Co9yZSjk0os88Yhlgvr61W3DXvxhUxym6z/+gLl9qxKZl/2Nrkn+dHXnkkL3Hq2qGBmcxNNjnw8QynESlsw1svJB8BZXDnF6MWmDzdES/O3raKKytufoTTd2MPpBaBhh79KoDy9f9a33tPzrQHmcNbFUM2NDtiiGFpf+kqPpJbvUMIyLBJRYYWLpnnTlvPABvOAXHzS3oknNL5WVOytohMXuh9n+BEftU4GCfdj9aCiN0pQBUzjfA9CEaXaedz22A3yRtKKQgHylyHuAXjriPPzsFWs1ER3xo9TDgmGRayVJ6mjsF8AcCeR6RtbXboCM89ubnQ==\" MetadataSize=\"57011\" event=\"postinstall\" sha256=\"cI+GEqLZGtGEK5HvOJ2kS0yRsgyVqtx0KunP4vUTxEc=\"/></actions><packages><package fp=\"3.708f8612a2d91ad1842b91ef389da44b4c91b20c95aadc742ae9cfe2f513c447\" hash_sha256=\"708f8612a2d91ad1842b91ef389da44b4c91b20c95aadc742ae9cfe2f513c447\" name=\"chromeos_13816.82.0_kefka_stable-channel_full_mp.bin-gyydszjug43gdasu4urkrbnjmdvf637m.signed\" required=\"true\" size=\"1015100515\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "KEFKA OiM-AbB-unY-i9O-qSk-RZ5-9oc-3fo-Zxr-9b4-0Ot-3VG-rbf-L1d-TBz-Ry5-MlM-zO3-RoO-HH8-2Qn",
     "sha256": "708f8612a2d91ad1842b91ef389da44b4c91b20c95aadc742ae9cfe2f513c447",
     "size": 1015100515,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/kefka/13816.82.0/stable-channel/chromeos_13816.82.0_kefka_stable-channel_full_mp.bin-gyydszjug43gdasu4urkrbnjmdvf637m.signed",
         "https://dl.google.com/chromeos/kefka/13816.82.0/stable-channel/chromeos_13816.82.0_kefka_stable-channel_full_mp.bin-gyydszjug43gdasu4urkrbnjmdvf637m.signed"

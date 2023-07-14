@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "kevin-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.4.228-18597-gc338c419c8c5"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{92A7272A-834A-47A3-9112-E8FD55831660}\" version=\"13310.0.0\" board=\"kevin-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"KEVIN NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41786\"/><app appid=\"{92A7272A-834A-47A3-9112-E8FD55831660}\" cohort=\"1:5:\" cohortname=\"kevin_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kevin/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kevin/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_kevin_stable-channel_full_mp.bin-gvtdmzbzmzrwes3hgxjrgpfaltgmqxse.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"rxmWuNGILhdFjMtH1jvCouiWNcnaKBZTa6YSFJgJKdEQ9kh6tM0khu/bnIUZjlK6unrOfEitei9/AwhOe1+d0nLAJcC2TC29MPYpJ+H1nEG1Op1EY10Hxlm8Gdz7UoCrABKlF7uXjIhboNgcILlWsLd+HqYKnVrqkoGq+YHFSkK2HEaqEGAq1axrn8L0EK2xxoAwbXZgIJlHZf79xs+fRO9B7VH6Osew6BOxFc79gSIURCIk8ZNWLmIVxYiMi0/G2O2QE1xQWXcKuLCGTvp13Af1fiqHOC4tqJ5nXLdRCdgkv+6pUa5Kb5G73mOJfe85Dj0GIFeAfu0EZsYROBmyDg==\" MetadataSize=\"56792\" event=\"postinstall\" sha256=\"3X+G0Dj3DhIKy1baychSFWzPLTH5tiZcuw3GCITaOPs=\"/></actions><packages><package fp=\"3.dd7f86d038f70e120acb56dac9c852156ccf2d31f9b6265cbb0dc60884da38fb\" hash_sha256=\"dd7f86d038f70e120acb56dac9c852156ccf2d31f9b6265cbb0dc60884da38fb\" name=\"chromeos_13310.93.0_kevin_stable-channel_full_mp.bin-gvtdmzbzmzrwes3hgxjrgpfaltgmqxse.signed\" required=\"true\" size=\"907922995\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "KEVIN NNN",
     "sha256": "dd7f86d038f70e120acb56dac9c852156ccf2d31f9b6265cbb0dc60884da38fb",
     "size": 907922995,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/kevin/13310.93.0/stable-channel/chromeos_13310.93.0_kevin_stable-channel_full_mp.bin-gvtdmzbzmzrwes3hgxjrgpfaltgmqxse.signed",
         "https://dl.google.com/chromeos/kevin/13310.93.0/stable-channel/chromeos_13310.93.0_kevin_stable-channel_full_mp.bin-gvtdmzbzmzrwes3hgxjrgpfaltgmqxse.signed"
