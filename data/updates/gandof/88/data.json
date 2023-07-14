@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "gandof-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.14.204-16731-gb869cbdcd220"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{17E83440-0027-4D60-A6D3-D7F2BA99720B}\" version=\"13597.0.0\" board=\"gandof-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"GANDOF NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13597\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5176\" elapsed_seconds=\"20045\"/><app appid=\"{17E83440-0027-4D60-A6D3-D7F2BA99720B}\" cohort=\"1:4/4f:\" cohortname=\"gandof_stable_canaryrelease_13597.105.0\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"10.2\" _firmware_version_0=\"10.2\" _firmware_version_1=\"10.2\" _firmware_version_2=\"10.2\" _firmware_version_3=\"10.2\" _firmware_version_4=\"10.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/gandof/13597.105.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/gandof/13597.105.0/stable-channel/\"/></urls><manifest version=\"13597.105.0\"><actions><action event=\"update\" run=\"chromeos_13597.105.0_gandof_stable-channel_full_mp-v2.bin-gyydgy3bmi3tnymk35p5w63f4fkscqkk.signed\"/><action ChromeOSVersion=\"13597.105.0\" ChromeVersion=\"88.0.4324.208\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Z+JXN6ARwISZ2quxM/1Ad6el07PscdMJdBOpiIoZUtsdQ68CCLxvSK0pUfJwcSllOrFRFxOCHKaMkE81AFi6+/1yuhYAASBkFcD8jFbS1iVy7U+eLFPcrDm3He4+CcQ9ki2RdK/I8bczPDbBPznMZ9eHQo9d6BlON9oYceqiz6U0BfkMVr0NuWh6y1mkxSHn0txrLgwaBnTh98jLIIU5EZZvwDS3pK+WrvA+ovTm+7ICcXx9msyc0Vfa8o7QPSSGG5Xh62D3t081QbXkPunPNrom2go5zO0wjn2SaasaPeKto5dC9oTwsGoBnjDtAEaj00lmVy9Z1g+V8XXVJ+xzkQ==\" MetadataSize=\"56939\" event=\"postinstall\" sha256=\"nnGmPD05slza9b4VMInsXMZTA/oRZBx8TWXcuQsRIc0=\"/></actions><packages><package fp=\"3.9e71a63c3d39b25cdaf5be153089ec5cc65303fa11641c7c4d65dcb90b1121cd\" hash_sha256=\"9e71a63c3d39b25cdaf5be153089ec5cc65303fa11641c7c4d65dcb90b1121cd\" name=\"chromeos_13597.105.0_gandof_stable-channel_full_mp-v2.bin-gyydgy3bmi3tnymk35p5w63f4fkscqkk.signed\" required=\"true\" size=\"999274337\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "GANDOF NNN",
     "sha256": "9e71a63c3d39b25cdaf5be153089ec5cc65303fa11641c7c4d65dcb90b1121cd",
     "size": 999274337,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/gandof/13597.105.0/stable-channel/chromeos_13597.105.0_gandof_stable-channel_full_mp-v2.bin-gyydgy3bmi3tnymk35p5w63f4fkscqkk.signed",
         "https://dl.google.com/chromeos/gandof/13597.105.0/stable-channel/chromeos_13597.105.0_gandof_stable-channel_full_mp-v2.bin-gyydgy3bmi3tnymk35p5w63f4fkscqkk.signed"
