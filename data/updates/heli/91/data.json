@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "heli-signed-mp-v4keys",
     "board_id": "{3E8F25F2-3438-46CE-85AC-4A0329A79E09}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{3E8F25F2-3438-46CE-85AC-4A0329A79E09}\" version=\"13904.0.0\" board=\"heli-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"HELI NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43432\"/><app appid=\"{3E8F25F2-3438-46CE-85AC-4A0329A79E09}\" cohort=\"1:4/4y:\" cohortname=\"heli_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/heli/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/heli/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_heli_stable-channel_full_mp-v4.bin-gyygmnrxha2daqn3oi26cw5z2qhpqx7s.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ecsZIYkM4c8xyluNKhNvh65r07zxp8TCiztYGpS4Ulqo/3mfrTU6jvoE0GQpeCE1+Oj80MevD/Lez9tRYktU93T8VQl+YLzLXt9RPKiyGp8VBWi57AD/IU28gibOh8+Nrchvnz1mReuzDVFpT5MzvvI/QBPfPOe3SxIKhHHO6hwxVPkjjzkxRB4u+nXEJImI/xj4xHia4rgKGUgW//MVRn9iP3TAPgZrNEGEv9rwLHzzUn0hRnOCVNFC5ulaevnNCDN0nHwClt5uQ71RUlwl/6OuyJI7njjvWUaagPd2Y9sA7MwkO0hMpCGf6lbEfeTgD86f51+HJ5zKgpTuK9v5UQ==\" MetadataSize=\"56203\" event=\"postinstall\" sha256=\"QRct6fXrfr4iTuNhdCuUJZTmqpc0+VwPlTJQnOWsbAI=\"/></actions><packages><package fp=\"3.41172de9f5eb7ebe224ee361742b942594e6aa9734f95c0f9532509ce5ac6c02\" hash_sha256=\"41172de9f5eb7ebe224ee361742b942594e6aa9734f95c0f9532509ce5ac6c02\" name=\"chromeos_13904.97.0_heli_stable-channel_full_mp-v4.bin-gyygmnrxha2daqn3oi26cw5z2qhpqx7s.signed\" required=\"true\" size=\"532506078\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "HELI NNN",
     "sha256": "41172de9f5eb7ebe224ee361742b942594e6aa9734f95c0f9532509ce5ac6c02",
     "size": 532506078,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/heli/13904.97.0/stable-channel/chromeos_13904.97.0_heli_stable-channel_full_mp-v4.bin-gyygmnrxha2daqn3oi26cw5z2qhpqx7s.signed",
         "https://dl.google.com/chromeos/heli/13904.97.0/stable-channel/chromeos_13904.97.0_heli_stable-channel_full_mp-v4.bin-gyygmnrxha2daqn3oi26cw5z2qhpqx7s.signed"

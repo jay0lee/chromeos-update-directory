@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "jacuzzi-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.19.176-28773-g91924d8d61fa"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}\" version=\"13816.0.0\" board=\"jacuzzi-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"JUNIPER-HVPU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5250\" elapsed_seconds=\"50290\"/><app appid=\"{BA7092E6-2B09-4620-BBB0-FAA34397F3F8}\" cohort=\"1:c/8b:\" cohortname=\"jacuzzi_juniper_stable_canaryrelease_13816.82.0\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/jacuzzi/13816.82.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/jacuzzi/13816.82.0/stable-channel/\"/></urls><manifest version=\"13816.82.0\"><actions><action event=\"update\" run=\"chromeos_13816.82.0_jacuzzi_stable-channel_full_mp-v7.bin-gyydszjuheyghul5p2ykdtls3r6qt3ov.signed\"/><action ChromeOSVersion=\"13816.82.0\" ChromeVersion=\"90.0.4430.218\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ISuUl/aObAu9XcAcdf3r0qOrEDmJi4Cxij8ZgM+OQU1rsPNF2j28TRKVa9xt5w+wpT16H4F042P2neMtXtDzhBxouymvQD0qEnfwtfdP/M1gZP4U3uYqoJ61L+1BFn84SJCLLJQFR43OYeFEVL2pLW94OIPPyNVQ+l4W0UE870X8/WUrq7L9ttsoWw6UP5KUOd99oKy7+9b3rUqEOnGWPxgX93DqyetVBk0TGV6hLxLyAw7qJFCUWyRZkiu86/0qP4rhi7wrRvv1bT34kgHCZaKQgiyFfO7gm7DDJq5STgAZAalM3Wb+PZBnhqAPM+GpGRfajTn4Yhz58hYT3/SX1Q==\" MetadataSize=\"65800\" event=\"postinstall\" sha256=\"vBR4swDDOobgCHMC1vaAt+JKSesl5KtFvAh3koeHdMk=\"/></actions><packages><package fp=\"3.bc1478b300c33a86e0087302d6f680b7e24a49eb25e4ab45bc087792878774c9\" hash_sha256=\"bc1478b300c33a86e0087302d6f680b7e24a49eb25e4ab45bc087792878774c9\" name=\"chromeos_13816.82.0_jacuzzi_stable-channel_full_mp-v7.bin-gyydszjuheyghul5p2ykdtls3r6qt3ov.signed\" required=\"true\" size=\"1056297878\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "JUNIPER-HVPU NNN",
     "sha256": "bc1478b300c33a86e0087302d6f680b7e24a49eb25e4ab45bc087792878774c9",
     "size": 1056297878,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/jacuzzi/13816.82.0/stable-channel/chromeos_13816.82.0_jacuzzi_stable-channel_full_mp-v7.bin-gyydszjuheyghul5p2ykdtls3r6qt3ov.signed",
         "https://dl.google.com/chromeos/jacuzzi/13816.82.0/stable-channel/chromeos_13816.82.0_jacuzzi_stable-channel_full_mp-v7.bin-gyydszjuheyghul5p2ykdtls3r6qt3ov.signed"
