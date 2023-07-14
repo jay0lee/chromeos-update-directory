@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "fizz-signed-mp-v13keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.257-36964-g86d266acc51a"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" version=\"13816.0.0\" board=\"fizz-signed-mp-v13keys\" track=\"stable-channel\" hardware_class=\"JAX NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5250\" elapsed_seconds=\"50284\"/><app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" cohort=\"1:1n/cl:\" cohortname=\"fizz_jax_stable_canaryrelease_13816.82.0\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/fizz/13816.82.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/fizz/13816.82.0/stable-channel/\"/></urls><manifest version=\"13816.82.0\"><actions><action event=\"update\" run=\"chromeos_13816.82.0_fizz_stable-channel_full_mp-v13.bin-gyydszjuha4to7pxwmwd5nqlmw7r73uo.signed\"/><action ChromeOSVersion=\"13816.82.0\" ChromeVersion=\"90.0.4430.218\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"CIabR/G4AZ/wp3yaRcoakqhCtHOXItbCUkmPXiaAH36BKMPwsuxCMSGRSaeIZLALMKN5xbdGbPdVdSVnUy24hfQO686P+RN80ubldoml4GQtWc93eVxkYXt6tay2hVLw6y1Cd0wvHSvE9rYT4JKSB7W76WAwVnLSJSYbUsXX/9iexoJWTUUVE/nSO9DeY9vs2nSw6s7Qt9DcNoIoA5q4SQar1VdjqhGbM3OIxMdSx5Xr7g2QKBvm2tY3eA/Bd/v/fZpOq8LvtXRDmSxX573GRyFDZ7u9/B7/CNNTEga55+Ctt4SPvyxMpIb7+IagvATMLnl76T0+qF5MvoD5smtvRQ==\" MetadataSize=\"65621\" event=\"postinstall\" sha256=\"iuZGUVn1XGOLi8mrCJw7Naji06JSYPDCEbbK2chXOKY=\"/></actions><packages><package fp=\"3.8ae6465159f55c638b8bc9ab089c3b35a8e2d3a25260f0c211b6cad9c85738a6\" hash_sha256=\"8ae6465159f55c638b8bc9ab089c3b35a8e2d3a25260f0c211b6cad9c85738a6\" name=\"chromeos_13816.82.0_fizz_stable-channel_full_mp-v13.bin-gyydszjuha4to7pxwmwd5nqlmw7r73uo.signed\" required=\"true\" size=\"1161311438\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "JAX NNN",
     "sha256": "8ae6465159f55c638b8bc9ab089c3b35a8e2d3a25260f0c211b6cad9c85738a6",
     "size": 1161311438,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/fizz/13816.82.0/stable-channel/chromeos_13816.82.0_fizz_stable-channel_full_mp-v13.bin-gyydszjuha4to7pxwmwd5nqlmw7r73uo.signed",
         "https://dl.google.com/chromeos/fizz/13816.82.0/stable-channel/chromeos_13816.82.0_fizz_stable-channel_full_mp-v13.bin-gyydszjuha4to7pxwmwd5nqlmw7r73uo.signed"
