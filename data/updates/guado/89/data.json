@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "guado-signed-mp-v2keys",
     "board_id": "{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.14.214-17104-g56f0bf5f36db"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}\" version=\"13729.0.0\" board=\"guado-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"GUADO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13729\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5204\" elapsed_seconds=\"47461\"/><app appid=\"{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}\" cohort=\"1:4/4k:\" cohortname=\"guado_stable_canaryrelease_13729.72.0\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"15.2\" _firmware_version_0=\"15.2\" _firmware_version_1=\"15.2\" _firmware_version_2=\"15.2\" _firmware_version_3=\"15.2\" _firmware_version_4=\"15.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/guado/13729.72.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/guado/13729.72.0/stable-channel/\"/></urls><manifest version=\"13729.72.0\"><actions><action event=\"update\" run=\"chromeos_13729.72.0_guado_stable-channel_full_mp-v2.bin-gyydmmteg43tperiz4o3oi2s4jchyjpm.signed\"/><action ChromeOSVersion=\"13729.72.0\" ChromeVersion=\"89.0.4389.116\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"SJHQdnpTkXuAhDkPyWWkP5Y5o+o5SkKCcFGQRZpQQCclEB7y/Bbh1hw99lZP15YL0kYmE6jcrEhrkW+xGqZ2JvNnt4XccA38KzSOK95+LXbzMhubUqby111xTNCzcCHMU6IqmyvIKu+VHyrPg6yTXsRaxVdZWnDbKRAik1UTu0JLg0XoRpUNnujD3hN3Bqoby3pDeUucJxkskPzNMqS9pp6JbTUYzOC1ozI0X5RR9yNf6DRSLNacg3B5+OZfLXwspT6+5f4j7qMwqdFqg6puzuNL318qPx8At5k1kctDcn4LIwweDD3S4C2U9ReaC35K/2MeuChhJvwUAyg14BYZ7Q==\" MetadataSize=\"56399\" event=\"postinstall\" sha256=\"cbiDXkdvra1a1CxgUgzPGSbQ5glIX4eO4eXdGTWBh8c=\"/></actions><packages><package fp=\"3.71b8835e476fadad5ad42c60520ccf1926d0e609485f878ee1e5dd19358187c7\" hash_sha256=\"71b8835e476fadad5ad42c60520ccf1926d0e609485f878ee1e5dd19358187c7\" name=\"chromeos_13729.72.0_guado_stable-channel_full_mp-v2.bin-gyydmmteg43tperiz4o3oi2s4jchyjpm.signed\" required=\"true\" size=\"626884028\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "GUADO NNN",
     "sha256": "71b8835e476fadad5ad42c60520ccf1926d0e609485f878ee1e5dd19358187c7",
     "size": 626884028,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/guado/13729.72.0/stable-channel/chromeos_13729.72.0_guado_stable-channel_full_mp-v2.bin-gyydmmteg43tperiz4o3oi2s4jchyjpm.signed",
         "https://dl.google.com/chromeos/guado/13729.72.0/stable-channel/chromeos_13729.72.0_guado_stable-channel_full_mp-v2.bin-gyydmmteg43tperiz4o3oi2s4jchyjpm.signed"

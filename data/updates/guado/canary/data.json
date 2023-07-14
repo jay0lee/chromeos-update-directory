@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "guado-signed-mp-v2keys",
     "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.14.227-17518-gb45e8f8d415b"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"13729.0.0\" board=\"guado-signed-mp-v2keys\" track=\"canary-channel\" hardware_class=\"GUADO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5203\" elapsed_seconds=\"35567\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:1n:\" cohortname=\"guado_canary\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18780\" _firmware_version=\"15.2\" _kernel_version=\"2.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13884.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13884.0.0/\"/></urls><manifest version=\"13884.0.0\"><actions><action event=\"update\" run=\"chromeos_13884.0.0_guado_canary-channel_full_mp-v2.bin-gyydmmzymuywjmtvwlpquu2jpplwk4vh.signed\"/><action ChromeOSVersion=\"13884.0.0\" ChromeVersion=\"91.0.4461.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"PY8iyZdvpuff05f4UCPaIrhhUD9RLR3+BYh1nKGEKmUVp0y8OwTZxlytNTcDATGUfVAxHircyZDue/PG5jPm0VlF++sllB3eb2XarJo42nfF3ip+wyFSkGlPlW7RIKySmDmNFGkh8axYZ4zs1TKW2eQHm8ZH2f/3s+nsLaS2xfK0ds6TSZxGUDsTCwwjDIuCTHNRHL+CwG8FmlDLAJDomw9N8IKRcxdH6uEDKvcsJX05N31Hm32s1e1bBOrsyEzMgAZZq257j7CnQoeNMB0BTWphktYzrfnPkXso87z5kjzl3Pz06yPU9WwdVUsMCGka49GVf6xEHVKECrYzswNmog==\" MetadataSize=\"56309\" event=\"postinstall\" sha256=\"DdUUwizxtAqkkZUlSvhR6RCWnZI4RygL7kGx8kLf2fU=\"/></actions><packages><package fp=\"3.0dd514c22cf1b40aa49195254af851e910969d923847280bee41b1f242dfd9f5\" hash_sha256=\"0dd514c22cf1b40aa49195254af851e910969d923847280bee41b1f242dfd9f5\" name=\"chromeos_13884.0.0_guado_canary-channel_full_mp-v2.bin-gyydmmzymuywjmtvwlpquu2jpplwk4vh.signed\" required=\"true\" size=\"548648796\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "GUADO NNN",
     "sha256": "0dd514c22cf1b40aa49195254af851e910969d923847280bee41b1f242dfd9f5",
     "size": 548648796,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13884.0.0/chromeos_13884.0.0_guado_canary-channel_full_mp-v2.bin-gyydmmzymuywjmtvwlpquu2jpplwk4vh.signed",
         "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/13884.0.0/chromeos_13884.0.0_guado_canary-channel_full_mp-v2.bin-gyydmmzymuywjmtvwlpquu2jpplwk4vh.signed"
