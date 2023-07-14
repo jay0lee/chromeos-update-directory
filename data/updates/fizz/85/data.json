@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "fizz-signed-mp-v13keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.228-18597-gc338c419c8c5"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" version=\"13310.0.0\" board=\"fizz-signed-mp-v13keys\" track=\"stable-channel\" hardware_class=\"JAX NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41778\"/><app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" cohort=\"1:1n:\" cohortname=\"fizz_jax_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/fizz/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/fizz/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_fizz_stable-channel_full_mp-v13.bin-gvtdmzbzmzrdlosbm652rwfgbnawgajt.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"j34+w3uXPuh1UbEqLbkl3QBZnKN+2Rig0hpPxQZutxGJ1zyXLfDm+YagLl3VS1DVg83IGRqjXqxEqVLXNw+SiLk0IcxCi7lmADOBE4JmTYHvMXj/3eY9QRp6BI1zzOjm87vAirdwv1cSRIqyUTOvnCUqiZ7NtMbAUK0IfMV0THuNkLuGRPANnuTUQbE8mfTFfXDxg+sTEonq021axW43APpR0KUKZHYmOQ7bDq46MkUBcEyL/1FMAYJTe1pJJWzJx92b49F2339n2Xp7B+lClSFEJhF2YJTM6WR7v8V7XWCbFvaSdw6VmO43SJHAIjjhHexrwK07FDFRhawJqwx/kA==\" MetadataSize=\"65822\" event=\"postinstall\" sha256=\"mn1BZzp5paimELCkr6xPT7C6/3i+NFttqMhsM+7yS8U=\"/></actions><packages><package fp=\"3.9a7d41673a79a5a8a610b0a4afac4f4fb0baff78be345b6da8c86c33eef24bc5\" hash_sha256=\"9a7d41673a79a5a8a610b0a4afac4f4fb0baff78be345b6da8c86c33eef24bc5\" name=\"chromeos_13310.93.0_fizz_stable-channel_full_mp-v13.bin-gvtdmzbzmzrdlosbm652rwfgbnawgajt.signed\" required=\"true\" size=\"1201716508\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "JAX NNN",
     "sha256": "9a7d41673a79a5a8a610b0a4afac4f4fb0baff78be345b6da8c86c33eef24bc5",
     "size": 1201716508,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/fizz/13310.93.0/stable-channel/chromeos_13310.93.0_fizz_stable-channel_full_mp-v13.bin-gvtdmzbzmzrdlosbm652rwfgbnawgajt.signed",
         "https://dl.google.com/chromeos/fizz/13310.93.0/stable-channel/chromeos_13310.93.0_fizz_stable-channel_full_mp-v13.bin-gvtdmzbzmzrdlosbm652rwfgbnawgajt.signed"
