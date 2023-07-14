@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "elm-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "3.18.0-20616-g64ade1135b48e"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}\" version=\"13729.0.0\" board=\"elm-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"ELM NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13729\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5218\" elapsed_seconds=\"54052\"/><app appid=\"{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}\" cohort=\"1:3z/4f:\" cohortname=\"elm_elm_stable_canaryrelease_13729.84.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/elm/13729.84.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/elm/13729.84.0/stable-channel/\"/></urls><manifest version=\"13729.84.0\"><actions><action event=\"update\" run=\"chromeos_13729.84.0_elm_stable-channel_full_mp-v2.bin-gyydonrtha4gmq2rdvl5436i7zckmkpf.signed\"/><action ChromeOSVersion=\"13729.84.0\" ChromeVersion=\"89.0.4389.130\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"sqaQsKkxPEoGiOwawo3wTdQljv0bhy7Ov8ZagpgsTGltox1Q+w2TBamC1v+iWdO1KTQRNZBlToj9kQQFqlP30lY2+NC76UZ0LY2I49SfeBg++v1iJuCCmDVIXcefga5u4dZ2gnawtP5En2DrsMMrUjEVFy4tO2iTiDPj9wOgkaRP1qUA81DBRJfGoTYjVWq7W2xpK+fhIGiwaEyaqHwUkKq89tTcJes0xbrkivEI2jdueUg9vbZ6+A8Gx17+NNkd/VW4aQ4wd4TIqMfXYFh5DgY7K1pmCKkWnI0KzdmRZPT3MHTg+hi46aOK52tL2it6+d04rMOmBkgAocsppIS3cQ==\" MetadataSize=\"56707\" event=\"postinstall\" sha256=\"TUpqciIRQeXsYRA7355xO8RV4nP+oOi2ee9hmJVzCmk=\"/></actions><packages><package fp=\"3.4d4a6a72221141e5ec61103bdf9e713bc455e273fea0e8b679ef619895730a69\" hash_sha256=\"4d4a6a72221141e5ec61103bdf9e713bc455e273fea0e8b679ef619895730a69\" name=\"chromeos_13729.84.0_elm_stable-channel_full_mp-v2.bin-gyydonrtha4gmq2rdvl5436i7zckmkpf.signed\" required=\"true\" size=\"918633717\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "ELM NNN",
     "sha256": "4d4a6a72221141e5ec61103bdf9e713bc455e273fea0e8b679ef619895730a69",
     "size": 918633717,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/elm/13729.84.0/stable-channel/chromeos_13729.84.0_elm_stable-channel_full_mp-v2.bin-gyydonrtha4gmq2rdvl5436i7zckmkpf.signed",
         "https://dl.google.com/chromeos/elm/13729.84.0/stable-channel/chromeos_13729.84.0_elm_stable-channel_full_mp-v2.bin-gyydonrtha4gmq2rdvl5436i7zckmkpf.signed"
