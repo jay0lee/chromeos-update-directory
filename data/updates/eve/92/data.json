@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "eve-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "5.4.119-14945-gafc97d54f809"
     ],
+    "parallels_support": true,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}\" version=\"13982.0.0\" board=\"eve-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"EVE NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5350\" elapsed_seconds=\"36709\"/><app appid=\"{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}\" cohort=\"1:35/4i:\" cohortname=\"eve_eve_stable_canaryrelease_13982.88.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/eve/13982.88.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/eve/13982.88.0/stable-channel/\"/></urls><manifest version=\"13982.88.0\"><actions><action event=\"update\" run=\"chromeos_13982.88.0_eve_stable-channel_full_mp-v2.bin-gyytembxgzrgkdhfcaqgoa2bzyp2gk75.signed\"/><action ChromeOSVersion=\"13982.88.0\" ChromeVersion=\"92.0.4515.162\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"UXetD75QZb18KvjcoW/c4eExL+D9OuLUXrtcBPbXsKeGqnKeeYBjgYdn5vFJtKm7Id1+/kN7KZJPsmiVT8pkghEHO5wbj3XcC6crZE+SNvy+dahhuFXfFrxPtO37PXqr7gRU9KCTTejopnXAVtZ5hV3RJqci8YmEYbtrl7wcUsB78mdxKVA5r9eTpuvOIe9i+9LvXpbcilh8bzxyezxsiowHWb2ZmmNRSPe+MPXccHl2XfaxL6JlhAEEiMIU/p/YAKWqjUTckHCdABgW+4Vu0HQEW3PeX3iaw6uDtjaP8SPWxLohb9//9EM/fbZGf9KQeiii1PPNAiVbO/TrwPUd8A==\" MetadataSize=\"65879\" event=\"postinstall\" sha256=\"hfwV37l/7LiPfcuqk3Zj8J50dJ80odlLMhsHRbO2urw=\"/></actions><packages><package fp=\"3.85fc15dfb97fecb88f7dcbaa937663f09e74749f34a1d94b321b0745b3b6babc\" hash_sha256=\"85fc15dfb97fecb88f7dcbaa937663f09e74749f34a1d94b321b0745b3b6babc\" name=\"chromeos_13982.88.0_eve_stable-channel_full_mp-v2.bin-gyytembxgzrgkdhfcaqgoa2bzyp2gk75.signed\" required=\"true\" size=\"1306539042\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "EVE NNN",
     "sha256": "85fc15dfb97fecb88f7dcbaa937663f09e74749f34a1d94b321b0745b3b6babc",
     "size": 1306539042,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/eve/13982.88.0/stable-channel/chromeos_13982.88.0_eve_stable-channel_full_mp-v2.bin-gyytembxgzrgkdhfcaqgoa2bzyp2gk75.signed",
         "https://dl.google.com/chromeos/eve/13982.88.0/stable-channel/chromeos_13982.88.0_eve_stable-channel_full_mp-v2.bin-gyytembxgzrgkdhfcaqgoa2bzyp2gk75.signed"
