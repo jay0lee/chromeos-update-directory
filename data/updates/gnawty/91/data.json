@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "gnawty-signed-mp-v3keys",
     "board_id": "{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}\" version=\"13904.0.0\" board=\"gnawty-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"GNAWTY rRB-8zg-JQW\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43428\"/><app appid=\"{CCBD0510-9FD5-F4B7-53CA-3EBE6CEA52D3}\" cohort=\"1:4/4x:\" cohortname=\"gnawty_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"10.3\" _firmware_version_0=\"10.3\" _firmware_version_1=\"10.3\" _firmware_version_2=\"10.3\" _firmware_version_3=\"10.3\" _firmware_version_4=\"10.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/gnawty/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/gnawty/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_gnawty_stable-channel_full_mp-v3.bin-gyygmnrwmrrges5cdbzinykem4lqb2o5.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"aqoU2I1SXWI5Ys0QVySfmmmnoUIKfTCt5v8On/hW0fa9L9nJCfhK2Hmvf+mrggW+xmWKP7yl3hYkkqkDig30SXOHK623FkMlW/oy2pJ9BbOHdbBSv91Ijjw/QWv1wQn1fajBBXSOE/P8QG5p8nbc1l9DJi3/I94nFSPqJZXTMNxZ+AbP3VievwVZA+j5q0woHO1/i9exN++9LZ5vX6rjfi943dJxDgm0HFWpBPi1C2AZMJRB3s0wnDjOrepcZmb3CZE3dnYUTKie8o5LNjW3YX8yAw/+425t9gR46YHQ5Ok9easXo5tXlt+PNO9+AE6DBemDZ1RU8uIVbj7eCbKeoQ==\" MetadataSize=\"56259\" event=\"postinstall\" sha256=\"vOBRP1M9rHPsMpcAbqndO5r7FEX2i1ye4YuZVWt2HlE=\"/></actions><packages><package fp=\"3.bce0513f533dac73ec3297006ea9dd3b9afb1445f68b5c9ee18b99556b761e51\" hash_sha256=\"bce0513f533dac73ec3297006ea9dd3b9afb1445f68b5c9ee18b99556b761e51\" name=\"chromeos_13904.97.0_gnawty_stable-channel_full_mp-v3.bin-gyygmnrwmrrges5cdbzinykem4lqb2o5.signed\" required=\"true\" size=\"532939059\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "GNAWTY rRB-8zg-JQW",
     "sha256": "bce0513f533dac73ec3297006ea9dd3b9afb1445f68b5c9ee18b99556b761e51",
     "size": 532939059,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/gnawty/13904.97.0/stable-channel/chromeos_13904.97.0_gnawty_stable-channel_full_mp-v3.bin-gyygmnrwmrrges5cdbzinykem4lqb2o5.signed",
         "https://dl.google.com/chromeos/gnawty/13904.97.0/stable-channel/chromeos_13904.97.0_gnawty_stable-channel_full_mp-v3.bin-gyygmnrwmrrges5cdbzinykem4lqb2o5.signed"
