@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "kip-signed-mp-v3keys",
     "board_id": "{BBE772C3-5541-6976-C676-54FD72D41B2B}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BBE772C3-5541-6976-C676-54FD72D41B2B}\" version=\"13904.0.0\" board=\"kip-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"NO MATCH JUST FOR ENTRY\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43435\"/><app appid=\"{BBE772C3-5541-6976-C676-54FD72D41B2B}\" cohort=\"1:4/51:\" cohortname=\"kip_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"25.3\" _firmware_version_0=\"25.3\" _firmware_version_1=\"25.3\" _firmware_version_2=\"25.3\" _firmware_version_3=\"25.3\" _firmware_version_4=\"25.3\" _kernel_version=\"3.1\" _kernel_version_0=\"3.1\" _kernel_version_1=\"3.1\" _kernel_version_2=\"3.1\" _kernel_version_3=\"3.1\" _kernel_version_4=\"3.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kip/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kip/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_kip_stable-channel_full_mp-v3.bin-gyygmnrwme3we2hj2psz75mmmpyzlyir.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"RWZ8o5CXIXFJebdImlZmn2mhT6RCcFW9qte27rXeYAlmCNQYexJopb7hjxBlufnEJBOsvRLio+OrETF5uSQjbdO5zM6HebGoqmpFQtDMG1p6swaM67SdWuhT7cypv4tswkWY5YCJ7FSC5lu8QnuIPhDIYq2Sw8Lz14WzxkXjZNTQJQCyUUgQGFdYSUhKLDHv9p9hljsLDM9N1R/aZq3LxzYe8vqEkCq9LSu9YBLJLFHCDJS2XJ0btEhmo3DCsaO44Q+aGfnv2KuFnFzUQwA8Ql5Q6NwJKDOSNNeACTHNI7UZ8AGo4sNmur2bYYwf7EJ46+URRpOhaFKLDJEOvINMjg==\" MetadataSize=\"56270\" event=\"postinstall\" sha256=\"P9re0ZbgXpkA0eOQm3LiBhJ0ldKeDkpKuUtXRn5kRLY=\"/></actions><packages><package fp=\"3.3fdaded196e05e9900d1e3909b72e206127495d29e0e4a4ab94b57467e6444b6\" hash_sha256=\"3fdaded196e05e9900d1e3909b72e206127495d29e0e4a4ab94b57467e6444b6\" name=\"chromeos_13904.97.0_kip_stable-channel_full_mp-v3.bin-gyygmnrwme3we2hj2psz75mmmpyzlyir.signed\" required=\"true\" size=\"533545467\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "NO MATCH JUST FOR ENTRY",
     "sha256": "3fdaded196e05e9900d1e3909b72e206127495d29e0e4a4ab94b57467e6444b6",
     "size": 533545467,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/kip/13904.97.0/stable-channel/chromeos_13904.97.0_kip_stable-channel_full_mp-v3.bin-gyygmnrwme3we2hj2psz75mmmpyzlyir.signed",
         "https://dl.google.com/chromeos/kip/13904.97.0/stable-channel/chromeos_13904.97.0_kip_stable-channel_full_mp-v3.bin-gyygmnrwme3we2hj2psz75mmmpyzlyir.signed"

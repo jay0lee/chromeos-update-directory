@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "nyan_kitty-signed-mp-v2keys",
     "board_id": "{2A52A861-EDBF-5268-5DD4-9C85E5BE2419}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "3.10.18"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{2A52A861-EDBF-5268-5DD4-9C85E5BE2419}\" version=\"13310.0.0\" board=\"nyan_kitty-signed-mp-v2keys\" track=\"dev-channel\" hardware_class=\"KITTY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41733\"/><app appid=\"{2A52A861-EDBF-5268-5DD4-9C85E5BE2419}\" cohort=\"1:3:\" cohortname=\"nyan-kitty_dev\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18476\" _firmware_version=\"30.2\" _firmware_version_0=\"30.2\" _firmware_version_1=\"30.2\" _firmware_version_2=\"30.2\" _firmware_version_3=\"30.2\" _firmware_version_4=\"30.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/nyan-kitty/13310.24.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nyan-kitty/13310.24.0/dev-channel/\"/></urls><manifest version=\"13310.24.0\"><actions><action event=\"update\" run=\"chromeos_13310.24.0_nyan-kitty_dev-channel_full_kitty-mp-v2.bin-gvtdcnjzgeztdxnte3bibsau23ufskng.signed\"/><action ChromeOSVersion=\"13310.24.0\" ChromeVersion=\"85.0.4183.34\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"jJkHke73ckkXDnDyAXUzUAQB8h/I6vceHjtgqX6YY2J8s97fSGO6tUJ3WsOwoZmlRPtel8+oBu5eOALQDO+gSP1Ah3wnPR7PAgbq76N8ZalVWiCQGPbome/Y9hhGBF5OOj2hIjV0P8t0T9NH34YPDMvK9BBcc3p8o9kF4wvVkKX3hqsGmq7vuFQzVpO/grvRh5QNgoxyxxoYsH3xpISaKoB1DPjN7rx9bYzodXacVH0XpTHju092Q/yvyot0EWZKspjY0gqz+l8B5j/knE5pxwTpAEkRd1sh30R1HSVP2oHE4djO4x58HpfY1yxR1OIa/gjJ/XdAaGS0gOJb9K2W2Q==\" MetadataSize=\"56166\" event=\"postinstall\" sha256=\"uBslAcaBdvR6HaofaB0VlkucK/WuE8iAWeJC+RXk4Ls=\"/></actions><packages><package fp=\"1.b81b2501c68176f47a1daa1f681d15964b9c2bf5ae13c88059e242f915e4e0bb\" hash_sha256=\"b81b2501c68176f47a1daa1f681d15964b9c2bf5ae13c88059e242f915e4e0bb\" name=\"chromeos_13310.24.0_nyan-kitty_dev-channel_full_kitty-mp-v2.bin-gvtdcnjzgeztdxnte3bibsau23ufskng.signed\" required=\"true\" size=\"511376140\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "KITTY NNN",
     "sha256": "b81b2501c68176f47a1daa1f681d15964b9c2bf5ae13c88059e242f915e4e0bb",
     "size": 511376140,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/nyan-kitty/13310.24.0/dev-channel/chromeos_13310.24.0_nyan-kitty_dev-channel_full_kitty-mp-v2.bin-gvtdcnjzgeztdxnte3bibsau23ufskng.signed",
         "https://dl.google.com/chromeos/nyan-kitty/13310.24.0/dev-channel/chromeos_13310.24.0_nyan-kitty_dev-channel_full_kitty-mp-v2.bin-gvtdcnjzgeztdxnte3bibsau23ufskng.signed"
