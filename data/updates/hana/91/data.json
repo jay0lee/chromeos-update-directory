@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "hana-signed-mp-v7keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.185-29738-gf8e4fd700b66"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{AAE972E1-A913-C860-B7AB-BF7F267F199B}\" version=\"13904.0.0\" board=\"hana-signed-mp-v7keys\" track=\"stable-channel\" hardware_class=\"TELESU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43430\"/><app appid=\"{AAE972E1-A913-C860-B7AB-BF7F267F199B}\" cohort=\"1:4/3x:\" cohortname=\"hana_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/hana/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/hana/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_hana_stable-channel_full_mp-v7.bin-gyygmnrxgq2dmrdr2vrcv25hgqmrjobo.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"r1BsmxE1pg/9yIQJwl6ZHYjPWokwTOsBt5Vbnv9xockSj+S0gsAV84oqHwXydoun6BLOouZdrESq0a+o9y137BWXbutuZReSiNcXj/lqr9ELMvgeR53vW8PwwZlWO1BjECkbHZK01mCL/bDCYbD8tmUXj4jQyPuUs0uPCUX6Pe3O4LtDFzgOBXaoiuM7tsjr/G6Wu9CURF61iwei9opF1BSKK2zIb4FnbCUpOXIa74ECT7Yubi3bft0WDsoblLADTdWrYn9YhKEQqk663dI3VVTR8MDSV4ZhZ9jITKAwTTHoIAQpO1JDPfpUslDsILiW8N0kAJLeZ0gqzsmDgI9cAQ==\" MetadataSize=\"56688\" event=\"postinstall\" sha256=\"wa+53Ml/g5xlw+unaBlaCYFGbykA1um1ygk+bZvbZiQ=\"/></actions><packages><package fp=\"3.c1afb9dcc97f839c65c3eba768195a0981466f2900d6e9b5ca093e6d9bdb6624\" hash_sha256=\"c1afb9dcc97f839c65c3eba768195a0981466f2900d6e9b5ca093e6d9bdb6624\" name=\"chromeos_13904.97.0_hana_stable-channel_full_mp-v7.bin-gyygmnrxgq2dmrdr2vrcv25hgqmrjobo.signed\" required=\"true\" size=\"909375246\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "TELESU NNN",
     "sha256": "c1afb9dcc97f839c65c3eba768195a0981466f2900d6e9b5ca093e6d9bdb6624",
     "size": 909375246,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/hana/13904.97.0/stable-channel/chromeos_13904.97.0_hana_stable-channel_full_mp-v7.bin-gyygmnrxgq2dmrdr2vrcv25hgqmrjobo.signed",
         "https://dl.google.com/chromeos/hana/13904.97.0/stable-channel/chromeos_13904.97.0_hana_stable-channel_full_mp-v7.bin-gyygmnrxgq2dmrdr2vrcv25hgqmrjobo.signed"
