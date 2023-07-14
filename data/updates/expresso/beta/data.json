@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "expresso-signed-mp-v15keys",
     "board_id": "{87772BEF-2C77-A279-5B2C-921E49629934}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.4.275-20726-g204ae1828356"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{87772BEF-2C77-A279-5B2C-921E49629934}\" version=\"13982.0.0\" board=\"expresso-signed-mp-v15keys\" track=\"beta-channel\" hardware_class=\"EXPRESSO 3aI-BLy-qxB-usd-q61-ftN-j8d-pMM-VRy-qRA-JnD-ADW-tcb-rH5-UEM-KZc-rmM-wRp-k6t-2LR-zia-7hc-26K-35l-YkD-Ph9-NCn-sBZ-Ppk-QOF-_jl-FsH-Kzp-wMe-b5R-6x1-RYB-O8K-AOG-gWF-OAj-QKW-JxA-Xic-7cY-UCC-vxJ-EIr-I4g-3Y5-KZB-sXA-BvA-Uv4-hO1-kZE-Yqo-hFV-5An-7qx-f8K-hOb-HPA-4DK-Mpv-f9f-qTo-M0a-cmP-W0D-TCv-V0S-pdQ-Act-OmO-mIx-15B-PzY-Qsr-yDt-Y2f-Pcc-Sm1-jWA-dMG-bbB-E9V-m1x-yjq-cX6-F0r-bzw-tRO-Wxa-t45-Xo1-GB2-DDD-szi-yLP-OFI\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5358\" elapsed_seconds=\"52352\"/><app appid=\"{87772BEF-2C77-A279-5B2C-921E49629934}\" cohort=\"1:3:\" cohortname=\"expresso_beta\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18872\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/expresso/14092.46.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/expresso/14092.46.0/beta-channel/\"/></urls><manifest version=\"14092.46.0\"><actions><action event=\"update\" run=\"chromeos_14092.46.0_expresso_beta-channel_full_mp-v15.bin-gyytezjqgi4ddb7nzeolnwiorxukwayy.signed\"/><action ChromeOSVersion=\"14092.46.0\" ChromeVersion=\"93.0.4577.69\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ruFDPeJ9QtgrZF3Rqtt6lq2BfLtIx9muaIbgaFniwiJ4tGBRB+ipHACqlx+36BdMibzXhBDNfJqiYS1aJaEQxV7qJsRGKd9V9T2eMZjx3rd9MCU/PW+BQDSysjFVF6MrgMyIsdxMwuVwuxEPJDh+6a/dKFYfppqMEk0BHUmL63N1ClOK42ZsyC4G/mKtjTrwGFlPGl6qM0cgJEoDuwx4ZX5NrVxXwqlDtId2+Jqvike3AKykE5aM5TeANhPy0ojIhU7BgALlpmdi2ZscP9+jdyqxTbbHRQfBfVVuq5ysBzCbaYTD10DAy0Ieigz90kZd/hW+9VgfLGL5m1eJuBPuIQ==\" MetadataSize=\"56484\" event=\"postinstall\" sha256=\"VFzGjAYI9dMdifzfuONkUxm5Rx+mEasfyZ/89RZ1rkA=\"/></actions><packages><package fp=\"3.545cc68c0608f5d31d89fcdfb8e3645319b9471fa611ab1fc99ffcf51675ae40\" hash_sha256=\"545cc68c0608f5d31d89fcdfb8e3645319b9471fa611ab1fc99ffcf51675ae40\" name=\"chromeos_14092.46.0_expresso_beta-channel_full_mp-v15.bin-gyytezjqgi4ddb7nzeolnwiorxukwayy.signed\" required=\"true\" size=\"649464741\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "EXPRESSO 3aI-BLy-qxB-usd-q61-ftN-j8d-pMM-VRy-qRA-JnD-ADW-tcb-rH5-UEM-KZc-rmM-wRp-k6t-2LR-zia-7hc-26K-35l-YkD-Ph9-NCn-sBZ-Ppk-QOF-_jl-FsH-Kzp-wMe-b5R-6x1-RYB-O8K-AOG-gWF-OAj-QKW-JxA-Xic-7cY-UCC-vxJ-EIr-I4g-3Y5-KZB-sXA-BvA-Uv4-hO1-kZE-Yqo-hFV-5An-7qx-f8K-hOb-HPA-4DK-Mpv-f9f-qTo-M0a-cmP-W0D-TCv-V0S-pdQ-Act-OmO-mIx-15B-PzY-Qsr-yDt-Y2f-Pcc-Sm1-jWA-dMG-bbB-E9V-m1x-yjq-cX6-F0r-bzw-tRO-Wxa-t45-Xo1-GB2-DDD-szi-yLP-OFI",
     "sha256": "545cc68c0608f5d31d89fcdfb8e3645319b9471fa611ab1fc99ffcf51675ae40",
     "size": 649464741,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/expresso/14092.46.0/beta-channel/chromeos_14092.46.0_expresso_beta-channel_full_mp-v15.bin-gyytezjqgi4ddb7nzeolnwiorxukwayy.signed",
         "https://dl.google.com/chromeos/expresso/14092.46.0/beta-channel/chromeos_14092.46.0_expresso_beta-channel_full_mp-v15.bin-gyytezjqgi4ddb7nzeolnwiorxukwayy.signed"
