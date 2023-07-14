@@ -97,7 +97,7 @@ for data_file in data_files:
         os.remove(data_file)
   
   needed_analysis += 1
-  if needed_analysis >= 10:
-    print('stopping this job after 10 images, next job should pick up where it left off....')
+  if needed_analysis >= 50:
+    print('stopping this job after 50 images, next job should pick up where it left off....')
     break
   
