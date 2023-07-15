@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "rikku-signed-mp-v2keys",
     "board_id": "{8F55A657-819A-4F70-B178-C7E2D54D7C0C}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.14.221-17319-g80d346a24ceb"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{8F55A657-819A-4F70-B178-C7E2D54D7C0C}\" version=\"13729.0.0\" board=\"rikku-signed-mp-v2keys\" track=\"beta-channel\" hardware_class=\"RIKKU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5205\" elapsed_seconds=\"49834\"/><app appid=\"{8F55A657-819A-4F70-B178-C7E2D54D7C0C}\" cohort=\"1:3:\" cohortname=\"rikku_beta\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"35.2\" _firmware_version_0=\"35.2\" _firmware_version_1=\"35.2\" _firmware_version_2=\"35.2\" _firmware_version_3=\"35.2\" _firmware_version_4=\"35.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/rikku/13816.34.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/rikku/13816.34.0/beta-channel/\"/></urls><manifest version=\"13816.34.0\"><actions><action event=\"update\" run=\"chromeos_13816.34.0_rikku_beta-channel_full_mp-v2.bin-gyydmnbsmizgn2jdmerjelosfffikj6n.signed\"/><action ChromeOSVersion=\"13816.34.0\" ChromeVersion=\"90.0.4430.51\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Nh2Q2UhKy3yv+Rk03Vji1dk/H+ss/616ZJjYpa/8b8REG04S5GZcdKcls4701qUiLkMSrmr3SSV2CQyvBRZQ5nJ2fTsT7AlhaRZ7jevvl+daArA4gneyfKh+YvNuJ0Non7M4myj4ABZn1PuJAl/jSaEM7xDbUhgwOXxL6lQDmUZGNDPWR97duxOGfAOc5l9NGXaqHIbq4Ysz0tnjZZ8f/bggoMPa4/ph6QIPm3vQrf/xNayIJKo2/DFuqYPBOHfk4IVDASwv4pwFZPPZRH2pXA+cI/HpGSWXMNCFItwiClKXLYP7dFTsToB3TFDwB1N+L6dsqspatkuuCb3JXPRDdA==\" MetadataSize=\"56265\" event=\"postinstall\" sha256=\"AbRt/peSNo1S5cSvqJuuHUFYVWYrp0LNmqVkczwg3Os=\"/></actions><packages><package fp=\"3.01b46dfe9792368d52e5c4afa89bae1d415855662ba742cd9aa564733c20dceb\" hash_sha256=\"01b46dfe9792368d52e5c4afa89bae1d415855662ba742cd9aa564733c20dceb\" name=\"chromeos_13816.34.0_rikku_beta-channel_full_mp-v2.bin-gyydmnbsmizgn2jdmerjelosfffikj6n.signed\" required=\"true\" size=\"540431254\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "RIKKU NNN",
     "sha256": "01b46dfe9792368d52e5c4afa89bae1d415855662ba742cd9aa564733c20dceb",
     "size": 540431254,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/rikku/13816.34.0/beta-channel/chromeos_13816.34.0_rikku_beta-channel_full_mp-v2.bin-gyydmnbsmizgn2jdmerjelosfffikj6n.signed",
         "https://dl.google.com/chromeos/rikku/13816.34.0/beta-channel/chromeos_13816.34.0_rikku_beta-channel_full_mp-v2.bin-gyydmnbsmizgn2jdmerjelosfffikj6n.signed"

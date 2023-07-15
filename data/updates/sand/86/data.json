@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "sand-signed-mpkeys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.232-19106-g8255e54b7c365"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{533B7092-5828-48E6-9F77-C7ADCBF8F7E9}\" version=\"13421.0.0\" board=\"sand-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SAND NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5075\" elapsed_seconds=\"47936\"/><app appid=\"{533B7092-5828-48E6-9F77-C7ADCBF8F7E9}\" cohort=\"1:2l/2r:\" cohortname=\"sand_sand_stable_canaryrelease_13421.102.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"10.1\" _firmware_version_0=\"10.1\" _firmware_version_1=\"10.1\" _firmware_version_2=\"10.1\" _firmware_version_3=\"10.1\" _firmware_version_4=\"10.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sand/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sand/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_sand_stable-channel_full_mp.bin-gvtgenzqg5qtoezlici3cfqj3xjj2kuh.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"XJBMfCFUfoOrPQMWZVYc0isE/7KHYGllW3p94zOBp3UrpgUNGm8MaEskb3eEnc5lzMyiS0+Nqx/gyypC5pmnukMgkE1eToY8EgIE8TI4K0Z0a41/Rqd82U9VzrlqTmbeZSzWJZ1b+aWavn1hdbmPEIDTnLkqR26PdDu7looUgHq+QVq3Wvx8eoAVAaVwGhwM1NFFCzlbeyl9r+K5mOc3f/1W7nD74DFratGlhe7hjafPnXQ6bT+r0m4lkT8gDcgcrPcByhKUe8tiySWd9ShzKf/prpQ7MMCYpXfLfRbvt07iRpthCgz7cP0yxVq2M3LvVbIn6VkDUus+LtST7smD1w==\" MetadataSize=\"57045\" event=\"postinstall\" sha256=\"FCsCBmSZZZ5NcJugYr4L1OlzV9jYsIx9iCOInzqK3EQ=\"/></actions><packages><package fp=\"3.142b02066499659e4d709ba062be0bd4e97357d8d8b08c7d8823889f3a8adc44\" hash_sha256=\"142b02066499659e4d709ba062be0bd4e97357d8d8b08c7d8823889f3a8adc44\" name=\"chromeos_13421.102.0_sand_stable-channel_full_mp.bin-gvtgenzqg5qtoezlici3cfqj3xjj2kuh.signed\" required=\"true\" size=\"1010356391\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "SAND NNN",
     "sha256": "142b02066499659e4d709ba062be0bd4e97357d8d8b08c7d8823889f3a8adc44",
     "size": 1010356391,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/sand/13421.102.0/stable-channel/chromeos_13421.102.0_sand_stable-channel_full_mp.bin-gvtgenzqg5qtoezlici3cfqj3xjj2kuh.signed",
         "https://dl.google.com/chromeos/sand/13421.102.0/stable-channel/chromeos_13421.102.0_sand_stable-channel_full_mp.bin-gvtgenzqg5qtoezlici3cfqj3xjj2kuh.signed"
