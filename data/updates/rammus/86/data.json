@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "rammus-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.232-19106-g8255e54b7c36"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{625849FA-56A0-4E67-9163-B89BE0C2A6AE}\" version=\"13421.0.0\" board=\"rammus-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"LEONA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5075\" elapsed_seconds=\"47932\"/><app appid=\"{625849FA-56A0-4E67-9163-B89BE0C2A6AE}\" cohort=\"1:n/36:\" cohortname=\"rammus_leona_stable_canaryrelease_13421.102.0\" status=\"ok\"><updatecheck _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/rammus/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/rammus/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_rammus_stable-channel_full_mp-v2.bin-gvtgenzqmjstpdqu5oy7q65m5kc7fibw.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"bVhviO7ZTLcd4KuppgQ4jgwG0+wxXmLfbLemIwUaoXMCmM5/M80kzklRHcgsG6MAnxlceQpa4f86L31caRn80udm4KlNTJaMGv5B+3g4IXaXOQ2IeXeUjCcsjLEveD2wFXxgdfswr0V0NoQQWzGOjESFODTWRLBoJs+mDrZoMW3rzn1Kim/yBJgHYT0/8Obuv/H38kFRzd1ooJ7UrK6azLCwetjrwOku8uIgSNRQizG3igzT7/xZsaJ32O8v3mwEZ1i7rdm3Vxi9GHBzc1ihMhoubg7pVP4oJr8cKRywxxHf/JND9yaubwZqKjKxzBV9tR7T9GVJTpPaXItnGZyMhQ==\" MetadataSize=\"66205\" event=\"postinstall\" sha256=\"tUrKmWB5gYSOIZJNpeuyHVSOmAs033VKUmiNigyTmBs=\"/></actions><packages><package fp=\"3.b54aca99607981848e21924da5ebb21d548e980b34df754a52688d8a0c93981b\" hash_sha256=\"b54aca99607981848e21924da5ebb21d548e980b34df754a52688d8a0c93981b\" name=\"chromeos_13421.102.0_rammus_stable-channel_full_mp-v2.bin-gvtgenzqmjstpdqu5oy7q65m5kc7fibw.signed\" required=\"true\" size=\"1179418375\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "LEONA NNN",
     "sha256": "b54aca99607981848e21924da5ebb21d548e980b34df754a52688d8a0c93981b",
     "size": 1179418375,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/rammus/13421.102.0/stable-channel/chromeos_13421.102.0_rammus_stable-channel_full_mp-v2.bin-gvtgenzqmjstpdqu5oy7q65m5kc7fibw.signed",
         "https://dl.google.com/chromeos/rammus/13421.102.0/stable-channel/chromeos_13421.102.0_rammus_stable-channel_full_mp-v2.bin-gvtgenzqmjstpdqu5oy7q65m5kc7fibw.signed"

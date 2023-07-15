@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "pyro-signed-mpkeys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.286-21004-g90921f1f9a15"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{63A9F698-C1CA-4A75-95E7-6B90181B3718}\" version=\"14268.0.0\" board=\"pyro-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"PYRO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14268\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5461\" elapsed_seconds=\"62203\"/><app appid=\"{63A9F698-C1CA-4A75-95E7-6B90181B3718}\" cohort=\"1:30/4c:\" cohortname=\"pyro_pyro_stable_canaryrelease_14268.67.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"25.1\" _firmware_version_0=\"25.1\" _firmware_version_1=\"25.1\" _firmware_version_2=\"25.1\" _firmware_version_3=\"25.1\" _firmware_version_4=\"25.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/pyro/14268.67.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/pyro/14268.67.0/stable-channel/\"/></urls><manifest version=\"14268.67.0\"><actions><action event=\"update\" run=\"chromeos_14268.67.0_pyro_stable-channel_full_mp.bin-gyywenzrmiygelfri5bxrhaj242jxmn7.signed\"/><action ChromeOSVersion=\"14268.67.0\" ChromeVersion=\"96.0.4664.111\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"awEmH1EKiclOkalPPuo5pd36EDPdSsrV3D7ZHHJE5liq3Kgswkt8RivmjK2G0e1zSjkHeKtf0gIiNvXpi9XQ54Y1enfMWhzxhwppTy6l2uDtICaDz0hk4V8TR/Whi2dLDBCYVXiGe53415Jrwdvk5+GcLBkkANMOo//0yxjS5FbYJrHPhrQi6s4TJds0Ua9zNZuz+F3h/H2NUoDYuzMl/8qVztUZF+qvup8NPhfWCvUB+Msos7kKZQZ2HLCHTCdJ80c7voaL9yHWwvTlB81XyQjrBkTO0XaGPk8xIqCz00ECaWQ+X4Ug8IMU/RgGaeNsyks7/vGjG+axwtsQwXQRfA==\" MetadataSize=\"57177\" event=\"postinstall\" sha256=\"2Tbns7BE1yK+QQo93OHoqQz2Tp73+8to6KwYxWuXw4w=\"/></actions><packages><package fp=\"3.d936e7b3b044d722be410a3ddce1e8a90cf64e9ef7fbcb68e8ac18c56b97c38c\" hash_sha256=\"d936e7b3b044d722be410a3ddce1e8a90cf64e9ef7fbcb68e8ac18c56b97c38c\" name=\"chromeos_14268.67.0_pyro_stable-channel_full_mp.bin-gyywenzrmiygelfri5bxrhaj242jxmn7.signed\" required=\"true\" size=\"1289642728\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "PYRO NNN",
     "sha256": "d936e7b3b044d722be410a3ddce1e8a90cf64e9ef7fbcb68e8ac18c56b97c38c",
     "size": 1289642728,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/pyro/14268.67.0/stable-channel/chromeos_14268.67.0_pyro_stable-channel_full_mp.bin-gyywenzrmiygelfri5bxrhaj242jxmn7.signed",
         "https://dl.google.com/chromeos/pyro/14268.67.0/stable-channel/chromeos_14268.67.0_pyro_stable-channel_full_mp.bin-gyywenzrmiygelfri5bxrhaj242jxmn7.signed"
