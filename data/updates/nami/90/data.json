@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "nami-signed-mp-v5keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.257-36964-g86d266acc51a"
     ],
+    "parallels_support": true,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{495DCB07-E19A-4D7D-99B9-4710011A65B1}\" version=\"13816.0.0\" board=\"nami-signed-mp-v5keys\" track=\"stable-channel\" hardware_class=\"AKALI NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5250\" elapsed_seconds=\"50295\"/><app appid=\"{495DCB07-E19A-4D7D-99B9-4710011A65B1}\" cohort=\"1:w/jj:\" cohortname=\"nami_akali_stable_canaryrelease_13816.82.0\" status=\"ok\"><updatecheck _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/nami/13816.82.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nami/13816.82.0/stable-channel/\"/></urls><manifest version=\"13816.82.0\"><actions><action event=\"update\" run=\"chromeos_13816.82.0_nami_stable-channel_full_mp-v5.bin-gyydszjumnrdhofzqb7xcl6xwrs5rh2i.signed\"/><action ChromeOSVersion=\"13816.82.0\" ChromeVersion=\"90.0.4430.218\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"kFPfpKw8DXjYtDmx3028JqkvEuzEGV9l+7Oj9Haq0QOEY7W1KBYH+CuGE/7rpqlkhgq7elUwQkW9BgYPUI2h237R9A85VcNnTavTknB+eCkfKcU/fQZz2mgs3an+Kc3FwrH3sgGcLBg9rTKVF2F2FIRgL3ax2CgieAOJ7+m6dztY9ZN/alLFEWzOmYSiY0tgYPy6llppH0yiXBwMhUsXg4ZATyQdpVxLzMA9wTiTFQghTTIRRR/qmXQd80HAFpqvoG5x+urQhrzlA0oP+Qh4zlpYm7L1Dpmtf8GVHBwkcGYB/hrFjzlyyOKI+dj4VV5GhkbgmKSmen7+dc0OHbTz0g==\" MetadataSize=\"65691\" event=\"postinstall\" sha256=\"LTUArDGfgtlZnpXj2vx+z8y64g8kEzCd+/js6RAiRQc=\"/></actions><packages><package fp=\"3.2d3500ac319f82d9599e95e3dafc7ecfccbae20f2413309dfbf8ece910224507\" hash_sha256=\"2d3500ac319f82d9599e95e3dafc7ecfccbae20f2413309dfbf8ece910224507\" name=\"chromeos_13816.82.0_nami_stable-channel_full_mp-v5.bin-gyydszjumnrdhofzqb7xcl6xwrs5rh2i.signed\" required=\"true\" size=\"1205042202\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "AKALI NNN",
     "sha256": "2d3500ac319f82d9599e95e3dafc7ecfccbae20f2413309dfbf8ece910224507",
     "size": 1205042202,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/nami/13816.82.0/stable-channel/chromeos_13816.82.0_nami_stable-channel_full_mp-v5.bin-gyydszjumnrdhofzqb7xcl6xwrs5rh2i.signed",
         "https://dl.google.com/chromeos/nami/13816.82.0/stable-channel/chromeos_13816.82.0_nami_stable-channel_full_mp-v5.bin-gyydszjumnrdhofzqb7xcl6xwrs5rh2i.signed"
