@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "lulu-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.14.174-15091-g2b24b1250270"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{40C6BCAB-B8D4-466F-9C3C-069B8CAC36D7}\" version=\"13020.0.0\" board=\"lulu-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"LULU NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13020\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41789\"/><app appid=\"{40C6BCAB-B8D4-466F-9C3C-069B8CAC36D7}\" cohort=\"1:4:\" cohortname=\"lulu_stable\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"20.2\" _firmware_version_0=\"20.2\" _firmware_version_1=\"20.2\" _firmware_version_2=\"20.2\" _firmware_version_3=\"20.2\" _firmware_version_4=\"20.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/lulu/13020.87.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/lulu/13020.87.0/stable-channel/\"/></urls><manifest version=\"13020.87.0\"><actions><action event=\"update\" run=\"chromeos_13020.87.0_lulu_stable-channel_full_mp-v2.bin-gvswmmbzmjsdkbqhzwlidma3crek36eb.signed\"/><action ChromeOSVersion=\"13020.87.0\" ChromeVersion=\"83.0.4103.119\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"N69eY3M4uCpG4CX/e+oC6znVAcjSf7wBeUOiZMJAPk8X8H7EXblvwpPZA9YURtm2PGHGzcqtmtUvqMX7mMu+QfyO7RAgrEwUUJ+wDXNo+JuqH8AulypWoT5kDhUV08co+QTgZKjNqaP/ysBJPMQKHlCBmY+hDcDwrxx5CVeeWTW13vhm60ZxNtJ4uWYNlm23tTLTo4iNSVAm+1yXeCIbfudFJgF7/YPL1eYunnsrW0rcdJNRjbuOXqwj6Mq3PQGApG0SqjzXbdJMmerukTX1GEU6iI6C/tphToEFHJieWshFpT1nr7opOu4CdOPsEeijDhRDnkvSWFCQGGERsRE6jQ==\" MetadataSize=\"57139\" event=\"postinstall\" sha256=\"waqXg2LSVH20pubaawAIhmeNkVgQg3+CmwmMwhfvaE0=\"/></actions><packages><package fp=\"3.c1aa978362d2547db4a6e6da6b000886678d915810837f829b098cc217ef684d\" hash_sha256=\"c1aa978362d2547db4a6e6da6b000886678d915810837f829b098cc217ef684d\" name=\"chromeos_13020.87.0_lulu_stable-channel_full_mp-v2.bin-gvswmmbzmjsdkbqhzwlidma3crek36eb.signed\" required=\"true\" size=\"998014871\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "LULU NNN",
     "sha256": "c1aa978362d2547db4a6e6da6b000886678d915810837f829b098cc217ef684d",
     "size": 998014871,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/lulu/13020.87.0/stable-channel/chromeos_13020.87.0_lulu_stable-channel_full_mp-v2.bin-gvswmmbzmjsdkbqhzwlidma3crek36eb.signed",
         "https://dl.google.com/chromeos/lulu/13020.87.0/stable-channel/chromeos_13020.87.0_lulu_stable-channel_full_mp-v2.bin-gvswmmbzmjsdkbqhzwlidma3crek36eb.signed"

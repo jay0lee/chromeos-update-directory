@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "monroe-signed-mp-v2keys",
     "board_id": "{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "3.8.11"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}\" version=\"13020.0.0\" board=\"monroe-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"MONROE F4NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13020\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41791\"/><app appid=\"{FF9048C6-F61C-BDDD-C861-4EDCAC22C55A}\" cohort=\"1:4:\" cohortname=\"monroe_stable\" status=\"ok\"><updatecheck _eol_date=\"18415\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/monroe/13020.87.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/monroe/13020.87.0/stable-channel/\"/></urls><manifest version=\"13020.87.0\"><actions><action event=\"update\" run=\"chromeos_13020.87.0_monroe_stable-channel_full_mp-v2.bin-gvswmmbzgeytmgy67qpp5bjtdxscv2wt.signed\"/><action ChromeOSVersion=\"13020.87.0\" ChromeVersion=\"83.0.4103.119\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"PXr9/C7PUeVg+cr6N+kVjAwUWtmW4/lJ2F8RkC5x5QalkXZPwNgxqr1sG1tE5VataB9x/FEjl+zv+w083HbwGINvpVW64cIKqTuBeZISfLr/WqyxMvrrErvPuf2uZZIzUyd2H/0do9CI/PzekL8uNEsRljVit+bpraxZgwm1AGte6myEDruMEMzC67Ik2FCjhtu1Zertp3mGoFi1CS50Uh1UZ05XmBCZKZIZDU+OvqMn1n0PNVT4eHHgImegtBlzfhPyeAL2m8FEqexDAbTYycCM9wQxdHE1ObRy4TQ2ojHEFk85qdXsjG/poEO7o7r3y4j4sUOXB4jHZZ7gvMsb7Q==\" MetadataSize=\"56111\" event=\"postinstall\" sha256=\"mi/wTQdjmQBl9lzIrZUWnG9KMHD09V+uyhcGXVKFZUI=\"/></actions><packages><package fp=\"1.9a2ff04d0763990065f65cc8ad95169c6f4a3070f4f55faeca17065d52856542\" hash_sha256=\"9a2ff04d0763990065f65cc8ad95169c6f4a3070f4f55faeca17065d52856542\" name=\"chromeos_13020.87.0_monroe_stable-channel_full_mp-v2.bin-gvswmmbzgeytmgy67qpp5bjtdxscv2wt.signed\" required=\"true\" size=\"515953804\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "MONROE F4NNN",
     "sha256": "9a2ff04d0763990065f65cc8ad95169c6f4a3070f4f55faeca17065d52856542",
     "size": 515953804,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/monroe/13020.87.0/stable-channel/chromeos_13020.87.0_monroe_stable-channel_full_mp-v2.bin-gvswmmbzgeytmgy67qpp5bjtdxscv2wt.signed",
         "https://dl.google.com/chromeos/monroe/13020.87.0/stable-channel/chromeos_13020.87.0_monroe_stable-channel_full_mp-v2.bin-gvswmmbzgeytmgy67qpp5bjtdxscv2wt.signed"

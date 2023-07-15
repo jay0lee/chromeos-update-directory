@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "veyron_mickey-signed-mp-v2keys",
     "board_id": "{181B8BE1-07A0-4D54-87B7-0157A4322FF1}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.19.139-09987-gfd70a2770654"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{181B8BE1-07A0-4D54-87B7-0157A4322FF1}\" version=\"13421.0.0\" board=\"veyron_mickey-signed-mp-v2keys\" track=\"dev-channel\" hardware_class=\"MICKEY NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41736\"/><app appid=\"{181B8BE1-07A0-4D54-87B7-0157A4322FF1}\" cohort=\"1:2:\" cohortname=\"veyron-mickey_dev\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18568\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/veyron-mickey/13421.17.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/veyron-mickey/13421.17.0/dev-channel/\"/></urls><manifest version=\"13421.17.0\"><actions><action event=\"update\" run=\"chromeos_13421.17.0_veyron-mickey_dev-channel_full_mickey-mp-v2.bin-gvtdizrymu2tmg2vfniaesspkswsziap.signed\"/><action ChromeOSVersion=\"13421.17.0\" ChromeVersion=\"86.0.4240.15\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"e1FTbAcUtRNwZ3V89a6MoGztSeZPvgGPuUZXGNoc+mRgqqkzsAnUbTfcVcKZHoplQXxhC2WWzW7KGr5mZAebbJnsfndS+jNERkBzhY3fqoxrTKH+yTp7pSwJvIoGomwUT9yZa+djH40T+EgvhDrwVamTmz5EsR+bSRkasUOw6mgdPp7oAUYcBRsuIXj5pTT0y4ZWXveGcpwDkfTKY8UbbRN8Mp5ARoJcLgk6QN+3g7VL9ySTKJh0pAijYFMPeetnIMj9AQBKC/OkZ2bvgihnEgxqvZuVx04r5lGfd2s73UtK3LzRx9hskwT62hkgZ8eMS9QQMpjTZMH2AiQqg2J7cg==\" MetadataSize=\"56256\" event=\"postinstall\" sha256=\"/k7IaxylTljqvlm+QPkmTc6+aCRHpckJrgPEjh2X5Ds=\"/></actions><packages><package fp=\"3.fe4ec86b1ca54e58eabe59be40f9264dcebe682447a5c909ae03c48e1d97e43b\" hash_sha256=\"fe4ec86b1ca54e58eabe59be40f9264dcebe682447a5c909ae03c48e1d97e43b\" name=\"chromeos_13421.17.0_veyron-mickey_dev-channel_full_mickey-mp-v2.bin-gvtdizrymu2tmg2vfniaesspkswsziap.signed\" required=\"true\" size=\"507091070\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "MICKEY NNN",
     "sha256": "fe4ec86b1ca54e58eabe59be40f9264dcebe682447a5c909ae03c48e1d97e43b",
     "size": 507091070,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/veyron-mickey/13421.17.0/dev-channel/chromeos_13421.17.0_veyron-mickey_dev-channel_full_mickey-mp-v2.bin-gvtdizrymu2tmg2vfniaesspkswsziap.signed",
         "https://dl.google.com/chromeos/veyron-mickey/13421.17.0/dev-channel/chromeos_13421.17.0_veyron-mickey_dev-channel_full_mickey-mp-v2.bin-gvtdizrymu2tmg2vfniaesspkswsziap.signed"
