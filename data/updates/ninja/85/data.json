@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "ninja-signed-mp-v2keys",
     "board_id": "{555B868F-306A-3E26-6687-FC081968D43A}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.4.228-18597-gc338c419c8c5"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{555B868F-306A-3E26-6687-FC081968D43A}\" version=\"13310.0.0\" board=\"ninja-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"NINJA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41793\"/><app appid=\"{555B868F-306A-3E26-6687-FC081968D43A}\" cohort=\"1:4:\" cohortname=\"ninja_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/ninja/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/ninja/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_ninja_stable-channel_full_mp-v2.bin-gvtdmzbzmfstarz6ccmxqhnfoidwqrks.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"yBRI7Gk/q2NDif4ZhBg+qc1yMuNk0sPP/UajspkMJPmPsp5h3C31gImIGj7FEIy0vc/uTzti7LE5B+QL/N3XeBt6voP9ISZ6NJMS/kerlQQ9Ldhqe+hvx9c22S5IVV1+olRMQOoC3tCEJ/toJ95ZkKVnO2TWzqq77q1DDAtXCzLGbYrYZ1sN6InpY7bQMOJ6ZEYZDk/2wbDTZs2Tw3VIt2APWFclGOgderDZ2SQCgNKWUU8bIyUnTTQrRE/hju+iVETV6Ns9FA+8sX9I5AZT90F53RJkiD1SXDNQt+CUqFPKfQko5r0HRkimxpqntAytXuvw9JkPB4l8HJJq8OvPZQ==\" MetadataSize=\"56312\" event=\"postinstall\" sha256=\"7r5Lc+jwxFxPK4d6CFwrL7vFwe0XzfIw/Gv17rLSU2g=\"/></actions><packages><package fp=\"3.eebe4b73e8f0c45c4f2b877a085c2b2fbbc5c1ed17cdf230fc6bf5eeb2d25368\" hash_sha256=\"eebe4b73e8f0c45c4f2b877a085c2b2fbbc5c1ed17cdf230fc6bf5eeb2d25368\" name=\"chromeos_13310.93.0_ninja_stable-channel_full_mp-v2.bin-gvtdmzbzmfstarz6ccmxqhnfoidwqrks.signed\" required=\"true\" size=\"528545523\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "NINJA NNN",
     "sha256": "eebe4b73e8f0c45c4f2b877a085c2b2fbbc5c1ed17cdf230fc6bf5eeb2d25368",
     "size": 528545523,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/ninja/13310.93.0/stable-channel/chromeos_13310.93.0_ninja_stable-channel_full_mp-v2.bin-gvtdmzbzmfstarz6ccmxqhnfoidwqrks.signed",
         "https://dl.google.com/chromeos/ninja/13310.93.0/stable-channel/chromeos_13310.93.0_ninja_stable-channel_full_mp-v2.bin-gvtdmzbzmfstarz6ccmxqhnfoidwqrks.signed"

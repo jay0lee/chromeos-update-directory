@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "nautilus-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "5.4.157-17191-g6575d22de694"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{85F8FA82-F276-4EA6-8980-93FE091F6D25}\" version=\"14324.0.0\" board=\"nautilus-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"NAUTILUS X7D-N6G-W8SNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14324\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5505\" elapsed_seconds=\"56744\"/><app appid=\"{85F8FA82-F276-4EA6-8980-93FE091F6D25}\" cohort=\"1:v/6l:\" cohortname=\"nautilus_nautiluslte_stable_canaryrelease_14324.80.0\" status=\"ok\"><updatecheck _eol_date=\"19905\" _firmware_version=\"5.1\" _firmware_version_0=\"5.1\" _firmware_version_1=\"5.1\" _firmware_version_2=\"5.1\" _firmware_version_3=\"5.1\" _firmware_version_4=\"5.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/nautilus/14324.80.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nautilus/14324.80.0/stable-channel/\"/></urls><manifest version=\"14324.80.0\"><actions><action event=\"update\" run=\"chromeos_14324.80.0_nautilus_stable-channel_full_mp-v2.bin-gyywkyjygu3dino3umlzwlbpoef6o74k.signed\"/><action ChromeOSVersion=\"14324.80.0\" ChromeVersion=\"97.0.4692.102\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ogxNqhlRYZeg7Swb1km76k33sZJfmfOGXlHOlTmi25AM0ksZbZZszzcfMzR0hJQn2HZHi3/5vgFrxV4k9ARpdANPbCApOnIyI4xxW5kVqEYlsAh+z86nRB1ECXEsl1ia1UQ6d3L4wJZb7yIJF+U4Yq3NQdGZPwcC8Cynr5ICLJ0ewMnhX1RYFUtI3IlA7vAeFfrmRmug/iz+r9/bK2K/Q6qU4jJt9uEF5w+epXg2KsHQYkeyyacLHkYEnbqUeO0ywbbvlBTPpRs376wLeckSJk3OxF0Ig9DqceucuuQNQFgf52fij6R5HhJPc3TqhH5xWclKanlR2C0KwuFKQDPjcQ==\" MetadataSize=\"65909\" event=\"postinstall\" sha256=\"qmm1pEkcNOhPeNKZCReGCZ0t51TCZhWQLK4xqo+JnVw=\"/></actions><packages><package fp=\"3.aa69b5a4491c34e84f78d299091786099d2de754c26615902cae31aa8f899d5c\" hash_sha256=\"aa69b5a4491c34e84f78d299091786099d2de754c26615902cae31aa8f899d5c\" name=\"chromeos_14324.80.0_nautilus_stable-channel_full_mp-v2.bin-gyywkyjygu3dino3umlzwlbpoef6o74k.signed\" required=\"true\" size=\"1364320345\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "NAUTILUS X7D-N6G-W8SNNN",
     "sha256": "aa69b5a4491c34e84f78d299091786099d2de754c26615902cae31aa8f899d5c",
     "size": 1364320345,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/nautilus/14324.80.0/stable-channel/chromeos_14324.80.0_nautilus_stable-channel_full_mp-v2.bin-gyywkyjygu3dino3umlzwlbpoef6o74k.signed",
         "https://dl.google.com/chromeos/nautilus/14324.80.0/stable-channel/chromeos_14324.80.0_nautilus_stable-channel_full_mp-v2.bin-gyywkyjygu3dino3umlzwlbpoef6o74k.signed"
