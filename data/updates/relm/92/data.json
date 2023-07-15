@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "relm-signed-mp-v8keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.190-11780-g9abe9eac8155"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{3FC66B4B-1B63-94FA-BD6F-DB856B496918}\" version=\"13982.0.0\" board=\"relm-signed-mp-v8keys\" track=\"stable-channel\" hardware_class=\"RELM MRZWHO8GW784IDASGLTCWYY5F5FIQZJANG7HWV55XYHIKPTZBUJSQDI6LNKISSKWSGFU3X4DR6DXFOB-H8W-BLY-FK6-E-29ZEFZDLS5QFJIJ9O87Y5C3DAEOGARAA9PIJSAIQ4DLF\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5350\" elapsed_seconds=\"36724\"/><app appid=\"{3FC66B4B-1B63-94FA-BD6F-DB856B496918}\" cohort=\"1:4/4n:\" cohortname=\"relm_stable_canaryrelease_13982.88.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/relm/13982.88.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/relm/13982.88.0/stable-channel/\"/></urls><manifest version=\"13982.88.0\"><actions><action event=\"update\" run=\"chromeos_13982.88.0_relm_stable-channel_full_mp-v8.bin-gyytembwme2wci7j233ownkfg332nhrw.signed\"/><action ChromeOSVersion=\"13982.88.0\" ChromeVersion=\"92.0.4515.162\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"rC4BE6TMVgbrhK951Zk+pSM9o6xo563YcOF8JTaVp/1QANaA3xYpMZTAKnEiOpIgjtAjLn88D3uZvEBC9C9HZEitcJgloWNEDKm+vMUpx+FpDKJJbcvVghJ0ez4gqpzIsi9/TeYT7PJnly+9HNq5fmPUefcLssDAavEjWf86I5DhZ18WlxYbX8jngvplXu59bPg/jNN4Kvbij9lv/eHbxiacxZa7BU5yCH6VrNTaI+LWg2T+KKdZnLkOtvJsJ+2BMB6t1fKHbFFpfWJp1ZWI9/pYq1iPULddRykjjqaQlleOi+Gq5/zApCpp1PmkDHLu5HKJR409W+YV2zYPji4cKg==\" MetadataSize=\"57169\" event=\"postinstall\" sha256=\"VKhYyhEHBi0sTmbGSxJcQPDWsYhJv/wDPhEqeiL5e60=\"/></actions><packages><package fp=\"3.54a858ca1107062d2c4e66c64b125c40f0d6b18849bffc033e112a7a22f97bad\" hash_sha256=\"54a858ca1107062d2c4e66c64b125c40f0d6b18849bffc033e112a7a22f97bad\" name=\"chromeos_13982.88.0_relm_stable-channel_full_mp-v8.bin-gyytembwme2wci7j233ownkfg332nhrw.signed\" required=\"true\" size=\"1126533188\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "RELM MRZWHO8GW784IDASGLTCWYY5F5FIQZJANG7HWV55XYHIKPTZBUJSQDI6LNKISSKWSGFU3X4DR6DXFOB-H8W-BLY-FK6-E-29ZEFZDLS5QFJIJ9O87Y5C3DAEOGARAA9PIJSAIQ4DLF",
     "sha256": "54a858ca1107062d2c4e66c64b125c40f0d6b18849bffc033e112a7a22f97bad",
     "size": 1126533188,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/relm/13982.88.0/stable-channel/chromeos_13982.88.0_relm_stable-channel_full_mp-v8.bin-gyytembwme2wci7j233ownkfg332nhrw.signed",
         "https://dl.google.com/chromeos/relm/13982.88.0/stable-channel/chromeos_13982.88.0_relm_stable-channel_full_mp-v8.bin-gyytembwme2wci7j233ownkfg332nhrw.signed"
