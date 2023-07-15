@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "reef-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.280-20736-gcb7f1d3e9447"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}\" version=\"14150.0.0\" board=\"reef-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"REEF YTn-CGr-I4H-rnV-Zod-8Xf-0M7-B9k-t7h-69p-Xn8-O1S-Ew7-fOW-Pri\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14150\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5418\" elapsed_seconds=\"59744\"/><app appid=\"{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}\" cohort=\"1:1o/6p:\" cohortname=\"reef_basking_stable_canaryrelease_14150.74.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/reef/14150.74.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/reef/14150.74.0/stable-channel/\"/></urls><manifest version=\"14150.74.0\"><actions><action event=\"update\" run=\"chromeos_14150.74.0_reef_stable-channel_full_mp-v2.bin-gyytoyjxmfsgidpl55wrifffqe2xhc5f.signed\"/><action ChromeOSVersion=\"14150.74.0\" ChromeVersion=\"94.0.4606.114\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"zZRp/7T09OPtNGPEDFSh8Y9/rVbntFIDp9kh1Nwn+E0hLgJxR66gCt5v58wzEOEpTp+5Mu7vcwK0NL0HdaN0TUhiMh0cM7bphnUjpaenxtLzHSKMBRQ91iwuf+X3AmToQzPZVJGYYKdCalkl47Eh4JlYbXlXmPuEphEEJjWn3jHmF3XVUMUkIfsPt3+7WOyW1rqFTzjHCEAMIO5E5A0IlMv68g9Ywr89OWtTIwOrrTAtNF7iJb68wo6CX/eROzzJlFd41ia46ASRMMYTjwfhKqsM5wwTcSzjU6HNrkwa50R00RY7fy29UbJSzORLsXAXn5y2vEiH8+TPr5YhOTICeg==\" MetadataSize=\"57143\" event=\"postinstall\" sha256=\"Nq/2NGc4ARMGIk+G8QRRd7TEjNl8mpM0lz72roJqpB4=\"/></actions><packages><package fp=\"3.36aff6346738011306224f86f1045177b4c48cd97c9a9334973ef6ae826aa41e\" hash_sha256=\"36aff6346738011306224f86f1045177b4c48cd97c9a9334973ef6ae826aa41e\" name=\"chromeos_14150.74.0_reef_stable-channel_full_mp-v2.bin-gyytoyjxmfsgidpl55wrifffqe2xhc5f.signed\" required=\"true\" size=\"1285709814\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "REEF YTn-CGr-I4H-rnV-Zod-8Xf-0M7-B9k-t7h-69p-Xn8-O1S-Ew7-fOW-Pri",
     "sha256": "36aff6346738011306224f86f1045177b4c48cd97c9a9334973ef6ae826aa41e",
     "size": 1285709814,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/reef/14150.74.0/stable-channel/chromeos_14150.74.0_reef_stable-channel_full_mp-v2.bin-gyytoyjxmfsgidpl55wrifffqe2xhc5f.signed",
         "https://dl.google.com/chromeos/reef/14150.74.0/stable-channel/chromeos_14150.74.0_reef_stable-channel_full_mp-v2.bin-gyytoyjxmfsgidpl55wrifffqe2xhc5f.signed"

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "reks-signed-mp-v4keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.190-11780-g9abe9eac8155"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{00599913-5741-F624-6375-E732C4602915}\" version=\"13982.0.0\" board=\"reks-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"REKS HRE-DvY-CUq-kr2-sUn-NC2-dfj-Vyf-z_6-Qm7-WOV-R3z-VF1-r2p-Vzn-zmT-xRR-GgM-Nch-f5q-ZVK-MAj-Po2-M6V-zEO-NlD-rET-6Wy-may-E9D-y9x-vlt-2qn-tqD-vUx-HQQ-K3U-yTa-3IO-Ina-bRZ-gwW-lgU-C8u-bG1-6jg\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13982\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5350\" elapsed_seconds=\"36724\"/><app appid=\"{00599913-5741-F624-6375-E732C4602915}\" cohort=\"1:4/4m:\" cohortname=\"reks_stable_canaryrelease_13982.88.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"15.2\" _firmware_version_0=\"15.2\" _firmware_version_1=\"15.2\" _firmware_version_2=\"15.2\" _firmware_version_3=\"15.2\" _firmware_version_4=\"15.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/reks/13982.88.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/reks/13982.88.0/stable-channel/\"/></urls><manifest version=\"13982.88.0\"><actions><action event=\"update\" run=\"chromeos_13982.88.0_reks_stable-channel_full_mp-v4.bin-gyytembwmi4wfs4rhtemmv6k7yy23xya.signed\"/><action ChromeOSVersion=\"13982.88.0\" ChromeVersion=\"92.0.4515.162\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"vcYVsk8EJgnNuiYaJ8q2kiDNKMuVu0mwlntXgDoJAlJAceaGQRpEBbXyvfz4F/RQqpn4/LEx18cBoEv+xD69SfsYsIMyJfu7W/czP8BlFuUx9lbcM4Go00lsNWsMeWqNTeb1hfUi5KEuUmZug31kUSMXexNh9tMj56bYmH9ZQMQyAH3nnAmPStuVBuYily/qMRMkopOz1PuKwtnyaaH9CCWYO9ocna5iO+sXun647q1Chf+WfKYOEjoLJJQdqUuCKWxtIJtgyUHJofx5CHu88GC49gMYU3mfqnQwvv69sc+iNXYMdb/JLW1eQddTrfq7W4UYKX96dLURYEwyR49U3Q==\" MetadataSize=\"57201\" event=\"postinstall\" sha256=\"qoQMqGZiEQaKcSs/uibnXg1qOCaTTZlwS6F620YZ4Sw=\"/></actions><packages><package fp=\"3.aa840ca8666211068a712b3fba26e75e0d6a3826934d99704ba17adb4619e12c\" hash_sha256=\"aa840ca8666211068a712b3fba26e75e0d6a3826934d99704ba17adb4619e12c\" name=\"chromeos_13982.88.0_reks_stable-channel_full_mp-v4.bin-gyytembwmi4wfs4rhtemmv6k7yy23xya.signed\" required=\"true\" size=\"1126699735\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "REKS HRE-DvY-CUq-kr2-sUn-NC2-dfj-Vyf-z_6-Qm7-WOV-R3z-VF1-r2p-Vzn-zmT-xRR-GgM-Nch-f5q-ZVK-MAj-Po2-M6V-zEO-NlD-rET-6Wy-may-E9D-y9x-vlt-2qn-tqD-vUx-HQQ-K3U-yTa-3IO-Ina-bRZ-gwW-lgU-C8u-bG1-6jg",
     "sha256": "aa840ca8666211068a712b3fba26e75e0d6a3826934d99704ba17adb4619e12c",
     "size": 1126699735,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/reks/13982.88.0/stable-channel/chromeos_13982.88.0_reks_stable-channel_full_mp-v4.bin-gyytembwmi4wfs4rhtemmv6k7yy23xya.signed",
         "https://dl.google.com/chromeos/reks/13982.88.0/stable-channel/chromeos_13982.88.0_reks_stable-channel_full_mp-v4.bin-gyytembwmi4wfs4rhtemmv6k7yy23xya.signed"
