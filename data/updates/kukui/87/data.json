@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "kukui-signed-mp-v2keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.19.148-10428-gd3adbe6c9e16"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{50F3C95B-CA5B-4AF8-87A2-8CD19588BD12}\" version=\"13505.0.0\" board=\"kukui-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"KODAMANNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13505\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5134\" elapsed_seconds=\"43192\"/><app appid=\"{50F3C95B-CA5B-4AF8-87A2-8CD19588BD12}\" cohort=\"1:2b/5f:\" cohortname=\"kukui_kodama_stable_canaryrelease_13505.111.0\" status=\"ok\"><updatecheck _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/kukui/13505.111.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kukui/13505.111.0/stable-channel/\"/></urls><manifest version=\"13505.111.0\"><actions><action event=\"update\" run=\"chromeos_13505.111.0_kukui_stable-channel_full_mp-v2.bin-gyydanzxgrrwiuc5ofjq2pylt7tko5y7.signed\"/><action ChromeOSVersion=\"13505.111.0\" ChromeVersion=\"87.0.4280.152\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"EiSS+VL9YfDh33BJKsxE6h/IvdUTNKPi72MDilU5kYh8VldpIRT4oahd3WtfXAWuKDCkXVAytVMrLWsTMa+ouJAbHIBWauULiAiBTbid1ntFmcWrKU13ota9XWDbaBEJffLw/91s233S/9k/ctE9J9E4Ki//rvGEcSRq0oKq9P7IJCt3BrxnfwE2glWXoo8y5ek49PJbxHGGbmSqc53zkHTS/3Tfkkn8dpDrvTqY58eLTz9Ijr1OpGNncgjt8BeQjaMLN31/7lWjNYja2lC+Y8a6EcnBue1zV2sF+XV+3/6N8ILPzAF3voyMJUEu2yJF5Hz9t+yKLnUrSQRO3ht2Bg==\" MetadataSize=\"66056\" event=\"postinstall\" sha256=\"Z3URn1Ftt4f0RBvAkF6vBfRQeu3YQDfX9vLzUMsiYHw=\"/></actions><packages><package fp=\"3.6775119f516db787f4441bc0905eaf05f4507aedd84037d7f6f2f350cb22607c\" hash_sha256=\"6775119f516db787f4441bc0905eaf05f4507aedd84037d7f6f2f350cb22607c\" name=\"chromeos_13505.111.0_kukui_stable-channel_full_mp-v2.bin-gyydanzxgrrwiuc5ofjq2pylt7tko5y7.signed\" required=\"true\" size=\"1159671246\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "KODAMANNN",
     "sha256": "6775119f516db787f4441bc0905eaf05f4507aedd84037d7f6f2f350cb22607c",
     "size": 1159671246,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/kukui/13505.111.0/stable-channel/chromeos_13505.111.0_kukui_stable-channel_full_mp-v2.bin-gyydanzxgrrwiuc5ofjq2pylt7tko5y7.signed",
         "https://dl.google.com/chromeos/kukui/13505.111.0/stable-channel/chromeos_13505.111.0_kukui_stable-channel_full_mp-v2.bin-gyydanzxgrrwiuc5ofjq2pylt7tko5y7.signed"

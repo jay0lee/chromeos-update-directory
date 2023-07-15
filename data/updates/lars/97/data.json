@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "lars-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.215-12487-gf68446239393"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E7507B05-EC5C-437C-9878-E870E20111BC}\" version=\"14324.0.0\" board=\"lars-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"LARS cV2-4Wq-lQA-n3NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14324\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5505\" elapsed_seconds=\"56743\"/><app appid=\"{E7507B05-EC5C-437C-9878-E870E20111BC}\" cohort=\"1:4/56:\" cohortname=\"lars_stable_canaryrelease_14324.80.0\" status=\"ok\"><updatecheck _eol_date=\"19510\" _firmware_version=\"55.1\" _firmware_version_0=\"55.1\" _firmware_version_1=\"55.1\" _firmware_version_2=\"55.1\" _firmware_version_3=\"55.1\" _firmware_version_4=\"55.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/lars/14324.80.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/lars/14324.80.0/stable-channel/\"/></urls><manifest version=\"14324.80.0\"><actions><action event=\"update\" run=\"chromeos_14324.80.0_lars_stable-channel_full_mp.bin-gyywkyjxhbqth26t4ph27itsnqgah7qx.signed\"/><action ChromeOSVersion=\"14324.80.0\" ChromeVersion=\"97.0.4692.102\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"SnvSySYxnCR1El9RLKf4/+PRgeZGlixMAcMdGdtGo6ekxxH5dry2wR7xVu8UJNsfiLU/Gds1FX930i8Zjg71snxrnvSZmkZ4K8ccvlRAtYGD0gvw4wUjyQ5e5Hu/DKXM9GsZKrcUc7lyQE7l3QoAP/BObhIUx3hzuoR85yt+DlHV6Sid5J+PgsS4elFQXIInAzeVWVmoM2a+HJT50I6nwGzWonSpMG9xpYA2poRYbZ2hPow1RcyPvCTzy/AVHTQ51xx3HzBP+XpoBWB9I5eUOceV7q6Uxe1xRNBz6OisYz5DGFgBj9RAdWJvxFwWLKbWKVzYta79JoEUomr7t8DM9A==\" MetadataSize=\"57145\" event=\"postinstall\" sha256=\"GdguTwD037EFAN/pEasE1wa62ilVnqbQYdtYv485eD8=\"/></actions><packages><package fp=\"3.19d82e4f00f4dfb10500dfe911ab04d706bada29559ea6d061db58bf8f39783f\" hash_sha256=\"19d82e4f00f4dfb10500dfe911ab04d706bada29559ea6d061db58bf8f39783f\" name=\"chromeos_14324.80.0_lars_stable-channel_full_mp.bin-gyywkyjxhbqth26t4ph27itsnqgah7qx.signed\" required=\"true\" size=\"1158206889\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "LARS cV2-4Wq-lQA-n3NNN",
     "sha256": "19d82e4f00f4dfb10500dfe911ab04d706bada29559ea6d061db58bf8f39783f",
     "size": 1158206889,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/lars/14324.80.0/stable-channel/chromeos_14324.80.0_lars_stable-channel_full_mp.bin-gyywkyjxhbqth26t4ph27itsnqgah7qx.signed",
         "https://dl.google.com/chromeos/lars/14324.80.0/stable-channel/chromeos_14324.80.0_lars_stable-channel_full_mp.bin-gyywkyjxhbqth26t4ph27itsnqgah7qx.signed"
