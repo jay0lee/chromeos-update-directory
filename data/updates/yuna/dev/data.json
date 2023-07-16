@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "auron_yuna-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.14.228-17531-g675fe60058eb"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{FF7E5403-68B3-9E57-EE1C-A53D8AF2BAC3}\" version=\"13729.0.0\" board=\"auron_yuna-signed-mp-v2keys\" track=\"dev-channel\" hardware_class=\"YUNA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5219\" elapsed_seconds=\"55739\"/><app appid=\"{FF7E5403-68B3-9E57-EE1C-A53D8AF2BAC3}\" cohort=\"1:2:\" cohortname=\"auron-yuna_dev\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18780\" _firmware_version=\"25.2\" _firmware_version_0=\"25.2\" _firmware_version_1=\"25.2\" _firmware_version_2=\"25.2\" _firmware_version_3=\"25.2\" _firmware_version_4=\"25.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/auron-yuna/13904.4.0/dev-channel/\"/><url codebase=\"https://dl.google.com/chromeos/auron-yuna/13904.4.0/dev-channel/\"/></urls><manifest version=\"13904.4.0\"><actions><action event=\"update\" run=\"chromeos_13904.4.0_auron-yuna_dev-channel_full_yuna-mp-v2.bin-gyydon3ghbrdounuyxixaecutbrzr2te.signed\"/><action ChromeOSVersion=\"13904.4.0\" ChromeVersion=\"91.0.4472.10\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ziA0EYWaenEr50RFHXEWOidWNrimUZAyoS2IUb00unMXWbRoDBAMhZc2VuPajSCNUxLSU1Z7KCXgmMROA32WDFAKUq322cJossSH6I1OUyWzxJojqf8P+Hp6KSbPCQ/JhfGWCoEKtNv+N7OwAhi2473aN52iflVccKkYDJz+QrjnNjSXbnMWduJnwl1/wWVKI4rpqm9ZjmVJ1kkRRhQvoJlZ1HVmEfaEouAF/0Yg9roI8ZMVZ9m/arqE4EWHUpZ9NnLMy/JwIJdGyQt3JI7BE3b1vDfLe8FkbEayiaqDihqFDTgLV0W6neu5y449wrhGVBL9MgJ8SfshMyGW266Bmw==\" MetadataSize=\"57015\" event=\"postinstall\" sha256=\"E9ESb0pdfaS8nRurVulX8dLGJTpS2OLnY6mo8smrwXc=\"/></actions><packages><package fp=\"3.13d1126f4a5d7da4bc9d1bab56e957f1d2c6253a52d8e2e763a9a8f2c9abc177\" hash_sha256=\"13d1126f4a5d7da4bc9d1bab56e957f1d2c6253a52d8e2e763a9a8f2c9abc177\" name=\"chromeos_13904.4.0_auron-yuna_dev-channel_full_yuna-mp-v2.bin-gyydon3ghbrdounuyxixaecutbrzr2te.signed\" required=\"true\" size=\"1003918268\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "YUNA NNN",
     "sha256": "13d1126f4a5d7da4bc9d1bab56e957f1d2c6253a52d8e2e763a9a8f2c9abc177",
     "size": 1003918268,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/auron-yuna/13904.4.0/dev-channel/chromeos_13904.4.0_auron-yuna_dev-channel_full_yuna-mp-v2.bin-gyydon3ghbrdounuyxixaecutbrzr2te.signed",
         "https://dl.google.com/chromeos/auron-yuna/13904.4.0/dev-channel/chromeos_13904.4.0_auron-yuna_dev-channel_full_yuna-mp-v2.bin-gyydon3ghbrdounuyxixaecutbrzr2te.signed"
