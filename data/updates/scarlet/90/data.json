@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "scarlet-signed-mp-v7keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.257-36964-g86d266acc51a"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F1C30EB2-8429-4A18-9321-93E224753A98}\" version=\"13816.0.0\" board=\"scarlet-signed-mp-v7keys\" track=\"stable-channel\" hardware_class=\"DRUWL ZEBNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13816\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5250\" elapsed_seconds=\"50307\"/><app appid=\"{F1C30EB2-8429-4A18-9321-93E224753A98}\" cohort=\"1:y/6u:\" cohortname=\"scarlet_druwl_stable_canaryrelease_13816.82.0\" status=\"ok\"><updatecheck _eol_date=\"19571\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/scarlet/13816.82.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/scarlet/13816.82.0/stable-channel/\"/></urls><manifest version=\"13816.82.0\"><actions><action event=\"update\" run=\"chromeos_13816.82.0_scarlet_stable-channel_full_mp-v7.bin-gyydszjugi2dnob6qo3o2rdxvkakr3iq.signed\"/><action ChromeOSVersion=\"13816.82.0\" ChromeVersion=\"90.0.4430.218\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"GEf7/Qy4JnwGMfpavbcHXrn+cO7h92zRgYYt2xeWRSsLkG/uPnOK8ZETUKp3z5ysh85PMtNoODXzq3gy7S3w6T3Omb+WE5jnYfPMe7ni4hwHTFo8t5KLeH6ugmgG3DbGsUCIIQ239q9c2XoIvouKzmVMV3bLuq0E9SWGwrpPmlqUUEi0MXxQlzR5AOTZwxWTLn6Ut7+fpMXea36K+qRjIvubU7CIeEl7Wlrl8BuHXTqvFgDjVuGHAD9Pu4wJ0K4azKrCj7baGZqMVJj98VpkchhDp+3WIVq25n91RGwr3ONzuOlybMJDcrVtqmA1KXLYJV6naXowV7j2ARxgajrbrg==\" MetadataSize=\"56833\" event=\"postinstall\" sha256=\"6Ai7yyYPDs7X+SrqTfB+5Z3cXtJA+0RJ142Zboo+njU=\"/></actions><packages><package fp=\"3.e808bbcb260f0eced7f92aea4df07ee59ddc5ed240fb4449d78d996e8a3e9e35\" hash_sha256=\"e808bbcb260f0eced7f92aea4df07ee59ddc5ed240fb4449d78d996e8a3e9e35\" name=\"chromeos_13816.82.0_scarlet_stable-channel_full_mp-v7.bin-gyydszjugi2dnob6qo3o2rdxvkakr3iq.signed\" required=\"true\" size=\"1029568224\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "DRUWL ZEBNNN",
     "sha256": "e808bbcb260f0eced7f92aea4df07ee59ddc5ed240fb4449d78d996e8a3e9e35",
     "size": 1029568224,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/scarlet/13816.82.0/stable-channel/chromeos_13816.82.0_scarlet_stable-channel_full_mp-v7.bin-gyydszjugi2dnob6qo3o2rdxvkakr3iq.signed",
         "https://dl.google.com/chromeos/scarlet/13816.82.0/stable-channel/chromeos_13816.82.0_scarlet_stable-channel_full_mp-v7.bin-gyydszjugi2dnob6qo3o2rdxvkakr3iq.signed"
