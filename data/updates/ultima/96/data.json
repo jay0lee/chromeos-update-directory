@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "ultima-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.208-12427-gf85a69d601ba"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F9EDD237-F274-4467-A4DE-04061F6D319A}\" version=\"14268.0.0\" board=\"ultima-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"ULTIMA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14268\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5463\" elapsed_seconds=\"49141\"/><app appid=\"{F9EDD237-F274-4467-A4DE-04061F6D319A}\" cohort=\"1:4/55:\" cohortname=\"ultima_stable_canaryrelease_14268.67.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"10.2\" _firmware_version_0=\"10.2\" _firmware_version_1=\"10.2\" _firmware_version_2=\"10.2\" _firmware_version_3=\"10.2\" _firmware_version_4=\"10.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/ultima/14268.67.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/ultima/14268.67.0/stable-channel/\"/></urls><manifest version=\"14268.67.0\"><actions><action event=\"update\" run=\"chromeos_14268.67.0_ultima_stable-channel_full_mp-v2.bin-gyywenzsgzsgglzhkam365gkytlbht5o.signed\"/><action ChromeOSVersion=\"14268.67.0\" ChromeVersion=\"96.0.4664.111\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"k9ku30DNEoGtfLSHdHlOSku3r6ZaKlBeM4OO8HfUaUAfbeRGrOhxOpB3r1diuSDFXs9FVAEtfJLqfsAuyfvXvy/ufH9lZP6LD86QvRy0rkHQN1GX8paN1InQwqu5ctnW53dDaMDso12jvkKu3A2alNuky2t1/C3x8AyJvtNsBl1KOQanqMe5eeBe+7Ij2ePmAdTc1dG0KXcid6Yo9BJwEXEHNtf0MtSKuAK/imGVymKYowj6NLCtzD+ZcOgiDDyN7wrb+/KbhpAy7VPQKkWII7KMpgXHcK3MHC5Z4vCVifhIjEcoBBr5Jxf/vmiv04jLxSfnD4EKU4eroOi6tWmFBg==\" MetadataSize=\"57176\" event=\"postinstall\" sha256=\"ALvc3AqXgplhkAkCrkcgDRhSoIRLZ2hYZOAZ2iEiIAc=\"/></actions><packages><package fp=\"3.00bbdcdc0a97829961900902ae47200d1852a0844b67685864e019da21222007\" hash_sha256=\"00bbdcdc0a97829961900902ae47200d1852a0844b67685864e019da21222007\" name=\"chromeos_14268.67.0_ultima_stable-channel_full_mp-v2.bin-gyywenzsgzsgglzhkam365gkytlbht5o.signed\" required=\"true\" size=\"1148339305\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "ULTIMA NNN",
     "sha256": "00bbdcdc0a97829961900902ae47200d1852a0844b67685864e019da21222007",
     "size": 1148339305,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/ultima/14268.67.0/stable-channel/chromeos_14268.67.0_ultima_stable-channel_full_mp-v2.bin-gyywenzsgzsgglzhkam365gkytlbht5o.signed",
         "https://dl.google.com/chromeos/ultima/14268.67.0/stable-channel/chromeos_14268.67.0_ultima_stable-channel_full_mp-v2.bin-gyywenzsgzsgglzhkam365gkytlbht5o.signed"

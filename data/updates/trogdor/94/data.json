@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "trogdor-signed-mp-v4keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "5.4.139-16311-g330b3df0010b"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{9023C063-08D6-4A4F-908C-BCF97DE8BA69}\" version=\"14150.0.0\" board=\"trogdor-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"LAZOR NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14150\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5429\" elapsed_seconds=\"70079\"/><app appid=\"{9023C063-08D6-4A4F-908C-BCF97DE8BA69}\" cohort=\"1:j/4b:\" cohortname=\"trogdor_lazor_stable_canaryrelease_14150.87.0\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/trogdor/14150.87.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/trogdor/14150.87.0/stable-channel/\"/></urls><manifest version=\"14150.87.0\"><actions><action event=\"update\" run=\"chromeos_14150.87.0_trogdor_stable-channel_full_mp-v4.bin-gyytqyrugqzwflrgghx6i27anoe2v54a.signed\"/><action ChromeOSVersion=\"14150.87.0\" ChromeVersion=\"94.0.4606.124\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"SMxotnH+MhZ1zcVa/Z/48xmqrxPh+eeJYVboeL676b0SLLPR3rlYvuHQUHHegmjrFYPj07bq7B0UHbeNoXHdQS/teg904bb8GdD3ujs63KQ52ZaaQt3pYhTLLyHrSlVOt1WBRFbgsOcaEDiTVi/Kq6JIOVRlG7h6f/MhEmbDm4zYhXf9mjsn6tjDFH0XMppWsAWN/z6+1bDDSRVZMnZ7fIoOaeLWD235i51PhPFQjuGcuzuB8i7KePGT5p++DPfHrG5ClwFQP0E544/j7eky0JQc+xm1S0e+I7x/bYuKMcPiFeQknOYGRkke7Rn0u/8YN1BHrtEJCruhOYTTzibA5w==\" MetadataSize=\"65833\" event=\"postinstall\" sha256=\"keSNeQamO1MnIFlhadwRMyokKgxSSv4e5Svl1SaYvc8=\"/></actions><packages><package fp=\"3.91e48d7906a63b532720596169dc11332a242a0c524afe1ee52be5d52698bdcf\" hash_sha256=\"91e48d7906a63b532720596169dc11332a242a0c524afe1ee52be5d52698bdcf\" name=\"chromeos_14150.87.0_trogdor_stable-channel_full_mp-v4.bin-gyytqyrugqzwflrgghx6i27anoe2v54a.signed\" required=\"true\" size=\"1086061518\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "LAZOR NNN",
     "sha256": "91e48d7906a63b532720596169dc11332a242a0c524afe1ee52be5d52698bdcf",
     "size": 1086061518,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/trogdor/14150.87.0/stable-channel/chromeos_14150.87.0_trogdor_stable-channel_full_mp-v4.bin-gyytqyrugqzwflrgghx6i27anoe2v54a.signed",
         "https://dl.google.com/chromeos/trogdor/14150.87.0/stable-channel/chromeos_14150.87.0_trogdor_stable-channel_full_mp-v4.bin-gyytqyrugqzwflrgghx6i27anoe2v54a.signed"
