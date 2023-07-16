@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "zork-signed-mp-v4keys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "5.4.163-17384-g99ca1c60d20c"
     ],
+    "parallels_support": true,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" version=\"14388.0.0\" board=\"zork-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"MORPHIUS|NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14388\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5526\" elapsed_seconds=\"59680\"/><app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" cohort=\"1:1s/j1:\" cohortname=\"zork_morphius_stable_canaryrelease_14388.61.0\" status=\"ok\"><updatecheck _eol_date=\"21702\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/zork/14388.61.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/zork/14388.61.0/stable-channel/\"/></urls><manifest version=\"14388.61.0\"><actions><action event=\"update\" run=\"chromeos_14388.61.0_zork_stable-channel_full_mp-v7.bin-gyzday3cgrtggh3lrqsficpfagiykokh.signed\"/><action ChromeOSVersion=\"14388.61.0\" ChromeVersion=\"98.0.4758.107\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"yzVvct/jSaJkIfl2a0wuHneQZw03YalTugaL4l1t5J8c6c/gAX6RsHq61gO9ZLJ5Rtvg3zlS7FMbMLFqgOZLl4wElKiFVM1pRwGsu3UKNfaMhKwsT6xmSctTk5OKvq+SZ5pbRB4yRdPCAeK4Iz3k4svpegigrn2XdRrg1HySWC0glU97Qa3GsumeINSobU4iwMkluVv9ZB/wLLd6Ko5hDsG3PERISicqlGnxZ708C+/07ZeD1iKVa5dzKK7cDkd0FofzSHLmESGu8oMeqgDySOOi7hrKKbvnnpnxSt8wKPlGKaHSx0GkNOGnBokPMTQKkJwhKSlOAbhBqQQZ8Ev7vw==\" MetadataSize=\"74812\" event=\"postinstall\" sha256=\"+1aQbCH2CoUaXMrakVcjtdlq9/fUJUEiqSUSb0dvftw=\"/></actions><packages><package fp=\"3.fb56906c21f60a851a5ccada915723b5d96af7f7d4254122a925126f476f7edc\" hash_sha256=\"fb56906c21f60a851a5ccada915723b5d96af7f7d4254122a925126f476f7edc\" name=\"chromeos_14388.61.0_zork_stable-channel_full_mp-v7.bin-gyzday3cgrtggh3lrqsficpfagiykokh.signed\" required=\"true\" size=\"1499993318\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "MORPHIUS|NNN",
     "sha256": "fb56906c21f60a851a5ccada915723b5d96af7f7d4254122a925126f476f7edc",
     "size": 1499993318,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/zork/14388.61.0/stable-channel/chromeos_14388.61.0_zork_stable-channel_full_mp-v7.bin-gyzday3cgrtggh3lrqsficpfagiykokh.signed",
         "https://dl.google.com/chromeos/zork/14388.61.0/stable-channel/chromeos_14388.61.0_zork_stable-channel_full_mp-v7.bin-gyzday3cgrtggh3lrqsficpfagiykokh.signed"
