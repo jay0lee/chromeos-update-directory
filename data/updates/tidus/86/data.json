@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "tidus-signed-mp-v2keys",
     "board_id": "{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.14.193-16290-g025a78d81139"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}\" version=\"13421.0.0\" board=\"tidus-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"TIDUS NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13421\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5075\" elapsed_seconds=\"47941\"/><app appid=\"{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}\" cohort=\"1:4/4a:\" cohortname=\"tidus_stable_canaryrelease_13421.102.0\" status=\"ok\"><updatecheck _eol_date=\"18780\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/tidus/13421.102.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/tidus/13421.102.0/stable-channel/\"/></urls><manifest version=\"13421.102.0\"><actions><action event=\"update\" run=\"chromeos_13421.102.0_tidus_stable-channel_full_mp-v2.bin-gvtgenzqgmzggpo5bdmgpi2da4t2rrr2.signed\"/><action ChromeOSVersion=\"13421.102.0\" ChromeVersion=\"86.0.4240.199\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"jp+vj535a5ziOwlI/b/nyJ55uX4fhz60rdbNxa7mNXaar8rrVNYZSdzM8qh/+rkhazIe4+eCoQJIv/1MBe3Jcr9wu9alpBxVLi7w1L1UiVF7lgvD2aeo7nxj+Mb2B3GSMUxVD8Oq2KWbyrhsmp4AT8Adouy2zer/dPpiVhZ8dpuqxqFZLJNRyLxXQ6cTDHpkuqO94LYjzEJQKTwAzQHQSbOI6lvbPEurEo6VoTpDgwU1OAvfVEva4E4YDNnXfSp5Y+n8ePXwMJOPt5C9giMYd0CVL4SHdrHuEhcUxbnaqUA3OGcJQxSkMRkrApN/1JwytRX7iSs3tEij27IRp1FcCg==\" MetadataSize=\"56365\" event=\"postinstall\" sha256=\"2s3Zg4ZZvU37VOAGlSK+NR9SXYAkdL4eHCbCOvmMolY=\"/></actions><packages><package fp=\"3.dacdd9838659bd4dfb54e0069522be351f525d802474be1e1c26c23af98ca256\" hash_sha256=\"dacdd9838659bd4dfb54e0069522be351f525d802474be1e1c26c23af98ca256\" name=\"chromeos_13421.102.0_tidus_stable-channel_full_mp-v2.bin-gvtgenzqgmzggpo5bdmgpi2da4t2rrr2.signed\" required=\"true\" size=\"533133675\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "TIDUS NNN",
     "sha256": "dacdd9838659bd4dfb54e0069522be351f525d802474be1e1c26c23af98ca256",
     "size": 533133675,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/tidus/13421.102.0/stable-channel/chromeos_13421.102.0_tidus_stable-channel_full_mp-v2.bin-gvtgenzqgmzggpo5bdmgpi2da4t2rrr2.signed",
         "https://dl.google.com/chromeos/tidus/13421.102.0/stable-channel/chromeos_13421.102.0_tidus_stable-channel_full_mp-v2.bin-gvtgenzqgmzggpo5bdmgpi2da4t2rrr2.signed"

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "terra-signed-mp-v2keys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.129-09609-gdb2c7bb8c121"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" version=\"13310.0.0\" board=\"terra-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"TERRA WoJ-ikR-g3I-ANNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41807\"/><app appid=\"{C9947713-1881-D543-F1C0-900256540EFC}\" cohort=\"1:4:\" cohortname=\"terra_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/terra/13310.93.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/terra/13310.93.0/stable-channel/\"/></urls><manifest version=\"13310.93.0\"><actions><action event=\"update\" run=\"chromeos_13310.93.0_terra_stable-channel_full_mp-v2.bin-gvtdmzbzmzrdmioqlpbzxefdd2xna3wp.signed\"/><action ChromeOSVersion=\"13310.93.0\" ChromeVersion=\"85.0.4183.133\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"m5TiKAr+7+SSNCxuxoNsh1cqt1xgtYWVxl0bddOOPWPYaRB/jUgq8pYRWurn0jNYNCQSrcy8cHXR22Oe9RxLbA49vG2rSzK19rpud1nqDU3+iMTf9XiBJPsgNseoCov1ZFPvH4aAcNFs84DUYVfeTlXTbTCOIERCHMkfoM480AyZgUahTmJD2JppQQ3lttR4tAY2DRcm4uC6UDrLPDwULoZumtcB99zioZuznLfdEOZwoNhMCumEdKxrUVRck4cACu0dAPF8MI0t/p/HUNv0lZ0zKhcbApDEi+/8WueNurfLXEb8kfsccAhPN9OS8SRcFvxBXcpS7gQfTfz1v1ilRg==\" MetadataSize=\"57099\" event=\"postinstall\" sha256=\"Zl/pm2kn2+1pSgIP3T4oK9U3hP4GOkWrHPx2/4YmPLM=\"/></actions><packages><package fp=\"3.665fe99b6927dbed694a020fdd3e282bd53784fe063a45ab1cfc76ff86263cb3\" hash_sha256=\"665fe99b6927dbed694a020fdd3e282bd53784fe063a45ab1cfc76ff86263cb3\" name=\"chromeos_13310.93.0_terra_stable-channel_full_mp-v2.bin-gvtdmzbzmzrdmioqlpbzxefdd2xna3wp.signed\" required=\"true\" size=\"1010013293\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "TERRA WoJ-ikR-g3I-ANNN",
     "sha256": "665fe99b6927dbed694a020fdd3e282bd53784fe063a45ab1cfc76ff86263cb3",
     "size": 1010013293,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/terra/13310.93.0/stable-channel/chromeos_13310.93.0_terra_stable-channel_full_mp-v2.bin-gvtdmzbzmzrdmioqlpbzxefdd2xna3wp.signed",
         "https://dl.google.com/chromeos/terra/13310.93.0/stable-channel/chromeos_13310.93.0_terra_stable-channel_full_mp-v2.bin-gvtdmzbzmzrdmioqlpbzxefdd2xna3wp.signed"

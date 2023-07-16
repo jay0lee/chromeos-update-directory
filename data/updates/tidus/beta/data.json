@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "tidus-signed-mp-v2keys",
     "board_id": "{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.14.228-37719-g82f8e1e3af06"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}\" version=\"13816.0.0\" board=\"tidus-signed-mp-v2keys\" track=\"beta-channel\" hardware_class=\"TIDUS NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5252\" elapsed_seconds=\"53413\"/><app appid=\"{4A52D805-8FA6-43A1-9F71-C1A59FD918E8}\" cohort=\"1:3:\" cohortname=\"tidus_beta\" status=\"ok\"><updatecheck _eol=\"eol\" _eol_date=\"18780\" _firmware_version=\"1.2\" _firmware_version_0=\"1.2\" _firmware_version_1=\"1.2\" _firmware_version_2=\"1.2\" _firmware_version_3=\"1.2\" _firmware_version_4=\"1.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/tidus/13904.37.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/tidus/13904.37.0/beta-channel/\"/></urls><manifest version=\"13904.37.0\"><actions><action event=\"update\" run=\"chromeos_13904.37.0_tidus_beta-channel_full_mp-v2.bin-gyygcmzymvrwlxfcgzlkey2uijy5eaqm.signed\"/><action ChromeOSVersion=\"13904.37.0\" ChromeVersion=\"91.0.4472.66\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"U73byQ/bOy1gyiP0p7bx9tcRxHU3x6l44v6nMXLXv5VFlEzSKYNeAXqTbIFF4VhxIp4vkw83ZcCpVW7tKy2wIJvm/JhoD9dnJsbuwzt7EH2mTlhm4EoIGDYB5v508JdEuvbhID990jid0uvj3OR4b4vPTOq68uYeeuSIfC1KosoSxDTbuVgbbwOTg2egkb8axyROA0k7OaenrKhdlsD9jtcJqrpgOJY1Cply1dJfM7YOp2BJmgqT4RGJE8M9A/HlFTn7dvpnnTp1RnmDBYb9FMo/yl1Hbdw1t1s6q0B0PywN9iBvhRfZ7/RNI2daXbx/XVUHZWxqN/Bp2KYMHHTOHw==\" MetadataSize=\"56277\" event=\"postinstall\" sha256=\"WMXPuS7jX6FFa80piq5BWnMgkRyj9uQfmUqtll2N2+A=\"/></actions><packages><package fp=\"3.58c5cfb92ee35fa1456bcd298aae415a7320911ca3f6e41f994aad965d8ddbe0\" hash_sha256=\"58c5cfb92ee35fa1456bcd298aae415a7320911ca3f6e41f994aad965d8ddbe0\" name=\"chromeos_13904.37.0_tidus_beta-channel_full_mp-v2.bin-gyygcmzymvrwlxfcgzlkey2uijy5eaqm.signed\" required=\"true\" size=\"532973107\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "TIDUS NNN",
     "sha256": "58c5cfb92ee35fa1456bcd298aae415a7320911ca3f6e41f994aad965d8ddbe0",
     "size": 532973107,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/tidus/13904.37.0/beta-channel/chromeos_13904.37.0_tidus_beta-channel_full_mp-v2.bin-gyygcmzymvrwlxfcgzlkey2uijy5eaqm.signed",
         "https://dl.google.com/chromeos/tidus/13904.37.0/beta-channel/chromeos_13904.37.0_tidus_beta-channel_full_mp-v2.bin-gyygcmzymvrwlxfcgzlkey2uijy5eaqm.signed"
