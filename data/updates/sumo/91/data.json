@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "app_board": "sumo-signed-mp-v2keys",
     "board_id": "{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}",
@@ -29,12 +29,14 @@
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}\" version=\"13904.0.0\" board=\"sumo-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"SUMO NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43453\"/><app appid=\"{FEF8EE3B-4E4C-956F-15CA-B36006D11E46}\" cohort=\"1:4/4u:\" cohortname=\"sumo_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"18872\" _firmware_version=\"5.2\" _firmware_version_0=\"5.2\" _firmware_version_1=\"5.2\" _firmware_version_2=\"5.2\" _firmware_version_3=\"5.2\" _firmware_version_4=\"5.2\" _kernel_version=\"2.1\" _kernel_version_0=\"2.1\" _kernel_version_1=\"2.1\" _kernel_version_2=\"2.1\" _kernel_version_3=\"2.1\" _kernel_version_4=\"2.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/sumo/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sumo/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_sumo_stable-channel_full_mp-v2.bin-gyygmnrxgqytmqep4k743tk7yd66lmd5.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"JyannFoKhhvOhMRJle8YVyPu8yfTViykZEhSZml0woLbY3lDlGjQw0QhOkadmFR0t2GzICmfu7l0JSkU1WcvF2GL9x16xGbBhAGg2JzRsPIvsJs6i1uUtwvef3YVIpQxoXbhwvWHqIAXrrqc6mpSCb5JFSGGNY5vPDK/J57nPoz7D3Y6crgj9IR3FYRLt20rbkdKzYWDrWFH/JDQtSf9rzjFE0Y838Wwocr4zjN6q1nWJqTniYzuPcj6WbzWA3l5Y9PObD+BdRqVRPYltuW2GVcQM/NlGBvT2B2c5DZk+yJC+MK7UbywEPZr5dxDDM6F8eIPNEFNm2Av6yEUDV/V9A==\" MetadataSize=\"56258\" event=\"postinstall\" sha256=\"Xz2ZpDwJgrFZT8iYh7EsgomS4dFrqn4UZwnW802jdiY=\"/></actions><packages><package fp=\"3.5f3d99a43c0982b1594fc89887b12c828992e1d16baa7e146709d6f34da37626\" hash_sha256=\"5f3d99a43c0982b1594fc89887b12c828992e1d16baa7e146709d6f34da37626\" name=\"chromeos_13904.97.0_sumo_stable-channel_full_mp-v2.bin-gyygmnrxgqytmqep4k743tk7yd66lmd5.signed\" required=\"true\" size=\"532636818\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "SUMO NNN",
     "sha256": "5f3d99a43c0982b1594fc89887b12c828992e1d16baa7e146709d6f34da37626",
     "size": 532636818,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/sumo/13904.97.0/stable-channel/chromeos_13904.97.0_sumo_stable-channel_full_mp-v2.bin-gyygmnrxgqytmqep4k743tk7yd66lmd5.signed",
         "https://dl.google.com/chromeos/sumo/13904.97.0/stable-channel/chromeos_13904.97.0_sumo_stable-channel_full_mp-v2.bin-gyygmnrxgqytmqep4k743tk7yd66lmd5.signed"
