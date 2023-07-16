@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "snappy-signed-mpkeys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}\" version=\"13904.0.0\" board=\"snappy-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SNAPPY Q6BYDTFKOS0ELVQL-BJD-JCQRW9F7N6DJNXI8SPXR70QOOW-7GVCKN-OJZHMCMVWD95FP55\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13904\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5315\" elapsed_seconds=\"43452\"/><app appid=\"{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}\" cohort=\"1:30/5k:\" cohortname=\"snappy_alan_stable_canaryrelease_13904.97.0\" status=\"ok\"><updatecheck _eol_date=\"19876\" _firmware_version=\"10.1\" _firmware_version_0=\"10.1\" _firmware_version_1=\"10.1\" _firmware_version_2=\"10.1\" _firmware_version_3=\"10.1\" _firmware_version_4=\"10.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/snappy/13904.97.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/snappy/13904.97.0/stable-channel/\"/></urls><manifest version=\"13904.97.0\"><actions><action event=\"update\" run=\"chromeos_13904.97.0_snappy_stable-channel_full_mp.bin-gyygmnrxhe2trsuypyxiakkabf34lt4n.signed\"/><action ChromeOSVersion=\"13904.97.0\" ChromeVersion=\"91.0.4472.167\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"KFdVxuCU/xwCjQbc7Ufy4LLc4PA1wouf1529QsECQdPdfzXzPOkTSaQxuAJcROlvbbMfbZobRGY0X601tILrGzpQSrltzZIti9SbjFK6amd2SzLy4BC1wmfDGxC7HP2vkys2SKzwISm1f7glhtndQlLn3xxCYQyvOsJUVJyrNfPhqnpOaLjF8xdqjs762sgOXn3/7p5w+d+odf8dxVazDnk8qeS07x0mKjRvnuKslXidlE9XoI55U6jr7fjZ0d/KD30FD8dFlB2bSQc7d8HgPgR8t52jlZ6By93DB3mQlIn043mV3HH0zOE0hJb5bSzz7Op0W7p0X2aemgTEvIFaxQ==\" MetadataSize=\"56964\" event=\"postinstall\" sha256=\"DsU026pYDwPRP7C++tfwrt+49M94e6sSiDppnoF3Nhs=\"/></actions><packages><package fp=\"3.0ec534dbaa580f03d13fb0befad7f0aedfb8f4cf787bab12883a699e8177361b\" hash_sha256=\"0ec534dbaa580f03d13fb0befad7f0aedfb8f4cf787bab12883a699e8177361b\" name=\"chromeos_13904.97.0_snappy_stable-channel_full_mp.bin-gyygmnrxhe2trsuypyxiakkabf34lt4n.signed\" required=\"true\" size=\"1018237026\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "SNAPPY Q6BYDTFKOS0ELVQL-BJD-JCQRW9F7N6DJNXI8SPXR70QOOW-7GVCKN-OJZHMCMVWD95FP55",
     "sha256": "0ec534dbaa580f03d13fb0befad7f0aedfb8f4cf787bab12883a699e8177361b",
     "size": 1018237026,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/snappy/13904.97.0/stable-channel/chromeos_13904.97.0_snappy_stable-channel_full_mp.bin-gyygmnrxhe2trsuypyxiakkabf34lt4n.signed",
         "https://dl.google.com/chromeos/snappy/13904.97.0/stable-channel/chromeos_13904.97.0_snappy_stable-channel_full_mp.bin-gyygmnrxhe2trsuypyxiakkabf34lt4n.signed"

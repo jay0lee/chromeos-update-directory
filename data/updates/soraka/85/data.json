@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "soraka-signed-mpkeys",
@@ -33,12 +33,14 @@
     "linux_kernel_versions": [
         "4.4.228-18597-gc338c419c8c5"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}\" version=\"13310.0.0\" board=\"soraka-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SORAKA NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"13310\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5073\" elapsed_seconds=\"41804\"/><app appid=\"{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}\" cohort=\"1:t:\" cohortname=\"soraka_soraka_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/soraka/13310.91.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/soraka/13310.91.0/stable-channel/\"/></urls><manifest version=\"13310.91.0\"><actions><action event=\"update\" run=\"chromeos_13310.91.0_soraka_stable-channel_full_mp.bin-gvtdmyrrmfswlf64kgyhcnton4v3gcev.signed\"/><action ChromeOSVersion=\"13310.91.0\" ChromeVersion=\"85.0.4183.131\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"l+UeVYe15+Na3w5T77yMO6m6Yw4NTABoF3XZ9dSDEWSsGUmkwPdt8Jgod/Mbe5ifDZwv+4Xe9ai2kqebPbkxE9fTjvXFiwVDcoHHY4thw68S3Fl4I9lbQv3CCRFHHE/LREThzEcWFNi0XHQpdyMj7D6gY0DxAw68OxHAlIDnRJSuB7OVazOv9+SLI/NYeaB8mmS/t0biQJwpXDO+Jms77TEbkB3jkNXI3Bh+kSD8GAefyyA30Re46wzShU56PZVfEQ7FkHrDB/eepBna6FHOHv6MBudUmLIvY8PLc8wPf8WJ7Xb5aVjn6RgLulpgz0mgHvM/uJl2tCB3H+NeQ3T5cQ==\" MetadataSize=\"65778\" event=\"postinstall\" sha256=\"Ejzlv0e2+RsF509zsINrUb24e5Cs9cVV8hlz1uy6/2k=\"/></actions><packages><package fp=\"3.123ce5bf47b6f91b05e74f73b0836b51bdb87b90acf5c555f21973d6ecbaff69\" hash_sha256=\"123ce5bf47b6f91b05e74f73b0836b51bdb87b90acf5c555f21973d6ecbaff69\" name=\"chromeos_13310.91.0_soraka_stable-channel_full_mp.bin-gvtdmyrrmfswlf64kgyhcnton4v3gcev.signed\" required=\"true\" size=\"1139069857\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "SORAKA NNN",
     "sha256": "123ce5bf47b6f91b05e74f73b0836b51bdb87b90acf5c555f21973d6ecbaff69",
     "size": 1139069857,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/soraka/13310.91.0/stable-channel/chromeos_13310.91.0_soraka_stable-channel_full_mp.bin-gvtdmyrrmfswlf64kgyhcnton4v3gcev.signed",
         "https://dl.google.com/chromeos/soraka/13310.91.0/stable-channel/chromeos_13310.91.0_soraka_stable-channel_full_mp.bin-gvtdmyrrmfswlf64kgyhcnton4v3gcev.signed"
