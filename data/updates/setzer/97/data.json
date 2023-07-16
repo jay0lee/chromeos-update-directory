@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "app_board": "setzer-signed-mpkeys",
@@ -32,12 +32,14 @@
     "linux_kernel_versions": [
         "4.19.215-12487-gf68446239393"
     ],
+    "parallels_support": false,
     "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}\" version=\"14324.0.0\" board=\"setzer-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"SETZER NNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"14324\"></updatecheck>\n  </app>\n</request>",
     "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"5511\" elapsed_seconds=\"42957\"/><app appid=\"{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}\" cohort=\"1:2/4p:\" cohortname=\"setzer_stable_canaryrelease_14324.80.0\" status=\"ok\"><updatecheck _eol_date=\"19145\" _firmware_version=\"5.1\" _firmware_version_0=\"5.1\" _firmware_version_1=\"5.1\" _firmware_version_2=\"5.1\" _firmware_version_3=\"5.1\" _firmware_version_4=\"5.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://dl.google.com/chromeos/setzer/14324.80.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/setzer/14324.80.0/stable-channel/\"/></urls><manifest version=\"14324.80.0\"><actions><action event=\"update\" run=\"chromeos_14324.80.0_setzer_stable-channel_full_mp.bin-gyywkyjygm4gnieij7eosiskfztabeg5.signed\"/><action ChromeOSVersion=\"14324.80.0\" ChromeVersion=\"97.0.4692.102\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"I8aF3jee1Gb/A+/1t4anTOzIBT3gs2lex/jK2u18sdO01v0oDdtbepvsQL6pVCu3yxn0VxMVpAyoY2YqygrFlpkr+g8CoHe+I5XAIRhRdMskcXsjigfG+WnCcW3LvmMn1XHsDYGl9yekUW7pp4hN6f2xiXvwwGHlxYXVuitzHtq+1vT9IQqPSScE8PWexDsMEYnVBbyZaI2wbAv932/iZB4bw6CH/nHCF3mBZ5ex2RZpfPzzzjMyJ+3+624J9SuTG2NT3YWb2UoS8Gu3jTkWbhU09d4vTPjc2TEzS27f7bpvFG9ttAcz3UgT3BMaBSCmKIWaKQ9htCjSfdYvVC4+yw==\" MetadataSize=\"57177\" event=\"postinstall\" sha256=\"Rk/77vFc4j2mAdmBVk9mLX15quUuAzN2RpkvmxJCIQU=\"/></actions><packages><package fp=\"3.464ffbeef15ce23da601d981564f662d7d79aae52e03337646992f9b12422105\" hash_sha256=\"464ffbeef15ce23da601d981564f662d7d79aae52e03337646992f9b12422105\" name=\"chromeos_14324.80.0_setzer_stable-channel_full_mp.bin-gyywkyjygm4gnieij7eosiskfztabeg5.signed\" required=\"true\" size=\"1157359478\"/></packages></manifest></updatecheck></app></response>",
     "sample_hwid": "SETZER NNN",
     "sha256": "464ffbeef15ce23da601d981564f662d7d79aae52e03337646992f9b12422105",
     "size": 1157359478,
     "status": "ok",
+    "steam_support": false,
     "urls": [
         "http://dl.google.com/chromeos/setzer/14324.80.0/stable-channel/chromeos_14324.80.0_setzer_stable-channel_full_mp.bin-gyywkyjygm4gnieij7eosiskfztabeg5.signed",
         "https://dl.google.com/chromeos/setzer/14324.80.0/stable-channel/chromeos_14324.80.0_setzer_stable-channel_full_mp.bin-gyywkyjygm4gnieij7eosiskfztabeg5.signed"
