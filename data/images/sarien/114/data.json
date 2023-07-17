@@ -1,0 +1,64 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2026-08-01 00:00:00",
+    "boards": [
+        "arcada",
+        "sarien"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10331660",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E3B85B97-1771-4440-9691-D1983FEF60EB}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E3B85B97-1771-4440-9691-D1983FEF60EB}",
+    "chromeos_release_board": "sarien-signed-mp-v4keys",
+    "chromeos_release_branch_number": "57",
+    "chromeos_release_build_number": "15437",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "sarien-release/R114-15437.57.0",
+    "chromeos_release_chrome_milestone": "114",
+    "chromeos_release_description": "15437.57.0 (Official Build) stable-channel sarien ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15437.57.0",
+    "cr_version": 114,
+    "cros_version": 15437,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15437.57.0_sarien_recovery_stable-channel_mp-v4.bin",
+    "filesize": 4982822400,
+    "google_release": "15437.57.0",
+    "hwidmatches": [
+        "^ARCADA-.*",
+        "^SARIEN-.*"
+    ],
+    "image_name": "sarien",
+    "linux_kernel_versions": [
+        "5.10.178-22215-gc952fc054dac"
+    ],
+    "manufacturers": [
+        "Dell",
+        "Dell"
+    ],
+    "md5": "2ba8c39a57034667dbbdb797bcc3b330",
+    "models": [
+        "Dell Latitude 5300 2-in-1 Chromebook Enterprise",
+        "Dell Latitude 5400 Chromebook Enterprise"
+    ],
+    "names": [
+        "Dell Latitude 5300 2-in-1 Chromebook Enterprise",
+        "Dell Latitude 5400 Chromebook Enterprise"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "ARCADA-NNN",
+    "sha1": "fd218dadab447f2043ac39b4500e30215f937e21",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15437.57.0_sarien_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "15437.57.0",
+    "zipfilesize": 1751436965
+}

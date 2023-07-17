@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2031-06-02 00:00:00",
+    "boards": [
+        "pujjo"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10331660",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_release_board": "nissa-signed-mp-v6keys",
+    "chromeos_release_branch_number": "57",
+    "chromeos_release_build_number": "15437",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nissa-release/R114-15437.57.0",
+    "chromeos_release_chrome_milestone": "114",
+    "chromeos_release_description": "15437.57.0 (Official Build) stable-channel nissa ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15437.57.0",
+    "cr_version": 114,
+    "cros_version": 15437,
+    "crostini_support": true,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_15437.57.0_nissa_recovery_stable-channel_mp-v6.bin",
+    "filesize": 5326558720,
+    "google_release": "15437.57.0",
+    "hwidmatches": [
+        "^PUJJO-DCCV.*"
+    ],
+    "image_name": "nissa",
+    "linux_kernel_versions": [
+        "5.15.108-18910-gab0e1cb584e1"
+    ],
+    "manufacturers": [
+        "Lenovo"
+    ],
+    "md5": "3ebbc0b009d00c0a25f01dbdaca62494",
+    "models": [
+        "Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8)"
+    ],
+    "names": [
+        "Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8)"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "PUJJO-DCCVNNN",
+    "sha1": "d54285b326cd8a0b71713da8cd05ed9328cb7a1f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15437.57.0_nissa_recovery_stable-channel_mp-v6.bin.zip",
+    "version": "15437.57.0",
+    "zipfilesize": 2195843257
+}

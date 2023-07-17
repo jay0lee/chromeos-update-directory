@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2025-06-02 00:00:00",
+    "boards": [
+        "wukong"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10331660",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{0C1E39B7-DAE6-4972-8004-E96F60D9342C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{0C1E39B7-DAE6-4972-8004-E96F60D9342C}",
+    "chromeos_release_board": "fizz-signed-mp-v14keys",
+    "chromeos_release_branch_number": "57",
+    "chromeos_release_build_number": "15437",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "fizz-release/R114-15437.57.0",
+    "chromeos_release_chrome_milestone": "114",
+    "chromeos_release_description": "15437.57.0 (Official Build) stable-channel fizz ",
+    "chromeos_release_keyset": "mp-v14",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15437.57.0",
+    "cr_version": 114,
+    "cros_version": 15437,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_15437.57.0_fizz_recovery_stable-channel_mp-v14.bin",
+    "filesize": 4478412288,
+    "google_release": "15437.57.0",
+    "hwidmatches": [
+        "^WUKONG [A-Z0-9][A-Z0-9]C.*"
+    ],
+    "image_name": "fizz",
+    "linux_kernel_versions": [
+        "5.4.241-20668-gbdd3b012dde7"
+    ],
+    "manufacturers": [
+        "Viewsonic"
+    ],
+    "md5": "36eb45381ee540860a9db1c84f0d5280",
+    "models": [
+        "ViewSonic NMP660 Chromebox"
+    ],
+    "names": [
+        "ViewSonic NMP660 Chromebox"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "WUKONG TSCNNN",
+    "sha1": "9481a7267df3e7444dbbfab1b934e69b037100ca",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15437.57.0_fizz_recovery_stable-channel_mp-v14.bin.zip",
+    "version": "15437.57.0",
+    "zipfilesize": 1606008624
+}

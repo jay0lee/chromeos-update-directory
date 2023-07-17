@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2025-06-01 00:00:00",
+    "boards": [
+        "karma"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10331660",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
+    "chromeos_release_board": "kalista-signed-mp-v3keys",
+    "chromeos_release_branch_number": "57",
+    "chromeos_release_build_number": "15437",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kalista-release/R114-15437.57.0",
+    "chromeos_release_chrome_milestone": "114",
+    "chromeos_release_description": "15437.57.0 (Official Build) stable-channel kalista ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15437.57.0",
+    "cr_version": 114,
+    "cros_version": 15437,
+    "crostini_support": true,
+    "devicetype": "CHROMEBASE",
+    "file": "chromeos_15437.57.0_kalista_recovery_stable-channel_mp-v3.bin",
+    "filesize": 4962923008,
+    "google_release": "15437.57.0",
+    "hwidmatches": [
+        "^KARMA .*"
+    ],
+    "image_name": "kalista",
+    "linux_kernel_versions": [
+        "5.4.241-20668-gbdd3b012dde7"
+    ],
+    "manufacturers": [
+        "Acer"
+    ],
+    "md5": "93c6a1c53a07ae2588b47408271c7132",
+    "models": [
+        "Acer Chromebase CA24I2"
+    ],
+    "names": [
+        "Acer Chromebase CA24I2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KARMA NNN",
+    "sha1": "97e373cebb634ca7989b6d7fa8ce5e55f7a9b34b",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15437.57.0_kalista_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "15437.57.0",
+    "zipfilesize": 1606615996
+}
