@@ -1,0 +1,56 @@
+{
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
+    "boards": [
+        "reven"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_release_board": "reven-signed-mp-v2keys",
+    "chromeos_release_branch_number": "70",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reven-release/R115-15474.70.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.70.0 (Official Build) stable-channel reven ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.70.0",
+    "cr_version": 115,
+    "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15474.70.0_reven_recovery_stable-channel_mp-v2.bin",
+    "filesize": 7073788416,
+    "google_release": "15474.70.0",
+    "hwidmatches": [
+        "^REVEN($|-.*)"
+    ],
+    "image_name": "reven",
+    "linux_kernel_versions": [
+        "5.15.112-19403-gb69e1c36e415"
+    ],
+    "manufacturers": [
+        "Google ChromeOS Flex"
+    ],
+    "md5": "0298f7e11ef7151cb7c5856a5aea73a2",
+    "models": [
+        "Google ChromeOS Flex ChromeOS Flex"
+    ],
+    "names": [
+        "ChromeOS Flex"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "REVEN-NNN",
+    "sha1": "91ac36c9fec5c765cc8421a642c7637f19fbb393",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.70.0_reven_recovery_stable-channel_mp-v2.bin.zip",
+    "version": "15474.70.0",
+    "zipfilesize": 1218909523
+}
