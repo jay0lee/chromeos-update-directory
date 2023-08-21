@@ -1,0 +1,64 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2031-06-02 00:00:00",
+    "boards": [
+        "pujjo",
+        "pujjoteen"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10634274",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_release_board": "nissa-signed-mp-v8keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nissa-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel nissa ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
+    "cr_version": 115,
+    "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_15474.84.0_nissa_recovery_stable-channel_mp-v8.bin",
+    "filesize": 5327261696,
+    "google_release": "15474.84.0",
+    "hwidmatches": [
+        "^PUJJO-DCCV.*",
+        "^PUJJOTEEN(15W)?-KCBW.*"
+    ],
+    "image_name": "nissa",
+    "linux_kernel_versions": [
+        "5.15.112-19405-g2e31f1325a1b"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "b4227f629012f81ea2ffefbe641763f3",
+    "models": [
+        "Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8)",
+        "Lenovo Slim 3i Chromebook 14"
+    ],
+    "names": [
+        "Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8)",
+        "Lenovo Slim 3i Chromebook 14"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "PUJJO-DCCVNNN",
+    "sha1": "c372898a3965689a16547f6598e7d1afe8b15bec",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_nissa_recovery_stable-channel_mp-v8.bin.zip",
+    "version": "15474.84.0",
+    "zipfilesize": 2268246378
+}

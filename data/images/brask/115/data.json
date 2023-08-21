@@ -1,0 +1,74 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-02 00:00:00",
+    "boards": [
+        "moli",
+        "lisbon",
+        "gladios",
+        "kinox"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10634274",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{94144292-1100-4882-AC53-51E04BB29F9E}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{94144292-1100-4882-AC53-51E04BB29F9E}",
+    "chromeos_release_board": "brask-signed-mp-v9keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "brask-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel brask ",
+    "chromeos_release_keyset": "mp-v9",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
+    "cr_version": 115,
+    "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_15474.84.0_brask_recovery_stable-channel_mp-v9.bin",
+    "filesize": 4495245312,
+    "google_release": "15474.84.0",
+    "hwidmatches": [
+        "^MOLI-.*",
+        "^LISBON-GURF.*",
+        "^GLADIOS-GNLB.*",
+        "^KINOX-WGMJ.*"
+    ],
+    "image_name": "brask",
+    "linux_kernel_versions": [
+        "5.10.180-22633-g1d2f89719839"
+    ],
+    "manufacturers": [
+        "Acer",
+        "CTL",
+        "HP",
+        "Lenovo"
+    ],
+    "md5": "c2541e5b94e1e97efa31addf612055d4",
+    "models": [
+        "Acer Chromebox CXI5",
+        "CTL Chromebox CBx3 / CTL Chromebox Enterprise CBx3",
+        "HP Chromebox Enterprise G4",
+        "Lenovo ThinkCentre M60q Chromebox"
+    ],
+    "names": [
+        "Acer Chromebox CXI5",
+        "CTL Chromebox CBx3 / CTL Chromebox Enterprise CBx3",
+        "Chromebox Enterprise G4",
+        "Lenovo ThinkCentre M60q Chromebox"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "MOLI-NNN",
+    "sha1": "47990f1f61ba82436044f85e2f4b7cdf974f9052",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_brask_recovery_stable-channel_mp-v9.bin.zip",
+    "version": "15474.84.0",
+    "zipfilesize": 1856020750
+}
