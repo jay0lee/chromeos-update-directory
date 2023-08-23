@@ -1,11 +1,35 @@
 {
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
     "boards": [
         "reven"
     ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_release_board": "reven-signed-mp-v2keys",
+    "chromeos_release_branch_number": "69",
+    "chromeos_release_build_number": "15183",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reven-release/R108-15183.69.0",
+    "chromeos_release_chrome_milestone": "108",
+    "chromeos_release_description": "15183.69.0 (Official Build) stable-channel reven ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15183.69.0",
     "cr_version": 108,
     "cros_version": 15183,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15183.69.0_reven_recovery_stable-channel_mp-v2.bin",
     "filesize": 6939566592,
+    "google_release": "15183.69.0",
     "hwidmatches": [
         "^REVEN($|-.*)",
         "^REVEN($|-.*)",
@@ -13,6 +37,9 @@
         "^REVEN($|-.*)"
     ],
     "image_name": "reven",
+    "linux_kernel_versions": [
+        "5.10.147-20158-g0a75306e5639"
+    ],
     "manufacturers": [
         "Google ChromeOS Flex",
         "Google ChromeOS Flex",
@@ -32,6 +59,8 @@
         "ChromeOS Flex",
         "ChromeOS Flex"
     ],
+    "parallels_support": false,
+    "sample_hwid": "REVEN",
     "sha1": "fc8f42569b1f2ea5dd17b04b9c88c3f7a3a8216e",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15183.69.0_reven_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15183.69.0",

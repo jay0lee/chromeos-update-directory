@@ -1,11 +1,34 @@
 {
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2021-09-02 00:00:00",
     "boards": [
         "enguarde"
     ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BB86912A-29BE-A59B-31EF-8F4DD1C023E2}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BB86912A-29BE-A59B-31EF-8F4DD1C023E2}",
+    "chromeos_release_board": "enguarde-signed-mp-v25keys",
+    "chromeos_release_branch_number": "77",
+    "chromeos_release_build_number": "14092",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "enguarde-release/R93-14092.77.0",
+    "chromeos_release_chrome_milestone": "93",
+    "chromeos_release_description": "14092.77.0 (Official Build) stable-channel enguarde ",
+    "chromeos_release_keyset": "mp-v25",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14092.77.0",
     "cr_version": 93,
     "cros_version": 14092,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_14092.77.0_enguarde_recovery_stable-channel_mp-v25.bin",
     "filesize": 2319657472,
+    "google_release": "14092.77.0",
     "hwidmatches": [
         "^ENGUARDE \\w{3}-\\w{3}-\\w{2}K(-\\w{3})*$",
         "^ENGUARDE \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$",
@@ -35,6 +58,9 @@
         "^ENGUARDE \\w{3}-\\w{3}-\\w{2}J(-\\w{3})*$"
     ],
     "image_name": "enguarde",
+    "linux_kernel_versions": [
+        "4.4.275-20726-g204ae1828356"
+    ],
     "manufacturers": [
         "ASI",
         "CTL",
@@ -120,6 +146,8 @@
         "Videonet Chromebook",
         "eduGear Chromebook R"
     ],
+    "parallels_support": false,
+    "sample_hwid": "ENGUARDE 41Q-Ala-TGK-b0g-DtK-xdP-ztY-BkG-FYa-Hq6-rcN-hsJ-ukE-P3r-WTs-RtV-UVM-9JX-jGE-kfr-f6q-EXD-udi-jlg-zLb-tNB-mwT-8Ag-0W7-Cdi-7ff-r0C-EXF-_Dz-qxB-jSd-nz5-xNz-WZ4-8s6-DXn-rlc-ECa-WqS-Nr1-Xw7-QHc-hDn-m7Y-15M-iKW-FeH",
     "sha1": "c656427af4e5a935d04164c387f74247661c1c72",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
     "version": "14092.77.0",

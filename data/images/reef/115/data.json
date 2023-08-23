@@ -1,11 +1,38 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-02 00:00:00",
     "boards": [
         "reef"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "10634233",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{8396029B-FCEF-9EEC-C684-3BCB8E3E9429}",
+    "chromeos_release_board": "reef-signed-mp-v4keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reef-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel reef ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
     "cr_version": 115,
     "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15474.84.0_reef_recovery_stable-channel_mp-v4.bin",
     "filesize": 2330969088,
+    "google_release": "15474.84.0",
     "hwidmatches": [
         "^REEF \\w{3}-C\\w{2}(-\\w{3})*",
         "^REEF \\w{3}-B\\w{2}(-\\w{3})*",
@@ -17,6 +44,9 @@
         "^REEF \\w{3}-B\\w{2}(-\\w{3})*"
     ],
     "image_name": "reef",
+    "linux_kernel_versions": [
+        "5.10.180-22633-g1d2f89719839"
+    ],
     "manufacturers": [
         "Asus",
         "Acer",
@@ -48,6 +78,8 @@
         "ASUS Chromebook Flip C213",
         "Acer Chromebook Spin 11 (R751T / CP511)"
     ],
+    "parallels_support": false,
+    "sample_hwid": "REEF da1-Cc7-b9d-XFF-oAs-42h-oQS-WOX-r0u-cIJ-XbN-M9u-eRG-Xv7-wm9-5vm-uBU-G83-mHU-h5S-CrB-h7x-CHa-5lD-vHM-IS4-ttn-1nK-W1x-gN1-O5O-kv3-pPx-Vyo",
     "sha1": "b48e02b6665077adc1424fa3e5430abeec638933",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_reef_recovery_stable-channel_mp-v4.bin.zip",
     "version": "15474.84.0",

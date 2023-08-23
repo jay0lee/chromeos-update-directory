@@ -1,16 +1,42 @@
 {
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
     "boards": [
         "stout"
     ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{6988C65F-7119-4DF2-8064-2E286F4748D4}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{6988C65F-7119-4DF2-8064-2E286F4748D4}",
+    "chromeos_release_board": "stout-signed-mp-v4keys",
+    "chromeos_release_branch_number": "78",
+    "chromeos_release_build_number": "10895",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "stout-release/R69-10895.78.0",
+    "chromeos_release_chrome_milestone": "69",
+    "chromeos_release_description": "10895.78.0 (Official Build) stable-channel stout ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "10895.78.0",
     "cr_version": 69,
     "cros_version": 10895,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_10895.78.0_stout_recovery_stable-channel_mp-v4.bin",
     "filesize": 1526743552,
+    "google_release": "10895.78.0",
     "hwidmatches": [
         "^STOUT .*",
         "^STOUT .*"
     ],
     "image_name": "stout",
+    "linux_kernel_versions": [
+        "3.8.11"
+    ],
     "manufacturers": [
         "Lenovo",
         "Lenovo"
@@ -24,6 +50,8 @@
         "Lenovo Thinkpad X131e Chromebook",
         "Lenovo Thinkpad X131e Chromebook"
     ],
+    "parallels_support": false,
+    "sample_hwid": "STOUT NNN",
     "sha1": "6e7151d6d0828364983cb47e712358d6190639ba",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10895.78.0_stout_recovery_stable-channel_mp-v4.bin.zip",
     "version": "10895.78.0",

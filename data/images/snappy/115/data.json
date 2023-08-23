@@ -1,11 +1,38 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2024-06-01 00:00:00",
     "boards": [
         "snappy"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "10634233",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F8834CDD-B93C-4C2A-BEB9-5432EA99430D}",
+    "chromeos_release_board": "snappy-signed-mp-v2keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "snappy-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel snappy ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
     "cr_version": 115,
     "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15474.84.0_snappy_recovery_stable-channel_mp-v2.bin",
     "filesize": 2330991616,
+    "google_release": "15474.84.0",
     "hwidmatches": [
         "^SNAPPY ([A-Z0-9])+-[^BC].*",
         "^SNAPPY ([A-Z0-9])+-C[A-Z0-9][A-Z0-9]-([A-Z0-9])+-([A-Z0-9\\-])+",
@@ -21,6 +48,9 @@
         "^SNAPPY ([A-Z0-9])+-B[A-Z0-9][A-Z0-9]-([A-Z0-9])+-([A-Z0-9\\-])+"
     ],
     "image_name": "snappy",
+    "linux_kernel_versions": [
+        "5.10.180-22633-g1d2f89719839"
+    ],
     "manufacturers": [
         "HP",
         "HP",
@@ -64,6 +94,8 @@
         "Chromebook 14-ca1 / Chromebook 14-ca0",
         "HP Chromebook 11 G6 EE / Chromebook 11a"
     ],
+    "parallels_support": false,
+    "sample_hwid": "SNAPPY POXU9FF6ROI82ZLSJWB4ANAQ3WM8HD2RK9IGFJCB7RLWA1RH63VGPTJ7S-2NNN",
     "sha1": "ab62454f8aee0d8dab361e609a61cef1d79122e5",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_snappy_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15474.84.0",

@@ -1,11 +1,37 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
     "boards": [
         "terra"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8807643",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C9947713-1881-D543-F1C0-900256540EFC}",
+    "chromeos_release_board": "terra-signed-mp-v2keys",
+    "chromeos_release_branch_number": "131",
+    "chromeos_release_build_number": "14816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "terra-release/R103-14816.131.0",
+    "chromeos_release_chrome_milestone": "103",
+    "chromeos_release_description": "14816.131.0 (Official Build) stable-channel terra ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14816.131.0",
     "cr_version": 103,
     "cros_version": 14816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_14816.131.0_terra_recovery_stable-channel_mp-v2.bin",
     "filesize": 2320355840,
+    "google_release": "14816.131.0",
     "hwidmatches": [
         "^TERRA \\w{3}-\\w{3}-\\w{3}-A.*",
         "^TERRA \\w{3}-\\w{3}-\\w{3}-B.*",
@@ -17,6 +43,9 @@
         "^TERRA \\w{3}-\\w{3}-\\w{3}-B.*"
     ],
     "image_name": "terra",
+    "linux_kernel_versions": [
+        "4.19.241-13212-ge9b0bab46475"
+    ],
     "manufacturers": [
         "Asus",
         "Asus",
@@ -48,6 +77,8 @@
         "ASUS Chromebook C202SA",
         "ASUS Chromebook C300SA / C301SA"
     ],
+    "parallels_support": false,
+    "sample_hwid": "TERRA nOV-nKG-tDj-ANNN",
     "sha1": "5f30d5c981b89c6d16619dd2928aa43870e09872",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_terra_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14816.131.0",

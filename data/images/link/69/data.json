@@ -1,16 +1,42 @@
 {
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
     "boards": [
         "link"
     ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F26D159B-52A3-491A-AE25-B23670A66B32}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F26D159B-52A3-491A-AE25-B23670A66B32}",
+    "chromeos_release_board": "link-signed-mp-v5keys",
+    "chromeos_release_branch_number": "78",
+    "chromeos_release_build_number": "10895",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "link-release/R69-10895.78.0",
+    "chromeos_release_chrome_milestone": "69",
+    "chromeos_release_description": "10895.78.0 (Official Build) stable-channel link ",
+    "chromeos_release_keyset": "mp-v5",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "10895.78.0",
     "cr_version": 69,
     "cros_version": 10895,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_10895.78.0_link_recovery_stable-channel_mp-v5.bin",
     "filesize": 2348827136,
+    "google_release": "10895.78.0",
     "hwidmatches": [
         "^LINK .*",
         "^LINK .*"
     ],
     "image_name": "link",
+    "linux_kernel_versions": [
+        "3.8.11"
+    ],
     "manufacturers": [
         "Google",
         "Google"
@@ -24,6 +50,8 @@
         "Google Chromebook Pixel",
         "Google Chromebook Pixel"
     ],
+    "parallels_support": false,
+    "sample_hwid": "LINK NNN",
     "sha1": "2c53f8343d1d12f9a3e217b888e1381e707ca52f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10895.78.0_link_recovery_stable-channel_mp-v5.bin.zip",
     "version": "10895.78.0",

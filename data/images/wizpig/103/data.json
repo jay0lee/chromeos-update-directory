@@ -1,11 +1,37 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2022-06-02 00:00:00",
     "boards": [
         "wizpig"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "8807643",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{74A5A9DD-1B51-4602-A7FA-751B804627A0}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{74A5A9DD-1B51-4602-A7FA-751B804627A0}",
+    "chromeos_release_board": "wizpig-signed-mp-v10keys",
+    "chromeos_release_branch_number": "131",
+    "chromeos_release_build_number": "14816",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "wizpig-release/R103-14816.131.0",
+    "chromeos_release_chrome_milestone": "103",
+    "chromeos_release_description": "14816.131.0 (Official Build) stable-channel wizpig ",
+    "chromeos_release_keyset": "mp-v10",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "14816.131.0",
     "cr_version": 103,
     "cros_version": 14816,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_14816.131.0_wizpig_recovery_stable-channel_mp-v10.bin",
     "filesize": 2320216064,
+    "google_release": "14816.131.0",
     "hwidmatches": [
         "^WIZPIG \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*",
         "^WIZPIG \\w{3}-\\w{3}-\\w{2}B(-\\w{3})*",
@@ -37,6 +63,9 @@
         "^WIZPIG \\w{3}-\\w{3}-\\w{2}D(-\\w{3})*"
     ],
     "image_name": "wizpig",
+    "linux_kernel_versions": [
+        "4.19.241-13212-ge9b0bab46475"
+    ],
     "manufacturers": [
         "CTL",
         "CDI",
@@ -128,6 +157,8 @@
         "Prowise Chromebook Proline",
         "Viglen Chromebook 360"
     ],
+    "parallels_support": false,
+    "sample_hwid": "WIZPIG JOh-Ovu-HsA-j4O-Y5u-Nqg-5Dz-vma-NGN-MZX-K25-bmm-2gS-7zo-fZO-kGg-KQo-I_9-AZX-Hjb-cgV-bIu-LBL-lKx-Txa-BNo-6rF-pbF-Dhh-qCb-Byo-d7v-Yg0-gdg-9m4-xit-t09-qNT-t_A-k11-No_-a5M-hKQ-7Vc-BYW-3gc-iid-SXK-Oli-STI-x4c-4Qi-OE0-mKk-r63-qOR-T2i-NB5-F71-wEx-e_0-6bH-ZBH-CiN-n9j-QYo-kff-lcB-VNW-WEt-BIC-7XG-dpA-j9u-VWI-L4G-PGx-pd_-QqP-gGE-qXH-ciS-zet-Kfd",
     "sha1": "6a70e8a157ff9128a8271093b16291f86487870a",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
     "version": "14816.131.0",

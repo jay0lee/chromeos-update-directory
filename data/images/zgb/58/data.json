@@ -1,16 +1,41 @@
 {
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "None",
     "boards": [
         "zgb"
     ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{23F5C60F-7655-4BF4-90FB-BFDE16408308}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{23F5C60F-7655-4BF4-90FB-BFDE16408308}",
+    "chromeos_release_board": "x86-zgb_he-signed-mp-v3keys",
+    "chromeos_release_branch_number": "72",
+    "chromeos_release_build_number": "9334",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "x86-zgb_he-release/R58-9334.72.0",
+    "chromeos_release_chrome_milestone": "58",
+    "chromeos_release_description": "9334.72.0 (Official Build) stable-channel x86-zgb_he ",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "9334.72.0",
     "cr_version": 58,
     "cros_version": 9334,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_9334.72.0_x86-zgb-he_recovery_stable-channel_zgb-mp-v3.bin",
     "filesize": 1530888192,
+    "google_release": "9334.72.0",
     "hwidmatches": [
         "ACER ZGB ALPHA-DE 1802|ACER ZGB ALPHA-ES 3786|ACER ZGB ALPHA-FR 4223|ACER ZGB ALPHA-GB 7370|ACER ZGB ALPHA-IT 4645|ACER ZGB ALPHA-US 4443|ACER ZGB ALPHA-US-INTL 6722|ACER ZGB BETA-DE 3227|ACER ZGB BETA-ES 2795|ACER ZGB BETA-FR 6478|ACER ZGB BETA-GB 9131|ACER ZGB BETA-IT 7076|ACER ZGB BETA-US 2170|ACER ZGB BETA-US-INTL 1108|ACER ZGB DELTA-DE 6494|ACER ZGB DELTA-ES 6446|ACER ZGB DELTA-FR 1131|ACER ZGB DELTA-GB 0702|ACER ZGB DELTA-IT 5185|ACER ZGB DELTA-US 3919|ACER ZGB DELTA-US-INTL 7354|ACER ZGB EPSILON-DE 1424|ACER ZGB EPSILON-ES 0624|ACER ZGB EPSILON-FR 3269|ACER ZGB EPSILON-GB 1280|ACER ZGB EPSILON-IT 2335|ACER ZGB EPSILON-US 7201|ACER ZGB EPSILON-US-INTL 9303|ACER ZGB ETA-DE 9254|ACER ZGB ETA-ES 5606|ACER ZGB ETA-FR 2883|ACER ZGB ETA-GB 8902|ACER ZGB ETA-IT 8185|ACER ZGB ETA-US 0919|ACER ZGB ETA-US-INTL 4867|ACER ZGB PVT ALPHA 0527|ACER ZGB PVT BETA 6683|ACER ZGB RAMP ALPHA-US 3543|ACER ZGB RAMP BETA-US 9825|ACER ZGB THETA-DE 7805|ACER ZGB THETA-ES 2301|ACER ZGB THETA-FR 8488|ACER ZGB THETA-GB 3309|ACER ZGB THETA-IT 6914|ACER ZGB THETA-US 4844|ACER ZGB THETA-US-INTL 6699",
         "ACER ZGB ALPHA-DE 1802|ACER ZGB ALPHA-ES 3786|ACER ZGB ALPHA-FR 4223|ACER ZGB ALPHA-GB 7370|ACER ZGB ALPHA-IT 4645|ACER ZGB ALPHA-US 4443|ACER ZGB ALPHA-US-INTL 6722|ACER ZGB BETA-DE 3227|ACER ZGB BETA-ES 2795|ACER ZGB BETA-FR 6478|ACER ZGB BETA-GB 9131|ACER ZGB BETA-IT 7076|ACER ZGB BETA-US 2170|ACER ZGB BETA-US-INTL 1108|ACER ZGB DELTA-DE 6494|ACER ZGB DELTA-ES 6446|ACER ZGB DELTA-FR 1131|ACER ZGB DELTA-GB 0702|ACER ZGB DELTA-IT 5185|ACER ZGB DELTA-US 3919|ACER ZGB DELTA-US-INTL 7354|ACER ZGB EPSILON-DE 1424|ACER ZGB EPSILON-ES 0624|ACER ZGB EPSILON-FR 3269|ACER ZGB EPSILON-GB 1280|ACER ZGB EPSILON-IT 2335|ACER ZGB EPSILON-US 7201|ACER ZGB EPSILON-US-INTL 9303|ACER ZGB ETA-DE 9254|ACER ZGB ETA-ES 5606|ACER ZGB ETA-FR 2883|ACER ZGB ETA-GB 8902|ACER ZGB ETA-IT 8185|ACER ZGB ETA-US 0919|ACER ZGB ETA-US-INTL 4867|ACER ZGB PVT ALPHA 0527|ACER ZGB PVT BETA 6683|ACER ZGB RAMP ALPHA-US 3543|ACER ZGB RAMP BETA-US 9825|ACER ZGB THETA-DE 7805|ACER ZGB THETA-ES 2301|ACER ZGB THETA-FR 8488|ACER ZGB THETA-GB 3309|ACER ZGB THETA-IT 6914|ACER ZGB THETA-US 4844|ACER ZGB THETA-US-INTL 6699"
     ],
     "image_name": "zgb",
+    "linux_kernel_versions": [
+        "3.8.11"
+    ],
     "manufacturers": [
         "Acer",
         "Acer"
@@ -24,6 +49,8 @@
         "Acer AC700-1099 Wifi",
         "Acer AC700-1099 Wifi"
     ],
+    "parallels_support": false,
+    "sample_hwid": "ACER ZGB ALPHA-US-INTL 6722",
     "sha1": "356ee267f88cd2bc6c8b1dee7a39d5ed49cfa7ea",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_9334.72.0_x86-zgb-he_recovery_stable-channel_zgb-mp-v3.bin.zip",
     "version": "9334.72.0",

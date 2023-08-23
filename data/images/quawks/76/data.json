@@ -1,16 +1,42 @@
 {
+    "analysis_version": 7,
+    "android_app_support": false,
+    "aue_date": "2019-08-02 00:00:00",
     "boards": [
         "quawks"
     ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{A772AA64-E906-A01E-1DFD-1856870D39EC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{A772AA64-E906-A01E-1DFD-1856870D39EC}",
+    "chromeos_release_board": "quawks-signed-mp-v3keys",
+    "chromeos_release_branch_number": "92",
+    "chromeos_release_build_number": "12239",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "quawks-release/R76-12239.92.0",
+    "chromeos_release_chrome_milestone": "76",
+    "chromeos_release_description": "12239.92.0 (Official Build) stable-channel quawks ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "12239.92.0",
     "cr_version": 76,
     "cros_version": 12239,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_12239.92.0_quawks_recovery_stable-channel_mp-v3.bin",
     "filesize": 2271240192,
+    "google_release": "12239.92.0",
     "hwidmatches": [
         "^QUAWKS .*",
         "^QUAWKS .*"
     ],
     "image_name": "quawks",
+    "linux_kernel_versions": [
+        "4.4.180-16566-g51163f4278d1"
+    ],
     "manufacturers": [
         "Asus",
         "Asus"
@@ -24,6 +50,8 @@
         "ASUS Chromebook C300",
         "ASUS Chromebook C300"
     ],
+    "parallels_support": false,
+    "sample_hwid": "QUAWKS NNN",
     "sha1": "9c0e307a56389c330ba2554b1281d215ea63bcf9",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_quawks_recovery_stable-channel_mp-v3.bin.zip",
     "version": "12239.92.0",

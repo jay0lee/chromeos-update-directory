@@ -1,16 +1,45 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2021-06-02 00:00:00",
     "boards": [
         "paine"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7441046",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
+    "chromeos_release_board": "auron_paine-signed-mp-v2keys",
+    "chromeos_release_branch_number": "77",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "auron_paine-release/R91-13904.77.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.77.0 (Official Build) stable-channel auron_paine ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13904.77.0",
     "cr_version": 91,
     "cros_version": 13904,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_13904.77.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin",
     "filesize": 2320301568,
+    "google_release": "13904.77.0",
     "hwidmatches": [
         "^PAINE .*",
         "^PAINE .*"
     ],
     "image_name": "paine",
+    "linux_kernel_versions": [
+        "4.14.228-37743-g49d2c603c1a5"
+    ],
     "manufacturers": [
         "Acer",
         "Acer"
@@ -24,6 +53,8 @@
         "Acer Chromebook 11 (C740)",
         "Acer Chromebook 11 (C740)"
     ],
+    "parallels_support": false,
+    "sample_hwid": "PAINE NNN",
     "sha1": "daaf7616b298889ad45123bc075749664bc0dd0d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip",
     "version": "13904.77.0",

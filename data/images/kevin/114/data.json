@@ -1,11 +1,38 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-08-01 00:00:00",
     "boards": [
         "kevin"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "10306648",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{92A7272A-834A-47A3-9112-E8FD55831660}",
+    "chromeos_release_board": "kevin-signed-mp-v2keys",
+    "chromeos_release_branch_number": "63",
+    "chromeos_release_build_number": "15437",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kevin-release/R114-15437.63.0",
+    "chromeos_release_chrome_milestone": "114",
+    "chromeos_release_description": "15437.63.0 (Official Build) stable-channel kevin ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15437.63.0",
     "cr_version": 114,
     "cros_version": 15437,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15437.63.0_kevin_recovery_stable-channel_mp-v2.bin",
     "filesize": 2439980544,
+    "google_release": "15437.63.0",
     "hwidmatches": [
         "^KEVIN .*",
         "^KEVIN .*",
@@ -13,6 +40,9 @@
         "^KEVIN .*"
     ],
     "image_name": "kevin",
+    "linux_kernel_versions": [
+        "5.10.178-22215-gc952fc054dac"
+    ],
     "manufacturers": [
         "Samsung",
         "Samsung",
@@ -32,6 +62,8 @@
         "Samsung Chromebook Plus",
         "Samsung Chromebook Plus"
     ],
+    "parallels_support": false,
+    "sample_hwid": "KEVIN NNN",
     "sha1": "29bc0cdbb63657060ebaa1590c35cbc8892af7cd",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15437.63.0_kevin_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15437.63.0",

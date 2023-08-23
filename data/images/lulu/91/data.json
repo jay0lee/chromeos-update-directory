@@ -1,16 +1,45 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2021-06-02 00:00:00",
     "boards": [
         "lulu"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "7441046",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{40C6BCAB-B8D4-466F-9C3C-069B8CAC36D7}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{40C6BCAB-B8D4-466F-9C3C-069B8CAC36D7}",
+    "chromeos_release_board": "lulu-signed-mp-v2keys",
+    "chromeos_release_branch_number": "77",
+    "chromeos_release_build_number": "13904",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "lulu-release/R91-13904.77.0",
+    "chromeos_release_chrome_milestone": "91",
+    "chromeos_release_description": "13904.77.0 (Official Build) stable-channel lulu ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_version": "13904.77.0",
     "cr_version": 91,
     "cros_version": 13904,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_13904.77.0_lulu_recovery_stable-channel_mp-v2.bin",
     "filesize": 2319657472,
+    "google_release": "13904.77.0",
     "hwidmatches": [
         "^LULU .*",
         "^LULU .*"
     ],
     "image_name": "lulu",
+    "linux_kernel_versions": [
+        "4.14.228-37743-g49d2c603c1a5"
+    ],
     "manufacturers": [
         "Dell",
         "Dell"
@@ -24,6 +53,8 @@
         "Dell Chromebook 13 (7310)",
         "Dell Chromebook 13 (7310)"
     ],
+    "parallels_support": false,
+    "sample_hwid": "LULU NNN",
     "sha1": "940ee68c03a5514a2ef4ae1bcd6d994e54b2d578",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_lulu_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13904.77.0",

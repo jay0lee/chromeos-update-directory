@@ -1,4 +1,8 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2030-06-06 00:00:00",
     "boards": [
         "storo",
         "galtic",
@@ -42,10 +46,33 @@
         "botenflex",
         "metaknight"
     ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10634274",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{E0DD1258-E890-493E-ADA3-0C755240B89C}",
+    "chromeos_release_board": "dedede-signed-mp-v31keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "dedede-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel dedede ",
+    "chromeos_release_keyset": "mp-v31",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
     "cr_version": 115,
     "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15474.84.0_dedede_recovery_stable-channel_mp-v31.bin",
     "filesize": 4233073664,
+    "google_release": "15474.84.0",
     "hwidmatches": [
         "^STORO-HIER.*",
         "^GALTIC-MOIP.*",
@@ -255,6 +282,9 @@
         "^KRACKO-RVAR .*"
     ],
     "image_name": "dedede",
+    "linux_kernel_versions": [
+        "5.4.243-20979-g7785f2bb670e"
+    ],
     "manufacturers": [
         "Asus",
         "Asus",
@@ -880,6 +910,8 @@
         "Zyrex Chromebook M432-2",
         "Zyrex Chromebook M432-64/Zyrex Chromebook M432-11"
     ],
+    "parallels_support": false,
+    "sample_hwid": "STORO-HIERNNN",
     "sha1": "261a6f1e12be6cfee04f9df4420643c88022568f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_dedede_recovery_stable-channel_mp-v31.bin.zip",
     "version": "15474.84.0",

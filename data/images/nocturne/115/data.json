@@ -1,11 +1,38 @@
 {
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2026-06-02 00:00:00",
     "boards": [
         "nocturne"
     ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10634274",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{BD7F7139-CC18-49C1-A847-33F155CCBCA8}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{BD7F7139-CC18-49C1-A847-33F155CCBCA8}",
+    "chromeos_release_board": "nocturne-signed-mp-v2keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nocturne-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel nocturne ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
     "cr_version": 115,
     "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15474.84.0_nocturne_recovery_stable-channel_mp-v2.bin",
     "filesize": 4981751296,
+    "google_release": "15474.84.0",
     "hwidmatches": [
         "^NOCTURNE .*",
         "^NOCTURNE .*",
@@ -13,6 +40,9 @@
         "^NOCTURNE .*"
     ],
     "image_name": "nocturne",
+    "linux_kernel_versions": [
+        "5.10.180-22633-g1d2f89719839"
+    ],
     "manufacturers": [
         "Google",
         "Google",
@@ -32,6 +62,8 @@
         "Google Pixel Slate",
         "Google Pixel Slate"
     ],
+    "parallels_support": false,
+    "sample_hwid": "NOCTURNE NNN",
     "sha1": "56e2bb06a58f1da706baea96bb5a29adc1f7e828",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_nocturne_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15474.84.0",
