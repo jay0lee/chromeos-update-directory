@@ -5,12 +5,11 @@ import glob
 import json
 import os
 import pathlib
+import random
 import re
 import subprocess
 import sys
 from time import sleep
-
-import rstr
 
 import common 
 
@@ -79,11 +78,8 @@ for data_file in data_files:
   data['parallels_support'] = os.path.isfile(parallels_path)
 
   # Get EOL / AUE date of image
-  hwclass_regex = data['hwidmatches'][0]
-  print(hwclass_regex)
-  hwclass_regex = hwclass_regex.replace('.*', 'NNN')
-  print(hwclass_regex)
-  hardware_class = rstr.xeger(hwclass_regex)
+  hwclass_regex = random.choice(data['hwidmatches'])
+  hardware_class = common.hwid_from_hwidmatch(hwclass_regex)
   print(f'hwid: {hardware_class}')
   update_data = common.check_updates(
       data['chromeos_board_appid'],

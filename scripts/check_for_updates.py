@@ -160,7 +160,8 @@ def main():
             data = json.load(f)
             f.close()
             image = data['image_name']
-            hwid = data['sample_hwid']
+            hwidmatch = random.choice(data['hwidmatches'])
+            hwid = common.hwid_from_hwidmatch(hwidmatch)
             board_id = data.get('chromeos_board_appid', data['chromeos_release_appid'])
             updates = {}
             updates['stable'] = getBoardUpdate(image,

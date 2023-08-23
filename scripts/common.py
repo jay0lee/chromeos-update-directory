@@ -10,6 +10,7 @@ import xmltodict
 import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
+from rstr import xeger
 
 def build_http():
   allowed_methods = ['HEAD', 'GET', 'OPTIONS']
@@ -28,6 +29,12 @@ def build_http():
   httpc.mount("https://", adapter)
   httpc.mount("http://", adapter)
   return httpc
+
+def hwid_from_hwidmatch(hwidmatch):
+    # xeger likes to make ([A-Z0-9])+ into really long strings, just make it NNNN
+    hwidmatch = hwidmatch.replace('([A-Z0-9])+', 'NNNN')
+    hwidmatch = hwidmatch.replace('.*', 'NNNN')
+    return xeger(hwidmatch)
 
 def check_updates(appid, version, board, track, hardware_class, targetversionprefix='', installsource='ondemand'):
   xml_map = {
