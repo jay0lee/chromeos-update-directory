@@ -1,0 +1,59 @@
+{
+    "analysis_version": 7,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "wyvern"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "10634274",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2514829E-8550-4E24-91F2-331AB7A12B03}",
+    "chromeos_release_board": "puff-signed-mp-v12keys",
+    "chromeos_release_branch_number": "84",
+    "chromeos_release_build_number": "15474",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "puff-release/R115-15474.84.0",
+    "chromeos_release_chrome_milestone": "115",
+    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel puff ",
+    "chromeos_release_keyset": "mp-v12",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15474.84.0",
+    "cr_version": 115,
+    "cros_version": 15474,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_15474.84.0_puff_recovery_stable-channel_mp-v12.bin",
+    "filesize": 4962877952,
+    "google_release": "15474.84.0",
+    "hwidmatches": [
+        "^WYVERN-HOIZ .*"
+    ],
+    "image_name": "puff",
+    "linux_kernel_versions": [
+        "4.19.282-14982-gde2ae4572a20"
+    ],
+    "manufacturers": [
+        "Google ChromeOS"
+    ],
+    "md5": "c3686605a15139035b149f888e0d50f8",
+    "models": [
+        "Google ChromeOS Wyvern MobLab"
+    ],
+    "names": [
+        "Wyvern MobLab"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "WYVERN-HOIZ NNN",
+    "sha1": "2a9aa9fc4486381a51107f50c8cc38b839bd56d1",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_puff_recovery_stable-channel_mp-v12.bin.zip",
+    "version": "15474.84.0",
+    "zipfilesize": 1711171663
+}
