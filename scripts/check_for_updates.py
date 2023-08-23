@@ -40,9 +40,13 @@ def getBoardUpdate(board_name, board_id, board_hwid, app_board, old_release='0.0
   </app>
 </request>'''
         retries = 3 
+        print(request)
         for n in range(1, retries+1): # loop in case of network error
             try:
                 response = requests.post(update_url, data=request, headers=headers)
+                print(response.text)
+                if board_name == 'hana' and channel == 'canary':
+                    sys.exit(0)
             except Exception as e:
                 continue
             xml_response_string = response.text

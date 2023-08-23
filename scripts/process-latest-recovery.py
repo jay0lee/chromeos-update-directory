@@ -49,18 +49,22 @@ for rec in recovery_urls:
         if board_name == 'iec':
             board_name = 'mario'
         model = image.get('model', 'no model')
+        name = image.get('name', 'no name')
         manufacturer = image.get('manufacturer', 'no manufacturer')
         if manufacturer.lower() not in model.lower():
             model = f'{manufacturer} {model}'
         if image_name in seen_images:
+            print(f'{model} ({name}) another version of {image_name}')
             seen_images[image_name]['hwidmatches'].append(image.get('hwidmatch'))
             seen_images[image_name]['manufacturers'].append(manufacturer)
             seen_images[image_name]['models'].append(model)
-            seen_images[image_name]['names'].append(image.get('name'))
+            seen_images[image_name]['names'].append(name)
             if board_name not in seen_images[image_name]['boards']:
                 seen_images[image_name]['boards'].append(board_name)
-                continue
             i += 1
+            continue
+        else:
+            print(f'{model} ({name}) first version of {image_name}')
         cros_version = int(image.get('version').split('.')[0])
         cr_version = int(cros_versions.get(str(cros_version), 0))
         image_data = {

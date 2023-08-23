@@ -1,5 +1,6 @@
 import __main__
 import datetime
+from inspect import getfullargspec
 import os
 import re
 import subprocess
@@ -11,10 +12,16 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 def build_http():
+  allowed_methods = ['HEAD', 'GET', 'OPTIONS']
+  retry_args = list(getfullargspec(Retry))
+  if 'allowed_methods' in retry_args[0]:
+      kwargs = {'allowed_methods': allowed_methods}
+  else:
+      kwargs = {'method_whitelist': allowed_methods}
   retry_strategy = Retry(
       total=10,
       status_forcelist=[429, 500, 502, 503, 504],
-      method_whitelist=["HEAD", "GET", "OPTIONS"]
+      **kwargs,
   )
   adapter = HTTPAdapter(max_retries=retry_strategy)
   httpc = requests.Session()
@@ -143,13 +150,13 @@ def download_image_file(data, path, verify=True, backfill_verify=False, curl_ver
       if return_code == 0 and ((not verify and not backfill_verify) or downloaded_size == expected_size):
         os.rename(partial_file, recovery_file)
         if backfill_verify:
-          with open(zip_md5_file, 'r') as f:
+          with open(zip_md5_file) as f:
             zip_md5 = f.read().strip().split(' ')[0]
           data['md5'] = zip_md5
-          with open(zip_sha1_file, 'r') as f:
+          with open(zip_sha1_file) as f:
             zip_sha1 = f.read().strip().split(' ')[0]
           data['sha1'] = zip_sha1
-        with open(partial_file_md5, 'r') as f:
+        with open(partial_file_md5) as f:
           uncompressed_md5 = f.readline().split(' ')[0]
         with open(recovery_file_md5, 'w') as f:
           f.write(f'{uncompressed_md5} {rel_file}')
@@ -199,7 +206,7 @@ def mount_image(image_file, mnt_path, partition=3):
   if partition != 0:
       fdisk_cmd = ['bash', '-c', f'/sbin/fdisk -l {image_file} 2> /dev/null']
       fdisk_out = str(subprocess.run(fdisk_cmd, stdout=subprocess.PIPE).stdout)
-      rx = f'{image_file}{partition}\s+([0-9]*)\s+([0-9]*)'
+      rx = fr'{image_file}{partition}\s+([0-9]*)\s+([0-9]*)'
       mg = re.search(rx, fdisk_out)
       if not mg:
           print(f'ERROR: failed to find partition {partition} of {image_file} (does file exist?)')
