@@ -1,57 +1,31 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android Pie 9",
-    "aue_date": "2021-06-02 00:00:00",
     "boards": [
         "yuna"
     ],
-    "chromeos_arc_android_sdk_version": "28",
-    "chromeos_arc_version": "7436342",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{FF7E5403-68B3-9E57-EE1C-A53D8AF2BAC3}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{FF7E5403-68B3-9E57-EE1C-A53D8AF2BAC3}",
-    "chromeos_release_board": "auron_yuna-signed-mp-v2keys",
-    "chromeos_release_branch_number": "55",
-    "chromeos_release_build_number": "13904",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "auron_yuna-release/R91-13904.55.0",
-    "chromeos_release_chrome_milestone": "91",
-    "chromeos_release_description": "13904.55.0 (Official Build) stable-channel auron_yuna ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "13904.55.0",
     "cr_version": 91,
     "cros_version": 13904,
-    "crostini_support": true,
-    "devicetype": "CHROMEBOOK",
-    "file": "chromeos_13904.55.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin",
+    "file": "chromeos_13904.77.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin",
     "filesize": 2320301568,
-    "google_release": "13904.55.0",
     "hwidmatches": [
+        "^YUNA .*",
         "^YUNA .*"
     ],
     "image_name": "yuna",
-    "linux_kernel_versions": [
-        "4.14.228-37743-g49d2c603c1a5"
-    ],
     "manufacturers": [
+        "Acer",
         "Acer"
     ],
-    "md5": "9b39197f832abd413b0bc3567b4e45a7",
+    "md5": "f87dac2434fb67ad8acc3c2c0d7cadf6",
     "models": [
+        "Acer Chromebook 15 (CB5-571, C910)",
         "Acer Chromebook 15 (CB5-571, C910)"
     ],
     "names": [
+        "Acer Chromebook 15 (CB5-571, C910)",
         "Acer Chromebook 15 (CB5-571, C910)"
     ],
-    "sample_hwid": "YUNA NNN",
-    "sha1": "39750278e61661ef72d1d94e9ae07ece299d1ccd",
-    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip",
-    "version": "13904.55.0",
-    "zipfilesize": 1152934539
+    "sha1": "aca1525143f7b6d06f611072fc432b6c9643d0fe",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip",
+    "version": "13904.77.0",
+    "zipfilesize": 1153877993
 }

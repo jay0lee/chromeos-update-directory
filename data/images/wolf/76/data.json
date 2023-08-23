@@ -1,52 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "None",
     "boards": [
         "wolf"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{1E454867-ACF6-5F8B-091F-145680D4A7F5}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{1E454867-ACF6-5F8B-091F-145680D4A7F5}",
-    "chromeos_release_board": "wolf-signed-mp-v2keys",
-    "chromeos_release_branch_number": "92",
-    "chromeos_release_build_number": "12239",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "wolf-release/R76-12239.92.1",
-    "chromeos_release_chrome_milestone": "76",
-    "chromeos_release_description": "12239.92.1 (Official Build) stable-channel wolf ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "1",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "12239.92.1",
     "cr_version": 76,
     "cros_version": 12239,
-    "crostini_support": false,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_12239.92.1_wolf_recovery_stable-channel_mp-v2.bin",
     "filesize": 1526751232,
-    "google_release": "12239.92.1",
     "hwidmatches": [
+        "^WOLF .*",
         "^WOLF .*"
     ],
     "image_name": "wolf",
-    "linux_kernel_versions": [
-        "3.8.11"
-    ],
     "manufacturers": [
+        "Dell",
         "Dell"
     ],
     "md5": "f450afad652a80de5d1025d7c94ab751",
     "models": [
+        "Dell Chromebook 11",
         "Dell Chromebook 11"
     ],
     "names": [
+        "Dell Chromebook 11",
         "Dell Chromebook 11"
     ],
-    "sample_hwid": "WOLF NNN",
     "sha1": "cbc1f96799fad008a4063185757336c190a3842c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.1_wolf_recovery_stable-channel_mp-v2.bin.zip",
     "version": "12239.92.1",

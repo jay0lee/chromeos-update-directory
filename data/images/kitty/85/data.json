@@ -1,54 +1,31 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "2020-08-02 00:00:00",
     "boards": [
         "kitty"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{2A52A861-EDBF-5268-5DD4-9C85E5BE2419}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{2A52A861-EDBF-5268-5DD4-9C85E5BE2419}",
-    "chromeos_release_board": "nyan_kitty-signed-mp-v2keys",
-    "chromeos_release_branch_number": "59",
-    "chromeos_release_build_number": "13310",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "nyan_kitty-release/R85-13310.59.0",
-    "chromeos_release_chrome_milestone": "85",
-    "chromeos_release_description": "13310.59.0 (Official Build) stable-channel nyan_kitty ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "13310.59.0",
     "cr_version": 85,
     "cros_version": 13310,
-    "crostini_support": false,
-    "devicetype": "CHROMEBASE",
-    "file": "chromeos_13310.59.0_nyan-kitty_recovery_stable-channel_kitty-mp-v2.bin",
+    "file": "chromeos_13310.94.2_nyan-kitty_recovery_stable-channel_kitty-mp-v2.bin",
     "filesize": 2321571840,
-    "google_release": "13310.59.0",
     "hwidmatches": [
+        "^KITTY .*",
         "^KITTY .*"
     ],
     "image_name": "kitty",
-    "linux_kernel_versions": [
-        "3.10.18"
-    ],
     "manufacturers": [
+        "Acer",
         "Acer"
     ],
-    "md5": "b242f0107077300d217668bace59a555",
+    "md5": "f098a8359ae57126c7e6025c5f505ce0",
     "models": [
+        "Acer Chromebase",
         "Acer Chromebase"
     ],
     "names": [
+        "Acer Chromebase",
         "Acer Chromebase"
     ],
-    "sample_hwid": "KITTY NNN",
-    "sha1": "88b33bff64c5706e796a15e539e28abb7aca044f",
-    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.59.0_nyan-kitty_recovery_stable-channel_kitty-mp-v2.bin.zip",
-    "version": "13310.59.0",
-    "zipfilesize": 630191586
+    "sha1": "1c77471da8a754731f97649799db3611f840a93d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.94.2_nyan-kitty_recovery_stable-channel_kitty-mp-v2.bin.zip",
+    "version": "13310.94.2",
+    "zipfilesize": 629885201
 }

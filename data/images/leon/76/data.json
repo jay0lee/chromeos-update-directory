@@ -1,52 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "None",
     "boards": [
         "leon"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{D3844706-6B0E-78DF-752C-00DCDF11E04B}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{D3844706-6B0E-78DF-752C-00DCDF11E04B}",
-    "chromeos_release_board": "leon-signed-mp-v2keys",
-    "chromeos_release_branch_number": "92",
-    "chromeos_release_build_number": "12239",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "leon-release/R76-12239.92.0",
-    "chromeos_release_chrome_milestone": "76",
-    "chromeos_release_description": "12239.92.0 (Official Build) stable-channel leon ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "12239.92.0",
     "cr_version": 76,
     "cros_version": 12239,
-    "crostini_support": false,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_12239.92.0_leon_recovery_stable-channel_mp-v2.bin",
     "filesize": 1526751232,
-    "google_release": "12239.92.0",
     "hwidmatches": [
+        "^LEON .*",
         "^LEON .*"
     ],
     "image_name": "leon",
-    "linux_kernel_versions": [
-        "3.8.11"
-    ],
     "manufacturers": [
+        "Toshiba",
         "Toshiba"
     ],
     "md5": "e037284c060039b43312587e6042775c",
     "models": [
+        "Toshiba Chromebook",
         "Toshiba Chromebook"
     ],
     "names": [
+        "Toshiba Chromebook",
         "Toshiba Chromebook"
     ],
-    "sample_hwid": "LEON NNN",
     "sha1": "9da81b8350bc5fb6d48b3574bf037224eb7ff69b",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_leon_recovery_stable-channel_mp-v2.bin.zip",
     "version": "12239.92.0",

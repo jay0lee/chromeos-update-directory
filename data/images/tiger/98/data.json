@@ -1,57 +1,35 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android Pie 9",
-    "aue_date": "2022-02-02 00:00:00",
     "boards": [
         "tiger"
     ],
-    "chromeos_arc_android_sdk_version": "28",
-    "chromeos_arc_version": "8050614",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{549D848C-2674-F41D-AE75-E163F8612099}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{549D848C-2674-F41D-AE75-E163F8612099}",
-    "chromeos_release_board": "veyron_tiger-signed-mpkeys",
-    "chromeos_release_branch_number": "52",
-    "chromeos_release_build_number": "14388",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "veyron_tiger-release/R98-14388.52.0",
-    "chromeos_release_chrome_milestone": "98",
-    "chromeos_release_description": "14388.52.0 (Official Build) stable-channel veyron_tiger ",
-    "chromeos_release_keyset": "mp",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "14388.52.0",
     "cr_version": 98,
     "cros_version": 14388,
-    "crostini_support": false,
-    "devicetype": "CHROMEBASE",
-    "file": "chromeos_14388.52.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin",
+    "file": "chromeos_14388.61.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin",
     "filesize": 2320161792,
-    "google_release": "14388.52.0",
     "hwidmatches": [
+        "^TIGER .*",
+        "^TIGER .*",
         "^TIGER .*"
     ],
     "image_name": "tiger",
-    "linux_kernel_versions": [
-        "4.19.219-12582-gc8503e212913"
-    ],
     "manufacturers": [
+        "AOpen",
+        "AOpen",
         "AOpen"
     ],
-    "md5": "6a7f2625cb62076a4d2fce1b5e8bbdb9",
+    "md5": "d465adef2f4cf720877aab8c8e05d873",
     "models": [
+        "AOpen Chromebase Mini",
+        "AOpen Chromebase Mini",
         "AOpen Chromebase Mini"
     ],
     "names": [
+        "AOpen Chromebase Mini",
+        "AOpen Chromebase Mini",
         "AOpen Chromebase Mini"
     ],
-    "sample_hwid": "TIGER NNN",
-    "sha1": "15bb655b1dd1c3e488af9ef0f3c8673e90f82b30",
-    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.52.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin.zip",
-    "version": "14388.52.0",
-    "zipfilesize": 1043774810
+    "sha1": "bbd2d0aed0d7667c891bd02f9ebbcfc85b5e76ab",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin.zip",
+    "version": "14388.61.0",
+    "zipfilesize": 1043722229
 }

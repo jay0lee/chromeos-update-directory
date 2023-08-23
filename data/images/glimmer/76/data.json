@@ -1,52 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "2019-06-02 00:00:00",
     "boards": [
         "glimmer"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{D0DBB0D9-6EEB-B148-F8AF-AE8AF86ECE5B}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{D0DBB0D9-6EEB-B148-F8AF-AE8AF86ECE5B}",
-    "chromeos_release_board": "glimmer-signed-mp-v4keys",
-    "chromeos_release_branch_number": "92",
-    "chromeos_release_build_number": "12239",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "glimmer-release/R76-12239.92.0",
-    "chromeos_release_chrome_milestone": "76",
-    "chromeos_release_description": "12239.92.0 (Official Build) stable-channel glimmer ",
-    "chromeos_release_keyset": "mp-v4",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "12239.92.0",
     "cr_version": 76,
     "cros_version": 12239,
-    "crostini_support": false,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_12239.92.0_glimmer_recovery_stable-channel_mp-v4.bin",
     "filesize": 2271240192,
-    "google_release": "12239.92.0",
     "hwidmatches": [
+        "^GLIMMER .*",
         "^GLIMMER .*"
     ],
     "image_name": "glimmer",
-    "linux_kernel_versions": [
-        "4.4.180-16566-g51163f4278d1"
-    ],
     "manufacturers": [
+        "Lenovo",
         "Lenovo"
     ],
     "md5": "518fb963bc5168b6ffda4c5073118409",
     "models": [
+        "Lenovo ThinkPad 11e Chromebook",
         "Lenovo ThinkPad 11e Chromebook"
     ],
     "names": [
+        "Lenovo ThinkPad 11e Chromebook",
         "Lenovo ThinkPad 11e Chromebook"
     ],
-    "sample_hwid": "GLIMMER NNN",
     "sha1": "4facb3fb4fd257f4605095751f696f1a45cb6249",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_glimmer_recovery_stable-channel_mp-v4.bin.zip",
     "version": "12239.92.0",

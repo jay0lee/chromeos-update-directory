@@ -1,52 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "2021-06-02 00:00:00",
     "boards": [
         "buddy"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{B801E98B-4AB6-4D82-B3B3-E1517DC53266}",
-    "chromeos_release_board": "buddy-signed-mp-v2keys",
-    "chromeos_release_branch_number": "77",
-    "chromeos_release_build_number": "13904",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "buddy-release/R91-13904.77.0",
-    "chromeos_release_chrome_milestone": "91",
-    "chromeos_release_description": "13904.77.0 (Official Build) stable-channel buddy ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "13904.77.0",
     "cr_version": 91,
     "cros_version": 13904,
-    "crostini_support": true,
-    "devicetype": "CHROMEBASE",
     "file": "chromeos_13904.77.0_buddy_recovery_stable-channel_mp-v2.bin",
     "filesize": 2319657472,
-    "google_release": "13904.77.0",
     "hwidmatches": [
+        "^BUDDY .*",
         "^BUDDY .*"
     ],
     "image_name": "buddy",
-    "linux_kernel_versions": [
-        "4.14.228-37743-g49d2c603c1a5"
-    ],
     "manufacturers": [
+        "Acer",
         "Acer"
     ],
     "md5": "413ff658ae3239a0341ab60a25961cff",
     "models": [
+        "Acer Chromebase 24",
         "Acer Chromebase 24"
     ],
     "names": [
+        "Acer Chromebase 24",
         "Acer Chromebase 24"
     ],
-    "sample_hwid": "BUDDY NNN",
     "sha1": "4ce180fdb88d46cd86a2a06493e1b65061985149",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_buddy_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13904.77.0",

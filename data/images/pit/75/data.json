@@ -1,52 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "None",
     "boards": [
         "pit"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{24E2E4F7-F92C-6115-3E26-02C7EAA02946}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{24E2E4F7-F92C-6115-3E26-02C7EAA02946}",
-    "chromeos_release_board": "peach_pit-signed-mp-v3keys",
-    "chromeos_release_branch_number": "100",
-    "chromeos_release_build_number": "12105",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "peach_pit-release/R75-12105.100.0",
-    "chromeos_release_chrome_milestone": "75",
-    "chromeos_release_description": "12105.100.0 (Official Build) stable-channel peach_pit ",
-    "chromeos_release_keyset": "mp-v3",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "12105.100.0",
     "cr_version": 75,
     "cros_version": 12105,
-    "crostini_support": false,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_12105.100.0_peach-pit_recovery_stable-channel_pit-mp-v3.bin",
     "filesize": 1539334144,
-    "google_release": "12105.100.0",
     "hwidmatches": [
+        "^PIT ([^TEST.*]).*",
         "^PIT ([^TEST.*]).*"
     ],
     "image_name": "pit",
-    "linux_kernel_versions": [
-        "3.8.11"
-    ],
     "manufacturers": [
+        "Samsung",
         "Samsung"
     ],
     "md5": "ae36e16f5c1db382d84609a57946bd64",
     "models": [
+        "Samsung Chromebook 2 11\"",
         "Samsung Chromebook 2 11\""
     ],
     "names": [
+        "Samsung Chromebook 2 11\"",
         "Samsung Chromebook 2 11\""
     ],
-    "sample_hwid": "PIT *NNN",
     "sha1": "f9e3e3899617621d0644a769dcfe824b8653a39f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_peach-pit_recovery_stable-channel_pit-mp-v3.bin.zip",
     "version": "12105.100.0",

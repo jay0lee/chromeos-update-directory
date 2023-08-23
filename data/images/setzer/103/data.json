@@ -1,58 +1,39 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android Pie 9",
-    "aue_date": "2022-06-02 00:00:00",
     "boards": [
         "setzer"
     ],
-    "chromeos_arc_android_sdk_version": "28",
-    "chromeos_arc_version": "8700602",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{E9E5C8F0-C30C-190F-CA75-D6184C3FEED6}",
-    "chromeos_release_board": "setzer-signed-mpkeys",
-    "chromeos_release_branch_number": "82",
-    "chromeos_release_build_number": "14816",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "setzer-release/R103-14816.82.0",
-    "chromeos_release_chrome_milestone": "103",
-    "chromeos_release_description": "14816.82.0 (Official Build) stable-channel setzer ",
-    "chromeos_release_keyset": "mp",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "14816.82.0",
     "cr_version": 103,
     "cros_version": 14816,
-    "crostini_support": true,
-    "devicetype": "CHROMEBOOK",
-    "file": "chromeos_14816.82.0_setzer_recovery_stable-channel_mp.bin",
-    "filesize": 2320229376,
-    "google_release": "14816.82.0",
+    "file": "chromeos_14816.131.0_setzer_recovery_stable-channel_mp.bin",
+    "filesize": 2320251904,
     "hwidmatches": [
+        "^SETZER .*",
+        "^SETZER .*",
+        "^SETZER .*",
         "^SETZER .*"
     ],
     "image_name": "setzer",
-    "linux_kernel_versions": [
-        "4.19.241-13212-ge9b0bab46475"
-    ],
     "manufacturers": [
+        "HP",
+        "HP",
+        "HP",
         "HP"
     ],
-    "md5": "f6eaec4e986e5d0f7541a1ecb432501c",
+    "md5": "89a5bd799e9f8c53afe2509e23ae5ef5",
     "models": [
-        "HP Chromebook 11 G5"
+        "HP Chromebook 11-v0",
+        "HP Chromebook 11-v0",
+        "HP Chromebook 11-v0",
+        "HP Chromebook 11-v0"
     ],
     "names": [
-        "HP Chromebook 11 G5"
+        "Chromebook 11-v0",
+        "Chromebook 11-v0",
+        "Chromebook 11-v0",
+        "Chromebook 11-v0"
     ],
-    "parallels_support": false,
-    "sample_hwid": "SETZER NNN",
-    "sha1": "82623774491d7863d2feedb075085300a83f52ba",
-    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.82.0_setzer_recovery_stable-channel_mp.bin.zip",
-    "version": "14816.82.0",
-    "zipfilesize": 1315643664
+    "sha1": "550db924b245950fc572f6d9b0e3e89c35009fed",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_setzer_recovery_stable-channel_mp.bin.zip",
+    "version": "14816.131.0",
+    "zipfilesize": 1318075457
 }

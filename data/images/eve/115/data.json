@@ -1,57 +1,37 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android 11",
-    "aue_date": "2024-06-02 00:00:00",
     "boards": [
         "eve"
     ],
-    "chromeos_arc_android_sdk_version": "30",
-    "chromeos_arc_version": "10634274",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{01906EA2-3EB2-41F1-8F62-F0B7120EFD2E}",
-    "chromeos_release_board": "eve-signed-mp-v3keys",
-    "chromeos_release_branch_number": "84",
-    "chromeos_release_build_number": "15474",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "eve-release/R115-15474.84.0",
-    "chromeos_release_chrome_milestone": "115",
-    "chromeos_release_description": "15474.84.0 (Official Build) stable-channel eve ",
-    "chromeos_release_keyset": "mp-v3",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_unibuild": "1",
-    "chromeos_release_version": "15474.84.0",
     "cr_version": 115,
     "cros_version": 15474,
-    "crostini_support": true,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15474.84.0_eve_recovery_stable-channel_mp-v3.bin",
     "filesize": 4478444032,
-    "google_release": "15474.84.0",
     "hwidmatches": [
+        "^EVE .*",
+        "^EVE .*",
+        "^EVE .*",
         "^EVE .*"
     ],
     "image_name": "eve",
-    "linux_kernel_versions": [
-        "5.4.243-20979-g7785f2bb670e"
-    ],
     "manufacturers": [
+        "Google",
+        "Google",
+        "Google",
         "Google"
     ],
     "md5": "9de64efa14438d6b32817c5acf1e9d2c",
     "models": [
+        "Google Pixelbook",
+        "Google Pixelbook",
+        "Google Pixelbook",
         "Google Pixelbook"
     ],
     "names": [
+        "Google Pixelbook",
+        "Google Pixelbook",
+        "Google Pixelbook",
         "Google Pixelbook"
     ],
-    "parallels_support": true,
-    "sample_hwid": "EVE NNN",
     "sha1": "ec1c81bb11ee841bf0a24c4400e276071e4f53ca",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_eve_recovery_stable-channel_mp-v3.bin.zip",
     "version": "15474.84.0",

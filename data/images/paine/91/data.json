@@ -1,57 +1,31 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android Pie 9",
-    "aue_date": "2021-06-02 00:00:00",
     "boards": [
         "paine"
     ],
-    "chromeos_arc_android_sdk_version": "28",
-    "chromeos_arc_version": "7436342",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{0AA3F9E1-A088-9252-50B8-5A1345D09AEB}",
-    "chromeos_release_board": "auron_paine-signed-mp-v2keys",
-    "chromeos_release_branch_number": "55",
-    "chromeos_release_build_number": "13904",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "auron_paine-release/R91-13904.55.0",
-    "chromeos_release_chrome_milestone": "91",
-    "chromeos_release_description": "13904.55.0 (Official Build) stable-channel auron_paine ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "13904.55.0",
     "cr_version": 91,
     "cros_version": 13904,
-    "crostini_support": true,
-    "devicetype": "CHROMEBOOK",
-    "file": "chromeos_13904.55.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin",
+    "file": "chromeos_13904.77.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin",
     "filesize": 2320301568,
-    "google_release": "13904.55.0",
     "hwidmatches": [
+        "^PAINE .*",
         "^PAINE .*"
     ],
     "image_name": "paine",
-    "linux_kernel_versions": [
-        "4.14.228-37743-g49d2c603c1a5"
-    ],
     "manufacturers": [
+        "Acer",
         "Acer"
     ],
-    "md5": "0ff0615cac58169bd0ba9fbc52d75589",
+    "md5": "df244c64e0ea7c63f7b3c3fb4d70db95",
     "models": [
+        "Acer Chromebook 11 (C740)",
         "Acer Chromebook 11 (C740)"
     ],
     "names": [
+        "Acer Chromebook 11 (C740)",
         "Acer Chromebook 11 (C740)"
     ],
-    "sample_hwid": "PAINE NNN",
-    "sha1": "d9193b253dac254e86dc3cf3291c07a8f48a530a",
-    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip",
-    "version": "13904.55.0",
-    "zipfilesize": 1152077899
+    "sha1": "daaf7616b298889ad45123bc075749664bc0dd0d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip",
+    "version": "13904.77.0",
+    "zipfilesize": 1153251253
 }

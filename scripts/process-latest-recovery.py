@@ -86,6 +86,7 @@ for rec in recovery_urls:
           }
         seen_images[image_name] = image_data
 
+force_write = len(sys.argv) > 1 and sys.argv[1].lower() == 'force'
 for image, data in seen_images.items():
   ipath = f'{data_path}/images/{image}/'
   image_path = f'{ipath}{data.get("cr_version", 0)}'
@@ -95,6 +96,6 @@ for image, data in seen_images.items():
   os.makedirs(image_path, exist_ok=True)
   os.system(f'bash -c "cd {ipath} && ln -s -f {cr_ver} latest"')
   data_file = f'{image_path}/data.json'
-  if not os.path.isfile(data_file):
+  if not os.path.isfile(data_file) or force_write:
     with open(data_file, 'w') as f:
       json.dump(data, f, indent=4, sort_keys=True)

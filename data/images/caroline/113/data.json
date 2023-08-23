@@ -1,56 +1,37 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android Pie 9",
-    "aue_date": "2023-06-02 00:00:00",
     "boards": [
         "caroline"
     ],
-    "chromeos_arc_android_sdk_version": "28",
-    "chromeos_arc_version": "10061634",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{C166AF52-7EE9-4F08-AAA7-B4B895A9F336}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{C166AF52-7EE9-4F08-AAA7-B4B895A9F336}",
-    "chromeos_release_board": "caroline-signed-mp-v2keys",
-    "chromeos_release_branch_number": "58",
-    "chromeos_release_build_number": "15393",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "caroline-release/R113-15393.58.0",
-    "chromeos_release_chrome_milestone": "113",
-    "chromeos_release_description": "15393.58.0 (Official Build) stable-channel caroline ",
-    "chromeos_release_keyset": "mp-v2",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "15393.58.0",
     "cr_version": 113,
     "cros_version": 15393,
-    "crostini_support": true,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15393.58.0_caroline_recovery_stable-channel_mp-v2.bin",
     "filesize": 2330964480,
-    "google_release": "15393.58.0",
     "hwidmatches": [
+        "^CAROLINE .*",
+        "^CAROLINE .*",
+        "^CAROLINE .*",
         "^CAROLINE .*"
     ],
     "image_name": "caroline",
-    "linux_kernel_versions": [
-        "4.19.279-14719-gff05822662eb"
-    ],
     "manufacturers": [
+        "Samsung",
+        "Samsung",
+        "Samsung",
         "Samsung"
     ],
     "md5": "b9d3c15fcd22688de26dd7947262dca4",
     "models": [
+        "Samsung Chromebook Pro",
+        "Samsung Chromebook Pro",
+        "Samsung Chromebook Pro",
         "Samsung Chromebook Pro"
     ],
     "names": [
+        "Samsung Chromebook Pro",
+        "Samsung Chromebook Pro",
+        "Samsung Chromebook Pro",
         "Samsung Chromebook Pro"
     ],
-    "parallels_support": false,
-    "sample_hwid": "CAROLINE NNN",
     "sha1": "8b68249336326b0945f78c553642ce144a44dfcf",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15393.58.0_caroline_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15393.58.0",

@@ -1,58 +1,39 @@
 {
-    "analysis_version": 7,
-    "android_app_support": true,
-    "android_version": "Android Pie 9",
-    "aue_date": "2022-06-02 00:00:00",
     "boards": [
         "cyan"
     ],
-    "chromeos_arc_android_sdk_version": "28",
-    "chromeos_arc_version": "8700602",
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{11130F0B-738A-C024-7A78-CF72D93B77AF}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{11130F0B-738A-C024-7A78-CF72D93B77AF}",
-    "chromeos_release_board": "cyan-signed-mp-v3keys",
-    "chromeos_release_branch_number": "82",
-    "chromeos_release_build_number": "14816",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "cyan-release/R103-14816.82.0",
-    "chromeos_release_chrome_milestone": "103",
-    "chromeos_release_description": "14816.82.0 (Official Build) stable-channel cyan ",
-    "chromeos_release_keyset": "mp-v3",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "14816.82.0",
     "cr_version": 103,
     "cros_version": 14816,
-    "crostini_support": true,
-    "devicetype": "CHROMEBOOK",
-    "file": "chromeos_14816.82.0_cyan_recovery_stable-channel_mp-v3.bin",
-    "filesize": 2320233984,
-    "google_release": "14816.82.0",
+    "file": "chromeos_14816.131.0_cyan_recovery_stable-channel_mp-v3.bin",
+    "filesize": 2320229376,
     "hwidmatches": [
+        "^CYAN .*",
+        "^CYAN .*",
+        "^CYAN .*",
         "^CYAN .*"
     ],
     "image_name": "cyan",
-    "linux_kernel_versions": [
-        "4.19.241-13212-ge9b0bab46475"
-    ],
     "manufacturers": [
+        "Acer",
+        "Acer",
+        "Acer",
         "Acer"
     ],
-    "md5": "b5423f89a23db249196a4ae8ae4f753f",
+    "md5": "491b74386eb597c1b413d524cbe7f1e4",
     "models": [
+        "Acer Chromebook R11 (CB5-132T, C738T)",
+        "Acer Chromebook R11 (CB5-132T, C738T)",
+        "Acer Chromebook R11 (CB5-132T, C738T)",
         "Acer Chromebook R11 (CB5-132T, C738T)"
     ],
     "names": [
+        "Acer Chromebook R11 (CB5-132T, C738T)",
+        "Acer Chromebook R11 (CB5-132T, C738T)",
+        "Acer Chromebook R11 (CB5-132T, C738T)",
         "Acer Chromebook R11 (CB5-132T, C738T)"
     ],
-    "parallels_support": false,
-    "sample_hwid": "CYAN NNN",
-    "sha1": "0f8c568704d39b58adbefea1ed42b9e6b7f3d86d",
-    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.82.0_cyan_recovery_stable-channel_mp-v3.bin.zip",
-    "version": "14816.82.0",
-    "zipfilesize": 1313234539
+    "sha1": "f0bda399df043561a687414b17d40b481f1def2c",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_cyan_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "14816.131.0",
+    "zipfilesize": 1315638845
 }

@@ -1,51 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "None",
     "boards": [
         "stumpy"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{2EE05B2F-3769-43B9-B78C-792F4A027971}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{2EE05B2F-3769-43B9-B78C-792F4A027971}",
-    "chromeos_release_board": "stumpy-signed-mp-v4keys",
-    "chromeos_release_branch_number": "62",
-    "chromeos_release_build_number": "10323",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "stumpy-release/R65-10323.62.0",
-    "chromeos_release_chrome_milestone": "65",
-    "chromeos_release_description": "10323.62.0 (Official Build) stable-channel stumpy ",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "10323.62.0",
     "cr_version": 65,
     "cros_version": 10323,
-    "crostini_support": false,
-    "devicetype": "CHROMEBOX",
     "file": "chromeos_10323.62.0_stumpy_recovery_stable-channel_mp-v4.bin",
     "filesize": 1526743552,
-    "google_release": "10323.62.0",
     "hwidmatches": [
+        "^STUMPY .*",
         "^STUMPY .*"
     ],
     "image_name": "stumpy",
-    "linux_kernel_versions": [
-        "3.8.11"
-    ],
     "manufacturers": [
+        "Samsung",
         "Samsung"
     ],
     "md5": "41aa9434df48138df97bcf1317912a8f",
     "models": [
+        "Samsung Chromebox Series 3",
         "Samsung Chromebox Series 3"
     ],
     "names": [
+        "Samsung Chromebox Series 3",
         "Samsung Chromebox Series 3"
     ],
-    "sample_hwid": "STUMPY NNN",
     "sha1": "15d29090c54792131949a2615ba86ce2c1b0e375",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10323.62.0_stumpy_recovery_stable-channel_mp-v4.bin.zip",
     "version": "10323.62.0",

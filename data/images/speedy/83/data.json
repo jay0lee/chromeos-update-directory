@@ -1,52 +1,29 @@
 {
-    "analysis_version": 7,
-    "android_app_support": false,
-    "aue_date": "2020-06-02 00:00:00",
     "boards": [
         "speedy"
     ],
-    "chromeos_auserver": "https://tools.google.com/service/update2",
-    "chromeos_board_appid": "{81C04B02-A863-BFBB-F77C-7707347DC958}",
-    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
-    "chromeos_devserver": "",
-    "chromeos_release_appid": "{81C04B02-A863-BFBB-F77C-7707347DC958}",
-    "chromeos_release_board": "veyron_speedy-signed-mp-v3keys",
-    "chromeos_release_branch_number": "87",
-    "chromeos_release_build_number": "13020",
-    "chromeos_release_build_type": "Official Build",
-    "chromeos_release_builder_path": "veyron_speedy-release/R83-13020.87.0",
-    "chromeos_release_chrome_milestone": "83",
-    "chromeos_release_description": "13020.87.0 (Official Build) stable-channel veyron_speedy ",
-    "chromeos_release_keyset": "mp-v3",
-    "chromeos_release_name": "Chrome OS",
-    "chromeos_release_patch_number": "0",
-    "chromeos_release_track": "stable-channel",
-    "chromeos_release_version": "13020.87.0",
     "cr_version": 83,
     "cros_version": 13020,
-    "crostini_support": false,
-    "devicetype": "CHROMEBOOK",
     "file": "chromeos_13020.87.0_veyron-speedy_recovery_stable-channel_speedy-mp-v3.bin",
     "filesize": 2321571840,
-    "google_release": "13020.87.0",
     "hwidmatches": [
+        "^SPEEDY .*",
         "^SPEEDY .*"
     ],
     "image_name": "speedy",
-    "linux_kernel_versions": [
-        "4.19.113-08544-ge67503bc40df"
-    ],
     "manufacturers": [
+        "Asus",
         "Asus"
     ],
     "md5": "a84164e2f2f37d3f346c3e96c93c6cdd",
     "models": [
+        "ASUS Chromebook C201PA",
         "ASUS Chromebook C201PA"
     ],
     "names": [
+        "ASUS Chromebook C201PA",
         "ASUS Chromebook C201PA"
     ],
-    "sample_hwid": "SPEEDY NNN",
     "sha1": "dcccdaa3aaf8ada98c5ed93276c837289aa5f64e",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-speedy_recovery_stable-channel_speedy-mp-v3.bin.zip",
     "version": "13020.87.0",
