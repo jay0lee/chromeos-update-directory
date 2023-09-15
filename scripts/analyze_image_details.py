@@ -14,7 +14,7 @@ from time import sleep
 import common 
 
 
-analysis_version = 7
+analysis_version = 8
 
 script_path, data_path = common.get_paths()
 mnt_path = f'{data_path}mnt/'
