@@ -1,0 +1,19 @@
+{
+    "app_board": "nocturne-signed-mpkeys",
+    "board_id": "{BD7F7139-CC18-49C1-A847-33F155CCBCA8}",
+    "check_time": "2023-10-26 14:44:45.579355",
+    "chrome_version": "116.0.5845.210",
+    "chromeos_version": "15509.81.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{BD7F7139-CC18-49C1-A847-33F155CCBCA8}\" version=\"15509.0.0\" board=\"nocturne-signed-mpkeys\" track=\"stable-channel\" hardware_class=\"NOCTURNE NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15509\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6142\" elapsed_seconds=\"27885\"/><app appid=\"{BD7F7139-CC18-49C1-A847-33F155CCBCA8}\" cohort=\"1:23:\" cohortname=\"nocturne_nocturne_stable\" status=\"ok\"><updatecheck _comment=\"Full payload: nocturne M116 15509.81.0 (enterprise pin, omaha_ver=id1502)\" _eol_date=\"20606\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/nocturne/15509.81.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/nocturne/15509.81.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/nocturne/15509.81.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/nocturne/15509.81.0/stable-channel/\"/></urls><manifest version=\"15509.81.0\"><actions><action event=\"update\" run=\"chromeos_15509.81.0_nocturne_stable-channel_full_mp-v2.bin-gy2gmztfmy2tjktjl46maor3xwbbe5xf.signed\"/><action ChromeOSVersion=\"15509.81.0\" ChromeVersion=\"116.0.5845.210\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"ggkrXuQNzQDnz6ozOZy6fKzU5ToqS2NnZyHFjl5+CZwdJ6Th76VKRZ3JMvBTQFZKDeDwTRNE3G8oYe0QA3GUxKzf4sJlRMGhOo1JgUTzG3qnd06Pdd3osHSY/x/w0Gh5JZB/+MJTv4em/P2wVqSn/6FUwV3Y3WWEhgxPyZnDLuJDVKUqWNbLRXybOnqCpgL64mnKdXB59IdHOybIb0YhtYDQt1pdQLVuRG2cVBLw/ppPh2abBYBGGbyQm6/tlIsoMWm4QVuOdtVaBAhsdqv6xYTHfhFY73l1FVjmAkzaLFGlqf9rbAVgzEBYoGkTE9WGm3t2DjHXDzGFZp4+i2C11w==\" MetadataSize=\"74372\" event=\"postinstall\" sha256=\"N2ezU3tbWnibkMI94CnVpZAjqub/MWAHNaJsgq3yl5E=\"/></actions><packages><package fp=\"3.3767b3537b5b5a789b90c23de029d5a59023aae6ff31600735a26c82adf29791\" hash_sha256=\"3767b3537b5b5a789b90c23de029d5a59023aae6ff31600735a26c82adf29791\" name=\"chromeos_15509.81.0_nocturne_stable-channel_full_mp-v2.bin-gy2gmztfmy2tjktjl46maor3xwbbe5xf.signed\" required=\"true\" size=\"1508138196\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "NOCTURNE NNNN",
+    "sha256": "3767b3537b5b5a789b90c23de029d5a59023aae6ff31600735a26c82adf29791",
+    "size": 1508138196,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/nocturne/15509.81.0/stable-channel/chromeos_15509.81.0_nocturne_stable-channel_full_mp-v2.bin-gy2gmztfmy2tjktjl46maor3xwbbe5xf.signed",
+        "http://dl.google.com/chromeos/nocturne/15509.81.0/stable-channel/chromeos_15509.81.0_nocturne_stable-channel_full_mp-v2.bin-gy2gmztfmy2tjktjl46maor3xwbbe5xf.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/nocturne/15509.81.0/stable-channel/chromeos_15509.81.0_nocturne_stable-channel_full_mp-v2.bin-gy2gmztfmy2tjktjl46maor3xwbbe5xf.signed",
+        "https://dl.google.com/chromeos/nocturne/15509.81.0/stable-channel/chromeos_15509.81.0_nocturne_stable-channel_full_mp-v2.bin-gy2gmztfmy2tjktjl46maor3xwbbe5xf.signed"
+    ]
+}

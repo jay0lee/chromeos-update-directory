@@ -1,0 +1,19 @@
+{
+    "app_board": "skyrim-signed-mp-v3keys",
+    "board_id": "{C5536B34-7D24-4CD3-8710-BD674185325B}",
+    "check_time": "2023-10-26 14:45:06.290826",
+    "chrome_version": "116.0.5845.210",
+    "chromeos_version": "15509.81.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{C5536B34-7D24-4CD3-8710-BD674185325B}\" version=\"15509.0.0\" board=\"skyrim-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"WHITERUN-WPKTNNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15509\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6142\" elapsed_seconds=\"27906\"/><app appid=\"{C5536B34-7D24-4CD3-8710-BD674185325B}\" cohort=\"1:1w:\" cohortname=\"skyrim_whiterun_stable\" status=\"ok\"><updatecheck _comment=\"Full payload: skyrim M116 15509.81.0 (enterprise pin, omaha_ver=id219)\" _eol_date=\"23167\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.1\" _kernel_version_0=\"1.1\" _kernel_version_1=\"1.1\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" _kernel_version_4=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/skyrim/15509.81.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/skyrim/15509.81.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/skyrim/15509.81.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/skyrim/15509.81.0/stable-channel/\"/></urls><manifest version=\"15509.81.0\"><actions><action event=\"update\" run=\"chromeos_15509.81.0_skyrim_stable-channel_full_mp-v4.bin-gy2gmztgg42dlva43pitqrsydbfdo4oz.signed\"/><action ChromeOSVersion=\"15509.81.0\" ChromeVersion=\"116.0.5845.210\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"JbJWuVz4USWdYDM7CkB+lpOxj4yXWLnsEFQJYLAO8NbbjgfzcWolzb7Bxh1nYEa4JG5SMGLZkcATi+O4Nx6Qr4Yn+w1daOYFkia9Fj04MVrToWJxjNef80oIAqUlJrSC3kZUKDU+GTFwNwYZnQq/RhS5AhMOrNpY80SUWpHM+MAHm2EDUZ+BBoVBSN/s03a1W361NXTbV8C/6G4qCaUR+/5g4886lE6WXMNqOAagdaOn2Sa5bLZ8/03AWZbPrrBiZZk18fioCf/DKZPNbmjzw2vE8xtGo43XtVjZr0IyTAxNlk3kQ5HxOYETFhNUZdkESQvjcgVH5os0ujVFbVGuTw==\" MetadataSize=\"113569\" event=\"postinstall\" sha256=\"e0N9iha0c746XzoscENdgM4ur4AUUbMC/JA9OgS183I=\"/></actions><packages><package fp=\"3.7b437d8a16b473be3a5f3a2c70435d80ce2eaf801451b302fc903d3a04b5f372\" hash_sha256=\"7b437d8a16b473be3a5f3a2c70435d80ce2eaf801451b302fc903d3a04b5f372\" name=\"chromeos_15509.81.0_skyrim_stable-channel_full_mp-v4.bin-gy2gmztgg42dlva43pitqrsydbfdo4oz.signed\" required=\"true\" size=\"1497551649\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "WHITERUN-WPKTNNNN",
+    "sha256": "7b437d8a16b473be3a5f3a2c70435d80ce2eaf801451b302fc903d3a04b5f372",
+    "size": 1497551649,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/skyrim/15509.81.0/stable-channel/chromeos_15509.81.0_skyrim_stable-channel_full_mp-v4.bin-gy2gmztgg42dlva43pitqrsydbfdo4oz.signed",
+        "http://dl.google.com/chromeos/skyrim/15509.81.0/stable-channel/chromeos_15509.81.0_skyrim_stable-channel_full_mp-v4.bin-gy2gmztgg42dlva43pitqrsydbfdo4oz.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/skyrim/15509.81.0/stable-channel/chromeos_15509.81.0_skyrim_stable-channel_full_mp-v4.bin-gy2gmztgg42dlva43pitqrsydbfdo4oz.signed",
+        "https://dl.google.com/chromeos/skyrim/15509.81.0/stable-channel/chromeos_15509.81.0_skyrim_stable-channel_full_mp-v4.bin-gy2gmztgg42dlva43pitqrsydbfdo4oz.signed"
+    ]
+}

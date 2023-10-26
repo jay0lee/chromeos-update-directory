@@ -1,0 +1,19 @@
+{
+    "app_board": "sarien-signed-mp-v3keys",
+    "board_id": "{E3B85B97-1771-4440-9691-D1983FEF60EB}",
+    "check_time": "2023-10-26 14:45:01.304083",
+    "chrome_version": "116.0.5845.210",
+    "chromeos_version": "15509.81.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{E3B85B97-1771-4440-9691-D1983FEF60EB}\" version=\"15509.0.0\" board=\"sarien-signed-mp-v3keys\" track=\"stable-channel\" hardware_class=\"SARIEN-NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15509\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6142\" elapsed_seconds=\"27901\"/><app appid=\"{E3B85B97-1771-4440-9691-D1983FEF60EB}\" cohort=\"1:k:\" cohortname=\"sarien_sarien_stable\" status=\"ok\"><updatecheck _comment=\"Full payload: sarien M116 15509.81.0 (enterprise pin, omaha_ver=id1388)\" _eol_date=\"20666\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/sarien/15509.81.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/sarien/15509.81.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/sarien/15509.81.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/sarien/15509.81.0/stable-channel/\"/></urls><manifest version=\"15509.81.0\"><actions><action event=\"update\" run=\"chromeos_15509.81.0_sarien_stable-channel_full_mp-v4.bin-gy2gmztfmu4wmxchs3v6lormuwi47sba.signed\"/><action ChromeOSVersion=\"15509.81.0\" ChromeVersion=\"116.0.5845.210\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"y9zqJsaYo7MZ1TheaBQxESKo05lUg5lVv6mxgqB1bhybBr/Xqj5bpqBprfEmwrdTQ35GKqwB9SFw2T0YEn6uuauwEGsaNpnAOgV879O+6pCbM++SA5miBBiwiOSOGFBhjy/S6BzEsreKbwoJkqHdL1r3Njowflk9c8jGmi4jLXZMCcj9pw+7ap3w3eBPV4NKjz7U3qQQqsyb4xrjGyczd9bgX3ml72dh/HVLpda0Bs2mXNyR5rq4ddgyo9UHpY54EyymHzBybiqMlplnHL8Fhi1+ZEFr3g9+//4JR0q7r/fOu33O/063NKZ6dOTc2syMsUR+kHmg4atxfCx/ypuMzA==\" MetadataSize=\"74560\" event=\"postinstall\" sha256=\"j08yCCbua/DliHrv7Yc40NjFYRcpoSS5qoyTck0N7LU=\"/></actions><packages><package fp=\"3.8f4f320826ee6bf0e5887aefed8738d0d8c5611729a124b9aa8c93724d0decb5\" hash_sha256=\"8f4f320826ee6bf0e5887aefed8738d0d8c5611729a124b9aa8c93724d0decb5\" name=\"chromeos_15509.81.0_sarien_stable-channel_full_mp-v4.bin-gy2gmztfmu4wmxchs3v6lormuwi47sba.signed\" required=\"true\" size=\"1535255592\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "SARIEN-NNNN",
+    "sha256": "8f4f320826ee6bf0e5887aefed8738d0d8c5611729a124b9aa8c93724d0decb5",
+    "size": 1535255592,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/sarien/15509.81.0/stable-channel/chromeos_15509.81.0_sarien_stable-channel_full_mp-v4.bin-gy2gmztfmu4wmxchs3v6lormuwi47sba.signed",
+        "http://dl.google.com/chromeos/sarien/15509.81.0/stable-channel/chromeos_15509.81.0_sarien_stable-channel_full_mp-v4.bin-gy2gmztfmu4wmxchs3v6lormuwi47sba.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/sarien/15509.81.0/stable-channel/chromeos_15509.81.0_sarien_stable-channel_full_mp-v4.bin-gy2gmztfmu4wmxchs3v6lormuwi47sba.signed",
+        "https://dl.google.com/chromeos/sarien/15509.81.0/stable-channel/chromeos_15509.81.0_sarien_stable-channel_full_mp-v4.bin-gy2gmztfmu4wmxchs3v6lormuwi47sba.signed"
+    ]
+}

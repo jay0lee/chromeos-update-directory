@@ -1,0 +1,19 @@
+{
+    "app_board": "zork-signed-mp-v4keys",
+    "board_id": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "check_time": "2023-10-26 14:45:18.431907",
+    "chrome_version": "116.0.5845.210",
+    "chromeos_version": "15509.81.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" version=\"15509.0.0\" board=\"zork-signed-mp-v4keys\" track=\"stable-channel\" hardware_class=\"MORPHIUS|NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15509\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6142\" elapsed_seconds=\"27918\"/><app appid=\"{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}\" cohort=\"1:1s:\" cohortname=\"zork_morphius_stable\" status=\"ok\"><updatecheck _comment=\"Full payload: zork M116 15509.81.0 (enterprise pin, omaha_ver=id1176)\" _eol_date=\"22436\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/zork/15509.81.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/zork/15509.81.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/zork/15509.81.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/zork/15509.81.0/stable-channel/\"/></urls><manifest version=\"15509.81.0\"><actions><action event=\"update\" run=\"chromeos_15509.81.0_zork_stable-channel_full_mp-v8.bin-gy2gmztggiywkcuvzpjkc76oirjxgnoy.signed\"/><action ChromeOSVersion=\"15509.81.0\" ChromeVersion=\"116.0.5845.210\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"PKsdVK6tzhdF2Rx/eYUqx56DsvQXHoZhNPI73D4fUAJwyJ77kQh+J92DQVFMZjXDNYx7abGOBcJY0PWX7x+0jJgUuswwDCCtkTmgxW/1lSbbMqUZvVFWsNR56h0hMCvxZsPYqhAk27Z0kM+kkIn8hwITssIEnCA1C0NgAzqwW9gLWm4qUAbIOuiCCpf8dFMhCOS535fYdICXjZm+AhqJSrfK2Wg0wEo68Mus+dYTe7NJdgAMTbcr1dxN3y7GTDNrRvvArAnTZueylfX4oOKNn2lSe/Q236vz+vK+Nhmj9ZUa4fW0LvGkvkkGniGqdvRBOlILlq9p6HwGOV7gclCEHw==\" MetadataSize=\"74959\" event=\"postinstall\" sha256=\"Nl13psd3diaqJBlc95kJdnyzJzJB99fb7CaUBUKrt/4=\"/></actions><packages><package fp=\"3.365d77a6c7777626aa24195cf79909767cb3273241f7d7dbec26940542abb7fe\" hash_sha256=\"365d77a6c7777626aa24195cf79909767cb3273241f7d7dbec26940542abb7fe\" name=\"chromeos_15509.81.0_zork_stable-channel_full_mp-v8.bin-gy2gmztggiywkcuvzpjkc76oirjxgnoy.signed\" required=\"true\" size=\"1562183684\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "MORPHIUS|NNNN",
+    "sha256": "365d77a6c7777626aa24195cf79909767cb3273241f7d7dbec26940542abb7fe",
+    "size": 1562183684,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/zork/15509.81.0/stable-channel/chromeos_15509.81.0_zork_stable-channel_full_mp-v8.bin-gy2gmztggiywkcuvzpjkc76oirjxgnoy.signed",
+        "http://dl.google.com/chromeos/zork/15509.81.0/stable-channel/chromeos_15509.81.0_zork_stable-channel_full_mp-v8.bin-gy2gmztggiywkcuvzpjkc76oirjxgnoy.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/zork/15509.81.0/stable-channel/chromeos_15509.81.0_zork_stable-channel_full_mp-v8.bin-gy2gmztggiywkcuvzpjkc76oirjxgnoy.signed",
+        "https://dl.google.com/chromeos/zork/15509.81.0/stable-channel/chromeos_15509.81.0_zork_stable-channel_full_mp-v8.bin-gy2gmztggiywkcuvzpjkc76oirjxgnoy.signed"
+    ]
+}
