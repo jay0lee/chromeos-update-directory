@@ -1,0 +1,19 @@
+{
+    "app_board": "fizz-signed-mp-v13keys",
+    "board_id": "{0C1E39B7-DAE6-4972-8004-E96F60D9342C}",
+    "check_time": "2023-11-06 20:34:52.986463",
+    "chrome_version": "119.0.6045.104",
+    "chromeos_version": "15633.30.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" version=\"15604.0.0\" board=\"fizz-signed-mp-v13keys\" track=\"beta-channel\" hardware_class=\"KENCH NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6153\" elapsed_seconds=\"45292\"/><app appid=\"{0C1E39B7-DAE6-4972-8004-E96F60D9342C}\" cohort=\"1:1j:\" cohortname=\"fizz_kench_beta\" status=\"ok\"><updatecheck _comment=\"Full payload: fizz M119 15633.30.0 (omaha_ver=id1762)\" _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/fizz/15633.30.0/beta-channel/\"/><url codebase=\"http://dl.google.com/chromeos/fizz/15633.30.0/beta-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/fizz/15633.30.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/fizz/15633.30.0/beta-channel/\"/></urls><manifest version=\"15633.30.0\"><actions><action event=\"update\" run=\"chromeos_15633.30.0_fizz_beta-channel_full_mp-v14.bin-gy2tgzrvgzqtdkbd5poar7apng462yvn.signed\"/><action ChromeOSVersion=\"15633.30.0\" ChromeVersion=\"119.0.6045.104\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"xbkC/67kN9WrpMzYRcxERCrMEalvqLPLHZrns/eIypCPMsMp4Xqfmbr8r0JMVdfHKb/m3B9qTP7NGBc17kY+d/XR+BLivm6XTMuu+FLIGclLQD7SkA5NiFZUxQYUuGFPNBcyzHs2l6LZJjkmizqEB0ZWvGUe9neZ1trBg3s4JMz4DzJkKgRtZboINQ/9GfmQavrVyj1LMyZHG+JLz7J3YhbvZVGEU5jqSaCA+OL6ulfOv65HbUbZ09ljLpfasF6sU1oerJiqmj0tx2WDzfIuuzaMIBEnpe4cHITy1JkkCa6LQ+v6n2D4knHGMb4/Ah1eLx+oqalIvh+xvhUgvQSJDQ==\" MetadataSize=\"112946\" event=\"postinstall\" sha256=\"8FeKKiEt0p4mTIJhZ0Ra0CL65ctYPKbKRkRsGh+0Zgw=\"/></actions><packages><package fp=\"3.f0578a2a212dd29e264c826167445ad022fae5cb583ca6ca46446c1a1fb4660c\" hash_sha256=\"f0578a2a212dd29e264c826167445ad022fae5cb583ca6ca46446c1a1fb4660c\" name=\"chromeos_15633.30.0_fizz_beta-channel_full_mp-v14.bin-gy2tgzrvgzqtdkbd5poar7apng462yvn.signed\" required=\"true\" size=\"1433511022\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "KENCH NNNN",
+    "sha256": "f0578a2a212dd29e264c826167445ad022fae5cb583ca6ca46446c1a1fb4660c",
+    "size": 1433511022,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/fizz/15633.30.0/beta-channel/chromeos_15633.30.0_fizz_beta-channel_full_mp-v14.bin-gy2tgzrvgzqtdkbd5poar7apng462yvn.signed",
+        "http://dl.google.com/chromeos/fizz/15633.30.0/beta-channel/chromeos_15633.30.0_fizz_beta-channel_full_mp-v14.bin-gy2tgzrvgzqtdkbd5poar7apng462yvn.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/fizz/15633.30.0/beta-channel/chromeos_15633.30.0_fizz_beta-channel_full_mp-v14.bin-gy2tgzrvgzqtdkbd5poar7apng462yvn.signed",
+        "https://dl.google.com/chromeos/fizz/15633.30.0/beta-channel/chromeos_15633.30.0_fizz_beta-channel_full_mp-v14.bin-gy2tgzrvgzqtdkbd5poar7apng462yvn.signed"
+    ]
+}

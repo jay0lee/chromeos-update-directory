@@ -1,0 +1,21 @@
+{
+    "app_board": "hana-signed-mp-v7keys",
+    "board_id": "{AAE972E1-A913-C860-B7AB-BF7F267F199B}",
+    "check_time": "2023-11-06 20:34:58.212097",
+    "chrome_version": "118.0.5993.124",
+    "chromeos_version": "15604.57.0",
+    "eol": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{AAE972E1-A913-C860-B7AB-BF7F267F199B}\" version=\"0.0.0.0\" board=\"hana-signed-mp-v7keys\" track=\"stable-channel\" hardware_class=\"HANA NNNN-NNNN-VEH-ZBKL9BA8EZT38\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6153\" elapsed_seconds=\"45298\"/><app appid=\"{AAE972E1-A913-C860-B7AB-BF7F267F199B}\" cohort=\"1:6u:\" cohortname=\"hana_sycamore_stable\" status=\"ok\"><updatecheck _comment=\"Full payload: hana M118 15604.57.0 (enterprise pin, omaha_ver=id1851)\" _eol_date=\"20241\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/hana/15604.57.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/hana/15604.57.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/hana/15604.57.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/hana/15604.57.0/stable-channel/\"/></urls><manifest version=\"15604.57.0\"><actions><action event=\"install\" run=\"chromeos_15604.57.0_hana_stable-channel_full_mp-v8.bin-gy2tgyrumqytlz32zryfoxcroqeqgd53.signed\"/><action ChromeOSVersion=\"15604.57.0\" ChromeVersion=\"118.0.5993.124\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"foM02Ds5oJO+1X4EfKibnufGby5yo4SxhXoGxuJFNtZT2e/tjBryGpsjrt3dMPP5e2VK5qcnGRBjZTSmAL9nYIspWbvMZG4PWn4m9vfz1ovwNfF1xG6yc7yu1ky+IzUi88zu9+kQscgvqlxNo8iu5oGolf+pPflfYDHP2lHyzgjUTVAwMvND8aInfJqgTwyHIHEZkmARu+VHd6uhHwGs05RKpEs8m7dt6mQR+CB2b+kQw4L78EviXPnlAIDyriJG/bR8JbALMpFQ0WfQc9paTsj/HcvouDn13hqUHqf+Hix6X/SSpzitHI3V9zsF3xa4CrczebzRdaPwpeZZbSIg/g==\" MetadataSize=\"56960\" event=\"postinstall\" sha256=\"xmj+6xXJ1RiaQqLYB5Zunx/kUtjmFFr5GycNMCc/muM=\"/></actions><packages><package fp=\"3.c668feeb15c9d5189a42a2d807966e9f1fe452d8e6145af91b270d30273f9ae3\" hash_sha256=\"c668feeb15c9d5189a42a2d807966e9f1fe452d8e6145af91b270d30273f9ae3\" name=\"chromeos_15604.57.0_hana_stable-channel_full_mp-v8.bin-gy2tgyrumqytlz32zryfoxcroqeqgd53.signed\" required=\"true\" size=\"1136602691\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "HANA NNNN-NNNN-VEH-ZBKL9BA8EZT38",
+    "sha256": "c668feeb15c9d5189a42a2d807966e9f1fe452d8e6145af91b270d30273f9ae3",
+    "size": 1136602691,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/hana/15604.57.0/stable-channel/chromeos_15604.57.0_hana_stable-channel_full_mp-v8.bin-gy2tgyrumqytlz32zryfoxcroqeqgd53.signed",
+        "http://dl.google.com/chromeos/hana/15604.57.0/stable-channel/chromeos_15604.57.0_hana_stable-channel_full_mp-v8.bin-gy2tgyrumqytlz32zryfoxcroqeqgd53.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/hana/15604.57.0/stable-channel/chromeos_15604.57.0_hana_stable-channel_full_mp-v8.bin-gy2tgyrumqytlz32zryfoxcroqeqgd53.signed",
+        "https://dl.google.com/chromeos/hana/15604.57.0/stable-channel/chromeos_15604.57.0_hana_stable-channel_full_mp-v8.bin-gy2tgyrumqytlz32zryfoxcroqeqgd53.signed"
+    ],
+    "very_eol": false
+}

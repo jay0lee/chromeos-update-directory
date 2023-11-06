@@ -1,0 +1,21 @@
+{
+    "app_board": "guado-signed-mp-v2keys",
+    "board_id": "{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}",
+    "check_time": "2023-11-06 20:34:55.859673",
+    "chrome_version": "90.0.4430.86",
+    "chromeos_version": "13816.55.0",
+    "eol": false,
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}\" version=\"13729.72.0\" board=\"guado-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"GUADO NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6153\" elapsed_seconds=\"45295\"/><app appid=\"{8AA6D9AC-6EBC-4288-A615-171F56F66B4E}\" cohort=\"1:4:\" cohortname=\"guado_stable\" status=\"ok\"><updatecheck status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/guado/13816.55.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/guado/13816.55.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/guado/13816.55.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/guado/13816.55.0/stable-channel/\"/></urls><manifest version=\"13816.55.0\"><actions><action event=\"update\" run=\"chromeos_13816.55.0_guado_stable-channel_full_mp-v2.bin-gyydozjxmuzdczvl3w5itmucbp7n3afs.signed\"/><action ChromeOSVersion=\"13816.55.0\" ChromeVersion=\"90.0.4430.86\" IsDeltaPayload=\"false\" MetadataSignatureRsa=\"OY5xIzYBYZEjgOEC/MYNEtu5UFq91H+ONgXg+t+1BMBzZ4v1eUv4yKckm2BlQYEwkfrtjac2dL96CIP3k0yYMMyH/8L86PGEKmp7QDZRtMepwV9pcmSDmvowdCmhnEYHy/d/xttaOBj2DWntUPxcmcVQ3rMXA8xyEcL8jEhXt3JEw/43iDLmxui7R8Nd2UrLcw/tDRjDw0aTQdSXlWTfgd80YSWwhBsIHP+D4HeWvZw5flINRqbsMASlSyYVgt+YVkDM10jgLpKijO6HMqahXQCVCSvwNeW2hh4EwzzWEv0mdtEgfYQas8bwPxdQQypr1Xpwo00sM8TRmaQOiAIZyQ==\" MetadataSize=\"56281\" event=\"postinstall\" sha256=\"LMaI6bdS4WNeVW08XK10qm2QdrpHCKhGU5ZJjEe3oaA=\"/></actions><packages><package fp=\"3.2cc688e9b752e1635e556d3c5cad74aa6d9076ba4708a8465396498c47b7a1a0\" hash_sha256=\"2cc688e9b752e1635e556d3c5cad74aa6d9076ba4708a8465396498c47b7a1a0\" name=\"chromeos_13816.55.0_guado_stable-channel_full_mp-v2.bin-gyydozjxmuzdczvl3w5itmucbp7n3afs.signed\" required=\"true\" size=\"539645164\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "GUADO NNNN",
+    "sha256": "2cc688e9b752e1635e556d3c5cad74aa6d9076ba4708a8465396498c47b7a1a0",
+    "size": 539645164,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/guado/13816.55.0/stable-channel/chromeos_13816.55.0_guado_stable-channel_full_mp-v2.bin-gyydozjxmuzdczvl3w5itmucbp7n3afs.signed",
+        "http://dl.google.com/chromeos/guado/13816.55.0/stable-channel/chromeos_13816.55.0_guado_stable-channel_full_mp-v2.bin-gyydozjxmuzdczvl3w5itmucbp7n3afs.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/guado/13816.55.0/stable-channel/chromeos_13816.55.0_guado_stable-channel_full_mp-v2.bin-gyydozjxmuzdczvl3w5itmucbp7n3afs.signed",
+        "https://dl.google.com/chromeos/guado/13816.55.0/stable-channel/chromeos_13816.55.0_guado_stable-channel_full_mp-v2.bin-gyydozjxmuzdczvl3w5itmucbp7n3afs.signed"
+    ],
+    "very_eol": false
+}
