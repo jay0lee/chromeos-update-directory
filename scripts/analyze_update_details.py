@@ -25,6 +25,7 @@ modules_path = pathlib.Path(f'{mnt_path}lib/modules/')
 crostini_path = f'{mnt_path}usr/bin/crostini_client'
 parallels_path = f'{mnt_path}opt/google/dlc/pita/package/imageloader.json'
 steam_path = f'{mnt_path}opt/google/dlc/borealis-dlc/package/imageloader.json'
+chromebook_plus_path = f'{mnt_path}usr/share/chromeos-assets/personalization/time_of_day/'
 
 with open(f'{data_path}android_versions.json', 'r') as f:
   android_versions = json.load(f)
@@ -82,6 +83,9 @@ for data_file in data_files:
   # if /opt/google/dlc/borealis-dlc/package/imageloader.json exists, Steam (Borealis) is supported in certain configs
   data['steam_support'] = os.path.isfile(steam_path)
   
+  # if /usr/share/chromeos-assets/personalization/time_of_day exists, this is a Chromebook Plus
+  data['is_chromebook_plus_device'] = os.path.isdir(chromebook_plus_path)
+
   with open(data_file, 'w') as f:
     json.dump(data, f, indent=4, sort_keys=True)
 
