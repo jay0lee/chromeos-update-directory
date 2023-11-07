@@ -1,0 +1,17 @@
+{
+    "app_board": "skyrim-signed-mp-v3keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2023-11-07 09:51:50.574190",
+    "chrome_version": "121.0.6109.0",
+    "chromeos_version": "15670.0.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"15604.0.0\" board=\"skyrim-signed-mp-v3keys\" track=\"canary-channel\" hardware_class=\"WHITERUN-WPKTNNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6154\" elapsed_seconds=\"6710\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:xf:\" cohortname=\"skyrim_whiterun_canary\" status=\"ok\"><updatecheck _comment=\"Full payload: skyrim M121 15670.0.0 ()\" _eol_date=\"23167\" _firmware_version=\"1.1\" _kernel_version=\"1.1\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15670.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15670.0.0/\"/></urls><manifest version=\"15670.0.0\"><actions><action event=\"update\" run=\"chromeos_15670.0.0_skyrim_canary-channel_full_mp-v5.bin-gy2tiodbmi3wndpws7szcx2exj6olplo.signed\"/><action ChromeOSVersion=\"15670.0.0\" ChromeVersion=\"121.0.6109.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"zzqYkXTwhZFoaH/JScqnE+krnyQrSFWB9bbEzHGKsZzZMclnLd73+IjGc1pA9O0EoGxtfG5QC77OUeaV12OY7B2m/RdNpH/SZ8nPZuuAmOWjexmIPAI3gDCr7v0daSbJeTBbwYXpbaG0FflfgCBizyqYy1Rf4pCLHfkQBwHB7sKf58oULIrgt1rfWiuwR3aVk4FPoV2WxpScGFiJAUPQi30yobVXxM/sfoY0NRd/785C1pZbqqyrpv70GglTy6NRgoI+mhrJkWQWPqPV64Dcxez5/77R2YN5Gg4gOCE+VYf3tQ5QbHWmy/ViXs5Zhn3a2Fyp4L4mZY3gdDtMuXIGHg==\" MetadataSize=\"113681\" event=\"postinstall\" sha256=\"gS9/xYuXj3uRPZNIKviJtdnAXigjwianf7LVMF0vzdk=\"/></actions><packages><package fp=\"3.812f7fc58b978f7b913d93482af889b5d9c05e2823c226a77fb2d5305d2fcdd9\" hash_sha256=\"812f7fc58b978f7b913d93482af889b5d9c05e2823c226a77fb2d5305d2fcdd9\" name=\"chromeos_15670.0.0_skyrim_canary-channel_full_mp-v5.bin-gy2tiodbmi3wndpws7szcx2exj6olplo.signed\" required=\"true\" size=\"1550954861\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "WHITERUN-WPKTNNNN",
+    "sha256": "812f7fc58b978f7b913d93482af889b5d9c05e2823c226a77fb2d5305d2fcdd9",
+    "size": 1550954861,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15670.0.0/chromeos_15670.0.0_skyrim_canary-channel_full_mp-v5.bin-gy2tiodbmi3wndpws7szcx2exj6olplo.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15670.0.0/chromeos_15670.0.0_skyrim_canary-channel_full_mp-v5.bin-gy2tiodbmi3wndpws7szcx2exj6olplo.signed"
+    ]
+}

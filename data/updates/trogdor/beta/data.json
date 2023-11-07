@@ -1,0 +1,19 @@
+{
+    "app_board": "trogdor-signed-mp-v4keys",
+    "board_id": "{9023C063-08D6-4A4F-908C-BCF97DE8BA69}",
+    "check_time": "2023-11-07 09:51:58.524419",
+    "chrome_version": "119.0.6045.104",
+    "chromeos_version": "15633.30.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{9023C063-08D6-4A4F-908C-BCF97DE8BA69}\" version=\"15604.0.0\" board=\"trogdor-signed-mp-v4keys\" track=\"beta-channel\" hardware_class=\"LAZOR NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6154\" elapsed_seconds=\"6718\"/><app appid=\"{9023C063-08D6-4A4F-908C-BCF97DE8BA69}\" cohort=\"1:6:\" cohortname=\"trogdor_lazor_beta\" status=\"ok\"><updatecheck _comment=\"Full payload: trogdor M119 15633.30.0 (omaha_ver=id1129)\" _eol_date=\"22435\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/trogdor/15633.30.0/beta-channel/\"/><url codebase=\"http://dl.google.com/chromeos/trogdor/15633.30.0/beta-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/trogdor/15633.30.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/trogdor/15633.30.0/beta-channel/\"/></urls><manifest version=\"15633.30.0\"><actions><action event=\"update\" run=\"chromeos_15633.30.0_trogdor_beta-channel_full_mp-v12.bin-gy2tgzrumrrdn7fww52zfp2zvffdqvhj.signed\"/><action ChromeOSVersion=\"15633.30.0\" ChromeVersion=\"119.0.6045.104\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"Ae5ZflqU4NiSeQga5Aqv5uUTOLKE4wG4IOT5nPMv4XiCExTdkk+ZbJxp9oafJNsrnMyK/pHfK7SR1Vm8uANcAYBLCuEbF0ZJBiR1jD5EYtJ7jXaFNtubh8eCT60GPtjzpnzMa1fpxV13tI5EeKVUxL/YKaV1P5ONUq7meQxboikFHgi6TqYCyQ8+3rtS7iKprfwWqtT6HHX8mn9VOZC4H7ajoQLnj1HZYxKz8dzqYtIfBx4tEEi7Lxne/4IVWbCFf/JcI7P646t8UbNawrRdrbst0s4lRXXLiUOsiBgQC9Tp4I2r9lM4wGvr1mhUmG+GhQ9EotY+2RebsPf4ygDB0w==\" MetadataSize=\"74638\" event=\"postinstall\" sha256=\"YYnK/WsUgeJBD/VaBGsWdrLcmaa2QiidOivbv4ruAlw=\"/></actions><packages><package fp=\"3.6189cafd6b1481e2410ff55a046b1676b2dc99a6b642289d3a2bdbbf8aee025c\" hash_sha256=\"6189cafd6b1481e2410ff55a046b1676b2dc99a6b642289d3a2bdbbf8aee025c\" name=\"chromeos_15633.30.0_trogdor_beta-channel_full_mp-v12.bin-gy2tgzrumrrdn7fww52zfp2zvffdqvhj.signed\" required=\"true\" size=\"1351540865\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "LAZOR NNNN",
+    "sha256": "6189cafd6b1481e2410ff55a046b1676b2dc99a6b642289d3a2bdbbf8aee025c",
+    "size": 1351540865,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/trogdor/15633.30.0/beta-channel/chromeos_15633.30.0_trogdor_beta-channel_full_mp-v12.bin-gy2tgzrumrrdn7fww52zfp2zvffdqvhj.signed",
+        "http://dl.google.com/chromeos/trogdor/15633.30.0/beta-channel/chromeos_15633.30.0_trogdor_beta-channel_full_mp-v12.bin-gy2tgzrumrrdn7fww52zfp2zvffdqvhj.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/trogdor/15633.30.0/beta-channel/chromeos_15633.30.0_trogdor_beta-channel_full_mp-v12.bin-gy2tgzrumrrdn7fww52zfp2zvffdqvhj.signed",
+        "https://dl.google.com/chromeos/trogdor/15633.30.0/beta-channel/chromeos_15633.30.0_trogdor_beta-channel_full_mp-v12.bin-gy2tgzrumrrdn7fww52zfp2zvffdqvhj.signed"
+    ]
+}
