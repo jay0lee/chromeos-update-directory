@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "storo",
         "galith",
@@ -158,7 +158,8 @@
         "NEC Chromebook Y3",
         "Zyrex Chromebook M432-2"
     ],
-    "sample_hwid": "STORO-HIERNNN",
+    "parallels_support": false,
+    "sample_hwid": "PIRETTE-UBKE NNNN",
     "sha1": "aebed11f2692acd93cddc8f86cfeaa1873ed32de",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_dedede_recovery_stable-channel_mp-v21.bin.zip",
     "version": "14268.67.0",
