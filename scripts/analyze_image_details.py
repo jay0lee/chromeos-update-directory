@@ -15,7 +15,7 @@ import common
 
 
 analysis_version = 8
-max_images_to_analyze = 10
+max_images_to_analyze = 30
 
 script_path, data_path = common.get_paths()
 mnt_path = f'{data_path}mnt/'
