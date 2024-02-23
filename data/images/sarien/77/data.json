@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2026-08-26 00:00:00",
+    "aue_date": "None",
     "boards": [
         "arcada",
         "sarien"
@@ -54,7 +54,8 @@
         "Dell Latitude 5300 2-in-1 Chromebook Enterprise",
         "Dell Latitude 5400 Chromebook Enterprise"
     ],
-    "sample_hwid": "ARCADA-NNN",
+    "parallels_support": false,
+    "sample_hwid": "SARIEN-NNNN",
     "sha1": "71bb8df4f77eee1d04fe5b912505595f23392dd0",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
     "version": 12371
