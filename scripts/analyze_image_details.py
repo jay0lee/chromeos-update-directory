@@ -103,4 +103,6 @@ for data_file in data_files:
   analyzed_images += 1
   if analyzed_images >= max_images_to_analyze:
     print('Analyzed max 10 images. Breaking and we\'ll pickup where we left of next time...')
+    break
+  sys.stdout.flush() 
   
