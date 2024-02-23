@@ -1,11 +1,38 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2023-08-01 00:00:00",
     "boards": [
         "bob"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "10634232",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{564AC308-CBD5-485D-9EF5-EB97DBB5F264}",
+    "chromeos_release_board": "bob-signed-mp-v2keys",
+    "chromeos_release_branch_number": "81",
+    "chromeos_release_build_number": "15509",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "bob-release/R116-15509.81.0",
+    "chromeos_release_chrome_milestone": "116",
+    "chromeos_release_description": "15509.81.0 (Official Build) stable-channel bob ",
+    "chromeos_release_keyset": "mp-v2",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15509.81.0",
     "cr_version": 116,
     "cros_version": 15509,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15509.81.0_bob_recovery_stable-channel_mp-v2.bin",
     "filesize": 2330937856,
+    "google_release": "15509.81.0",
     "hwidmatches": [
         "^BOB .*",
         "^BOB .*",
@@ -13,6 +40,9 @@
         "^BOB .*"
     ],
     "image_name": "bob",
+    "linux_kernel_versions": [
+        "5.10.184-22867-gd7349b18658c"
+    ],
     "manufacturers": [
         "Asus",
         "Asus",
@@ -32,6 +62,8 @@
         "ASUS Chromebook Flip C101PA",
         "ASUS Chromebook Flip C101PA"
     ],
+    "parallels_support": false,
+    "sample_hwid": "BOB NNNN",
     "sha1": "48ebdbc4c40c0796dc6b3a52bcbba2b59f8f2039",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15509.81.0_bob_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15509.81.0",
