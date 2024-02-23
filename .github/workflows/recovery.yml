@@ -5,7 +5,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '21 1,7,13,19 * * *'
+    - cron: '21 * * * *'
 
 jobs:
   process-recovery:
