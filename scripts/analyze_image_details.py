@@ -15,6 +15,7 @@ import common
 
 
 analysis_version = 8
+max_images_to_analyze = 10
 
 script_path, data_path = common.get_paths()
 mnt_path = f'{data_path}mnt/'
@@ -29,6 +30,7 @@ with open(f'{data_path}android_versions.json', 'r') as f:
 pattern = f'{data_path}images/*/[0-9]*/*.json'
 data_files = glob.glob(pattern)
 i = 0
+images_analyzed = 0
 count = len(data_files)
 for data_file in data_files:
   i += 1
@@ -98,4 +100,7 @@ for data_file in data_files:
   if delete_download:
     sleep(1)
     os.remove(image_file_path)
+  analyzed_images += 1
+  if analyzed_images >= max_images_to_analyze:
+    print('Analyzed max 10 images. Breaking and we'll pickup where we left of next time...')
   
