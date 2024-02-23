@@ -30,7 +30,7 @@ with open(f'{data_path}android_versions.json', 'r') as f:
 pattern = f'{data_path}images/*/[0-9]*/*.json'
 data_files = glob.glob(pattern)
 i = 0
-images_analyzed = 0
+analyzed_images = 0
 count = len(data_files)
 for data_file in data_files:
   i += 1
