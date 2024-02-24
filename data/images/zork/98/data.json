@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "jelboz360",
         "woomax",
@@ -99,7 +99,8 @@
         "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise",
         "NEC Chromebook Y1 Gen3A"
     ],
-    "sample_hwid": "JELBOZ360|NNN",
+    "parallels_support": true,
+    "sample_hwid": "VILBOZ360-ZHKONNNN",
     "sha1": "fe193b9e8915f5b09d32a3e43100f704d9308677",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.52.0_zork_recovery_stable-channel_mp-v7.bin.zip",
     "version": "14388.52.0",

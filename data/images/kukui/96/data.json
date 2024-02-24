@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "kakadu",
         "katsu",
@@ -65,7 +65,8 @@
         "Lenovo 10e Chromebook Tablet",
         "Lenovo Chromebook Duet / Lenovo Ideapad Duet Chromebook"
     ],
-    "sample_hwid": "KAKADU-WFIQNNN",
+    "parallels_support": false,
+    "sample_hwid": "KATSUNNNN",
     "sha1": "5dbb16d6c24eeab15f280b10bbb6791c901cac4c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_kukui_recovery_stable-channel_mp-v4.bin.zip",
     "version": "14268.67.0",
