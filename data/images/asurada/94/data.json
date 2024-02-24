@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "hayato",
         "spherion"
@@ -55,7 +55,8 @@
         "ASUS Chromebook Flip CM3",
         "Acer Chromebook 514 (CB514-2H, CB514-2HT)"
     ],
-    "sample_hwid": "HAYATO-YLRONNN",
+    "parallels_support": false,
+    "sample_hwid": "HAYATO-YLRONNNN",
     "sha1": "65539cf59db2e62ac8648b96af87d09fe406e083",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.64.0_asurada_recovery_stable-channel_mp-v3.bin.zip",
     "version": "14150.64.0",
