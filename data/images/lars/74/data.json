@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
-    "aue_date": "2023-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "lars"
     ],
@@ -52,7 +52,8 @@
         "Acer Chromebook 11 (C771, C771T)",
         "Acer Chromebook 14 for Work (CP5-471)"
     ],
-    "sample_hwid": "LARS RmK-1Uk-i2C-C3NNN",
+    "parallels_support": false,
+    "sample_hwid": "LARS W6E-O0q-wJf-M3NNNN",
     "sha1": "e8e2bb04892acbfc9ebe345ae61de442df336ec2",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_lars_recovery_stable-channel_mp.bin.zip",
     "version": 11895
