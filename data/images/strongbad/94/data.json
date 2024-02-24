@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "coachz",
         "homestar"
@@ -55,7 +55,8 @@
         "HP Chromebook x2 11c",
         "Lenovo Chromebook Duet 5 / IdeaPad Duet 5 Chromebook"
     ],
-    "sample_hwid": "COACHZNNN",
+    "parallels_support": false,
+    "sample_hwid": "COACHZNNNN",
     "sha1": "d0d6b84d28e7f8085b2d58ccd2c863df07032511",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.64.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
     "version": "14150.64.0",
