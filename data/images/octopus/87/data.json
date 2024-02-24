@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2026-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "apel",
         "ampton",
@@ -242,7 +242,8 @@
         "Samsung Chromebook 4+",
         "Sector 5 E4 LTE Chromebook"
     ],
-    "sample_hwid": "APEL NNN",
+    "parallels_support": false,
+    "sample_hwid": "MIMROCK NNNN",
     "sha1": "670d92d1ba4f67f155801acdac93597f2b4bc139",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.63.0_octopus_recovery_stable-channel_mp-v22.bin.zip",
     "version": "13505.63.0",

@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2027-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "garg360",
         "garg",
@@ -365,7 +365,8 @@
         "Zyrex Chromebook 360",
         "Zyrex Chromebook M432-1"
     ],
-    "sample_hwid": "GARG360 HAK-UPf-3m4-L1M-NNN",
+    "parallels_support": false,
+    "sample_hwid": "GARG360 nGV-PYa-5wk-K9o-NNNN",
     "sha1": "36da718b81462f448f80b3055d0d4224a512cef5",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.52.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
     "version": "14388.52.0",
