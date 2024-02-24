@@ -1,4 +1,8 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2031-06-06 00:00:00",
     "boards": [
         "jelboz360",
         "woomax",
@@ -11,10 +15,33 @@
         "vilboz360",
         "morphius"
     ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "11419916",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{0BE68F68-A2F2-46B7-A7B4-B51B63F64FBA}",
+    "chromeos_release_board": "zork-signed-mp-v9keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "zork-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel zork ",
+    "chromeos_release_keyset": "mp-v9",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15699.66.0_zork_recovery_stable-channel_mp-v9.bin",
     "filesize": 4963274752,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^JELBOZ360[-| ].*",
         "^WOOMAX-.*",
@@ -73,6 +100,9 @@
         "^VILBOZ360-YQWT.*"
     ],
     "image_name": "zork",
+    "linux_kernel_versions": [
+        "5.4.262-21597-ge76c389db5f0"
+    ],
     "manufacturers": [
         "Asus",
         "Asus",
@@ -245,6 +275,8 @@
         "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise",
         "NEC Chromebook Y1 Gen3A"
     ],
+    "parallels_support": true,
+    "sample_hwid": "BERKNIP-NNNN",
     "sha1": "05a055ad5ed98160d44d4c72a0ed74bea0ae7b25",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_zork_recovery_stable-channel_mp-v9.bin.zip",
     "version": "15699.66.0",

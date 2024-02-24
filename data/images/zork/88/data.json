@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "ezkinil",
         "berknip",
@@ -60,7 +60,8 @@
         "HP Pro c645 Chromebook Enterprise",
         "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise"
     ],
-    "sample_hwid": "EZKINIL-NNN",
+    "parallels_support": false,
+    "sample_hwid": "EZKINIL-NNNN",
     "sha1": "0c9ad934caa90dd5085eab0e86a215e3342bb27a",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_zork_recovery_stable-channel_mp-v4.bin.zip",
     "version": "13597.105.0",
