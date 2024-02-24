@@ -1,4 +1,8 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2033-06-06 00:00:00",
     "boards": [
         "pujjoteen",
         "craasneto",
@@ -13,10 +17,33 @@
         "pujjo1e",
         "pujjo"
     ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "11425620",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{A5F9E181-D0BE-4D6D-B67D-125069233535}",
+    "chromeos_release_board": "nissa-signed-mp-v19keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nissa-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel nissa ",
+    "chromeos_release_keyset": "mp-v19",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "REFERENCE",
     "file": "chromeos_15699.66.0_nissa_recovery_stable-channel_mp-v19.bin",
     "filesize": 6132480000,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^PUJJOTEEN(15W)?-CZPM.*",
         "^PUJJOTEEN-JQII.*",
@@ -92,6 +119,9 @@
         "^PUJJOTEEN(15W)?-KCBW.*"
     ],
     "image_name": "nissa",
+    "linux_kernel_versions": [
+        "5.15.140-21046-g921d2194f426"
+    ],
     "manufacturers": [
         "Lenovo",
         "Lenovo",
@@ -315,6 +345,8 @@
         "Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8)",
         "Lenovo Slim 3i Chromebook 14"
     ],
+    "parallels_support": true,
+    "sample_hwid": "CRAASNETO-MDKBNNNN",
     "sha1": "c920bc097f5b1abaf261abd6d32e258bf172ce6c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_nissa_recovery_stable-channel_mp-v19.bin.zip",
     "version": "15699.66.0",
