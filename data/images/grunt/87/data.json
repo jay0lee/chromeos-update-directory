@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2026-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "treeya",
         "treeya360",
@@ -93,7 +93,8 @@
         "Lenovo 14e Chromebook, Lenovo Chromebook S345-14",
         "NEC Chromebook Y1 Gen2A"
     ],
-    "sample_hwid": "TREEYA NNN",
+    "parallels_support": false,
+    "sample_hwid": "KASUMI360|NNNN",
     "sha1": "ac397baec5206417429f7aadd119ca2cfe50f9dd",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_grunt_recovery_stable-channel_mp-v6.bin.zip",
     "version": "13505.73.0",
