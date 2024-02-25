@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2023-08-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "druwl",
         "dumo",
@@ -43,6 +43,7 @@
         "^DRUWL [A-Z0-9][A-Z0-9]B.*"
     ],
     "image_name": "scarlet",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.268-20533-gcb85bd3a0149"
     ],
@@ -68,7 +69,8 @@
         "CTL Chromebook Tablet Tx1 for Education",
         "druwl"
     ],
-    "sample_hwid": "DRUWL 69DNNN",
+    "parallels_support": false,
+    "sample_hwid": "SCARLET NNNN",
     "sha1": "057796424d4421adcb7529adcd17dbb3aefeb8af",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
     "version": "13982.88.0",

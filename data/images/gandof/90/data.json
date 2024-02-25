@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2021-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^GANDOF .*"
     ],
     "image_name": "gandof",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.14.221-17322-g61523ee5d009"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "Toshiba Chromebook 2 (2015 Edition)"
     ],
-    "sample_hwid": "GANDOF NNN",
+    "parallels_support": false,
+    "sample_hwid": "GANDOF NNNN",
     "sha1": "a3b0827f2c064e780978a890ebd8b20e0fbbd65d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_gandof_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13816.64.0",

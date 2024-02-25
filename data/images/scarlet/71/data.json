@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
     "aue_date": "None",
@@ -42,6 +42,7 @@
         "^DRUWL [A-Z0-9][A-Z0-9]A.*"
     ],
     "image_name": "scarlet",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.159-15346-gc5e629939ae0"
     ],
@@ -64,7 +65,8 @@
         "Acer Chromebook Tab 10",
         "CTL Chromebook Tablet Tx1 for Education"
     ],
-    "sample_hwid": "DRUWL D7BNNN",
+    "parallels_support": false,
+    "sample_hwid": "SCARLET NNNN",
     "sha1": "d75015056ac49411ab0384f51f839a45df73efdd",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11151.113.0_scarlet_recovery_stable-channel_mp-v2.bin.zip",
     "version": 11151
