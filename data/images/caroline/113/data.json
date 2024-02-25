@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2023-06-02 00:00:00",
@@ -39,6 +39,7 @@
         "^CAROLINE .*"
     ],
     "image_name": "caroline",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.279-14719-gff05822662eb"
     ],
@@ -62,7 +63,7 @@
         "Samsung Chromebook Pro"
     ],
     "parallels_support": false,
-    "sample_hwid": "CAROLINE NNN",
+    "sample_hwid": "CAROLINE NNNN",
     "sha1": "8b68249336326b0945f78c553642ce144a44dfcf",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15393.58.0_caroline_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15393.58.0",
