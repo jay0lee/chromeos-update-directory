@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
     "aue_date": "2020-06-02 00:00:00",
@@ -43,6 +43,7 @@
         "^JERRY \\w{3}-\\w{3}-\\w{3}-I\\w{2}(-\\w{3})*$"
     ],
     "image_name": "jerry",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.14.0"
     ],
@@ -80,7 +81,8 @@
         "Positivo Chromebook CH1190",
         "VideoNet Chromebook BL10"
     ],
-    "sample_hwid": "JERRY R5y-AaD-ZBC-BjRNNN",
+    "parallels_support": false,
+    "sample_hwid": "JERRY dFY-ERv-ojh-A6Y-FvH-7S5-lrO-TMu-IgR-TCJ-RGw-EpE-Gk2-PzG-whC-9bw-y2I-Hrl-1X5-jkR-TmF-mm7-PeO-Qvc-D36-wQ_-3D3-9vW-0Z0-XSk-N2d-FN6-11X-hgT-CLT-skj-njw-458-kwe-BOS-7yL-QjT-kkc-zm5-EiA-O9C-48y-1tU-Ynx-VGX-NMo-zVx-57E-Je7-8hN-L8l-mJZ-jDY-AUQ-tAT-kpX-j7Z-EbJ-CXO-F6I-Ivf-aeY-FPn-Bnc-DGj-Puc-IGI-8x7-Xu4-EPu-XcD-8FT-0_x-Ph4-iRz-Ef8-gUz-37x-1rH-Rad-bno-Hac-s_d-Zvl-lp0-DmA",
     "sha1": "0c5369e78b747755dc41fa122c2808468d2e4278",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.1_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip",
     "version": 12239

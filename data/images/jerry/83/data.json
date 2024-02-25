@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2020-06-02 00:00:00",
@@ -44,6 +44,7 @@
         "^JERRY \\w{3}-\\w{3}-\\w{3}-I\\w{2}(-\\w{3})*$"
     ],
     "image_name": "jerry",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.113-08544-ge67503bc40df"
     ],
@@ -81,7 +82,8 @@
         "Positivo Chromebook CH1190",
         "VideoNet Chromebook BL10"
     ],
-    "sample_hwid": "JERRY kxu-pud-MAQ-BdMNNN",
+    "parallels_support": false,
+    "sample_hwid": "JERRY VyV-l3z-gFa-E8a-IZ0-HIB-AKt-W_p-5jf-d4N-A6G-5X9-c1R-ofe-RmR-KDK-zBN-MZ1-Y_k-TiL-epb-xXR-HX5-Kmg-0zu-XZ_-I62-K7c-gwj-cSa-frj-gHJ-_bo-DiD-Hm7-R3U-jGq-fkI-Hsu-glA-ota-Xqb-mlB-ANi-hGi-S1O-ibm-aXe-s5U-G7U-tSY-JMv-ytO-UO6-_NS-zne-moX-eGV-bml-71T-m8D-cQJ-os9-gBv-a0_-Gu4-FVO-xln-WlK-CtY-oxj-rxo-8yS-uGk-euW-V9w-rdp-iJK-6FY-p4q-WFp-a3F-I3e-rGe-XAp-8_x-7TP",
     "sha1": "99669dd98d603f691e63a259d92627f25dd3ee21",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip",
     "version": "13020.87.0",
