@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "elm"
     ],
@@ -36,6 +36,7 @@
         "^ELM .*"
     ],
     "image_name": "elm",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.18.0-20516-g3a756e076cba"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "Acer Chromebook R13 (CB5-312T)"
     ],
-    "sample_hwid": "ELM NNN",
+    "parallels_support": false,
+    "sample_hwid": "ELM NNNN",
     "sha1": "191ec5f06b798446a5a13d090aec36486741b5b6",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.59.0_elm_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13310.59.0",

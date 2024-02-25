@@ -1,11 +1,38 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2026-08-02 00:00:00",
     "boards": [
         "elm"
     ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "11425620",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}",
+    "chromeos_release_board": "elm-signed-mp-v5keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "elm-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel elm ",
+    "chromeos_release_keyset": "mp-v5",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15699.66.0_elm_recovery_stable-channel_mp-v5.bin",
     "filesize": 2331361280,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^ELM .*",
         "^ELM .*",
@@ -14,6 +41,10 @@
         "^ELM .*"
     ],
     "image_name": "elm",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.15.140-21046-g921d2194f426"
+    ],
     "manufacturers": [
         "Acer",
         "Acer",
@@ -36,6 +67,8 @@
         "Acer Chromebook R13 (CB5-312T)",
         "Acer Chromebook R13 (CB5-312T)"
     ],
+    "parallels_support": false,
+    "sample_hwid": "ELM NNNN",
     "sha1": "f8cda56525cd704325437d8f81eb47a6b5a386a5",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_elm_recovery_stable-channel_mp-v5.bin.zip",
     "version": "15699.66.0",
