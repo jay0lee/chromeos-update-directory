@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^CELES .*"
     ],
     "image_name": "celes",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.237-13190-g5e1548ebbe56"
     ],
@@ -50,7 +51,7 @@
         "Samsung Chromebook 3"
     ],
     "parallels_support": false,
-    "sample_hwid": "CELES NNN",
+    "sample_hwid": "CELES NNNN",
     "sha1": "bc5f714ec704527229afa3d85a761fc630ff34af",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_celes_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14695.107.0",
