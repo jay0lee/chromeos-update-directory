@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -33,6 +33,7 @@
         "^BANJO .*"
     ],
     "image_name": "banjo",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.265-37689-g90cbe4d754f7"
     ],
@@ -46,7 +47,8 @@
     "names": [
         "Acer Chromebook 15 (CB3-531)"
     ],
-    "sample_hwid": "BANJO NNN",
+    "parallels_support": false,
+    "sample_hwid": "BANJO NNNN",
     "sha1": "fb971b941da14f88000f5aa2ef87f3f433a44f0b",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_banjo_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13904.55.0",
