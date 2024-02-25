@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2026-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "leona",
         "shyvana"
@@ -40,6 +40,7 @@
         "^SHYVANA.* ...((-...){0,3}|(-...){2}-..([ABEFIJMNQRUVYZ45].*|[CGKOSW26]-A(2A-A)*..))$"
     ],
     "image_name": "rammus",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.286-21004-g90921f1f9a15"
     ],
@@ -59,7 +60,8 @@
         "ASUS Chromebook Flip C433",
         "ASUS Chromebook Flip C434"
     ],
-    "sample_hwid": "LEONA NNN",
+    "parallels_support": false,
+    "sample_hwid": "SHYVANANNNN )jy-!:E-5Qr-m0S-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-A2A-AjB-sNNNN",
     "sha1": "8a152597b417c6adf33f1c3ba882f9dda1e26a64",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14268.67.0",

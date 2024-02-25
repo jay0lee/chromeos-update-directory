@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2026-06-01 00:00:00",
+    "aue_date": "None",
     "boards": [
         "shyvana"
     ],
@@ -37,6 +37,7 @@
         "^SHYVANA.* ...((-...){0,3}|(-...){2}-..([ABEFIJMNQRUVYZ45].*|[CGKOSW26]-A(2A-A)*..))$"
     ],
     "image_name": "rammus",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.178-22215-gc952fc054dac"
     ],
@@ -51,7 +52,7 @@
         "ASUS Chromebook Flip C434"
     ],
     "parallels_support": false,
-    "sample_hwid": "SHYVANANNN z`b-On1-biU-^X6-A2A-A2A-A2A-A2A-A2A-A2A-A0[",
+    "sample_hwid": "SHYVANANNNN cfF-;DZ- q\u000b",
     "sha1": "ce0b6c4f81fdb3dbe78b97ed7e9eb54708bf5181",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15437.57.0_rammus_recovery_stable-channel_mp-v3.bin.zip",
     "version": "15437.57.0",
