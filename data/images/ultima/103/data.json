@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -39,6 +39,7 @@
         "^ULTIMA .*"
     ],
     "image_name": "ultima",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.241-13212-ge9b0bab46475"
     ],
@@ -62,7 +63,7 @@
         "Lenovo ThinkPad 11e 3rd Gen Chromebook"
     ],
     "parallels_support": false,
-    "sample_hwid": "ULTIMA NNN",
+    "sample_hwid": "ULTIMA NNNN",
     "sha1": "9aeeb0e9c07d758af76160a75af3ed9d3fc2c999",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_ultima_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14816.131.0",

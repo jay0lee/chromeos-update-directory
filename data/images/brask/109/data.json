@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2030-06-02 00:00:00",
+    "aue_date": "2032-06-06 00:00:00",
     "boards": [
         "kinox"
     ],
@@ -37,6 +37,7 @@
         "^KINOX-WGMJ.*"
     ],
     "image_name": "brask",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.153-20434-g98da1eb2cf9d"
     ],
@@ -51,7 +52,7 @@
         "Lenovo ThinkCentre M60q Chromebox"
     ],
     "parallels_support": true,
-    "sample_hwid": "KINOX-WGMJNNN",
+    "sample_hwid": "KINOX-WGMJNNNN",
     "sha1": "764f470642d4e46f16591763d83008d6d61d4e54",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15236.80.0_brask_recovery_stable-channel_mp-v3.bin.zip",
     "version": "15236.80.0",

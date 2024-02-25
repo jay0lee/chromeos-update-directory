@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -34,6 +34,7 @@
         "^SPRING .*"
     ],
     "image_name": "spring",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -51,7 +52,7 @@
         "HP Chromebook 11 G1"
     ],
     "parallels_support": false,
-    "sample_hwid": "SPRING NNN",
+    "sample_hwid": "SPRING NNNN",
     "sha1": "55b62ce5ae1e3f646c42b92f30e21c976873ac9d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11316.165.0_daisy-spring_recovery_stable-channel_spring-mp-v3.bin.zip",
     "version": "11316.165.0",
