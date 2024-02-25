@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2023-08-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "druwl",
         "dumo",
@@ -42,6 +42,7 @@
         "^DRUWL [A-Z0-9][A-Z0-9]C.*"
     ],
     "image_name": "scarlet",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.241-19420-g5a63ca2874a0c"
     ],
@@ -64,7 +65,8 @@
         "Acer Chromebook Tab 10",
         "CTL Chromebook Tablet Tx1 for Education"
     ],
-    "sample_hwid": "DRUWL 0ADNNN",
+    "parallels_support": false,
+    "sample_hwid": "DRUWL ORDNNNN",
     "sha1": "184ce9880a436d03ae5cfa1e5e09e4deee0c9cef",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
     "version": "13597.105.0",

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2023-08-02 00:00:00",
@@ -37,6 +37,7 @@
         "^DRUWL [A-Z0-9][A-Z0-9]B.*"
     ],
     "image_name": "scarlet",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.142-19740-g3a142da07016"
     ],
@@ -51,7 +52,7 @@
         "druwl"
     ],
     "parallels_support": false,
-    "sample_hwid": "DRUWL CBBNNN",
+    "sample_hwid": "DRUWL S3BNNNN",
     "sha1": "1c450309079473425eea90d213c0e35e9a6f95b3",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.87.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
     "version": "15117.87.0",
