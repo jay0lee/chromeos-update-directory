@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2025-06-02 00:00:00",
+    "aue_date": "2028-06-02 00:00:00",
     "boards": [
         "pantheon"
     ],
@@ -37,6 +37,7 @@
         "^PANTHEON [ABCF][A-Z0-9].*"
     ],
     "image_name": "nami",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.227-20160-g8ef2b0bf640e"
     ],
@@ -51,7 +52,7 @@
         "Lenovo Yoga C630 Chromebook"
     ],
     "parallels_support": true,
-    "sample_hwid": "PANTHEON BQNNN",
+    "sample_hwid": "PANTHEON FSNNNN",
     "sha1": "45b2ec3a99d46cb86662f40731868782034a3b37",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.64.0_nami_recovery_stable-channel_mp-v5.bin.zip",
     "version": "15278.64.0",

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -33,6 +33,7 @@
         "^SUMO .*"
     ],
     "image_name": "sumo",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.250-19735-gee6fdafe8c48"
     ],
@@ -46,7 +47,8 @@
     "names": [
         "AOpen Chromebase Commercial"
     ],
-    "sample_hwid": "SUMO NNN",
+    "parallels_support": false,
+    "sample_hwid": "SUMO NNNN",
     "sha1": "98d159594ad7b3ac55f17fc4dd8420bd807e0e40",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_sumo_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13729.45.0",
