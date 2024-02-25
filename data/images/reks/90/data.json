@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -39,6 +39,7 @@
         "^REKS \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
     ],
     "image_name": "reks",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.176-11263-g91924d8d61fa"
     ],
@@ -61,7 +62,8 @@
         "Lenovo N23 Chromebook (Touch)",
         "Lenovo N42 Chromebook"
     ],
-    "sample_hwid": "REKS _1x-dsp-_6m-)Zh-nfF-Obc-rD7-eKV-Lzh-J6W-aN3-EZ4-_pb-lbb-zap-8L1-U93-5uj-5T8-PgL-_G9-Tm5-9Dw-N1X-gJx-9zz-y4s-XjP-CeX-4Qd-82U-a08-Mzz-QO9-XfG-D6V-wI5-Ojf-xHQ-H4b-qBo-aCP-hi0-s9t-Max-_AC-KAs-e7J-53W-qjK-6Bf-ORh-zfo-LhW-MSz-wIp-Fh5-XDQ-qOc-ueH-wHp-QAc-CBg-Uua-MMC-4aq-NR0",
+    "parallels_support": false,
+    "sample_hwid": "REKS Prg-Z4n-FAS-BBl-iQN-Pyx-05l-aNV-YLi-vaE-nQc-Ecj-9_S-dZE-6xU-gxX-mDA-Im7-91b-jG6-U0N-bDE-GCy-1jJ-cRd-wgU-GXk-ks4-qGs-KA6-r34-fVG-7Sw-m1L-CCd-SBH-aru-rzh-naO-EXo-GyB-5ZF-YaO-_X0-hC5-bYX-qOS-k1D-Qn1-47_-rP9-ASp-Daf-S0D-8Qh-Y4P-rRy-Jo8-QLa-nES-GYE-Ip5-NRS-kh3-K9E-phv-93l-2Pp-BXh-MBw-yFH-0QG-h2C-f4B-hKS-_YL-P4k-loU-lEf-8aR-QRr-U4_-POp-Mve-px9-ZD2-sMN-g16-wzo-svm-16d-5Nn-Lcr-J2Q-zdP-dKS-pwi-WsX",
     "sha1": "6e3b0ac502a4241e751661a88528877d588352f7",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_reks_recovery_stable-channel_mp-v4.bin.zip",
     "version": "13816.64.0",

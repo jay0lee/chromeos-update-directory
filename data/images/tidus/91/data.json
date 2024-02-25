@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-06-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^TIDUS .*"
     ],
     "image_name": "tidus",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.14.228-37743-g49d2c603c1a5"
     ],
@@ -51,7 +52,7 @@
         "Lenovo ThinkCentre Chromebox"
     ],
     "parallels_support": false,
-    "sample_hwid": "TIDUS NNN",
+    "sample_hwid": "TIDUS NNNN",
     "sha1": "ff0f4ea5c7d2241cf495957f94db02bfcc81dc2a",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.97.0_tidus_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13904.97.0",

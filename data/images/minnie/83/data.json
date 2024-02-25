@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2020-07-02 00:00:00",
@@ -37,6 +37,7 @@
         "^MINNIE .*"
     ],
     "image_name": "minnie",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.113-08544-ge67503bc40df"
     ],
@@ -54,7 +55,7 @@
         "ASUS Chromebook Flip C100PA"
     ],
     "parallels_support": false,
-    "sample_hwid": "MINNIE NNN",
+    "sample_hwid": "MINNIE NNNN",
     "sha1": "9a6ff07f68a519526f409b1f80f20fbcbdec14eb",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-minnie_recovery_stable-channel_minnie-mp-v4.bin.zip",
     "version": "13020.87.0",
