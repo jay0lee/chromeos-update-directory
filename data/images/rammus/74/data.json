@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2026-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "leona",
         "rammus",
@@ -41,6 +41,7 @@
         "^SHYVANA .*"
     ],
     "image_name": "rammus",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.176-16038-g1367a8f4b427"
     ],
@@ -63,7 +64,8 @@
         "ASUS Chromebook Flip C433",
         "ASUS Chromebook Flip C434"
     ],
-    "sample_hwid": "LEONA NNN",
+    "parallels_support": false,
+    "sample_hwid": "SHYVANA :iO-0/d-5H7-(T3",
     "sha1": "70f6947819cd104b41e25c68df953be0f38437a9",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
     "version": 11895

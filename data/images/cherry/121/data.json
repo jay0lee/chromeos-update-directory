@@ -1,12 +1,39 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2032-06-06 00:00:00",
     "boards": [
         "tomato",
         "dojo"
     ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "11425620",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{D756EC88-0BC0-4875-ABFC-2B67369526AC}",
+    "chromeos_release_board": "cherry-signed-mp-v5keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "cherry-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel cherry ",
+    "chromeos_release_keyset": "mp-v5",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15699.66.0_cherry_recovery_stable-channel_mp-v5.bin",
     "filesize": 5225441792,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^TOMATO-LYVN.*",
         "^DOJO-EJPG.*",
@@ -20,6 +47,10 @@
         "^DOJO-EJPG.*"
     ],
     "image_name": "cherry",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.10.202-23728-g7568b763bd2c"
+    ],
     "manufacturers": [
         "Acer",
         "HP",
@@ -57,6 +88,8 @@
         "ACER Chromebook Spin 513 (CP513-2H), Acer Chromebook Enterprise Spin 513 (CP513-2H)",
         "Chromebook x360 13b-ca0"
     ],
+    "parallels_support": false,
+    "sample_hwid": "TOMATO-LYVNNNNN",
     "sha1": "e59ee12d3875d2c78153100ff32ccf2080210178",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_cherry_recovery_stable-channel_mp-v5.bin.zip",
     "version": "15699.66.0",
