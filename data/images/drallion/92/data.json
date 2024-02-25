@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2027-08-06 00:00:00",
+    "aue_date": "None",
     "boards": [
         "drallion",
         "drallion360"
@@ -39,6 +39,7 @@
         "^DRALLION360-.*"
     ],
     "image_name": "drallion",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.190-11780-g9abe9eac8155"
     ],
@@ -55,7 +56,8 @@
         "Dell Latitude 7410 Chromebook Enterprise",
         "Dell Latitude 7410 Chromebook Enterprise"
     ],
-    "sample_hwid": "DRALLION-NNN",
+    "parallels_support": true,
+    "sample_hwid": "DRALLION-NNNN",
     "sha1": "21a120260810728f2a98f1e0c01fc4e250dd1862",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_drallion_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13982.88.0",
