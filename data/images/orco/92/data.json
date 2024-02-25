@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -33,6 +33,7 @@
         "^ORCO .*"
     ],
     "image_name": "orco",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.268-20533-gcb85bd3a0149"
     ],
@@ -46,7 +47,8 @@
     "names": [
         "Lenovo 100S Chromebook"
     ],
-    "sample_hwid": "ORCO NNN",
+    "parallels_support": false,
+    "sample_hwid": "ORCO NNNN",
     "sha1": "cfeb9f3c6c5a1dedf2111db3c72442b35f587e10",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_orco_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13982.88.0",

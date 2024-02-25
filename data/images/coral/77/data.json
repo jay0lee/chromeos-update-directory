@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "blacktip360",
         "babymega",
@@ -79,6 +79,7 @@
         "^BLACKTIP360 [A-Z0-9][A-Z0-9]E-([A-Z0-9\\-])+"
     ],
     "image_name": "coral",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.186-16721-gcdc0ab99cc00"
     ],
@@ -173,7 +174,8 @@
         "Viglen Chromebook 11C",
         "Viglen Chromebook 360C"
     ],
-    "sample_hwid": "BLACKTIP360 PFF--TDAK389P",
+    "parallels_support": false,
+    "sample_hwid": "BLACKTIP360 CMC-71RC6IW-0357-VRH4YWS7KJEMGB31F20MH1QDTEXZ7JC0W9OJYHLICOCQS5J74WKFHFY02X9XK79VTTN473OZ-",
     "sha1": "d5d912025d6685e8ae3c4e3da41ade39b6a3e386",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_coral_recovery_stable-channel_mp-v16.bin.zip",
     "version": 12371

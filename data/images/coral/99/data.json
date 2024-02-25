@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "babymega",
         "coral",
@@ -89,6 +89,7 @@
         "^WHITETIP DEVELOPMENT"
     ],
     "image_name": "coral",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.299-21246-g66d66457ae6d"
     ],
@@ -205,7 +206,7 @@
         "whitetip"
     ],
     "parallels_support": false,
-    "sample_hwid": "BABYMEGA BNNN",
+    "sample_hwid": "BABYTIGER ANNNN",
     "sha1": "a4ae2a6db12cdd05d62b7691e8832c76b64a9261",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14469.59.0_coral_recovery_stable-channel_mp-v19.bin.zip",
     "version": "14469.59.0",
