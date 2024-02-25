@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
-    "aue_date": "2025-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "akali",
         "ekko",
@@ -51,6 +51,7 @@
         "^PANTHEON [ABCF][A-Z0-9].*"
     ],
     "image_name": "nami",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.178-16505-g1c7029432a2d"
     ],
@@ -88,7 +89,8 @@
         "Lenovo C340-15 Chromebook",
         "Lenovo Yoga C630 Chromebook"
     ],
-    "sample_hwid": "AKALI NNN",
+    "parallels_support": false,
+    "sample_hwid": "PANTHEON AQNNNN",
     "sha1": "53a8da9a9f4a4e295818163115cc40e39f856f01",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_nami_recovery_stable-channel_mp-v5.bin.zip",
     "version": 12105

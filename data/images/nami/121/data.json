@@ -1,4 +1,8 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2028-06-02 00:00:00",
     "boards": [
         "akali",
         "ekko",
@@ -9,10 +13,33 @@
         "sona",
         "pantheon"
     ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "11425620",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{495DCB07-E19A-4D7D-99B9-4710011A65B1}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{495DCB07-E19A-4D7D-99B9-4710011A65B1}",
+    "chromeos_release_board": "nami-signed-mp-v7keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nami-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel nami ",
+    "chromeos_release_keyset": "mp-v7",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15699.66.0_nami_recovery_stable-channel_mp-v7.bin",
     "filesize": 4478817792,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^AKALI .*",
         "^EKKO .*",
@@ -61,6 +88,10 @@
         "^PANTHEON [ABCF][A-Z0-9].*"
     ],
     "image_name": "nami",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.4.262-21597-ge76c389db5f0"
+    ],
     "manufacturers": [
         "Acer",
         "Acer",
@@ -203,6 +234,8 @@
         "Lenovo C340-15 Chromebook",
         "Lenovo Yoga C630 Chromebook"
     ],
+    "parallels_support": true,
+    "sample_hwid": "SYNDRA NNNN",
     "sha1": "3e7da225da3e2d62233e56f9ebfd21de14f79571",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_nami_recovery_stable-channel_mp-v7.bin.zip",
     "version": "15699.66.0",
