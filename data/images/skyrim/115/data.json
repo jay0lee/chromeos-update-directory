@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2031-06-02 00:00:00",
+    "aue_date": "2033-06-06 00:00:00",
     "boards": [
         "frostflow",
         "whiterun"
@@ -43,6 +43,7 @@
         "^WHITERUN-WPKT.*"
     ],
     "image_name": "skyrim",
+    "is_chromebook_plus_device": true,
     "linux_kernel_versions": [
         "5.15.112-19405-g2e31f1325a1b"
     ],
@@ -72,7 +73,7 @@
         "Dell Latitude 3445 Chromebook"
     ],
     "parallels_support": true,
-    "sample_hwid": "FROSTFLOW-INHJNNN",
+    "sample_hwid": "WHITERUN-WPKTNNNN",
     "sha1": "a6b873f64d82a699ab155b40dee65aa474b01d11",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_skyrim_recovery_stable-channel_mp-v4.bin.zip",
     "version": "15474.84.0",

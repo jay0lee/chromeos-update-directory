@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^REKS \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
     ],
     "image_name": "reks",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.229-12875-gc6827c5f636f"
     ],
@@ -50,7 +51,7 @@
         "Lenovo N42 Chromebook"
     ],
     "parallels_support": false,
-    "sample_hwid": "REKS _O2-PCf-V7M-BiM-X7M-kjy-HZ8-NXK-xwS-KG6-MV0-AuA-zvl-q9A-pjo-t0K-DyU-KQv-TM3-CwH-bPU-TFZ-WXI-oZk-WNx-86y-C5q-H4B-K70-9oR-XzJ-to_-Ffu-DnZ-RK8-xeH-7r7-ESV-TIC-mKR-g7j-mK5-DFP-8CI-sJt-yhY-TOJ-tZp-q2_-91q-5uT-lFM-a4o-brq-BD_-tq9-NpZ-T0P-_iB-NPu-ev4-Sl4-GDS-F5L-PPz-zwJ-Edn-LRv-UCR-gYz-nuH-nYU-W6g-tI9",
+    "sample_hwid": "REKS tPf-kjZ-aB0-BZ7-Qt3-pD7-BrE-ffB-O3h-rYZ-oI_-WEc-gYU-EQl-hkV-0zC-4VP-f7y-owb-a0E-3nS-02c-gt4-Ax6-aKw-Zfb-zjQ-lt1-UPL-5Yj-C8t-EVe-pF0-4jl-FGy-82w-dCN-IMm-Kr1-x1a-98Z-MsV-p3W-E7g-pLb-Xc_-I16-FYQ-UQ6-cdy-D0l-OHs-g_C-eQb-jWO-fg8-UN8-sF2-MGh",
     "sha1": "05c9d86ea7e44cbc1f551237d04fbf3e8205c64c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.57.0_reks_recovery_stable-channel_mp-v4.bin.zip",
     "version": "14526.57.0",

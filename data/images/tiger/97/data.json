@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-02-02 00:00:00",
@@ -36,6 +36,7 @@
         "^TIGER .*"
     ],
     "image_name": "tiger",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.215-12487-gf68446239393"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "AOpen Chromebase Mini"
     ],
-    "sample_hwid": "TIGER NNN",
+    "parallels_support": false,
+    "sample_hwid": "TIGER NNNN",
     "sha1": "e9a03d8b4cb1d3c5e921b95d0ea275b17f9c550c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_veyron-tiger_recovery_stable-channel_tiger-mp.bin.zip",
     "version": "14324.62.0",

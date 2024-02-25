@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
-    "aue_date": "2022-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "reks"
     ],
@@ -38,6 +38,7 @@
         "^REKS \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
     ],
     "image_name": "reks",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.18.0-19748-gc785fae00b84"
     ],
@@ -60,7 +61,8 @@
         "Lenovo N23 Chromebook (Touch)",
         "Lenovo N42 Chromebook"
     ],
-    "sample_hwid": "REKS xXu-djF-Nzt-|A6-ryH-T2z-vN1-LzU-mls-Eax-aUP-jNe-9VH-Kf2-naJ-rWn-nhA-ijb-3qB-d48-8P_-fOy-Fyy-Mfn-cLN-ixm-P87-0TM-8Ia-7YO-dZK-6Vn-xRj-mby-4cl-N7I-j5x",
+    "parallels_support": false,
+    "sample_hwid": "REKS nZm-TBv-bVp-B8L-G8E-zVH-DVs-nVa-ef6-kwg-9UB-KoF-osg-irf-mWl-zFN-xSx-E0E-juK-mIq-oqb-w4y-Wns-uJb-tGI-0uP-Bfx-NFR-w0_-gO8-Ulf-s4L-YoO-XPi-JHZ-CV5-n_4-36R-daz-gXr-uqf-DkC-2mX-9rC-tzH",
     "sha1": "ae362f16ad8b3aab146a5a0f7419bdfa090a28dd",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_reks_recovery_stable-channel_mp-v4.bin.zip",
     "version": 12499
