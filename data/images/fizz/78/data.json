@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "None",
@@ -49,6 +49,7 @@
         "^WUKONG [A-Z0-9][A-Z0-9]C.*"
     ],
     "image_name": "fizz",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.190-16770-gb3c36ab5af98"
     ],
@@ -86,7 +87,8 @@
         "SMART Chromebox G3",
         "ViewSonic NMP660 Chromebox"
     ],
-    "sample_hwid": "JAX NNN",
+    "parallels_support": false,
+    "sample_hwid": "FIZZ NNNN",
     "sha1": "e1e7d23036d45d0dfe366fd702cc0e3e47fe9fec",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_fizz_recovery_stable-channel_mp-v11.bin.zip",
     "version": 12499

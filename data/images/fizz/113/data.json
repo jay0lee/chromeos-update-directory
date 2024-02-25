@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2025-06-02 00:00:00",
+    "aue_date": "2028-06-02 00:00:00",
     "boards": [
         "wukong"
     ],
@@ -37,6 +37,7 @@
         "^WUKONG [A-Z0-9][A-Z0-9]C.*"
     ],
     "image_name": "fizz",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.237-20588-g6ec05122d35e"
     ],
@@ -51,7 +52,7 @@
         "ViewSonic NMP660 Chromebox"
     ],
     "parallels_support": false,
-    "sample_hwid": "WUKONG Y3CNNN",
+    "sample_hwid": "WUKONG EKCNNNN",
     "sha1": "c057d93c8d00d1923f4b776c53329900077ca000",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15393.58.0_fizz_recovery_stable-channel_mp-v14.bin.zip",
     "version": "15393.58.0",

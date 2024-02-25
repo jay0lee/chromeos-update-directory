@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
     "aue_date": "None",
@@ -49,6 +49,7 @@
         "^WUKONG [A-Z0-9][A-Z0-9]C.*"
     ],
     "image_name": "fizz",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.180-16566-g51163f4278d1"
     ],
@@ -86,7 +87,8 @@
         "SMART Chromebox G3",
         "ViewSonic NMP660 Chromebox"
     ],
-    "sample_hwid": "JAX NNN",
+    "parallels_support": false,
+    "sample_hwid": "SION NNNN",
     "sha1": "3ef9b7ab05329006b108b4ded42d19db9e5ad36c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.1_fizz_recovery_stable-channel_mp-v11.bin.zip",
     "version": 12239
