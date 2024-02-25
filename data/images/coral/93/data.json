@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "babymega",
         "coral",
@@ -87,6 +87,7 @@
         "^WHITETIP .*"
     ],
     "image_name": "coral",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.275-20726-g204ae1828356"
     ],
@@ -199,7 +200,8 @@
         "Viglen Chromebook 360C",
         "whitetip"
     ],
-    "sample_hwid": "BABYMEGA NNN",
+    "parallels_support": false,
+    "sample_hwid": "WHITETIP WKE-QE6FFMSKRM86BGVY0DS6OQ3FCHR8KE0Z03491BBIKP2YCLTTH5TWILFPB45SJJO-NU0T-1E9LZ0T8A",
     "sha1": "4a92e72f6c4db035779f7b9b5e9f200d5822d2f2",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.46.0_coral_recovery_stable-channel_mp-v19.bin.zip",
     "version": "14092.46.0",

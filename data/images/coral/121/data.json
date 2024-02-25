@@ -1,4 +1,8 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android Pie 9",
+    "aue_date": "2027-06-02 00:00:00",
     "boards": [
         "babymega",
         "coral",
@@ -20,10 +24,33 @@
         "robo",
         "robo360"
     ],
+    "chromeos_arc_android_sdk_version": "28",
+    "chromeos_arc_version": "11419986",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{5A3AB642-2A67-470A-8F37-37E737A53CFC}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{5A3AB642-2A67-470A-8F37-37E737A53CFC}",
+    "chromeos_release_board": "coral-signed-mp-v22keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "coral-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel coral ",
+    "chromeos_release_keyset": "mp-v22",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15699.66.0_coral_recovery_stable-channel_mp-v22.bin",
     "filesize": 2331383808,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^BABYMEGA [ABCD].*",
         "duplicate of rabbid",
@@ -202,6 +229,10 @@
         "^WHITETIP DEVELOPMENT"
     ],
     "image_name": "coral",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.10.202-23728-g7568b763bd2c"
+    ],
     "manufacturers": [
         "Asus",
         "Asus",
@@ -734,6 +765,8 @@
         "Viglen Chromebook 360C",
         "whitetip"
     ],
+    "parallels_support": false,
+    "sample_hwid": "WHITETIP YVG-T5U2M4B9TFQXBXO6D008JNEPZU5LQ66D87G1GXE-ADRQB649M1VY7418D6PSBY3O-R9E3TEPGQM36A0I6K-V",
     "sha1": "bd3e29e6c833112cc4bec682a9215bed362ddded",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_coral_recovery_stable-channel_mp-v22.bin.zip",
     "version": "15699.66.0",
