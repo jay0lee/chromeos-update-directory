@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
-    "aue_date": "2025-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "telesu",
         "hana"
@@ -44,6 +44,7 @@
         "^HANA ([A-Z0-9])+-([A-Z0-9])+-[A-Z0-9][A-Z0-9]G-([A-Z0-9\\-])+"
     ],
     "image_name": "hana",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.18.0-19095-g86596f58eadf"
     ],
@@ -81,7 +82,8 @@
         "Poin2 Chromebook 14",
         "Prowise Chromebook Eduline / Prowise Chromebook Eduline 360"
     ],
-    "sample_hwid": "TELESU NNN",
+    "parallels_support": false,
+    "sample_hwid": "HANA NNNN-NNNN-93H-0TMWNN6K06UTH8YSR71K93U528H6716SIN90K67C8CAV4P54XF2MNSQAQ3W68FE2BQKQIKCJ8PRTREAK9",
     "sha1": "cc6a990796515e9960cf38fffdb43129ea1868ed",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_hana_recovery_stable-channel_mp-v5.bin.zip",
     "version": 11895

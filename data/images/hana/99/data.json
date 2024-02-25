@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2025-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "hana"
     ],
@@ -44,6 +44,7 @@
         "^HANA ([A-Z0-9])+-([A-Z0-9])+-[A-Z0-9][A-Z0-9]G-([A-Z0-9\\-])+"
     ],
     "image_name": "hana",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.225-12812-g959692546150"
     ],
@@ -82,7 +83,7 @@
         "Prowise Chromebook Eduline / Prowise Chromebook Eduline 360"
     ],
     "parallels_support": false,
-    "sample_hwid": "HANA IED64JCLX6J41RLWGYOKZFM8ZRD0KP8Q5I38AZBZF7KQZ78D3KNPOMFIAR2A922-T9OU4MGDBDV9HYJVBX02SB5T0F3HJQAWWQ7FR529RH4INCPICTQNDREL7DVQS4TSQ5MIDN9I3291MKTA7QQYYQ1BBWVX-JRJ-HMD222IXZE-IHJIRDP3-B\\6-410\\0V3VG1AI17FCVP8AA-M5EBAGXF5US0Y66X7SE99A3A-ZGI9D2SVVX678L",
+    "sample_hwid": "HANA NNNN-NNNN-JVA-DI7TPL5N2C6OCMGHR9IZ3X6MLXG",
     "sha1": "8545a6be98d26edc07fc62345a88c7ad74d6b833",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14469.59.0_hana_recovery_stable-channel_mp-v7.bin.zip",
     "version": "14469.59.0",
