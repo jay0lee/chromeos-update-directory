@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-07-01 00:00:00",
+    "aue_date": "None",
     "boards": [
         "nautilus"
     ],
@@ -37,6 +37,7 @@
         "^NAUTILUS [A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-Z2-7]-[A-Z2-7][2-9][A-P].*"
     ],
     "image_name": "nautilus",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.186-16721-gcdc0ab99cc00"
     ],
@@ -53,7 +54,8 @@
         "Samsung Chromebook Plus (LTE)",
         "Samsung Chromebook Plus (V2)"
     ],
-    "sample_hwid": "NAUTILUS W3F-C2G-L44NNN",
+    "parallels_support": false,
+    "sample_hwid": "NAUTILUS N94-P9D-F7SNNNN",
     "sha1": "5094a242028a97377254e96234c222856ddb35d0",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_nautilus_recovery_stable-channel_mp-v2.bin.zip",
     "version": 12371
