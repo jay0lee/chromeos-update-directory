@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2023-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^CHELL .*"
     ],
     "image_name": "chell",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.272-14690-gda0c1392f4b0"
     ],
@@ -50,7 +51,7 @@
         "HP Chromebook 13 G1"
     ],
     "parallels_support": false,
-    "sample_hwid": "CHELL NNN",
+    "sample_hwid": "CHELL NNNN",
     "sha1": "726ee0644ad82573ea0bd22df90217355a55c540",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15359.58.0_chell_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15359.58.0",

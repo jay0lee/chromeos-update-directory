@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -36,6 +36,7 @@
         "^EXPRESSO \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$|^EXPRESSO \\w{3}-\\w{3}-\\w{3}-A\\w{2}(-\\w{3})*$"
     ],
     "image_name": "expresso",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.176-16038-g1367a8f4b427"
     ],
@@ -58,7 +59,8 @@
         "Edxis Chromebook",
         "HEXA Chromebook Pi"
     ],
-    "sample_hwid": "EXPRESSO fJ_-9__-sgB-zuE-vfB-pUL-aiV-5Ku-22J-tlj-lB9-5o3-G93-SMK-K1E-dtZ-lBU-5Xq-grB-FSn-1vK-QMh-3g8-DHX-5HM-GOS-OIJ",
+    "parallels_support": false,
+    "sample_hwid": "EXPRESSO Prl-CCP-akA-HM0-DPU-WRV-oq5-BkQ-ePq-iqw-S5Y-F_z-paY-tan-Mix-35R-QZs-kFI-HT_-6hA-ouJ-RVE-KXp-WSC-WOP-bRM-Idc-72W-1pW-dK0-7K7-Osz-378-8sh",
     "sha1": "b39384ed9112722cfc4142374c52373b611084e2",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
     "version": 11895

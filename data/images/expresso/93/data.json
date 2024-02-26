@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -40,6 +40,7 @@
         "^EXPRESSO \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$|^EXPRESSO \\w{3}-\\w{3}-\\w{3}-A\\w{2}(-\\w{3})*$"
     ],
     "image_name": "expresso",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.275-20726-g204ae1828356"
     ],
@@ -75,7 +76,7 @@
         "HEXA Chromebook Pi"
     ],
     "parallels_support": false,
-    "sample_hwid": "EXPRESSO ly2-og3-VOB-z8p-mec-i9C-HuX-Ahj-3zI-XJe-BVV-a0B-htH-CmW-Dda-sPo-usq-kMK-2X4-Ij5-ggi-zTJ-ZW_-NGR-oR4-uE6-pyZ-pOG-GCG-cja-pjV-LGc-ee9-fr1-k0U-cLf-Udv",
+    "sample_hwid": "EXPRESSO 0dg-I_M-e2B-wAF-Kh3-q8P-Rd8-u0V-Ulw-VPe-w4g-qaG-y1i-33Y-fFX-oY3-UB2-pZa-cd4-EX5-9m2-9fJ-Orh-A2T-pS6-ayu-FYM-nqF-8wB-Awk-koE-Tzf-nGy-2bf-IxW-20F-7IJ-ojG-lNz-OOh-lPY-OzG-UOF-v5l-IWl-0PD-c_k-Fol-nSW-Q0N-CpG-8Qi-buc-o3N-Kq7-JA7-Kax-i7W-RbD-RFq-dil-Sn3-Lm3-Cij-UTj-qkC-IU4-g9j-yPm-jio-VUj-9rw-7ZK-XHv-U_W-Qt3-tgc",
     "sha1": "f6e76408c7ace5ae7d94eb2b04c1ebb8edac2b7e",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
     "version": "14092.77.0",

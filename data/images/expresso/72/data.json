@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -36,6 +36,7 @@
         "^EXPRESSO \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$|^EXPRESSO \\w{3}-\\w{3}-\\w{3}-A\\w{2}(-\\w{3})*$"
     ],
     "image_name": "expresso",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.164-15546-gd8c7defc947f"
     ],
@@ -58,7 +59,8 @@
         "Edxis Chromebook",
         "HEXA Chromebook Pi"
     ],
-    "sample_hwid": "EXPRESSO V2s-Eav-asB-iST-vtF-Fp3-9Uz-W8i-hhg-d5t-cdW-OAx",
+    "parallels_support": false,
+    "sample_hwid": "EXPRESSO bKa-xkf-4KC-s3c-bqR-RvB-Bs0-6Qe-EtV-Nh4-UHw-l9c-222-oHH-j4U-6AU-8gA-cpz-PaX-qyo-Kh3-ARd-pmV-6QI-S50-nyn-U1m-XqT-Dux-dWG-uPx-SaE-hiD-tR5-yJs-PJh-5Cl-ueS-xyZ-Hah-Y02-7rU-Wsq-jGL-oFE-2Zy-Obv-44P-9QN-S8V-zNn-qz6-nIP-PFA-p63-ZQd-ZsJ-O0q-A2F-81J-_A8-7m_-1e2-TnT-R6K-eGk-flu-jMy-pjo-k6Z-pW8-6Eg-Cl2-shf-_3H-AbL-nFo-zIF-SMF-4Oc-pjt-6SB-iy2-HXz-0Zd-UpD-llo-Qmc-yRz-e3D-Qtj-P7A-PyR-m4M-fi0-AWJ-F2c-COk-bct-qP_",
     "sha1": "64a569cde8736cba9a81ee341e5a572287516706",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11316.165.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
     "version": 11316

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -37,6 +37,7 @@
         "^EXPRESSO \\w{3}-\\w{3}-\\w{2}A(-\\w{3})*$|^EXPRESSO \\w{3}-\\w{3}-\\w{3}-A\\w{2}(-\\w{3})*$"
     ],
     "image_name": "expresso",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.250-19735-gee6fdafe8c48"
     ],
@@ -59,7 +60,8 @@
         "Edxis Chromebook",
         "HEXA Chromebook Pi"
     ],
-    "sample_hwid": "EXPRESSO VOx-Jtx-YSB-qNH-iwx-_BZ-Wg2-Npq-yjw-Ooh-9jy-yE9-pQU-9Ms-GzV-fg7-_v_-UBr-Kr2-eQ9-p1m-4eE-CSj-i5d-_qq-zmN-hxs-txY-Bkn-73f-6rz-5kn-idO-VGh-g95-T2y-SL6-zo7-Mk5-21B-Zzn-rIi-S9f-kXd-8ML-0cI-kTt-V6N-hV1-UzK-44u-RSm-71B-6GB-jTZ-eLd-lDj-Q65-jTI-0rR-BJn-ddu-cAb-Tgr-oj2-sbg-dRU-URC-20H-mKy-FNn-NqR-uUZ-X0U-J9R-T6E-qmP-sJA-fXJ-3c2-er8",
+    "parallels_support": false,
+    "sample_hwid": "EXPRESSO JlS-XDC-MLT-Ahm-eze-hVU-i1a-sZi-gt0-KUG-WKv-nlz-A2C-Hz5-A9o-Yf3-bUC-RAc-h7S-MgJ-dCQ-kvX-LJ7-elC-gI1-oUJ-l9r-EyP-Sdd-9Jk-tdF-ZTE-uyk-cwC-GId-0B9-Bij-Dre-DPq-mxm-byg-3cC-Mob-1Lb-hzP-D7E-Jim-G2E-2EI-Yer-jiY-Cqv-Bwh-QPo-_FG-kgo-Fup",
     "sha1": "ce066896bdec29f8568b029bb6ed12873d025ec7",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
     "version": "13729.45.0",
