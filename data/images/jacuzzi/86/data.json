@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "juniper",
         "kappa"
@@ -39,6 +39,7 @@
         "^KAPPA .*"
     ],
     "image_name": "jacuzzi",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.139-10011-g2d896e82b808"
     ],
@@ -55,7 +56,8 @@
         "Acer Chromebook Spin 311 (CP311-3H)",
         "HP Chromebook 11a"
     ],
-    "sample_hwid": "JUNIPER-HVPU NNN",
+    "parallels_support": false,
+    "sample_hwid": "KAPPA NNNN",
     "sha1": "43cfb4be285c029dd8a5b69750ddd2c4a2c1c7e1",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.73.1_jacuzzi_recovery_stable-channel_mp-v4.bin.zip",
     "version": "13421.73.1",

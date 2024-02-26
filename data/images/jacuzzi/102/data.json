@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "kappa",
         "burnet",
@@ -43,6 +43,7 @@
         "^FENNEL-.*"
     ],
     "image_name": "jacuzzi",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.110-15808-ge5740beba59b"
     ],
@@ -66,7 +67,7 @@
         "IdeaPad Flex 3 Chromebook"
     ],
     "parallels_support": false,
-    "sample_hwid": "KAPPA-NNN",
+    "sample_hwid": "FENNEL-NNNN",
     "sha1": "89b9c0bdee6c37996274eddc17c0ab75dd790de7",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_jacuzzi_recovery_stable-channel_mp-v7.bin.zip",
     "version": "14695.107.0",
