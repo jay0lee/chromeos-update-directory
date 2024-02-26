@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -34,6 +34,7 @@
         "^LINK .*"
     ],
     "image_name": "link",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -51,7 +52,7 @@
         "Google Chromebook Pixel"
     ],
     "parallels_support": false,
-    "sample_hwid": "LINK NNN",
+    "sample_hwid": "LINK NNNN",
     "sha1": "2c53f8343d1d12f9a3e217b888e1381e707ca52f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10895.78.0_link_recovery_stable-channel_mp-v5.bin.zip",
     "version": "10895.78.0",

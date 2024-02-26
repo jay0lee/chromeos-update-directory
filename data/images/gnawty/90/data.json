@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^GNAWTY \\w{3}-\\w{3}-\\w{2}B(-\\w{3})+$"
     ],
     "image_name": "gnawty",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.257-19938-g86d266acc51a"
     ],
@@ -50,7 +51,8 @@
         "Acer Chromebook 11 (CB3-111, C730, C730E)",
         "Acer Chromebook 11 (CB3-131, C735)"
     ],
-    "sample_hwid": "GNAWTY bmU-wFX-EHN",
+    "parallels_support": false,
+    "sample_hwid": "GNAWTY W5e-Fqd-2cA-5Rm-8R1-8qW-O7r-v3r-1Mt-YkF-y2U-Z50-RpA-P9R-3Mb-P2l-kBr-OtY-Tdm-M4B-27l-oyl-84L-SuR-BYY-TwE-Y64-Rt8-FW0-AP5-oW9",
     "sha1": "98f0e127f054de35a5348075cb76aeb216a286b8",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
     "version": "13816.64.0",

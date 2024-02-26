@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
     "aue_date": "2020-06-02 00:00:00",
@@ -43,6 +43,7 @@
         "^MIGHTY \\w{3}-\\w{3}-\\w{3}-F\\w{2}(-\\w{3})*$"
     ],
     "image_name": "mighty",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.14.0"
     ],
@@ -80,7 +81,8 @@
         "Sector 5 E1 Rugged Chromebook",
         "Viglen Chromebook 11"
     ],
-    "sample_hwid": "MIGHTY ANu-422-uSm-DtB-cDC-CGS-w2k-_As-xBK-JGr-kc7-cMf-ez8-R62-sAs-LRa-Vj7-yMh-Yoh-1i5-i6q-xiQ-FsB-0SQ-A_u-kus-fq2-Lfh-mKy-uOk-8DO-Mo9-C3s-xyW-x17-6Rt-ai1-GLP-2QZ-mSw-Vou-M2_-J7l-nOy-ZJ0-GKa-8e_-hrn-d28-8i5-3xC-01Y-zLw-RAY-Tgf-lOC-FYC-sKM-rPG-9rL-DEM-xr7-4D2-_cB-yhA-WiB-BFQ-sNX-tXJ-1XB-qo2-Pdg-5M9-vkW-XI2-MAg-nWB-Myv-TSZ-oDu-UG_-bR4-gQB-lWM-qrf-hWp-uJn-i2H-WzZ-Mk3-fHD-ULg-eRQ",
+    "parallels_support": false,
+    "sample_hwid": "MIGHTY Qet-4wf-j1f-Jo4-8Hk-3Bc-8O4-fYg-wjX-qwP-JRZ-uSS-7Bu-HXM-4mc-D_W-jSt-k8s-Cjo-XMc-Z6d-Xpv-Bq6-w5x-g7q-ach-2gY-QFp-nj5-rA_-aiT-fnu-Tkr-2Jz-Pmd-1tK-A3h-q3v-F2f-eJz-j7d-tFv-ig2-AZ_-87z-bmM-MmH-e2_-4v9-mMk-1zU-P60-Sj4-N4o-Z7l-MPf-IwS-ed8-2xJ-WAl-xid-5Rz-JCc-VtG-gQS-IPB-BnG-nbv-PxN-2kn-X8F-vRa-Fk8-UO0-zTL-Pyr-37R-GbQ-RiX",
     "sha1": "7c1f62d7ca4f9f08c892daf299711937fd670fd6",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.104.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip",
     "version": 11647

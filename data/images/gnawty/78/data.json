@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -33,6 +33,7 @@
         "^GNAWTY \\w{3}-\\w{3}-\\w{2}B(-\\w{3})+$"
     ],
     "image_name": "gnawty",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.190-16770-gb3c36ab5af98"
     ],
@@ -49,7 +50,8 @@
         "Acer Chromebook 11 (CB3-111, C730, C730E)",
         "Acer Chromebook 11 (CB3-131, C735)"
     ],
-    "sample_hwid": "GNAWTY 67W-hla-amA-3jL-rAv-Eb2-qYO-Tn1-dp6-kG3-1TB-4EO-ksM-Fiz-dKt-j8n-jOx-Pei-vHW-lrt-WEV-ItN-szC-fCQ-7Gr-vQN-297-BmI-lGy-SGb-DJW-T41-0MK-QlX-Ayb-QWB-kwN-y2I-WI2-jG6-nBk-F0C-9RQ-J3i-WXJ-1OP-fCG-ibK-W5m-FI3-drf-zVC-Oly-m_j-wnn-tTA-cxR-I3M-y0d-2L4-9Ru-Ide-fWI-VEx-QLx-8zH-G6c-v1u-hmt-sBr-WLw-Of_-2HX-XEX-y1Z-GBN-E2z-WDo-0lC-15D-0nu-1Qo-4mt-xhf-Bo_-1du-7Sv-2gr-HwX-t_y-T3B-yYn-6hj-Z1W-QBp-4N3-Ra0-re7",
+    "parallels_support": false,
+    "sample_hwid": "GNAWTY RVY-UU4-KtB-ENT-egn-5rP-OsD-dzj-LOx-wLB-4DK-DMZ-VeS-KVf-BD9-JUV-BeU-8xf-1Kc-uAw-EfN-yQG-bdX-so6-6KV-bso-V3a-ozI-x1_-gJK-WYw-oV7-aU3-Vut-vuI-brH-oMT-YAR-Fv9-VPP-cLE-Sfn-4ZX-uGb-mkD-btu-_8_-nz_-3mu-JGz-w2b-aWv-i8E-f4d-e0c-m8w-Uy3-lrq-drf-aBj-8Ni-u1c-Bo3-Y5B-0_N-Fv8-9_N-mDl-BeO-0c7-bs2-Z9v-glV-cNa-G0L-bEn-PyF-EE4-159-iGF-3fi-dUN-kX8-_4b-bvJ-eys-jVH-rvA-Jds-YMW-QNy-Rde-n3m",
     "sha1": "c1615a03d5279dfa1820c0d5ac2c5a497a68100f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
     "version": 12499
