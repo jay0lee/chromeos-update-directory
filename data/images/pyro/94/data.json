@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "pyro"
     ],
@@ -37,6 +37,7 @@
         "^PYRO .*"
     ],
     "image_name": "pyro",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.280-20736-gcb7f1d3e9447"
     ],
@@ -50,7 +51,8 @@
     "names": [
         "Lenovo ThinkPad 11e 4th Gen Chromebook"
     ],
-    "sample_hwid": "PYRO NNN",
+    "parallels_support": false,
+    "sample_hwid": "PYRO NNNN",
     "sha1": "df09f89893c58cc7d88dd52719fabf602b750cb0",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.64.0_pyro_recovery_stable-channel_mp.bin.zip",
     "version": "14150.64.0",
