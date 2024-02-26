@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "pazquel"
     ],
@@ -37,6 +37,7 @@
         "^PAZQUEL-OPNA .*"
     ],
     "image_name": "trogdor",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.192-18528-g99def3bea7a0"
     ],
@@ -51,7 +52,7 @@
         "Orbic Chromebook"
     ],
     "parallels_support": false,
-    "sample_hwid": "PAZQUEL-OPNA NNN",
+    "sample_hwid": "PAZQUEL-OPNA NNNN",
     "sha1": "d6c232fbbb2946bc61a623de7d528a7a585cac94",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.82.0_trogdor_recovery_stable-channel_mp-v7.bin.zip",
     "version": "14816.82.0",

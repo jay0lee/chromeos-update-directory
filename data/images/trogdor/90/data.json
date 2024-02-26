@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "lazor",
         "pompom"
@@ -39,6 +39,7 @@
         "^POMPOM .*"
     ],
     "image_name": "trogdor",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.99-13149-gf4c0d3a69499"
     ],
@@ -55,7 +56,8 @@
         "Acer Chromebook Spin 513, CP513-1H/1HL, R841T/LT",
         "Dynabook Chromebook C1"
     ],
-    "sample_hwid": "LAZOR NNN",
+    "parallels_support": false,
+    "sample_hwid": "LAZOR NNNN",
     "sha1": "d62bc53d672f2933c478a849de820fc862a8d62e",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.55.0_trogdor_recovery_stable-channel_mp-v4.bin.zip",
     "version": "13816.55.0",

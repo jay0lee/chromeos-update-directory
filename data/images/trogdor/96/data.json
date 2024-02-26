@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "lazor",
         "pompom",
@@ -41,6 +41,7 @@
         "^LIMOZEEN .*"
     ],
     "image_name": "trogdor",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.151-16908-gff376e5d5ee1"
     ],
@@ -60,7 +61,8 @@
         "Dynabook Chromebook C1",
         "Limozeen"
     ],
-    "sample_hwid": "LAZORNNN",
+    "parallels_support": false,
+    "sample_hwid": "POMPOM-MZVS NNNN",
     "sha1": "83cb706305ceefe850841c7bd0d405b1fc5eaace",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_trogdor_recovery_stable-channel_mp-v4.bin.zip",
     "version": "14268.67.0",

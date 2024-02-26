@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2030-06-06 00:00:00",
+    "aue_date": "2031-06-06 00:00:00",
     "boards": [
         "limozeen",
         "lazor",
@@ -68,6 +68,7 @@
         "^PAZQUEL360-XHSB.*"
     ],
     "image_name": "trogdor",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.15.112-19405-g2e31f1325a1b"
     ],
@@ -160,7 +161,7 @@
         "Prowise Chromebook 360 G1"
     ],
     "parallels_support": false,
-    "sample_hwid": "LIMOZEENNNN",
+    "sample_hwid": "PAZQUEL-OPNA NNNN",
     "sha1": "a95b5d80b9323fcb78bb71db910f26295d24928d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_trogdor_recovery_stable-channel_mp-v10.bin.zip",
     "version": "15474.84.0",
