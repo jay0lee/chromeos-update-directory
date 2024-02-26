@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "duffy",
         "faffy",
@@ -43,6 +43,7 @@
         "^NOIBAT-.*"
     ],
     "image_name": "puff",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.166-10982-g7b4adc7ea88e"
     ],
@@ -65,7 +66,8 @@
         "Acer Chromebox CXI4",
         "HP Chromebox G3"
     ],
-    "sample_hwid": "DUFFY-NNN",
+    "parallels_support": true,
+    "sample_hwid": "DUFFY-NNNN",
     "sha1": "cb302494705064eee527ab8e741b0e8f74cf15e9",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.45.0_puff_recovery_stable-channel_mp-v10.bin.zip",
     "version": "13729.45.0",

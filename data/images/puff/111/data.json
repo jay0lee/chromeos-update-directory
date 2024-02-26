@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "2030-06-06 00:00:00",
     "boards": [
         "wyvern"
     ],
@@ -37,6 +37,7 @@
         "^WYVERN-HOIZ .*"
     ],
     "image_name": "puff",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.271-14665-g2a6fa8038591"
     ],
@@ -51,7 +52,7 @@
         "Wyvern MobLab"
     ],
     "parallels_support": true,
-    "sample_hwid": "WYVERN-HOIZ NNN",
+    "sample_hwid": "WYVERN-HOIZ NNNN",
     "sha1": "9328d119ee61a18eaf390fb458d2b1c82d40f1cb",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15329.44.0_puff_recovery_stable-channel_mp-v11.bin.zip",
     "version": "15329.44.0",

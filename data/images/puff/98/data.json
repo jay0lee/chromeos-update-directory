@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "duffy",
         "faffy",
@@ -50,6 +50,7 @@
         "^WYVERN-HOIZ .*"
     ],
     "image_name": "puff",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.219-12582-gc8503e212913"
     ],
@@ -87,7 +88,8 @@
         "ViewSonic NMP760 Chromebox",
         "Wyvern MobLab"
     ],
-    "sample_hwid": "DUFFY-NNN",
+    "parallels_support": true,
+    "sample_hwid": "DUFFY-NNNN",
     "sha1": "71bbc5967f8d9f90a82dabee8d9adb2c0b5118af",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.52.0_puff_recovery_stable-channel_mp-v11.bin.zip",
     "version": "14388.52.0",
