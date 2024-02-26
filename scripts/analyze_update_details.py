@@ -104,4 +104,6 @@ for data_file in data_files:
   if needed_analysis >= 50:
     print('stopping this job after 50 images, next job should pick up where it left off....')
     break
+
+  sys.stdout.flush()
   
