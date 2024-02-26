@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2030-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "nipperkin"
     ],
@@ -37,6 +37,7 @@
         "^NIPPERKIN[-| ].*"
     ],
     "image_name": "guybrush",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.110-15808-ge5740beba59b"
     ],
@@ -51,7 +52,7 @@
         "HP Elite c645 G2 Chromebook"
     ],
     "parallels_support": true,
-    "sample_hwid": "NIPPERKIN NNN",
+    "sample_hwid": "NIPPERKIN|NNNN",
     "sha1": "8459048a7bc33cc4139016f35b9ba41de9be7b23",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_guybrush_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14695.107.0",

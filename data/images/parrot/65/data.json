@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -32,6 +32,7 @@
         "^PARROT .*-[ABCDFGH] .*"
     ],
     "image_name": "parrot",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -45,7 +46,8 @@
     "names": [
         "Acer C7 Chromebook"
     ],
-    "sample_hwid": "PARROT NNN-G NNN",
+    "parallels_support": false,
+    "sample_hwid": "PARROT NNNN-A NNNN",
     "sha1": "295a7cd0097529c7a59900326eba6a82e315417b",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10323.62.0_parrot_recovery_stable-channel_mp-v4.bin.zip",
     "version": "10323.62.0",

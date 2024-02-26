@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2020-06-02 00:00:00",
@@ -53,6 +53,7 @@
         "^MIGHTY \\w{3}-\\w{3}-\\w{3}-F\\w{2}(-\\w{3})*$"
     ],
     "image_name": "mighty",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.122-09121-gd58e3f311e19"
     ],
@@ -118,7 +119,7 @@
         "Viglen Chromebook 11"
     ],
     "parallels_support": false,
-    "sample_hwid": "MIGHTY tZG-Krs-1Xi-DDJ-3qY-jIE-iqM-KEG-nvG-B1B-v_n-bR3-KDv-__f-geM-nWC-3WA-zmW-2j8-N6O-wdr-qXF-mdS-3KZ-9d5-JfJ-0YH-ftb-kEC-O75-oV5-dp4-BhF-r4W-04B-U1Q-qJA-s2u-Lom-feG-rNB-Db8-Epb-m5N-Krj-h_u-Gcp-cHg-VIT-P_v",
+    "sample_hwid": "MIGHTY FuP-tQ6-OGV-JgL-TgE-YSR-2pn-Tws-pTC-fjT-vXd-gKR-kGM-dEy-Iwa-WR5-iKM-i81-oqv-EN3-aV2-Plr-jIT-v4G-Aau-jF2-BHO-glM-YAZ-RPX-Caj-OCX-mIg-mtA-9Lr-AeS",
     "sha1": "ae8d637b0f369279767e9707f372a553ce06cd51",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip",
     "version": "13099.110.0",

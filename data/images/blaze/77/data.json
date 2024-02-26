@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2019-09-10 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^BLAZE .*"
     ],
     "image_name": "blaze",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.10.18"
     ],
@@ -51,7 +52,7 @@
         "HP Chromebook 14 G3"
     ],
     "parallels_support": false,
-    "sample_hwid": "BLAZE NNN",
+    "sample_hwid": "BLAZE NNNN",
     "sha1": "e3986d2a1f0acfebac7c5351e9c8e942f9cbb02f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.1_nyan-blaze_recovery_stable-channel_blaze-mp-v2.bin.zip",
     "version": "12371.75.1",
