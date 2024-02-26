@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "2031-06-06 00:00:00",
     "boards": [
         "lindar"
     ],
@@ -37,6 +37,7 @@
         "^LINDAR-LCDF.*"
     ],
     "image_name": "volteer",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.223-19729-g00e2ddb12382"
     ],
@@ -51,7 +52,7 @@
         "Lenovo Slim 5 Chromebook"
     ],
     "parallels_support": true,
-    "sample_hwid": "LINDAR-LCDFNNN",
+    "sample_hwid": "LINDAR-LCDFNNNN",
     "sha1": "638264b5c2e1bdb3220135ebf97b8ad0d41d341b",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15236.80.0_volteer_recovery_stable-channel_mp-v8.bin.zip",
     "version": "15236.80.0",

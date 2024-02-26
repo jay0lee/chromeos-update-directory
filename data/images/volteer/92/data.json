@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "delbin",
         "copano",
@@ -53,6 +53,7 @@
         "^LINDAR-EDFZ.*"
     ],
     "image_name": "volteer",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.119-14945-gafc97d54f809"
     ],
@@ -90,7 +91,8 @@
         "IdeaPad Flex 5i Chromebook (13\", 6)",
         "S560-14"
     ],
-    "sample_hwid": "DELBIN-XHVINNN",
+    "parallels_support": true,
+    "sample_hwid": "ELEMI-NZRHNNNN",
     "sha1": "4468ef83de7e4f74572ce94bfe0ead3d523916b2",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
     "version": "13982.88.0",

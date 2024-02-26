@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "drobit",
         "collis",
@@ -60,6 +60,7 @@
         "^LINDAR-LCDF.*"
     ],
     "image_name": "volteer",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.131-16049-gc688e114d34e"
     ],
@@ -109,7 +110,8 @@
         "Lenovo 5i-14 Chromebook",
         "Lenovo Slim 5 Chromebook"
     ],
-    "sample_hwid": "DROBIT-QSIMNNN",
+    "parallels_support": true,
+    "sample_hwid": "ELDRID-FCPGNNNN",
     "sha1": "a537adaa7e2dcc8d3a5cd879299827a8d497bd1b",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.66.0_volteer_recovery_stable-channel_mp-v8.bin.zip",
     "version": "14092.66.0",
