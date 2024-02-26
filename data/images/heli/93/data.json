@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^HELI .*"
     ],
     "image_name": "heli",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.275-20726-g204ae1828356"
     ],
@@ -51,7 +52,7 @@
         "Haier Chromebook 11 G2"
     ],
     "parallels_support": false,
-    "sample_hwid": "HELI NNN",
+    "sample_hwid": "HELI NNNN",
     "sha1": "91e76eeec0e7a0859fbeaf35b66f3a07c0a6dd83",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_heli_recovery_stable-channel_mp-v4.bin.zip",
     "version": "14092.77.0",
