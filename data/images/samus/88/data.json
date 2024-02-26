@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2021-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^SAMUS .*"
     ],
     "image_name": "samus",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.14.204-16731-gb869cbdcd220"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "Google Chromebook Pixel (2015)"
     ],
-    "sample_hwid": "SAMUS NNN",
+    "parallels_support": false,
+    "sample_hwid": "SAMUS NNNN",
     "sha1": "12e4e57a15a33231aa037894e2ac24ae5589ff13",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_samus_recovery_stable-channel_mp-v3.bin.zip",
     "version": "13597.105.0",

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2021-06-02 00:00:00",
@@ -37,6 +37,7 @@
         "^LULU .*"
     ],
     "image_name": "lulu",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.14.228-37743-g49d2c603c1a5"
     ],
@@ -54,7 +55,7 @@
         "Dell Chromebook 13 (7310)"
     ],
     "parallels_support": false,
-    "sample_hwid": "LULU NNN",
+    "sample_hwid": "LULU NNNN",
     "sha1": "940ee68c03a5514a2ef4ae1bcd6d994e54b2d578",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_lulu_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13904.77.0",
