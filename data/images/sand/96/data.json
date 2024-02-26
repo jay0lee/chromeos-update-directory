@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "sand"
     ],
@@ -37,6 +37,7 @@
         "^SAND .*"
     ],
     "image_name": "sand",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.286-21004-g90921f1f9a15"
     ],
@@ -50,7 +51,8 @@
     "names": [
         "Acer Chromebook 15 (CB515-1H, CB515-1HT)"
     ],
-    "sample_hwid": "SAND NNN",
+    "parallels_support": false,
+    "sample_hwid": "SAND NNNN",
     "sha1": "65253b20aa6c08342a86460e525ea3f0acd8b24b",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_sand_recovery_stable-channel_mp.bin.zip",
     "version": "14268.67.0",
