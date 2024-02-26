@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2023-06-01 00:00:00",
+    "aue_date": "2023-06-02 00:00:00",
     "boards": [
         "sentry"
     ],
@@ -37,6 +37,7 @@
         "^SENTRY .*"
     ],
     "image_name": "sentry",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.271-14665-g2a6fa8038591"
     ],
@@ -51,7 +52,7 @@
         "Lenovo ThinkPad 13"
     ],
     "parallels_support": false,
-    "sample_hwid": "SENTRY NNN",
+    "sample_hwid": "SENTRY NNNN",
     "sha1": "0a640b3aebb4f942de6356ed87cd40e63c6d8279",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15329.44.0_sentry_recovery_stable-channel_mp.bin.zip",
     "version": "15329.44.0",

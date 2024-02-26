@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -32,6 +32,7 @@
         "^GUADO .*"
     ],
     "image_name": "guado",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.14.0"
     ],
@@ -45,7 +46,8 @@
     "names": [
         "ASUS Chromebox 2 (CN62)"
     ],
-    "sample_hwid": "GUADO NNN",
+    "parallels_support": false,
+    "sample_hwid": "GUADO NNNN",
     "sha1": "59ac82538fb5bf1c728680d8c696e25f8018f7e2",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_guado_recovery_stable-channel_mp-v2.bin.zip",
     "version": 12105
