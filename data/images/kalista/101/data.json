@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2025-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "karma"
     ],
@@ -37,6 +37,7 @@
         "^KARMA .*"
     ],
     "image_name": "kalista",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.302-21280-ga473872ca6a8"
     ],
@@ -51,7 +52,7 @@
         "Acer Chromebase CA24I2"
     ],
     "parallels_support": false,
-    "sample_hwid": "KARMA NNN",
+    "sample_hwid": "KARMA NNNN",
     "sha1": "37956d6a5a83b85b761e0cc58fdd9d09bb29366f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_kalista_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14588.98.0",

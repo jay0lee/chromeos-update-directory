@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -39,6 +39,7 @@
         "^BANON .*"
     ],
     "image_name": "banon",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.241-13212-ge9b0bab46475"
     ],
@@ -62,7 +63,7 @@
         "Acer Chromebook 15 (CB3-532)"
     ],
     "parallels_support": false,
-    "sample_hwid": "BANON NNN",
+    "sample_hwid": "BANON NNNN",
     "sha1": "437229e07bc2c9760cd463b5a0e8fdc43a3c65b2",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_banon_recovery_stable-channel_mp.bin.zip",
     "version": "14816.131.0",
