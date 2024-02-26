@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2032-06-06 00:00:00",
+    "aue_date": "2033-06-06 00:00:00",
     "boards": [
         "tentacool",
         "tentacruel",
@@ -58,6 +58,7 @@
         "^STEELIX-VZSZ.*"
     ],
     "image_name": "corsola",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.15.112-19405-g2e31f1325a1b"
     ],
@@ -123,7 +124,7 @@
         "Lenovo 300e Yoga Chromebook Gen 4"
     ],
     "parallels_support": false,
-    "sample_hwid": "TENTACOOL-ZLJENNN",
+    "sample_hwid": "MAGNETON-LCKCNNNN",
     "sha1": "083e01021cfbaae8e021b40d4a03dacd0ab535c1",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_corsola_recovery_stable-channel_mp-v5.bin.zip",
     "version": "15474.84.0",

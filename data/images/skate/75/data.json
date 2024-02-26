@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -34,6 +34,7 @@
         "^SKATE .*"
     ],
     "image_name": "skate",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -51,7 +52,7 @@
         "HP Chromebook 11 G2"
     ],
     "parallels_support": false,
-    "sample_hwid": "SKATE NNN",
+    "sample_hwid": "SKATE NNNN",
     "sha1": "1126f66ab67be68580e6e9cc03be1d8c4716b8f6",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_daisy-skate_recovery_stable-channel_skate-mp-v2.bin.zip",
     "version": "12105.100.0",
