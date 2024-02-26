@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2023-06-02 00:00:00",
@@ -39,6 +39,7 @@
         "^ASUKA .*"
     ],
     "image_name": "asuka",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.279-14719-gff05822662eb"
     ],
@@ -62,7 +63,7 @@
         "Dell Chromebook 13 (3380)"
     ],
     "parallels_support": false,
-    "sample_hwid": "ASUKA NNN",
+    "sample_hwid": "ASUKA NNNN",
     "sha1": "b54a3762e22d08dc3b67846e3ab16bd7333e519d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15393.58.0_asuka_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15393.58.0",
