@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -32,6 +32,7 @@
         "^BUDDY .*"
     ],
     "image_name": "buddy",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.14.0"
     ],
@@ -45,7 +46,8 @@
     "names": [
         "Acer Chromebase 24"
     ],
-    "sample_hwid": "BUDDY NNN",
+    "parallels_support": false,
+    "sample_hwid": "BUDDY NNNN",
     "sha1": "8c7b431128a1e8b2ff83f9c7e1a5bc95126a569e",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.154.0_buddy_recovery_stable-channel_mp-v2.bin.zip",
     "version": 11647

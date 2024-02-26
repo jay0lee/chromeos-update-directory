@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -32,6 +32,7 @@
         "^SWANKY .*"
     ],
     "image_name": "swanky",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.178-16505-g1c7029432a2d"
     ],
@@ -45,7 +46,8 @@
     "names": [
         "Toshiba Chromebook 2"
     ],
-    "sample_hwid": "SWANKY NNN",
+    "parallels_support": false,
+    "sample_hwid": "SWANKY NNNN",
     "sha1": "47989b18f9eaa8d445805d802e47f54a28eab8f9",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_swanky_recovery_stable-channel_mp-v3.bin.zip",
     "version": 12105
