@@ -156,13 +156,14 @@ def main():
     eol_images = []
     very_eol_images = []
     for data_file in data_files:
-            f = open(data_file, 'r')
-            data = json.load(f)
-            f.close()
+            with open(data_file, 'r') as f:
+                data = json.load(f)
             image = data['image_name']
             hwidmatch = random.choice(data['hwidmatches'])
             hwid = common.hwid_from_hwidmatch(hwidmatch)
-            board_id = data.get('chromeos_board_appid', data['chromeos_release_appid'])
+            board_id = data.get('chromeos_board_appid', data.get('chromeos_release_appid'))
+            if not board_id:
+                print(f'WARNING: no board id in {data}')
             updates = {}
             updates['stable'] = getBoardUpdate(image,
                                     board_id,
