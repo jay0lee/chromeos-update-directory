@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "kappa",
         "burnet",
@@ -45,6 +45,7 @@
         "^MAKOMO-UTTX .*"
     ],
     "image_name": "jacuzzi",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.131-19114-g6651b07c6153"
     ],
@@ -71,7 +72,7 @@
         "Lenovo 100e Gen 2"
     ],
     "parallels_support": false,
-    "sample_hwid": "KAPPA-NNN",
+    "sample_hwid": "FENNEL14-NNNN",
     "sha1": "0f7210709c718b3ca51ed084cc5dfb0b8787d77c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14989.85.0_jacuzzi_recovery_stable-channel_mp-v7.bin.zip",
     "version": "14989.85.0",

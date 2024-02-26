@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "delbin",
         "voxel",
@@ -47,6 +47,7 @@
         "^LILLIPUP-MQUZ.*"
     ],
     "image_name": "volteer",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.109-26092-g9d947a4eeb73"
     ],
@@ -75,7 +76,8 @@
         "HP Pro c640 G2 Chromebook",
         "IdeaPad Flex 5i Chromebook"
     ],
-    "sample_hwid": "DELBIN-XHVINNN",
+    "parallels_support": false,
+    "sample_hwid": "DROBIT-QSIMNNNN",
     "sha1": "c9c30d883e1de6031f38aaabd07ee9878671e99d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
     "version": "13904.55.0",

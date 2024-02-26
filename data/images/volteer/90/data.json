@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2029-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "delbin",
         "voxel"
@@ -39,6 +39,7 @@
         "^VOXEL-GFMQ.*"
     ],
     "image_name": "volteer",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.99-13153-g28a2c98317f3"
     ],
@@ -55,7 +56,8 @@
         "ASUS Chromebook CX5500FEA",
         "Acer Chromebook Spin 713 (CP713-3W)"
     ],
-    "sample_hwid": "DELBIN-XHVINNN",
+    "parallels_support": false,
+    "sample_hwid": "DELBIN-XHVINNNN",
     "sha1": "2a156f7591bf2cb992ffbbaf94a4de5d1c963e78",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
     "version": "13816.64.0",
