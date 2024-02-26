@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "2027-08-02 00:00:00",
     "boards": [
         "eve"
     ],
@@ -37,6 +37,7 @@
         "^EVE .*"
     ],
     "image_name": "eve",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.4.237-20588-g6ec05122d35e"
     ],
@@ -51,7 +52,7 @@
         "Google Pixelbook"
     ],
     "parallels_support": true,
-    "sample_hwid": "EVE NNN",
+    "sample_hwid": "EVE NNNN",
     "sha1": "fb26c14c16b51ef5a0323d4c4ea4dc3f5b2e17c3",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15393.58.0_eve_recovery_stable-channel_mp-v3.bin.zip",
     "version": "15393.58.0",
