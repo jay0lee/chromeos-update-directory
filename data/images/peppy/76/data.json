@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -34,6 +34,7 @@
         "^PEPPY .*"
     ],
     "image_name": "peppy",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -51,7 +52,7 @@
         "Acer Chromebook 11 (C720, C720P)"
     ],
     "parallels_support": false,
-    "sample_hwid": "PEPPY NNN",
+    "sample_hwid": "PEPPY NNNN",
     "sha1": "cd5917cbe7f821ad769bf0fd87046898f9e175c8",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_peppy_recovery_stable-channel_mp-v3.bin.zip",
     "version": "12239.92.0",

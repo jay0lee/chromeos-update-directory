@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
     "aue_date": "None",
@@ -35,6 +35,7 @@
         "^CHELL .*"
     ],
     "image_name": "chell",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.18.0-18747-gdea8d908bd77"
     ],
@@ -48,7 +49,8 @@
     "names": [
         "HP Chromebook 13 G1"
     ],
-    "sample_hwid": "CHELL NNN",
+    "parallels_support": false,
+    "sample_hwid": "CHELL NNNN",
     "sha1": "19c9ed366b6b0ea92f9416696495a6b2e9cf9d56",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11316.165.0_chell_recovery_stable-channel_mp.bin.zip",
     "version": 11316
