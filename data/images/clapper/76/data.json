@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2019-06-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^CLAPPER .*"
     ],
     "image_name": "clapper",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.180-16566-g51163f4278d1"
     ],
@@ -51,7 +52,7 @@
         "Lenovo N20 Chromebook"
     ],
     "parallels_support": false,
-    "sample_hwid": "CLAPPER NNN",
+    "sample_hwid": "CLAPPER NNNN",
     "sha1": "9491fd273147dd89c1607766358d764cbeef132a",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_clapper_recovery_stable-channel_mp-v2.bin.zip",
     "version": "12239.92.0",

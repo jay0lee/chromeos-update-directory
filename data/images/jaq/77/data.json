@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2020-07-01 00:00:00",
     "boards": [
@@ -35,6 +35,7 @@
         "^JAQ \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
     ],
     "image_name": "jaq",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.14.0"
     ],
@@ -57,7 +58,8 @@
         "Medion Chromebook Akoya S2013",
         "True IDC Chromebook 11"
     ],
-    "sample_hwid": "JAQ hO3-JYo-2yb-ANd-Sv5-Bpc-jPz-GZW-KiL-x6o-55o-PMi-dCr-G9T-o5O-_AC-iqW-6zI-kol-NkB-JXx-gYU-cAi-Ks4-wVB-mdg-_qf-vLh-5CO-NRF-Mhf-DqC-vpX-_hs-uoB-SFL-wf3-XhE-ucY-N4E-S8t-9hz-8F0-Hyv-CSu-uOP-UYQ-XGr-2J_-ccX-zey-LTd-wt9-PyR-11b-bwq-5yZ-_5b-Qtm-6Ox-Sua-HWB-wyC-czk-59C-338-fYU-22_-R1V-uRf",
+    "parallels_support": false,
+    "sample_hwid": "JAQ GWZ-wz4-oOT-CqO-HlH-2kz-mB0-6hB-xFk-M08-NdS-doc-BLL-7Mm-R7c-CIH-Mq_-DPP-HfS-Ced-uJh-vd9-_zi-atg-CQ8-e8F-iPB-fPr-J0_-iT1-OfY-Ua2-ao_-IME-Pe5-Vkv-ZCp-K0s-FlO-t2o-edF-JGd-SJv-iqE-8tS-T9K-Vdy-Nbp-syn-Y3J-Msk-HG4-TlY-LMP-J1c-m1z-i6M-4YZ-WB4-llv-xRI-KFA-fbX-HGw-LOD-L2r-9TG-llj-o9e-jsE-5zL-Iqy",
     "sha1": "3952b66177ec70837ba9914bdfcbc5d628bbc56c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
     "version": 12371

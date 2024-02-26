@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -34,6 +34,7 @@
         "^REVEN($|-.*)"
     ],
     "image_name": "reven",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.159-20948-g74a145af2334"
     ],
@@ -48,7 +49,7 @@
         "ChromeOS Flex"
     ],
     "parallels_support": false,
-    "sample_hwid": "REVEN",
+    "sample_hwid": "REVEN-NNNN",
     "sha1": "489954983b410937f6f6e58fd54551775d446ffa",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.64.0_reven_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15278.64.0",

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2020-07-01 00:00:00",
     "boards": [
@@ -40,6 +40,7 @@
         "^JAQ \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
     ],
     "image_name": "jaq",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.113-08544-ge67503bc40df"
     ],
@@ -75,7 +76,7 @@
         "True IDC Chromebook 11"
     ],
     "parallels_support": false,
-    "sample_hwid": "JAQ W2C-qVb-eYR-AQe-wqi-8NP-jQ4-_J9-VfL-K9x-4m8-jx9-yH5-Exe-Ik3-DdW-AuU-6uQ-U0f-LdG-kFd-li_-lq_-bjs-QYC-aAR-LEp-UMJ-WvP-saR-md5-MNC-oPQ-GHY-06X-eao-MIW-z4e-fNg-JqY-6LB-gfZ-dFl",
+    "sample_hwid": "JAQ QZp-iqu-YK_-Bgq-GkD-7Dq-pLr-H12-UNh-mn8-FaE-3eq-pxP-acl-Sxf-VB_-o3_",
     "sha1": "919f200c3a9a50db976c33a48692e889a93c3918",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
     "version": "13020.87.0",

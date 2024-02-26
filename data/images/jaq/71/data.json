@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -35,6 +35,7 @@
         "^JAQ \\w{3}-\\w{3}-\\w{3}-B\\w{2}(-\\w{3})*$"
     ],
     "image_name": "jaq",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.14.0"
     ],
@@ -57,7 +58,8 @@
         "Medion Chromebook Akoya S2013",
         "True IDC Chromebook 11"
     ],
-    "sample_hwid": "JAQ qed-s6y-zio-Ayn-u4g-WYL-fCd-v_g-WjY-wlU-R4d-DmC-162-SF7-W8C-mmf-TMN-Gew",
+    "parallels_support": false,
+    "sample_hwid": "JAQ pFR-mId-Tho-D6G-l4W-y_u-WL6-cQj-D5k-JSd-EEK-4nD-Rwo-o8S-qmx-Kcg-JFF-wMb-xpJ-VS7-ViY-87T-enb-Kb5",
     "sha1": "26c30f26b152b942a774bb0398564c238ab652d3",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11151.113.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
     "version": 11151
