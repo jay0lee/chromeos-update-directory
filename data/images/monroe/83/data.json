@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2020-06-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^MONROE .[23].*"
     ],
     "image_name": "monroe",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -50,7 +51,8 @@
         "LG Chromebase (22CB25S)",
         "LG Chromebase (22CV241)"
     ],
-    "sample_hwid": "MONROE F4NNN",
+    "parallels_support": false,
+    "sample_hwid": "MONROE K2NNNN",
     "sha1": "77cd92ec457c2b1912c7087e6785b9d8cd14a938",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_monroe_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13020.87.0",

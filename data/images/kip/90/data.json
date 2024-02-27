@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -35,6 +35,7 @@
         "^KIP [DE].*"
     ],
     "image_name": "kip",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.257-19938-g86d266acc51a"
     ],
@@ -54,7 +55,8 @@
         "HP Chromebook 11 G3/G4/G4 EE",
         "HP Chromebook 14 G4"
     ],
-    "sample_hwid": "NO MATCH JUST FOR ENTRY",
+    "parallels_support": false,
+    "sample_hwid": "KIP DNNNN",
     "sha1": "f54120b5c5590f744d78dac8890eba10f2180d49",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_kip_recovery_stable-channel_mp-v3.bin.zip",
     "version": "13816.64.0",
