@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^CYAN .*"
     ],
     "image_name": "cyan",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.229-12875-gc6827c5f636f"
     ],
@@ -50,7 +51,7 @@
         "Acer Chromebook R11 (CB5-132T, C738T)"
     ],
     "parallels_support": false,
-    "sample_hwid": "CYAN NNN",
+    "sample_hwid": "CYAN NNNN",
     "sha1": "521fcb2b452522e19e014b107e9301022961b467",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.57.0_cyan_recovery_stable-channel_mp-v3.bin.zip",
     "version": "14526.57.0",

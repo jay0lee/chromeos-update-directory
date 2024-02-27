@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2021-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^YUNA .*"
     ],
     "image_name": "yuna",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.14.193-16287-g11e511f19c3e"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "Acer Chromebook 15 (CB5-571, C910)"
     ],
-    "sample_hwid": "YUNA NNN",
+    "parallels_support": false,
+    "sample_hwid": "YUNA NNNN",
     "sha1": "bf83a5e0c4aa674280b89c5979c1d1545e63c7ea",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.73.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip",
     "version": "13421.73.0",
