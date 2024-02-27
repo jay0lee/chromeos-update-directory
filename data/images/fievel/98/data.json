@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-02-02 00:00:00",
@@ -38,6 +38,7 @@
         "^FIEVEL .*"
     ],
     "image_name": "fievel",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.219-12582-gc8503e212913"
     ],
@@ -58,7 +59,7 @@
         "AOpen Chromebox Mini"
     ],
     "parallels_support": false,
-    "sample_hwid": "FIEVEL NNN",
+    "sample_hwid": "FIEVEL NNNN",
     "sha1": "0d18085d956ee6d2cf19e2aefbb2d36358fc74c7",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_veyron-fievel_recovery_stable-channel_fievel-mp.bin.zip",
     "version": "14388.61.0",

@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "None",
     "boards": [
@@ -34,6 +34,7 @@
         "^PIT ([^TEST.*]).*"
     ],
     "image_name": "pit",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.8.11"
     ],
@@ -51,7 +52,7 @@
         "Samsung Chromebook 2 11\""
     ],
     "parallels_support": false,
-    "sample_hwid": "PIT |NNN",
+    "sample_hwid": "PIT 2NNNN",
     "sha1": "f9e3e3899617621d0644a769dcfe824b8653a39f",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_peach-pit_recovery_stable-channel_pit-mp-v3.bin.zip",
     "version": "12105.100.0",
