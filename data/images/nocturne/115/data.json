@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2026-06-02 00:00:00",
+    "aue_date": "2029-06-02 00:00:00",
     "boards": [
         "nocturne"
     ],
@@ -40,6 +40,7 @@
         "^NOCTURNE .*"
     ],
     "image_name": "nocturne",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.180-22633-g1d2f89719839"
     ],
@@ -63,7 +64,7 @@
         "Google Pixel Slate"
     ],
     "parallels_support": false,
-    "sample_hwid": "NOCTURNE NNN",
+    "sample_hwid": "NOCTURNE NNNN",
     "sha1": "56e2bb06a58f1da706baea96bb5a29adc1f7e828",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15474.84.0_nocturne_recovery_stable-channel_mp-v2.bin.zip",
     "version": "15474.84.0",
