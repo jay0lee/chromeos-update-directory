@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -38,6 +38,7 @@
         "^KIP [DE].*"
     ],
     "image_name": "kip",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.275-20726-g204ae1828356"
     ],

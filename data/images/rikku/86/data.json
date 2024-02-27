@@ -1,7 +1,7 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
-    "aue_date": "2021-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "rikku"
     ],
@@ -33,6 +33,7 @@
         "^RIKKU .*"
     ],
     "image_name": "rikku",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.14.193-16287-g11e511f19c3e"
     ],
@@ -46,7 +47,8 @@
     "names": [
         "Acer Chromebox CXI2 / CXV2"
     ],
-    "sample_hwid": "RIKKU NNN",
+    "parallels_support": false,
+    "sample_hwid": "RIKKU NNNN",
     "sha1": "2c66c0dc1f82a861c89043cba53a340a83c21888",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.73.0_rikku_recovery_stable-channel_mp-v2.bin.zip",
     "version": "13421.73.0",
