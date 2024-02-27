@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^NINJA .*"
     ],
     "image_name": "ninja",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.275-20726-g204ae1828356"
     ],
@@ -51,7 +52,7 @@
         "AOpen Chromebox Commercial"
     ],
     "parallels_support": false,
-    "sample_hwid": "NINJA NNN",
+    "sample_hwid": "NINJA NNNN",
     "sha1": "b5fd646294c20b4d5492ea681c359aad7504cbfd",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_ninja_recovery_stable-channel_mp-v2.bin.zip",
     "version": "14092.77.0",

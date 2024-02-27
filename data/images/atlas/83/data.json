@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2026-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "atlas"
     ],
@@ -36,6 +36,7 @@
         "^ATLAS .*"
     ],
     "image_name": "atlas",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.217-17435-gfa2b7567ea63"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "Google Pixelbook Go"
     ],
-    "sample_hwid": "ATLAS NNN",
+    "parallels_support": true,
+    "sample_hwid": "ATLAS NNNN",
     "sha1": "7a05dfa340548c8c906ff6333a0813fb191444ea",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_atlas_recovery_stable-channel_mp.bin.zip",
     "version": "13020.87.0",

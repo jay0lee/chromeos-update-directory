@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -44,6 +44,7 @@
         "^ENGUARDE \\w{3}-\\w{3}-\\w{2}J(-\\w{3})*$"
     ],
     "image_name": "enguarde",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.178-16505-g1c7029432a2d"
     ],
@@ -93,7 +94,8 @@
         "Videonet Chromebook",
         "eduGear Chromebook R"
     ],
-    "sample_hwid": "ENGUARDE 9xA-zFj-OqK-x3V-2aI-Mpv-vBF-Cdc-71S-dQI-3NU-efn-9bQ-QTV-w9Y-1oM-50R-iHZ-nbk",
+    "parallels_support": false,
+    "sample_hwid": "ENGUARDE 2Ej-IOp-FOF-81M-bqk-IdG-H2b-W60-Xee-tSX-Bfo-tji-hIo-wmM-GJs-GKL-a_w-XDo-Zrv-dGl-2EJ-t9k-lWi-mX7-dN3-9_L-MR2",
     "sha1": "68ee677ffb3b9980c25e0b3ac57f9f4069c598a5",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
     "version": 12105

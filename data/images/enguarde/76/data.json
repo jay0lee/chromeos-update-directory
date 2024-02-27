@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -44,6 +44,7 @@
         "^ENGUARDE \\w{3}-\\w{3}-\\w{2}J(-\\w{3})*$"
     ],
     "image_name": "enguarde",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.180-16566-g51163f4278d1"
     ],
@@ -93,7 +94,8 @@
         "Videonet Chromebook",
         "eduGear Chromebook R"
     ],
-    "sample_hwid": "ENGUARDE 7xB-ID3-5NK-2oM-qZj-R66-ZFW-WZ8-KD2-RsH-zE_-MIq-WV_-5TU-K1L-Oix-dnr-SOv-nzn-qAZ-bMT-CD4-kaP-2t5-6o6-UBu-8_f-3Qh-dxQ-nKd-VdG-8qT-e_4-kFi-v73-H9R-fzx-dAx-Gb3-_s_-Qp1-D59-x1k-SoE-Bqr-Enk-OWj-YAe-IiA-QGy-nL3-EXo-cHg-NQT-khc-2lK-etY-mz2-6Th-Bfh-EGH-2bd-YD5-jxl",
+    "parallels_support": false,
+    "sample_hwid": "ENGUARDE ljf-u4l-nBE-4Yd-WCh-t06-bah-QtM-b4o-j0d-Ete-rQq-cls-1Rg-IVE-hPu-1TF-BPn-vCw-sGl-NkM-IMg-iTa-8qX-TW1-Lmc-N6l-u6e-E04-DAD-7QD-UQx-rmC-jRy-IKN-m_5-Amq-4Pi-stJ-UKz-mvb-eX0-THE-xhg-u_Q-yTU-9pk-TD0-p5r-CGQ-UAQ-szC-TGv-jaz-O7g-2p3-T49-UTL-FJz-SXV-BNa-XZU-mjV",
     "sha1": "8719e1d5f6bd6bee9257aeb7173c8f1db3c471d4",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
     "version": 12239

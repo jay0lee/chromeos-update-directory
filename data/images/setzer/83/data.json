@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
     "aue_date": "2022-06-02 00:00:00",
@@ -36,6 +36,7 @@
         "^SETZER .*"
     ],
     "image_name": "setzer",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.113-08544-ge67503bc40df"
     ],
@@ -49,7 +50,8 @@
     "names": [
         "HP Chromebook 11 G5"
     ],
-    "sample_hwid": "SETZER NNN",
+    "parallels_support": false,
+    "sample_hwid": "SETZER NNNN",
     "sha1": "f32ede8d012ed734f875d19cdb6b00688db5a1ab",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_setzer_recovery_stable-channel_mp.bin.zip",
     "version": "13020.87.0",

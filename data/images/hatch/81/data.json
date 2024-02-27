@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "helios",
         "kindred",
@@ -44,6 +44,7 @@
         "^KOHAKU.*"
     ],
     "image_name": "hatch",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.98-08087-g109c13d8736d"
     ],
@@ -69,7 +70,8 @@
         "HP Chromebook x360 14c",
         "Samsung Galaxy Chromebook"
     ],
-    "sample_hwid": "HELIOS-NNN",
+    "parallels_support": false,
+    "sample_hwid": "AKEMI NNNN",
     "sha1": "c74d277f3018f5c300eea5d5b0fc9d9e4cfcff5c",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip",
     "version": 12871

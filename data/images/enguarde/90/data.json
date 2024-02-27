@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2021-09-02 00:00:00",
     "boards": [
@@ -45,6 +45,7 @@
         "^ENGUARDE \\w{3}-\\w{3}-\\w{2}J(-\\w{3})*$"
     ],
     "image_name": "enguarde",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.257-19938-g86d266acc51a"
     ],
@@ -94,7 +95,8 @@
         "Videonet Chromebook",
         "eduGear Chromebook R"
     ],
-    "sample_hwid": "ENGUARDE Ypf-Ez4-LZK-Qae-fRj-8i5-WM6-KgJ-U6E-m__-B6X-xRE-RFL-Ax5-mf5-sph-vnl-bPW-EL2-GWs-bqH-1rt-AQm-bHa-FQp-dPK-6HX-pYi-i0A-jpG-I2H-hT3-DH1-m1B-QGa-upo-ErU-UuN-x48-58h-GlX-QHd-MhH-xWR-xJn-0ka-Pwv-p0v-Ui6-ErO-X9M-7nh-3MV-8f3-Ik5-KE8-X4q-vLD-w5a-hSk-B5G-UR8-w4r-5za-6F9-Ozh-IJA-TZY-vjt-b4I-Fxg-2K5-HPt-tT2-7gC-CfR-NDu-whN-7xs-B39-6v6-HBd-HCF-sy9-8gi-_dC-SnL-tKE",
+    "parallels_support": false,
+    "sample_hwid": "ENGUARDE Yq0-mDR-1BI-ALZ-YPk-ZlK-qIZ-270-YfS-X2u-cQ8-cJH-BSz-zn8-x0e-NwH-j5W-YA5-5_e-LRQ-MyT-nUf-xns-7Uv-uwE-Uno-pcZ-ye4-uDC-O7R-5N2-r1Y-4DO-iO_-q03-ISv-vo7-1oi-rz_-VmD-zOZ-GQa-VpL-rZi-hcM-rr9-oo8-4eR-KhX-26t-s4a-zxo-3PO-EAR-X4J-_o0-sBL-kGl-dvw-e9A-g0c-zvQ-EJB-Ufs-U8b-tJd-JNw-85p-wjE-nFr-brv-vW5-2qB-3oz-D1t-gCZ-Z4R-CaU-Rit-uQ8-oHU-Gm3-R4t-1X0-8mB-zCT-F5M-iet-CN9-Avc-FeZ-tMa-zCQ-PMs-RZz-Ild",
     "sha1": "d7411c4b38d27b314f3d0ca4c4e8906f7ed46baa",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.64.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
     "version": "13816.64.0",

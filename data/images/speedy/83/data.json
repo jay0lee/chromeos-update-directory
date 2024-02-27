@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2020-06-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^SPEEDY .*"
     ],
     "image_name": "speedy",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.113-08544-ge67503bc40df"
     ],
@@ -51,7 +52,7 @@
         "ASUS Chromebook C201PA"
     ],
     "parallels_support": false,
-    "sample_hwid": "SPEEDY NNN",
+    "sample_hwid": "SPEEDY NNNN",
     "sha1": "dcccdaa3aaf8ada98c5ed93276c837289aa5f64e",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-speedy_recovery_stable-channel_speedy-mp-v3.bin.zip",
     "version": "13020.87.0",

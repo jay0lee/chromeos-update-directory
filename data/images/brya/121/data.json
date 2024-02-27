@@ -1,4 +1,8 @@
 {
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2032-06-06 00:00:00",
     "boards": [
         "mithrax",
         "felwinter",
@@ -20,10 +24,33 @@
         "primus",
         "anahera"
     ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "11419916",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DEB6CEFD-4EEE-462F-AC21-52DF1E17B52F}",
+    "chromeos_release_board": "brya-signed-mp-v14keys",
+    "chromeos_release_branch_number": "66",
+    "chromeos_release_build_number": "15699",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "brya-release/R121-15699.66.0",
+    "chromeos_release_chrome_milestone": "121",
+    "chromeos_release_description": "15699.66.0 (Official Build) stable-channel brya ",
+    "chromeos_release_keyset": "mp-v14",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15699.66.0",
     "cr_version": 121,
     "cros_version": 15699,
+    "crostini_support": true,
+    "devicetype": "CHROMEBOOK",
     "file": "chromeos_15699.66.0_brya_recovery_stable-channel_mp-v14.bin",
     "filesize": 5179254784,
+    "google_release": "15699.66.0",
     "hwidmatches": [
         "^MITHRAX-HKVS.*",
         "^FELWINTER-BDXJ.*",
@@ -136,6 +163,10 @@
         "^ANAHERA-TYOO.*"
     ],
     "image_name": "brya",
+    "is_chromebook_plus_device": true,
+    "linux_kernel_versions": [
+        "5.15.140-21046-g921d2194f426"
+    ],
     "manufacturers": [
         "Asus",
         "Asus",
@@ -470,6 +501,8 @@
         "ThinkPad C14 Gen 1 Chromebook",
         "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise"
     ],
+    "parallels_support": true,
+    "sample_hwid": "CROTA-LPXPNNNN",
     "sha1": "9f5047622d8a17f50438e548ed071b0023b97f9a",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15699.66.0_brya_recovery_stable-channel_mp-v14.bin.zip",
     "version": "15699.66.0",

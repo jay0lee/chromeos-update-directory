@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2030-06-05 00:00:00",
+    "aue_date": "2032-06-06 00:00:00",
     "boards": [
         "brya",
         "primus",
@@ -41,6 +41,7 @@
         "^ANAHERA-TYOO.*"
     ],
     "image_name": "brya",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "5.10.165-21634-g794a693a3d32"
     ],
@@ -61,7 +62,7 @@
         "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise"
     ],
     "parallels_support": true,
-    "sample_hwid": "TAEKONNN",
+    "sample_hwid": "TAEKONNNN",
     "sha1": "0a476812de897b017b4ffeb78b736924384d675a",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15329.44.2_brya_recovery_stable-channel_mp-v9.bin.zip",
     "version": "15329.44.2",

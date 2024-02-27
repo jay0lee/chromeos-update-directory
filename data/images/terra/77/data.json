@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Nougat 7.1",
-    "aue_date": "2022-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "terra"
     ],
@@ -36,6 +36,7 @@
         "^TERRA \\w{3}-\\w{3}-\\w{3}-B.*"
     ],
     "image_name": "terra",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.18.0-19733-g972ff9adcd38"
     ],
@@ -52,7 +53,8 @@
         "ASUS Chromebook C202SA",
         "ASUS Chromebook C300SA / C301SA"
     ],
-    "sample_hwid": "TERRA e_6-Eur-4xx-ANNN",
+    "parallels_support": false,
+    "sample_hwid": "TERRA so2-cNh-LPY-ANNNN",
     "sha1": "3fb2a14e2c3e8a50d3946cc2f7efc97a993bb820",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_terra_recovery_stable-channel_mp-v2.bin.zip",
     "version": 12371
