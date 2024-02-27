@@ -15,7 +15,7 @@ import common
 
 
 analysis_version = 8
-max_images_to_analyze = 30
+max_images_to_analyze = 180
 
 script_path, data_path = common.get_paths()
 mnt_path = f'{data_path}mnt/'
@@ -106,7 +106,7 @@ for data_file in data_files:
     os.remove(image_file_path)
   analyzed_images += 1
   if analyzed_images >= max_images_to_analyze:
-    print('Analyzed max 10 images. Breaking and we\'ll pickup where we left of next time...')
+    print(f'Analyzed max {max_images_to_analyze} images. Breaking and we\'ll pickup where we left of next time...')
     break
   sys.stdout.flush() 
   
