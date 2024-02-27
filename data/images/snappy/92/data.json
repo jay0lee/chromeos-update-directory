@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2024-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "snappy"
     ],
@@ -39,6 +39,7 @@
         "^SNAPPY ([A-Z0-9])+-[^BC].*"
     ],
     "image_name": "snappy",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.4.268-20533-gcb85bd3a0149"
     ],
@@ -58,7 +59,8 @@
         "HP Chromebook 14 G5",
         "HP Chromebook x360 11 G1 EE"
     ],
-    "sample_hwid": "SNAPPY JS3D43IDU62YIN17-B4R-MSFNMMU1NG7PU6SJO8TJV02UU7QATRS7TUI67V4W0CHIN0YT9YRXX271VGS6QQV1FCMTQN01NGFOOVBFGD7LXAHAOMXGZ2US0-441IX1SPZY9YV-4WX462BCRFVP984LMM222ZX2EY7T0-Q724EP-N7QIHC7S4-7S3SWO-DHS2RZEEF238FGI",
+    "parallels_support": false,
+    "sample_hwid": "SNAPPY NNNN-8NNNN",
     "sha1": "e28d3764acb8eb05b113c2c2301ee10c52e557c5",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_snappy_recovery_stable-channel_mp.bin.zip",
     "version": "13982.88.0",

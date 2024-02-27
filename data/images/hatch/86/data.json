@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android Pie 9",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "helios",
         "kindred",
@@ -51,6 +51,7 @@
         "^KOHAKU.*"
     ],
     "image_name": "hatch",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.139-10011-g2d896e82b808"
     ],
@@ -85,7 +86,8 @@
         "IdeaPad Flex 5i Chromebook (13\", 5)",
         "Samsung Galaxy Chromebook"
     ],
-    "sample_hwid": "HELIOS-NNN",
+    "parallels_support": true,
+    "sample_hwid": "KOHAKUNNNN",
     "sha1": "251aa02f5c4e065f3dca03bddb62ede94080ff48",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.73.2_hatch_recovery_stable-channel_mp-v6.bin.zip",
     "version": "13421.73.2",

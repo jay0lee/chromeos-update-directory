@@ -1,8 +1,8 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": true,
     "android_version": "Android 11",
-    "aue_date": "2028-06-02 00:00:00",
+    "aue_date": "None",
     "boards": [
         "helios",
         "kindred",
@@ -53,6 +53,7 @@
         "^NIGHTFURY[-| ].*"
     ],
     "image_name": "hatch",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "4.19.234-12910-g254ead18a8fe"
     ],
@@ -91,7 +92,7 @@
         "Samsung Galaxy Chromebook 2"
     ],
     "parallels_support": true,
-    "sample_hwid": "HELIOS-NNN",
+    "sample_hwid": "NIGHTFURY NNNN",
     "sha1": "b8d4700e7364a644cae33cd3ff8be3f71993c1cc",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_hatch_recovery_stable-channel_mp-v6.bin.zip",
     "version": "14588.98.0",

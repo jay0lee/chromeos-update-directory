@@ -1,5 +1,5 @@
 {
-    "analysis_version": 7,
+    "analysis_version": 8,
     "android_app_support": false,
     "aue_date": "2020-08-02 00:00:00",
     "boards": [
@@ -34,6 +34,7 @@
         "^KITTY .*"
     ],
     "image_name": "kitty",
+    "is_chromebook_plus_device": false,
     "linux_kernel_versions": [
         "3.10.18"
     ],
@@ -51,7 +52,7 @@
         "Acer Chromebase"
     ],
     "parallels_support": false,
-    "sample_hwid": "KITTY NNN",
+    "sample_hwid": "KITTY NNNN",
     "sha1": "1c77471da8a754731f97649799db3611f840a93d",
     "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.94.2_nyan-kitty_recovery_stable-channel_kitty-mp-v2.bin.zip",
     "version": "13310.94.2",
