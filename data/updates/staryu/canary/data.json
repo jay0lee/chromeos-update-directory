@@ -1,0 +1,17 @@
+{
+    "app_board": "staryu-signed-mp-v3keys",
+    "board_id": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "check_time": "2024-02-27 03:25:08.991577",
+    "chrome_version": "124.0.6318.0",
+    "chromeos_version": "15794.0.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" version=\"15699.0.0\" board=\"staryu-signed-mp-v3keys\" track=\"canary-channel\" hardware_class=\"STARMIE-ONJPNNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6265\" elapsed_seconds=\"69908\"/><app appid=\"{90F229CE-83E2-4FAF-8479-E368A34938B1}\" cohort=\"1:z8:\" cohortname=\"staryu_starmie_canary\" status=\"ok\"><updatecheck _comment=\"Full payload: staryu M124 15794.0.0 ()\" _eol_date=\"23167\" _firmware_version=\"1.1\" _kernel_version=\"1.2\" status=\"ok\"><urls><url codebase=\"http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15794.0.0/\"/><url codebase=\"https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15794.0.0/\"/></urls><manifest version=\"15794.0.0\"><actions><action event=\"update\" run=\"chromeos_15794.0.0_staryu_canary-channel_full_mp-v3.bin-gy2wiyrqgmywfpiiusjldgq5wch44kdi.signed\"/><action ChromeOSVersion=\"15794.0.0\" ChromeVersion=\"124.0.6318.0\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"eR82dNu3OF/cn+kryvx3saScr6EPKeB2u1P0gZErriU5ZShU66D8jK7afYYB5XVCwzTN5f8zqjkTDoKibKh/WE1P1dMpldIAHBVXSx5noSuYLJmRkLv24187LMgD7woGUbQLqg8XLvpRyUYaBw5kuoTbLycyZQRbAL7rM4/JFF9BO5+c+RxNchKKmfqX+Tc8B3VzuH3sIQFzJ0Pa9Fa7vMOgFLLEJ8kHZCN7fCwkYe1y7WlAckJkAjt3rWGGwfvplhWJgzvjo1A/zBTb4GVX3DOuJ7QpOsuSGXilm93XIwRUR1Y52AhtNmicR3rjrTzWQndg0Mlfgb12qZnFheJBPg==\" MetadataSize=\"74860\" event=\"postinstall\" sha256=\"hI5Utl9fGoHXGjE12hy56UgcRkXcb5uIgmlRcJP5hlo=\"/></actions><packages><package fp=\"3.848e54b65f5f1a81d71a3135da1cb9e9481c4645dc6f9b888269517093f9865a\" hash_sha256=\"848e54b65f5f1a81d71a3135da1cb9e9481c4645dc6f9b888269517093f9865a\" name=\"chromeos_15794.0.0_staryu_canary-channel_full_mp-v3.bin-gy2wiyrqgmywfpiiusjldgq5wch44kdi.signed\" required=\"true\" size=\"1513400914\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "STARMIE-ONJPNNNN",
+    "sha256": "848e54b65f5f1a81d71a3135da1cb9e9481c4645dc6f9b888269517093f9865a",
+    "size": 1513400914,
+    "status": "ok",
+    "urls": [
+        "http://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15794.0.0/chromeos_15794.0.0_staryu_canary-channel_full_mp-v3.bin-gy2wiyrqgmywfpiiusjldgq5wch44kdi.signed",
+        "https://storage.googleapis.com/chromeos-releases-public/canary-channel/canary-channel/15794.0.0/chromeos_15794.0.0_staryu_canary-channel_full_mp-v3.bin-gy2wiyrqgmywfpiiusjldgq5wch44kdi.signed"
+    ]
+}

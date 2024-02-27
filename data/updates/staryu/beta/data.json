@@ -1,0 +1,19 @@
+{
+    "app_board": "staryu-signed-mp-v3keys",
+    "board_id": "{DBE80F41-9A47-4CAA-84FE-D1F03153C386}",
+    "check_time": "2024-02-27 03:25:08.671315",
+    "chrome_version": "122.0.6261.84",
+    "chromeos_version": "15753.31.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{DBE80F41-9A47-4CAA-84FE-D1F03153C386}\" version=\"15699.0.0\" board=\"staryu-signed-mp-v3keys\" track=\"beta-channel\" hardware_class=\"STARMIE-ONJPNNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6265\" elapsed_seconds=\"69908\"/><app appid=\"{DBE80F41-9A47-4CAA-84FE-D1F03153C386}\" cohort=\"1:8:\" cohortname=\"staryu_starmie_beta\" status=\"ok\"><updatecheck _comment=\"Full payload: staryu M122 15753.31.0 (omaha_ver=id125)\" _eol_date=\"23167\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _kernel_version=\"1.2\" _kernel_version_0=\"1.2\" _kernel_version_1=\"1.2\" _kernel_version_2=\"1.1\" _kernel_version_3=\"1.1\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/staryu/15753.31.0/beta-channel/\"/><url codebase=\"http://dl.google.com/chromeos/staryu/15753.31.0/beta-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/staryu/15753.31.0/beta-channel/\"/><url codebase=\"https://dl.google.com/chromeos/staryu/15753.31.0/beta-channel/\"/></urls><manifest version=\"15753.31.0\"><actions><action event=\"update\" run=\"chromeos_15753.31.0_staryu_beta-channel_full_mp-v3.bin-gy2winzsgaztbs2zt2ovifuaq76v777n.signed\"/><action ChromeOSVersion=\"15753.31.0\" ChromeVersion=\"122.0.6261.84\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"WDQOCzbMkqpmFW5oM/vz8Fy5OQcBPD8ZVZugVjHwxVlwHpJ+/iqKsJFAfywr7oSx/1L7nw1ARxwtvgnj+c0VsAxv1/6u2b7tB2G0BA9h7tU4WyuZpCKevue75ooa+lyc4VEN/NsvKGGNKTZXnkc4Pmjta64bwqbF1Zli51GiXxI1IwYeU25EGoN/iA99YWWci+HkMaZF31xdgL8QyiAV5sGyrraM6vxC4+JHAzGmIt1JvTMJ3lHySK0y6Oq35OzQmL3RbFSa3NROSnIKhIeapHZ5oQ4XkhyBXwgjRrABWzdP2oA3AxqshiQPyLzGdHbzA+wuUUefdpqLFF2CACzq/A==\" MetadataSize=\"74909\" event=\"postinstall\" sha256=\"1komnFg5tIjtJ/Pgg6vMim+WT4g0scW1PGrRsti3UVA=\"/></actions><packages><package fp=\"3.d64a269c5839b488ed27f3e083abcc8a6f964f8834b1c5b53c6ad1b2d8b75150\" hash_sha256=\"d64a269c5839b488ed27f3e083abcc8a6f964f8834b1c5b53c6ad1b2d8b75150\" name=\"chromeos_15753.31.0_staryu_beta-channel_full_mp-v3.bin-gy2winzsgaztbs2zt2ovifuaq76v777n.signed\" required=\"true\" size=\"1512494929\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "STARMIE-ONJPNNNN",
+    "sha256": "d64a269c5839b488ed27f3e083abcc8a6f964f8834b1c5b53c6ad1b2d8b75150",
+    "size": 1512494929,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/staryu/15753.31.0/beta-channel/chromeos_15753.31.0_staryu_beta-channel_full_mp-v3.bin-gy2winzsgaztbs2zt2ovifuaq76v777n.signed",
+        "http://dl.google.com/chromeos/staryu/15753.31.0/beta-channel/chromeos_15753.31.0_staryu_beta-channel_full_mp-v3.bin-gy2winzsgaztbs2zt2ovifuaq76v777n.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/staryu/15753.31.0/beta-channel/chromeos_15753.31.0_staryu_beta-channel_full_mp-v3.bin-gy2winzsgaztbs2zt2ovifuaq76v777n.signed",
+        "https://dl.google.com/chromeos/staryu/15753.31.0/beta-channel/chromeos_15753.31.0_staryu_beta-channel_full_mp-v3.bin-gy2winzsgaztbs2zt2ovifuaq76v777n.signed"
+    ]
+}

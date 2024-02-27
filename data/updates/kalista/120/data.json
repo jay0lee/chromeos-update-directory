@@ -1,1 +1,19 @@
-{}
+{
+    "app_board": "kalista-signed-mp-v2keys",
+    "board_id": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
+    "check_time": "2024-02-27 03:25:34.619646",
+    "chrome_version": "120.0.6099.272",
+    "chromeos_version": "15662.88.0",
+    "request": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n  <request protocol=\"3.0\" version=\"ChromeOSUpdateEngine-0.1.0.0\" updaterversion=\"ChromeOSUpdateEngine-0.1.0.0\" installsource=\"ondemand\" ismachine=\"1\" testsource=\"prober\">\n  <app appid=\"{073ABAF9-40D3-4065-85F3-74B1FA49675D}\" version=\"15662.0.0\" board=\"kalista-signed-mp-v2keys\" track=\"stable-channel\" hardware_class=\"KARMA NNNN\" delta_okay=\"false\">\n    <updatecheck targetversionprefix=\"15662\"></updatecheck>\n  </app>\n</request>",
+    "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response protocol=\"3.0\" server=\"prod\"><daystart elapsed_days=\"6265\" elapsed_seconds=\"69934\"/><app appid=\"{073ABAF9-40D3-4065-85F3-74B1FA49675D}\" cohort=\"1:a:\" cohortname=\"kalista_karma_stable\" status=\"ok\"><updatecheck _comment=\"Full payload: kalista M120 15662.88.0 (enterprise pin, omaha_ver=id1616)\" _eol_date=\"21337\" _firmware_version=\"1.1\" _firmware_version_0=\"1.1\" _firmware_version_1=\"1.1\" _firmware_version_2=\"1.1\" _firmware_version_3=\"1.1\" _firmware_version_4=\"1.1\" _kernel_version=\"1.3\" _kernel_version_0=\"1.3\" _kernel_version_1=\"1.3\" _kernel_version_2=\"1.2\" _kernel_version_3=\"1.2\" _kernel_version_4=\"1.2\" status=\"ok\"><urls><url codebase=\"http://edgedl.me.gvt1.com/edgedl/chromeos/kalista/15662.88.0/stable-channel/\"/><url codebase=\"http://dl.google.com/chromeos/kalista/15662.88.0/stable-channel/\"/><url codebase=\"https://edgedl.me.gvt1.com/edgedl/chromeos/kalista/15662.88.0/stable-channel/\"/><url codebase=\"https://dl.google.com/chromeos/kalista/15662.88.0/stable-channel/\"/></urls><manifest version=\"15662.88.0\"><actions><action event=\"update\" run=\"chromeos_15662.88.0_kalista_stable-channel_full_mp-v4.bin-gy2wemzwg5rtn25zj7mcab4yrtlfclaa.signed\"/><action ChromeOSVersion=\"15662.88.0\" ChromeVersion=\"120.0.6099.272\" IsDeltaPayload=\"false\" MaxDaysToScatter=\"14\" MetadataSignatureRsa=\"fdvgVHEulQyyFxsG+1Rmmy900ELdhNJK1S622yQGl8/mwwAoFwXYCvEgmEu6OV0YlThwpAs6ouCMoKCvD7VLt39Goj28Zt+3eTDwWzrBmCyTucmc8xAPTegdsPhPYgDclpTWY2ge0PzMPK5x/kyYM0+l3xUgZQi2qLyca3fYGSr//7Z5ScDrE8u+o4AG+A7rJjVPeCJFhsOyGrcs7XJRKzFrNoJNonipnOe3IJLv3tp2/vY9DuCB2wIRY9ptg9oJqQvsRmpoE+3rb+Jm3kc1BeISsXnU3TYkmA7jn4JN23scBFjymtOMCkeRWVhdvBam5d5y+XZ8k/w2foHVpeJiwg==\" MetadataSize=\"74855\" event=\"postinstall\" sha256=\"ZZCxlBxt2X8B22LWZuLquMVoXyRpULWiUxgh1rdctyU=\"/></actions><packages><package fp=\"3.6590b1941c6dd97f01db62d666e2eab8c5685f246950b5a2531821d6b75cb725\" hash_sha256=\"6590b1941c6dd97f01db62d666e2eab8c5685f246950b5a2531821d6b75cb725\" name=\"chromeos_15662.88.0_kalista_stable-channel_full_mp-v4.bin-gy2wemzwg5rtn25zj7mcab4yrtlfclaa.signed\" required=\"true\" size=\"1437496952\"/></packages></manifest></updatecheck></app></response>",
+    "sample_hwid": "KARMA NNNN",
+    "sha256": "6590b1941c6dd97f01db62d666e2eab8c5685f246950b5a2531821d6b75cb725",
+    "size": 1437496952,
+    "status": "ok",
+    "urls": [
+        "http://edgedl.me.gvt1.com/edgedl/chromeos/kalista/15662.88.0/stable-channel/chromeos_15662.88.0_kalista_stable-channel_full_mp-v4.bin-gy2wemzwg5rtn25zj7mcab4yrtlfclaa.signed",
+        "http://dl.google.com/chromeos/kalista/15662.88.0/stable-channel/chromeos_15662.88.0_kalista_stable-channel_full_mp-v4.bin-gy2wemzwg5rtn25zj7mcab4yrtlfclaa.signed",
+        "https://edgedl.me.gvt1.com/edgedl/chromeos/kalista/15662.88.0/stable-channel/chromeos_15662.88.0_kalista_stable-channel_full_mp-v4.bin-gy2wemzwg5rtn25zj7mcab4yrtlfclaa.signed",
+        "https://dl.google.com/chromeos/kalista/15662.88.0/stable-channel/chromeos_15662.88.0_kalista_stable-channel_full_mp-v4.bin-gy2wemzwg5rtn25zj7mcab4yrtlfclaa.signed"
+    ]
+}
