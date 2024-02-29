@@ -35,6 +35,7 @@ data_files = sorted(glob.glob(pattern))
 i = 0
 count = len(data_files)
 needed_analysis = 0
+max_to_analyze = 180
 for data_file in data_files:
   i += 1
   subprocess.run(['sudo', 'losetup', '--detach-all'])
@@ -101,8 +102,8 @@ for data_file in data_files:
         os.remove(data_file)
   
   needed_analysis += 1
-  if needed_analysis >= 50:
-    print('stopping this job after 50 images, next job should pick up where it left off....')
+  if needed_analysis >= max_to_analyze:
+    print(f'stopping this job after {max_to_analyze} images, next job should pick up where it left off....')
     break
 
   sys.stdout.flush()
