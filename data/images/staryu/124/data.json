@@ -1,0 +1,76 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2033-06-06 00:00:00",
+    "boards": [
+        "starmie"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "11755342",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DBE80F41-9A47-4CAA-84FE-D1F03153C386}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DBE80F41-9A47-4CAA-84FE-D1F03153C386}",
+    "chromeos_release_board": "staryu-signed-mp-v3keys",
+    "chromeos_release_branch_number": "40",
+    "chromeos_release_build_number": "15823",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "staryu-release/R124-15823.40.0",
+    "chromeos_release_chrome_milestone": "124",
+    "chromeos_release_description": "15823.40.0 (Official Build) stable-channel staryu ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15823.40.0",
+    "cr_version": 124,
+    "cros_version": 15823,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15823.40.0_staryu_recovery_stable-channel_mp-v3.bin",
+    "filesize": 5179856384,
+    "google_release": "15823.40.0",
+    "hwidmatches": [
+        "^STARMIE-ONJP.*",
+        "^STARMIE-ONJP.*",
+        "^STARMIE-ONJP.*",
+        "^STARMIE-ONJP.*",
+        "^STARMIE-ONJP.*"
+    ],
+    "image_name": "staryu",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.15.151-21944-gb54e35721f2b"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus",
+        "Asus",
+        "Asus",
+        "Asus"
+    ],
+    "md5": "c659c4a5147f68de2aec5f416400a08b",
+    "models": [
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30"
+    ],
+    "names": [
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30",
+        "ASUS Chromebook CM30"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "STARMIE-ONJPNNNN",
+    "sha1": "50730f39b8f03a89f783df6014ef1b7d253488e7",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15823.40.0_staryu_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "15823.40.0",
+    "zipfilesize": 1997166655
+}

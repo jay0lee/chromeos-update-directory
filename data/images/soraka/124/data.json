@@ -1,0 +1,76 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 11",
+    "aue_date": "2027-08-02 00:00:00",
+    "boards": [
+        "soraka"
+    ],
+    "chromeos_arc_android_sdk_version": "30",
+    "chromeos_arc_version": "11755396",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{55DA7A1B-DCE6-47E6-95EC-0CCB7AC432F5}",
+    "chromeos_release_board": "soraka-signed-mp-v3keys",
+    "chromeos_release_branch_number": "40",
+    "chromeos_release_build_number": "15823",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "soraka-release/R124-15823.40.0",
+    "chromeos_release_chrome_milestone": "124",
+    "chromeos_release_description": "15823.40.0 (Official Build) stable-channel soraka ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15823.40.0",
+    "cr_version": 124,
+    "cros_version": 15823,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15823.40.0_soraka_recovery_stable-channel_mp-v3.bin",
+    "filesize": 4478849536,
+    "google_release": "15823.40.0",
+    "hwidmatches": [
+        "^SORAKA .*",
+        "^SORAKA .*",
+        "^SORAKA .*",
+        "^SORAKA .*",
+        "^SORAKA .*"
+    ],
+    "image_name": "soraka",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.4.272-22239-g493a5f8dab50"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "HP",
+        "HP",
+        "HP"
+    ],
+    "md5": "150da8e18535a9854fb86565e21bb6ef",
+    "models": [
+        "HP Chromebook x2 12-f0",
+        "HP Chromebook x2 12-f0",
+        "HP Chromebook x2 12-f0",
+        "HP Chromebook x2 12-f0",
+        "HP Chromebook x2 12-f0"
+    ],
+    "names": [
+        "Chromebook x2 12-f0",
+        "Chromebook x2 12-f0",
+        "Chromebook x2 12-f0",
+        "Chromebook x2 12-f0",
+        "Chromebook x2 12-f0"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "SORAKA NNNN",
+    "sha1": "8de7b5ecd22d282d3510574fc37f2794c2b90457",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15823.40.0_soraka_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "15823.40.0",
+    "zipfilesize": 1726620390
+}

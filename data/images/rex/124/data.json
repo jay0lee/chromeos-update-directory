@@ -1,0 +1,64 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2034-06-06 00:00:00",
+    "boards": [
+        "screebo"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "11755342",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2B8D1068-48CF-4256-A2D5-335849F11718}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2B8D1068-48CF-4256-A2D5-335849F11718}",
+    "chromeos_release_board": "rex-signed-mp-v3keys",
+    "chromeos_release_branch_number": "40",
+    "chromeos_release_build_number": "15823",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "rex-release/R124-15823.40.0",
+    "chromeos_release_chrome_milestone": "124",
+    "chromeos_release_description": "15823.40.0 (Official Build) stable-channel rex ",
+    "chromeos_release_keyset": "mp-v3",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15823.40.0",
+    "cr_version": 124,
+    "cros_version": 15823,
+    "crostini_support": false,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_15823.40.0_rex_recovery_stable-channel_mp-v3.bin",
+    "filesize": 4621064192,
+    "google_release": "15823.40.0",
+    "hwidmatches": [
+        "^SCREEBO-DNHE [^B].*",
+        "^SCREEBO-DNHE [^B].*"
+    ],
+    "image_name": "rex",
+    "is_chromebook_plus_device": true,
+    "linux_kernel_versions": [
+        "6.1.81-13210-g8cf9f61fb96b"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus"
+    ],
+    "md5": "35524858ad0be6ed986895aa27c4d977",
+    "models": [
+        "Asus CX5403C",
+        "Asus CX5403C"
+    ],
+    "names": [
+        "CX5403C",
+        "CX5403C"
+    ],
+    "parallels_support": true,
+    "sample_hwid": "SCREEBO-DNHE LNNNN",
+    "sha1": "7ddaa2dc41999d22487e27009a4c980b0dbf7878",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15823.40.0_rex_recovery_stable-channel_mp-v3.bin.zip",
+    "version": "15823.40.0",
+    "zipfilesize": 2369013438
+}
