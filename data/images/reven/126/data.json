@@ -1,0 +1,65 @@
+{
+    "analysis_version": 8,
+    "android_app_support": false,
+    "aue_date": "None",
+    "boards": [
+        "reven"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_release_board": "reven-signed-mp-v6keys",
+    "chromeos_release_branch_number": "62",
+    "chromeos_release_build_number": "15886",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reven-release/R126-15886.62.0",
+    "chromeos_release_chrome_milestone": "126",
+    "chromeos_release_description": "15886.62.0 (Official Build) ltc-channel reven ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "ltc-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15886.62.0",
+    "cr_version": 126,
+    "cros_version": 15886,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15886.62.0_reven_recovery_ltc-channel_mp-v6.bin",
+    "filesize": 7174451712,
+    "google_release": "15886.62.0",
+    "hwidmatches": [
+        "^REVEN($|-.*)",
+        "^REVEN($|-.*)",
+        "^REVEN($|-.*)"
+    ],
+    "image_name": "reven",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.15.158-22494-g0e2b68f38000"
+    ],
+    "manufacturers": [
+        "Google ChromeOS Flex",
+        "Google ChromeOS Flex",
+        "Google ChromeOS Flex"
+    ],
+    "md5": "cb8ec976e05e283bab6b2cc326d5a4c8",
+    "models": [
+        "Google ChromeOS Flex ChromeOS Flex",
+        "Google ChromeOS Flex ChromeOS Flex",
+        "Google ChromeOS Flex ChromeOS Flex"
+    ],
+    "names": [
+        "ChromeOS Flex",
+        "ChromeOS Flex",
+        "ChromeOS Flex"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "REVEN-NNNN",
+    "sha1": "06190bcaa92c58bcbae6afcd843bf52c39f88242",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15886.62.0_reven_recovery_ltc-channel_mp-v6.bin.zip",
+    "version": "15886.62.0",
+    "zipfilesize": 1337369245
+}
