@@ -1,0 +1,64 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2034-06-06 00:00:00",
+    "boards": [
+        "ciri"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "12058831",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F2F02F3F-E04D-4867-BA41-8E90F8A34A87}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F2F02F3F-E04D-4867-BA41-8E90F8A34A87}",
+    "chromeos_release_board": "geralt-signed-mp-v4keys",
+    "chromeos_release_branch_number": "75",
+    "chromeos_release_build_number": "15886",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "geralt-release/R126-15886.75.0",
+    "chromeos_release_chrome_milestone": "126",
+    "chromeos_release_description": "15886.75.0 (Official Build) ltc-channel geralt ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "ltc-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15886.75.0",
+    "cr_version": 126,
+    "cros_version": 15886,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15886.75.0_geralt_recovery_ltc-channel_mp-v4.bin",
+    "filesize": 5225400832,
+    "google_release": "15886.75.0",
+    "hwidmatches": [
+        "^CIRI-LDPJ.*",
+        "^CIRI-RKMZ.*"
+    ],
+    "image_name": "geralt",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.1.90-14255-gbf059bc5a53f"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "89b79b4faf028cf8e7f678d0744cd0a1",
+    "models": [
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2"
+    ],
+    "names": [
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "CIRI-LDPJNNNN",
+    "sha1": "88e111372f185072b35ca1d00b74d782b0d2cf4b",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15886.75.0_geralt_recovery_ltc-channel_mp-v4.bin.zip",
+    "version": "15886.75.0",
+    "zipfilesize": 1886882882
+}
