@@ -1,0 +1,72 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2029-06-02 00:00:00",
+    "boards": [
+        "atlas"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "12291959",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DB5199C7-358B-4E1F-B4F6-AF6D2DD01A38}",
+    "chromeos_release_board": "atlas-signed-mp-v6keys",
+    "chromeos_release_branch_number": "41",
+    "chromeos_release_build_number": "15964",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "atlas-release/R128-15964.41.0",
+    "chromeos_release_chrome_milestone": "128",
+    "chromeos_release_description": "15964.41.0 (Official Build) stable-channel atlas ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15964.41.0",
+    "cr_version": 128,
+    "cros_version": 15964,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15964.41.0_atlas_recovery_stable-channel_mp-v6.bin",
+    "filesize": 4982125056,
+    "google_release": "15964.41.0",
+    "hwidmatches": [
+        "^ATLAS .*",
+        "^ATLAS .*",
+        "^ATLAS .*",
+        "^ATLAS .*"
+    ],
+    "image_name": "atlas",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.10.222-25122-g13dce38e9ea6"
+    ],
+    "manufacturers": [
+        "Google",
+        "Google",
+        "Google",
+        "Google"
+    ],
+    "md5": "3fdf26f9f911c762575daf5d1ac50031",
+    "models": [
+        "Google Pixelbook Go",
+        "Google Pixelbook Go",
+        "Google Pixelbook Go",
+        "Google Pixelbook Go"
+    ],
+    "names": [
+        "Google Pixelbook Go",
+        "Google Pixelbook Go",
+        "Google Pixelbook Go",
+        "Google Pixelbook Go"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "ATLAS NNNN",
+    "sha1": "6c4d14f250b25d382cd203347529e715ca097296",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15964.41.0_atlas_recovery_stable-channel_mp-v6.bin.zip",
+    "version": "15964.41.0",
+    "zipfilesize": 1891797724
+}

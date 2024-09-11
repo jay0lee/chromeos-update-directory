@@ -1,0 +1,80 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2034-06-06 00:00:00",
+    "boards": [
+        "ciri"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "12291959",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{F2F02F3F-E04D-4867-BA41-8E90F8A34A87}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{F2F02F3F-E04D-4867-BA41-8E90F8A34A87}",
+    "chromeos_release_board": "geralt-signed-mp-v4keys",
+    "chromeos_release_branch_number": "41",
+    "chromeos_release_build_number": "15964",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "geralt-release/R128-15964.41.0",
+    "chromeos_release_chrome_milestone": "128",
+    "chromeos_release_description": "15964.41.0 (Official Build) stable-channel geralt ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "15964.41.0",
+    "cr_version": 128,
+    "cros_version": 15964,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_15964.41.0_geralt_recovery_stable-channel_mp-v4.bin",
+    "filesize": 5225400832,
+    "google_release": "15964.41.0",
+    "hwidmatches": [
+        "^CIRI-LDPJ.*",
+        "^CIRI-RKMZ.*",
+        "^CIRI-LDPJ.*",
+        "^CIRI-RKMZ.*",
+        "^CIRI-LDPJ.*",
+        "^CIRI-RKMZ.*"
+    ],
+    "image_name": "geralt",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.1.100-14794-g513ebab1b3ca"
+    ],
+    "manufacturers": [
+        "Lenovo",
+        "Lenovo",
+        "Lenovo",
+        "Lenovo",
+        "Lenovo",
+        "Lenovo"
+    ],
+    "md5": "e6e06a028a4ef772769439cbff4b7f7f",
+    "models": [
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2",
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2",
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2"
+    ],
+    "names": [
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2",
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2",
+        "Lenovo Chromebook Duet (11\", 9)",
+        "Lenovo Chromebook Duet EDU G2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "CIRI-RKMZNNNN",
+    "sha1": "e76ca10f58b9d60ee0a7dbb830b8bcdc80415955",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15964.41.0_geralt_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "15964.41.0",
+    "zipfilesize": 1908811567
+}
