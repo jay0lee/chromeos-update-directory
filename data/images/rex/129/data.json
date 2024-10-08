@@ -1,0 +1,81 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2034-06-06 00:00:00",
+    "boards": [
+        "screebo",
+        "karis"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "12363237",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{2B8D1068-48CF-4256-A2D5-335849F11718}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{2B8D1068-48CF-4256-A2D5-335849F11718}",
+    "chromeos_release_board": "rex-signed-mp-v4keys",
+    "chromeos_release_branch_number": "44",
+    "chromeos_release_build_number": "16002",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "rex-release/R129-16002.44.0",
+    "chromeos_release_chrome_milestone": "129",
+    "chromeos_release_description": "16002.44.0 (Official Build) stable-channel rex ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16002.44.0",
+    "cr_version": 129,
+    "cros_version": 16002,
+    "crostini_support": false,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_16002.44.0_rex_recovery_stable-channel_mp-v4.bin",
+    "filesize": 4621046272,
+    "google_release": "16002.44.0",
+    "hwidmatches": [
+        "^SCREEBO-DNHE [^B].*",
+        "^KARIS-THMZ .*",
+        "^SCREEBO-DNHE [^B].*",
+        "^KARIS-THMZ .*",
+        "^SCREEBO-DNHE [^B].*",
+        "^KARIS-THMZ .*"
+    ],
+    "image_name": "rex",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.6.46-04023-gef804018a050"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Acer",
+        "Asus",
+        "Acer",
+        "Asus",
+        "Acer"
+    ],
+    "md5": "d74ed7351d99bd72cff9850708da01b4",
+    "models": [
+        "ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)",
+        "Acer Chromebook Plus Spin 714 (CP714-1H, CP714-1HN), Acer Chromebook Plus Enterprise Spin 714 (CPE794-1, CPE794-1N)",
+        "ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)",
+        "Acer Chromebook Plus Spin 714 (CP714-1H, CP714-1HN), Acer Chromebook Plus Enterprise Spin 714 (CPE794-1, CPE794-1N)",
+        "ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)",
+        "Acer Chromebook Plus Spin 714 (CP714-1H, CP714-1HN), Acer Chromebook Plus Enterprise Spin 714 (CPE794-1, CPE794-1N)"
+    ],
+    "names": [
+        "ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)",
+        "Acer Chromebook Plus Spin 714 (CP714-1H, CP714-1HN), Acer Chromebook Plus Enterprise Spin 714 (CPE794-1, CPE794-1N)",
+        "ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)",
+        "Acer Chromebook Plus Spin 714 (CP714-1H, CP714-1HN), Acer Chromebook Plus Enterprise Spin 714 (CPE794-1, CPE794-1N)",
+        "ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)",
+        "Acer Chromebook Plus Spin 714 (CP714-1H, CP714-1HN), Acer Chromebook Plus Enterprise Spin 714 (CPE794-1, CPE794-1N)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KARIS-THMZ NNNN",
+    "sha1": "38630af54390fa18f1d8e47dfeedf064f5c2143b",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16002.44.0_rex_recovery_stable-channel_mp-v4.bin.zip",
+    "version": "16002.44.0",
+    "zipfilesize": 2400424354
+}
