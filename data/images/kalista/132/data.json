@@ -1,0 +1,72 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2028-06-02 00:00:00",
+    "boards": [
+        "karma"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "12899595",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{073ABAF9-40D3-4065-85F3-74B1FA49675D}",
+    "chromeos_release_board": "kalista-signed-mp-v6keys",
+    "chromeos_release_branch_number": "78",
+    "chromeos_release_build_number": "16093",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "kalista-release/R132-16093.78.0",
+    "chromeos_release_chrome_milestone": "132",
+    "chromeos_release_description": "16093.78.0 (Official Build) stable-channel kalista ",
+    "chromeos_release_keyset": "mp-v6",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16093.78.0",
+    "cr_version": 132,
+    "cros_version": 16093,
+    "crostini_support": false,
+    "devicetype": "CHROMEBASE",
+    "file": "chromeos_16093.78.0_kalista_recovery_stable-channel_KalistaMPKeys-v6.bin",
+    "filesize": 4963260928,
+    "google_release": "16093.78.0",
+    "hwidmatches": [
+        "^KARMA .*",
+        "^KARMA .*",
+        "^KARMA .*",
+        "^KARMA .*"
+    ],
+    "image_name": "kalista",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.4.284-23346-g56829367912d"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer",
+        "Acer",
+        "Acer"
+    ],
+    "md5": "365d3d31745a99c13da9976f6aa326d7",
+    "models": [
+        "Acer Chromebase CA24I2",
+        "Acer Chromebase CA24I2",
+        "Acer Chromebase CA24I2",
+        "Acer Chromebase CA24I2"
+    ],
+    "names": [
+        "Acer Chromebase CA24I2",
+        "Acer Chromebase CA24I2",
+        "Acer Chromebase CA24I2",
+        "Acer Chromebase CA24I2"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "KARMA NNNN",
+    "sha1": "cfad57948f52a1c85962a5207f857c8f29b3c70f",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16093.78.0_kalista_recovery_stable-channel_KalistaMPKeys-v6.bin.zip",
+    "version": "16093.78.0",
+    "zipfilesize": 1722852451
+}
