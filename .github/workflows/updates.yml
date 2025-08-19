@@ -9,7 +9,7 @@ on:
 
 jobs:
   env:
-    PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION: python
+    PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION: "python"
   process-updates:
     runs-on: ubuntu-latest
     steps:
