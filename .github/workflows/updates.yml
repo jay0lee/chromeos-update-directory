@@ -7,9 +7,9 @@ on:
   schedule:
     - cron: '3,13,23,33,43,53 * * * *'
 
+env:
+  PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION: python
 jobs:
-  env:
-    PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION: "python"
   process-updates:
     runs-on: ubuntu-latest
     steps:
