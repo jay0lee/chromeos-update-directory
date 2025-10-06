@@ -1,0 +1,81 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2033-06-02 00:00:00",
+    "boards": [
+        "telticn50",
+        "telithn50"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "14121168",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{4A0296DB-F5D5-46A0-8825-77826B2A79D6}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{4A0296DB-F5D5-46A0-8825-77826B2A79D6}",
+    "chromeos_release_board": "nirva-signed-mp-v58keys",
+    "chromeos_release_branch_number": "61",
+    "chromeos_release_build_number": "16371",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nirva-release/R140-16371.61.0",
+    "chromeos_release_chrome_milestone": "140",
+    "chromeos_release_description": "16371.61.0 (Official Build) stable-channel nirva ",
+    "chromeos_release_keyset": "mp-v58",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16371.61.0",
+    "cr_version": 140,
+    "cros_version": 16371,
+    "crostini_support": false,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_16371.61.0_nirva_recovery_stable-channel_NissaMPKeys-v58.bin",
+    "filesize": 7749399040,
+    "google_release": "16371.61.0",
+    "hwidmatches": [
+        "^TELTICN50-WRJE.*",
+        "^TELITHN50-MWQR.*",
+        "^TELTICN50-WRJE.*",
+        "^TELITHN50-MWQR.*",
+        "^TELTICN50-WRJE.*",
+        "^TELITHN50-MWQR.*"
+    ],
+    "image_name": "nirva",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.6.88-08508-geadeb3f9cb26"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus",
+        "Asus",
+        "Asus",
+        "Asus",
+        "Asus"
+    ],
+    "md5": "16301c1166e07ec8b8d08d062ef6e879",
+    "models": [
+        "Asus_CX1405CTAZ",
+        "Asus_CX1505CTAZ",
+        "Asus_CX1405CTAZ",
+        "Asus_CX1505CTAZ",
+        "Asus_CX1405CTAZ",
+        "Asus_CX1505CTAZ"
+    ],
+    "names": [
+        "Asus_CX1405CTAZ",
+        "Asus_CX1505CTAZ",
+        "Asus_CX1405CTAZ",
+        "Asus_CX1505CTAZ",
+        "Asus_CX1405CTAZ",
+        "Asus_CX1505CTAZ"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "TELTICN50-WRJENNNN",
+    "sha1": "c6e9f11d910a175a9f84e78a73ff615d744f3628",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16371.61.0_nirva_recovery_stable-channel_NissaMPKeys-v58.bin.zip",
+    "version": "16371.61.0",
+    "zipfilesize": 4814692967
+}
