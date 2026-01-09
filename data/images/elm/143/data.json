@@ -1,0 +1,73 @@
+{
+    "analysis_version": 8,
+    "android_app_support": false,
+    "aue_date": "2026-08-02 00:00:00",
+    "boards": [
+        "elm"
+    ],
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{5BF597B2-ADE3-52C9-1DDA-95719C914AFF}",
+    "chromeos_release_board": "elm-signed-mp-v9keys",
+    "chromeos_release_branch_number": "51",
+    "chromeos_release_build_number": "16463",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "elm-release/R143-16463.51.0",
+    "chromeos_release_chrome_milestone": "143",
+    "chromeos_release_description": "16463.51.0 (Official Build) stable-channel elm ",
+    "chromeos_release_keyset": "mp-v9",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16463.51.0",
+    "cr_version": 143,
+    "cros_version": 16463,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_16463.51.0_elm_recovery_stable-channel_ElmMPKeys-v9.bin",
+    "filesize": 2331324928,
+    "google_release": "16463.51.0",
+    "hwidmatches": [
+        "^ELM .*",
+        "^ELM .*",
+        "^ELM .*",
+        "^ELM .*",
+        "^ELM .*"
+    ],
+    "image_name": "elm",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "5.15.186-24542-g1ade9442d384"
+    ],
+    "manufacturers": [
+        "Acer",
+        "Acer",
+        "Acer",
+        "Acer",
+        "Acer"
+    ],
+    "md5": "ec57ec2b45a9e363dd9e3b6b5384e398",
+    "models": [
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)"
+    ],
+    "names": [
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)",
+        "Acer Chromebook R13 (CB5-312T)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "ELM NNNN",
+    "sha1": "52891a3abaf9de6ca782ce07034b60687e9ee9e5",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16463.51.0_elm_recovery_stable-channel_ElmMPKeys-v9.bin.zip",
+    "version": "16463.51.0",
+    "zipfilesize": 735829955
+}

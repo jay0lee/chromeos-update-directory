@@ -1,0 +1,73 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2036-01-06 00:00:00",
+    "boards": [
+        "anakin",
+        "anakin360"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "14541890",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{DF097AF0-D652-4B6F-8D58-5B172C4E3539}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{DF097AF0-D652-4B6F-8D58-5B172C4E3539}",
+    "chromeos_release_board": "skywalker-signed-mp-v8keys",
+    "chromeos_release_branch_number": "51",
+    "chromeos_release_build_number": "16463",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "skywalker-release/R143-16463.51.0",
+    "chromeos_release_chrome_milestone": "143",
+    "chromeos_release_description": "16463.51.0 (Official Build) stable-channel skywalker ",
+    "chromeos_release_keyset": "mp-v8",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16463.51.0",
+    "cr_version": 143,
+    "cros_version": 16463,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_16463.51.0_skywalker_recovery_stable-channel_SkywalkerMPKeys-v8.bin",
+    "filesize": 5865447936,
+    "google_release": "16463.51.0",
+    "hwidmatches": [
+        "^ANAKIN-UBRR.*",
+        "^ANAKIN360-DVQN.*",
+        "^ANAKIN-UBRR.*",
+        "^ANAKIN360-DVQN.*"
+    ],
+    "image_name": "skywalker",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.6.99-08929-g6b9c785a0720"
+    ],
+    "manufacturers": [
+        "Asus",
+        "Asus",
+        "Asus",
+        "Asus"
+    ],
+    "md5": "762c6d75f79f20de91d7264404eb4a3a",
+    "models": [
+        "ASUS Chromebook CZ11 (CZ1104C), ASUS Chromebook CZ12 (CZ1204C),  ASUS Chromebook Enterprise CZ11 (CZ1104C), ASUS Chromebook Enterprise CZ12 (CZ1204C).",
+        "ASUS Chromebook CZ11 Flip (CZ1104F), ASUS Chromebook CZ12 Flip (CZ1204F), ASUS Chromebook Enterprise CZ11 Flip (CZ1104F), ASUS Chromebook Enterprise CZ12 Flip (CZ1204F)",
+        "ASUS Chromebook CZ11 (CZ1104C), ASUS Chromebook CZ12 (CZ1204C),  ASUS Chromebook Enterprise CZ11 (CZ1104C), ASUS Chromebook Enterprise CZ12 (CZ1204C).",
+        "ASUS Chromebook CZ11 Flip (CZ1104F), ASUS Chromebook CZ12 Flip (CZ1204F), ASUS Chromebook Enterprise CZ11 Flip (CZ1104F), ASUS Chromebook Enterprise CZ12 Flip (CZ1204F)"
+    ],
+    "names": [
+        "ASUS Chromebook CZ11 (CZ1104C), ASUS Chromebook CZ12 (CZ1204C),  ASUS Chromebook Enterprise CZ11 (CZ1104C), ASUS Chromebook Enterprise CZ12 (CZ1204C).",
+        "ASUS Chromebook CZ11 Flip (CZ1104F), ASUS Chromebook CZ12 Flip (CZ1204F), ASUS Chromebook Enterprise CZ11 Flip (CZ1104F), ASUS Chromebook Enterprise CZ12 Flip (CZ1204F)",
+        "ASUS Chromebook CZ11 (CZ1104C), ASUS Chromebook CZ12 (CZ1204C),  ASUS Chromebook Enterprise CZ11 (CZ1104C), ASUS Chromebook Enterprise CZ12 (CZ1204C).",
+        "ASUS Chromebook CZ11 Flip (CZ1104F), ASUS Chromebook CZ12 Flip (CZ1204F), ASUS Chromebook Enterprise CZ11 Flip (CZ1104F), ASUS Chromebook Enterprise CZ12 Flip (CZ1204F)"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "ANAKIN360-DVQNNNNN",
+    "sha1": "cadb96a18be0e1a0dd1b3651fbd18cf4bbaeb488",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16463.51.0_skywalker_recovery_stable-channel_SkywalkerMPKeys-v8.bin.zip",
+    "version": "16463.51.0",
+    "zipfilesize": 2568366888
+}
