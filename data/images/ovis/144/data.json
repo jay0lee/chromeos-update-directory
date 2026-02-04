@@ -1,0 +1,72 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2034-06-06 00:00:00",
+    "boards": [
+        "deku"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "14684562",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C87544AB-83EA-4A58-8AE2-9F349D290BEB}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C87544AB-83EA-4A58-8AE2-9F349D290BEB}",
+    "chromeos_release_board": "ovis-signed-mp-v4keys",
+    "chromeos_release_branch_number": "60",
+    "chromeos_release_build_number": "16503",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "ovis-release/R144-16503.60.0",
+    "chromeos_release_chrome_milestone": "144",
+    "chromeos_release_description": "16503.60.0 (Official Build) stable-channel ovis ",
+    "chromeos_release_keyset": "mp-v4",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16503.60.0",
+    "cr_version": 144,
+    "cros_version": 16503,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOX",
+    "file": "chromeos_16503.60.0_ovis_recovery_stable-channel_OvisMPKeys-v4.bin",
+    "filesize": 4495600128,
+    "google_release": "16503.60.0",
+    "hwidmatches": [
+        "^DEKU-KTCO.*",
+        "^DEKU-KTCO.*",
+        "^DEKU-KTCO.*",
+        "^DEKU-KTCO.*"
+    ],
+    "image_name": "ovis",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.6.99-09023-g7232af57f054"
+    ],
+    "manufacturers": [
+        "HP",
+        "HP",
+        "HP",
+        "HP"
+    ],
+    "md5": "567e37bd2c6f7a3596efbe6e9942af5c",
+    "models": [
+        "HP Dimension",
+        "HP Dimension",
+        "HP Dimension",
+        "HP Dimension"
+    ],
+    "names": [
+        "HP Dimension",
+        "HP Dimension",
+        "HP Dimension",
+        "HP Dimension"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "DEKU-KTCONNNN",
+    "sha1": "033b7b79342b4c2176d17cae6fa3f0d4779b908d",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16503.60.0_ovis_recovery_stable-channel_OvisMPKeys-v4.bin.zip",
+    "version": "16503.60.0",
+    "zipfilesize": 1974805076
+}
