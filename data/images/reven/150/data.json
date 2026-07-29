@@ -1,0 +1,72 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "None",
+    "boards": [
+        "reven"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "15802699",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{C924E0C4-AF80-4B6B-A6F0-DD75EDBCC37C}",
+    "chromeos_release_board": "reven-signed-mp-v10keys",
+    "chromeos_release_branch_number": "46",
+    "chromeos_release_build_number": "16700",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "reven-release/R150-16700.46.0",
+    "chromeos_release_chrome_milestone": "150",
+    "chromeos_release_description": "16700.46.0 (Official Build) ltc-channel reven ",
+    "chromeos_release_keyset": "mp-v10",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "ltc-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16700.46.0",
+    "cr_version": 150,
+    "cros_version": 16700,
+    "crostini_support": false,
+    "devicetype": "CHROMEBOOK",
+    "file": "chromeos_16700.46.0_reven_recovery_ltc-channel_RevenMPKeys-v10.bin",
+    "filesize": 9523261952,
+    "google_release": "16700.46.0",
+    "hwidmatches": [
+        "^REVEN($|-.*)",
+        "^REVEN($|-.*)",
+        "^REVEN($|-.*)",
+        "^REVEN($|-.*)"
+    ],
+    "image_name": "reven",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.12.54-01171-ga66b768eb014"
+    ],
+    "manufacturers": [
+        "Google ChromeOS Flex",
+        "Google ChromeOS Flex",
+        "Google ChromeOS Flex",
+        "Google ChromeOS Flex"
+    ],
+    "md5": "50503447ad2a7631410a23632e4ffc0f",
+    "models": [
+        "Google ChromeOS Flex ChromeOS Flex",
+        "Google ChromeOS Flex ChromeOS Flex",
+        "Google ChromeOS Flex ChromeOS Flex",
+        "Google ChromeOS Flex ChromeOS Flex"
+    ],
+    "names": [
+        "ChromeOS Flex",
+        "ChromeOS Flex",
+        "ChromeOS Flex",
+        "ChromeOS Flex"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "REVEN",
+    "sha1": "0532c0296e88d89a0b10b78a305c02e95db9e1e6",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16700.46.0_reven_recovery_ltc-channel_RevenMPKeys-v10.bin.zip",
+    "version": "16700.46.0",
+    "zipfilesize": 1333267484
+}
