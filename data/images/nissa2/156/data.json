@@ -1,0 +1,68 @@
+{
+    "analysis_version": 8,
+    "android_app_support": true,
+    "android_version": "Android 13",
+    "aue_date": "2035-06-06 00:00:00",
+    "boards": [
+        "dirkson"
+    ],
+    "chromeos_arc_android_sdk_version": "33",
+    "chromeos_arc_version": "16834337",
+    "chromeos_auserver": "https://tools.google.com/service/update2",
+    "chromeos_board_appid": "{EFB35BA1-A5A3-4E78-837D-A89CC70BD84F}",
+    "chromeos_canary_appid": "{90F229CE-83E2-4FAF-8479-E368A34938B1}",
+    "chromeos_devserver": "",
+    "chromeos_release_appid": "{EFB35BA1-A5A3-4E78-837D-A89CC70BD84F}",
+    "chromeos_release_board": "nissa2-signed-mp-v76keys",
+    "chromeos_release_branch_number": "33",
+    "chromeos_release_build_number": "16836",
+    "chromeos_release_build_type": "Official Build",
+    "chromeos_release_builder_path": "nissa2-release/R156-16836.33.0",
+    "chromeos_release_chrome_milestone": "156",
+    "chromeos_release_description": "16836.33.0 (Official Build) stable-channel nissa2 ",
+    "chromeos_release_keyset": "mp-v76",
+    "chromeos_release_name": "Chrome OS",
+    "chromeos_release_patch_number": "0",
+    "chromeos_release_track": "stable-channel",
+    "chromeos_release_unibuild": "1",
+    "chromeos_release_version": "16836.33.0",
+    "cr_version": 156,
+    "cros_version": 16836,
+    "crostini_support": false,
+    "devicetype": "REFERENCE",
+    "file": "chromeos_16836.33.0_nissa2_recovery_stable-channel_NissaMPKeys-v76.bin",
+    "filesize": 6929434112,
+    "google_release": "16836.33.0",
+    "hwidmatches": [
+        "^DIRKSON-LEJM.*",
+        "^DIRKSON-LEJM.*",
+        "^DIRKSON-LEJM.*"
+    ],
+    "image_name": "nissa2",
+    "is_chromebook_plus_device": false,
+    "linux_kernel_versions": [
+        "6.6.147-09661-gbedb975a6d17"
+    ],
+    "manufacturers": [
+        "AOpen",
+        "AOpen",
+        "AOpen"
+    ],
+    "md5": "c288468c7a75a79fae6f410471aef60b",
+    "models": [
+        "AOPEN Chromebox Mini 3, AOPEN Chromebox Enterprise Mini 3",
+        "AOPEN Chromebox Mini 3, AOPEN Chromebox Enterprise Mini 3",
+        "AOPEN Chromebox Mini 3, AOPEN Chromebox Enterprise Mini 3"
+    ],
+    "names": [
+        "AOPEN Chromebox Mini 3, AOPEN Chromebox Enterprise Mini 3",
+        "AOPEN Chromebox Mini 3, AOPEN Chromebox Enterprise Mini 3",
+        "AOPEN Chromebox Mini 3, AOPEN Chromebox Enterprise Mini 3"
+    ],
+    "parallels_support": false,
+    "sample_hwid": "DIRKSON-LEJMNNNN",
+    "sha1": "ae50c25cb49133c09be4f91afbcef86e744cb5dc",
+    "url": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16836.33.0_nissa2_recovery_stable-channel_NissaMPKeys-v76.bin.zip",
+    "version": "16836.33.0",
+    "zipfilesize": 4119255280
+}
